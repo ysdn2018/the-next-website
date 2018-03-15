@@ -3,8 +3,6 @@
 
 backend:
   name: git-gateway
-  # Replace this with your github-username/repo-name
-  # then do the netlify setup here: https://www.netlify.com/docs/authentication-providers/#using-an-authentication-provider
   repo: ysdn2018/the-next-website
 
 media_folder: src/content/assets
