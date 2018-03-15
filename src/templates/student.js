@@ -16,8 +16,9 @@ export default function Post({ data }) {
 
   return (
     <div>
-      <h3>{student.name}</h3>
+      <h3>{student.frontmatter.name}</h3>
       {/* <Content dangerouslySetInnerHTML={{ __html: project.html }}/> */}
+      <img src={student.frontmatter.headshot}/>
     </div>
   );
 };
@@ -30,7 +31,8 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         path
-        title
+        name
+        headshot
       }
     }
   }

@@ -14,7 +14,6 @@ const Content = styled.div`
 export default function Post({ data }) {
   const project = data.markdownRemark;
 
-  console.log(project);
   return (
     <div>
       <h3>{project.frontmatter.title}</h3>

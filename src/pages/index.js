@@ -44,18 +44,31 @@ function PageLink(props) {
 
 // page component
 export default function IndexPage({ data }) {
-  const pages = data.allMarkdownRemark.edges;
+  const projects = data.projects.edges;
+  const students = data.students.edges;
 
   return (
     <Container>
       <Subtitle>dynamic pages:</Subtitle>
 
       <List>
-        {pages.map( ({ node: page }, i) => (
+        <h3>Students</h3>
+        {students.map( ({ node: student }, i) => (
           <PageLink
-            to={page.frontmatter.path}
-            title={page.frontmatter.title}
-            key={page.id}
+            to={student.frontmatter.path}
+            title={student.frontmatter.name}
+            key={student.id}
+          />
+        ))}
+      </List>
+
+      <List>
+        <h3>Work</h3>
+        {projects.map(({ node: project }, i) => (
+          <PageLink
+            to={project.frontmatter.path}
+            title={project.frontmatter.title}
+            key={project.id}
           />
         ))}
       </List>
@@ -69,8 +82,18 @@ export default function IndexPage({ data }) {
 // data query
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark {
-      totalCount
+    students: allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/students/"} } ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            name
+            path
+          }
+        }
+      } 
+    }
+    projects: allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/projects/"} } ) {
       edges {
         node {
           id
@@ -79,7 +102,7 @@ export const query = graphql`
             path
           }
         }
-      }
+      } 
     }
   }
 `;

@@ -4,7 +4,7 @@ title: Test Project
 path: /test-project-1
 thumbnail: /assets/sloth2.png
 ---
-## This is a test post.
+## This is a test Project.
 
 These can be anything you want, I just named them posts so it makes sense in a blog format.
 
