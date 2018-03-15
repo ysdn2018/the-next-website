@@ -25,7 +25,7 @@ collections:
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: project}
       - { name: title, label: Title }
-      - { name: student, label: Student, collection: students, searchFields: ["name"], valueField: "name"}
+      - { name: student, label: Student, widget: relation, collection: students, searchFields: ["name"], valueField: "name"}
       - { name: image, label: Thumbnail, widget: image }
       - { name: body, label: Body, widget: markdown }
   - name: pages
