@@ -31,7 +31,7 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         path
-        name
+        title
         headshot
       }
     }
