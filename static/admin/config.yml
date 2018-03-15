@@ -2,26 +2,33 @@
 # full guide for Gatsby & Netlify CMS here: https://www.gatsbyjs.org/docs/netlify-cms/
 
 backend:
-  name: github
+  name: git-gateway
   # Replace this with your github-username/repo-name
   # then do the netlify setup here: https://www.netlify.com/docs/authentication-providers/#using-an-authentication-provider
-  repo: huntercaron/boiled
+  repo: ysdn2018/the-next-website
 
 media_folder: src/content/assets
 public_folder: assets
 
 # CMS File Structures
 collections:
-  - name: posts
-    label: Posts
-    folder: src/content/posts
+  - name: students
+    label: Students
+    folder: src/content/students
     create: true
     fields:
-      - { name: templateKey, label: Template Key, widget: hidden, default: post}
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
+      - { name: templateKey, label: Template Key, widget: hidden, default: student}
+      - { name: name, label: Name }
+      - { name: headshot, label: Headshot, widget: image }
+  - name: projects
+    label: Projects
+    folder: src/content/projects
+    create: true
+    fields:
+      - { name: templateKey, label: Template Key, widget: hidden, default: project}
       - { name: title, label: Title }
-      - { name: image, label: Image, widget: image }
+      - { name: student, label: Student, collection: students}
+      - { name: image, label: Thumbnail, widget: image }
       - { name: body, label: Body, widget: markdown }
   - name: pages
     label: Pages

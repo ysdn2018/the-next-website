@@ -1,9 +1,8 @@
 ---
-templateKey: post
-path: /test-post
-date: 2017-12-13T05:00:00.000Z
-title: Test Post
-image: /assets/sloth2.png
+templateKey: project
+title: Test Project
+path: /test-project-1
+thumbnail: /assets/sloth2.png
 ---
 ## This is a test post.
 

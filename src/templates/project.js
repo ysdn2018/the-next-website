@@ -12,12 +12,13 @@ const Content = styled.div`
 
 // page template component
 export default function Post({ data }) {
-  const post = data.markdownRemark;
+  const project = data.markdownRemark;
 
+  console.log(project);
   return (
     <div>
-      <h3>{post.title}</h3>
-      <Content dangerouslySetInnerHTML={{ __html: post.html }}/>
+      <h3>{project.frontmatter.title}</h3>
+      <Content dangerouslySetInnerHTML={{ __html: project.html }}/>
     </div>
   );
 };
@@ -25,7 +26,7 @@ export default function Post({ data }) {
 
 // template query
 export const aboutPageQuery = graphql`
-  query PostPage($path: String!) {
+  query ProjectPage($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {

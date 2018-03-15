@@ -37,9 +37,11 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
 exports.createPages = ({ boundActionCreators, graphql }) => {
  const { createPage } = boundActionCreators;
 
+  //allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, limit: 1000) {
+
  return graphql(`
    {
-     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, limit: 1000) {
+     allMarkdownRemark(limit: 1000) {
        edges {
          node {
            frontmatter {
