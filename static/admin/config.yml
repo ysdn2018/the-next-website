@@ -1,0 +1,44 @@
+# Settings for Netlify CMS
+# full guide for Gatsby & Netlify CMS here: https://www.gatsbyjs.org/docs/netlify-cms/
+
+backend:
+  name: github
+  # Replace this with your github-username/repo-name
+  # then do the netlify setup here: https://www.netlify.com/docs/authentication-providers/#using-an-authentication-provider
+  repo: huntercaron/boiled
+
+media_folder: src/content/assets
+public_folder: assets
+
+# CMS File Structures
+collections:
+  - name: posts
+    label: Posts
+    folder: src/content/posts
+    create: true
+    fields:
+      - { name: templateKey, label: Template Key, widget: hidden, default: post}
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: image, label: Image, widget: image }
+      - { name: body, label: Body, widget: markdown }
+  - name: pages
+    label: Pages
+    files:
+      - name: about
+        label: About Page
+        file: src/content/about.md
+        fields:
+          - { name: templateKey, label: Template Key, widget: hidden, default: post}
+          - { name: path, label: Path }
+          - { name: title, label: Title }
+          - { name: subtitle, label: Subtitle }
+          - { name: image, label: Image, widget: image }
+          - { name: description, label: Description, widget: text }
+          - { name: body, label: Body, widget: markdown }
+          - label: Example List
+            name: exampleList
+            widget: list
+            fields:
+              - { name: text, label: Text, widget: string }
