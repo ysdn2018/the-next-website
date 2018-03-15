@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: Test Project
-student: 'Aaron '
+student: Aaron Mohr
 image: /assets/sloth.jpg
 ---
 ## This is a test Project.
