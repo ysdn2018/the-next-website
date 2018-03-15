@@ -1,8 +1,8 @@
 ---
 templateKey: project
 title: Test Project
-path: /test-project-1
-thumbnail: /assets/sloth2.png
+student: Sarah Keast
+image: /assets/sloth.jpg
 ---
 ## This is a test Project.
 
