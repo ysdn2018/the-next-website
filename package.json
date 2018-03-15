@@ -29,9 +29,6 @@
   "keywords": [
     "gatsby"
   ],
-  "resolutions": {
-    "gatsby-plugin-netlify-cms/netlify-cms": "1.1.0"
-  },
   "license": "MIT",
   "main": "n/a",
   "scripts": {
