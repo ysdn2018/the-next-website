@@ -56,7 +56,7 @@ export default function IndexPage({ data }) {
         {students.map( ({ node: student }, i) => (
           <PageLink
             to={student.frontmatter.path}
-            title={student.frontmatter.name}
+            title={student.frontmatter.title}
             key={student.id}
           />
         ))}
@@ -87,7 +87,7 @@ export const query = graphql`
         node {
           id
           frontmatter {
-            name
+            title
             path
           }
         }
