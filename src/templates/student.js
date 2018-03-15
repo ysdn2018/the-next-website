@@ -16,7 +16,7 @@ export default function Post({ data }) {
 
   return (
     <div>
-      <h3>{student.frontmatter.name}</h3>
+      <h3>{student.frontmatter.title}</h3>
       {/* <Content dangerouslySetInnerHTML={{ __html: project.html }}/> */}
       <img src={student.frontmatter.headshot}/>
     </div>
