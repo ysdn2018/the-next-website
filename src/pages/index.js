@@ -55,7 +55,7 @@ export default function IndexPage({ data }) {
         <h3>Students</h3>
         {students.map( ({ node: student }, i) => (
           <PageLink
-            to={student.frontmatter.path}
+            to={student.fields.slug}
             title={student.frontmatter.title}
             key={student.id}
           />
@@ -66,7 +66,7 @@ export default function IndexPage({ data }) {
         <h3>Work</h3>
         {projects.map(({ node: project }, i) => (
           <PageLink
-            to={project.frontmatter.path}
+            to={project.fields.slug}
             title={project.frontmatter.title}
             key={project.id}
           />
@@ -86,9 +86,12 @@ export const query = graphql`
       edges {
         node {
           id
+
+          fields {
+            slug
+          }
           frontmatter {
             title
-            path
           }
         }
       } 
@@ -97,9 +100,12 @@ export const query = graphql`
       edges {
         node {
           id
+
+          fields {
+            slug
+          }
           frontmatter {
             title
-            path
           }
         }
       } 

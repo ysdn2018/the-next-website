@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
+import Img from 'gatsby-image'
 
 
 // styled-components
@@ -18,7 +19,7 @@ export default function Post({ data }) {
     <div>
       <h3>{student.frontmatter.title}</h3>
       {/* <Content dangerouslySetInnerHTML={{ __html: project.html }}/> */}
-      <img src={student.frontmatter.headshot}/>
+      <Img resolutions={student.frontmatter.headshot.childImageSharp.resolutions}/>
     </div>
   );
 };
@@ -26,13 +27,18 @@ export default function Post({ data }) {
 
 // template query
 export const aboutPageQuery = graphql`
-  query StudentPage($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query StudentPage($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        path
         title
-        headshot
+        headshot {
+          childImageSharp {
+            resolutions(width: 600) {
+              ...GatsbyImageSharpResolutions
+            }
+          }
+        }
       }
     }
   }

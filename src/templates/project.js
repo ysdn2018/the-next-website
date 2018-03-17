@@ -25,11 +25,10 @@ export default function Post({ data }) {
 
 // template query
 export const aboutPageQuery = graphql`
-  query ProjectPage($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query ProjectPage($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        path
         title
       }
     }

@@ -3,22 +3,36 @@
 // */
 const path = require('path');
 const fs = require('fs');
+const { createFilePath } = require(`gatsby-source-filesystem`);
 
 const staticImagePath = "./static/assets/";
 const contentPath = "./src/content/";
+const imageNames = ["headshot", "thumbnail", "image"];
 
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   // making frontmatter paths relative
   const { frontmatter } = node;
   if (frontmatter) {
-    const { image } = frontmatter
-    if (image) {
-      if (image.indexOf('/assets') === 0) {
-        frontmatter.image = path.relative(
-          path.dirname(node.fileAbsolutePath),
-          path.join(__dirname, contentPath, image)
-        )
+    console.log();
+    const images = [];
+
+    for (let prop in frontmatter) {
+      if (imageNames.indexOf(prop) >= 0) {
+        images.push(prop);
+      }
+    }
+    
+    for (let imageName of images) {
+      let image = frontmatter[imageName];
+
+      if (image) {
+        if (image.indexOf('/assets') === 0) {
+          frontmatter[imageName] = path.relative(
+            path.dirname(node.fileAbsolutePath),
+            path.join(__dirname, contentPath, image)
+          )
+        }
       }
     }
   }
@@ -30,6 +44,19 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
     }
 
     fs.createReadStream(contentPath + node.relativePath).pipe(fs.createWriteStream(staticImagePath + node.base));
+  }
+
+
+  // adding slugs to pages
+  const { createNodeField } = boundActionCreators
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = createFilePath({ node, getNode, basePath: `pages` })
+
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    })
   }
 }
 
@@ -44,9 +71,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
      allMarkdownRemark(limit: 1000) {
        edges {
          node {
+           fields {
+             slug
+           }
            frontmatter {
              templateKey
-             path
            }
          }
        }
@@ -59,9 +88,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
    }
    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
      createPage({
-       path: node.frontmatter.path,
+       path: node.fields.slug,
        component: path.resolve(`src/templates/${String(node.frontmatter.templateKey)}.js`),
-       context: {} // additional data can be passed via context
+       context: {
+         slug: node.fields.slug
+       } // additional data can be passed via context
      });
    });
  });
