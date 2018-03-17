@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import Button from '../components/Button'
+import Img from 'gatsby-image'
 
 
 // styled components
@@ -82,6 +83,7 @@ export default function IndexPage({ data }) {
 // data query
 export const query = graphql`
   query IndexQuery {
+    
     students: allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/students/"} } ) {
       edges {
         node {

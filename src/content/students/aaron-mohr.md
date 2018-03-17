@@ -1,5 +1,5 @@
 ---
 templateKey: student
 title: Aaron Mohr
-headshot: /assets/sloth2.png
+image: /assets/sloth2.png
 ---

@@ -1,6 +1,6 @@
 ---
 templateKey: student
 title: Saba Sobhani
-headshot: /assets/sloth.jpg
+image: /assets/sloth.jpg
 ---
 
