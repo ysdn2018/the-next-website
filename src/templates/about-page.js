@@ -36,11 +36,10 @@ export default function AboutPage({ data }) {
 
 // template query
 export const aboutPageQuery = graphql`
-  query AboutPage($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query AboutPage($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        path
         title
 
         exampleList {
