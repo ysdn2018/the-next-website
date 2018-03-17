@@ -12,6 +12,6 @@ This is an intro to a project wowza look at it.
 
 You can put images wherever you want. 
 
-![whatever alt text](../assets/sloth.jpg)
+![whatever alt text its a sloth](../assets/sloth.jpg)
 
 Thats about it, add bullet points, numbered lists, quotes, whatever.
