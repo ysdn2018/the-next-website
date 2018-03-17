@@ -19,7 +19,7 @@ export default function Post({ data }) {
     <div>
       <h3>{student.frontmatter.title}</h3>
       {/* <Content dangerouslySetInnerHTML={{ __html: project.html }}/> */}
-      <Img resolutions={student.frontmatter.headshot.childImageSharp.resolutions}/>
+      <Img resolutions={student.frontmatter.image.childImageSharp.resolutions}/>
     </div>
   );
 };
@@ -32,7 +32,7 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
-        headshot {
+        image {
           childImageSharp {
             resolutions(width: 600) {
               ...GatsbyImageSharpResolutions

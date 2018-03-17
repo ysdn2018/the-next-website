@@ -17,7 +17,7 @@ collections:
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: student}
       - { name: title, label: Name }
-      - { name: headshot, label: Headshot, widget: image }
+      - { name: image, label: Headshot, widget: image }
   - name: projects
     label: Projects
     folder: src/content/projects
