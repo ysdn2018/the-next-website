@@ -18,6 +18,8 @@ collections:
       - { name: templateKey, label: Template Key, widget: hidden, default: student}
       - { name: title, label: Name }
       - { name: image, label: Headshot, widget: image }
+      - { name: verb, label: Statement Verb }
+      - { name: noun, label: Statement Noun }
   - name: projects
     label: Projects
     folder: src/content/projects
