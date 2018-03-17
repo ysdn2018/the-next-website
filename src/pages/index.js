@@ -15,10 +15,11 @@ const Subtitle = styled.div`
 `
 
 const List = styled.ul`
+  margin-bottom: 70px;
 `
 
 const LinkContainer = styled.li`
-
+  margin-bottom: 1rem;
 `
 
 const LinkText = styled(Link)`
@@ -35,9 +36,12 @@ const LinkText = styled(Link)`
 function PageLink(props) {
   return (
     <LinkContainer>
+      
       <LinkText to={props.to}>
         {props.title}
+        <Img resolutions={props.image} />
       </LinkText>
+      
     </LinkContainer>
   )
 }
@@ -59,6 +63,7 @@ export default function IndexPage({ data }) {
             to={student.fields.slug}
             title={student.frontmatter.title}
             key={student.id}
+            image={student.frontmatter.image.childImageSharp.resolutions}
           />
         ))}
       </List>
@@ -70,12 +75,10 @@ export default function IndexPage({ data }) {
             to={project.fields.slug}
             title={project.frontmatter.title}
             key={project.id}
+            image={project.frontmatter.image.childImageSharp.resolutions}
           />
         ))}
       </List>
-
-      <Button text="this is a button component" />
-
     </Container>
   )
 }
@@ -94,6 +97,13 @@ export const query = graphql`
           }
           frontmatter {
             title
+            image {
+              childImageSharp {
+                resolutions(height: 50, width: 150) {
+                  ...GatsbyImageSharpResolutions
+                }
+              }
+            }
           }
         }
       } 
@@ -108,6 +118,13 @@ export const query = graphql`
           }
           frontmatter {
             title
+            image {
+              childImageSharp {
+                resolutions(height: 50, width: 150) {
+                  ...GatsbyImageSharpResolutions
+                }
+              }
+            }
           }
         }
       } 
