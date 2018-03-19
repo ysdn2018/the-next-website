@@ -9,7 +9,8 @@ import Link from 'gatsby-link'
 import { spacing } from './src/utils/constants'
 
 
-const timeout = 400
+
+const timeout = 360
 const delay = 100
 const historyExitingEventType = `history::exiting`
 const baseOffset = 0
@@ -49,10 +50,17 @@ const PseudoSection = styled.div`
     text-decoration: underline;
   }
 
+  &:hover {
+    background-color: pink;
+  }
+
   a {
     text-decoration: none;
     color: black;
+  }
 
+  @media (-webkit-min-device-pixel-ratio: 2) {
+    transform: translateY(${props => props.active ? 100 + "vh" : "calc(83vh - " + (83 + (tabHeight * (props.numInMenu - 1)) - props.vOffset) + "px)"});
   }
 `
 
@@ -110,8 +118,6 @@ const newTransitionStyles = {
 
 
 function NavigationTab(props) {
-  console.log(props.numInMenu);
-  
   return (
     <Transition 
       in={props.nextPageResources.hasOwnProperty(`component`) && props.nextPageResources.page.path === props.path } 
