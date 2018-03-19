@@ -51,7 +51,7 @@ const Navigation = styled.div`
     transform: translateY(${props => tabHeight*(props.numInMenu-1)}px);
 
     transform: ${props => props.mobileSafari ? 
-      `translateY(${props => tabHeight * (props.numInMenu + 3) }px)` :
+      `translateY(${props => tabHeight * (props.numInMenu + 5) }px)` :
       `translateY(${props => tabHeight * (props.numInMenu - 1)}px)`};
   }
   .headroom--pinned {

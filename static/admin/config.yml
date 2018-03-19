@@ -20,6 +20,11 @@ collections:
       - { name: image, label: Headshot, widget: image }
       - { name: verb, label: Statement Verb }
       - { name: noun, label: Statement Noun }
+      - { name: intro, label: Intro, widget: text, required: false }
+      - { name: music, label: Music (optional), widget: text, required: false }
+      - { name: tools, label: Tools (optional), widget: text, required: false }
+      - { name: watch, label: Movies/TV (optional), widget: text, required: false }
+      - { name: typeface, label: Fav Typeface (optional), widget: text, required: false }
   - name: projects
     label: Projects
     folder: src/content/work
@@ -29,6 +34,7 @@ collections:
       - { name: title, label: Title }
       - { name: graduate, label: Graduate, widget: relation, collection: graduates, searchFields: ["title"], valueField: "title"}
       - { name: image, label: Thumbnail, widget: image }
+      - { name: category, label: Category, widget: select, options: ["Design Memes", "Something Else", "Other Memes", "Selfies"], default: Choose}
       - { name: body, label: Body, widget: markdown }
   - name: pages
     label: Pages
