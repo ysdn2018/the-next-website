@@ -14,7 +14,7 @@ const spacing = {
   small: 12,
   normal: 18,
   big: 36,
-  bigger: 48
+  bigger: 42
 };
 
 const breakpoints = {

@@ -7,14 +7,14 @@ import SectionHeading from "./src/components/SectionHeading"
 import Header from "./src/components/Header"
 import Link from 'gatsby-link'
 import { spacing } from './src/utils/constants'
-
+// import Headroom from 'react-headroom'
 
 
 const timeout = 360
 const delay = 100
 const historyExitingEventType = `history::exiting`
 const baseOffset = 0
-const tabHeight = 47
+const tabHeight = 41
 const offscreenOffset = baseOffset+tabHeight*4
 
 const Container = styled.div`
@@ -30,12 +30,13 @@ const Navigation = styled.div`
   pointer-events: none;
   overflow: hidden;
   z-index: 10;
+
 `
 
 const PseudoSection = styled.div`
   position: absolute;
   top: 0;
-  transform: translateY(${props => props.active ? 100 + "vh" : "calc(100vh - " + (83+(tabHeight*(props.numInMenu-1)) - props.vOffset) + "px)"});
+  transform: translateY(${props => props.active ? 100 + "vh" : "calc(100vh - " + (77+(tabHeight*(props.numInMenu-1)) - props.vOffset) + "px)"});
   background-color: white;
   z-index: ${props => props.active ? 0 : 10};
   width: 100%;
@@ -285,19 +286,19 @@ class ReplaceComponentRenderer extends React.PureComponent {
       <Navigation>
         <Header />
 
-        {this.navLinks.map(link => (
-          <NavigationTab
-            name={link.name}
-            path={link.path}
-            active={this.props.location.pathname === link.path}
-            nextPageResources={this.state.nextPageResources}
-            numInMenu={this.state.numInMenu}
-            vOffset={this.state.offsets[link.index]}
-            key={link.index}
-            onExiting={this.calcOffsets}
-            onEnter={this.moveLowerLayers}
-          />
-        ))}
+          {this.navLinks.map(link => (
+            <NavigationTab
+              name={link.name}
+              path={link.path}
+              active={this.props.location.pathname === link.path}
+              nextPageResources={this.state.nextPageResources}
+              numInMenu={this.state.numInMenu}
+              vOffset={this.state.offsets[link.index]}
+              key={link.index}
+              onExiting={this.calcOffsets}
+              onEnter={this.moveLowerLayers}
+            />
+          ))}
       </Navigation>
         
       </Container>
