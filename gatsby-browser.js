@@ -51,7 +51,7 @@ const Navigation = styled.div`
     transform: translateY(${props => tabHeight*(props.numInMenu-1)}px);
 
     @media (-webkit-min-device-pixel-ratio: 2) {
-      transform: translateY(${props => tabHeight * (props.numInMenu + 1)}px);
+      transform: translateY(${props => tabHeight * (props.numInMenu + 1) - 44}px);
     }
   }
   .headroom--pinned {
@@ -82,7 +82,7 @@ const PseudoSection = styled.div`
   }
 
   @media (-webkit-min-device-pixel-ratio: 2) {
-    transform: translateY(${props => props.active ? 100 + "vh" : "calc(100vh - " + (83 + (tabHeight * (props.numInMenu - 1)) - props.vOffset)+44 + "px)"});
+    transform: translateY(${props => props.active ? 100 + "vh" : "calc(100vh - " + (77 + (tabHeight * (props.numInMenu - 1)) - props.vOffset)+44 + "px)"});
   }
 `
 
