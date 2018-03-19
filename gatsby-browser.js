@@ -7,7 +7,7 @@ import SectionHeading from "./src/components/SectionHeading"
 import Header from "./src/components/Header"
 import Link from 'gatsby-link'
 import { spacing } from './src/utils/constants'
-// import Headroom from 'react-headroom'
+import Headroom from 'react-headroom'
 
 
 const timeout = 360
@@ -31,12 +31,38 @@ const Navigation = styled.div`
   overflow: hidden;
   z-index: 10;
 
+  .headroom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    zIndex: 1;
+    transition: transform 250ms ease-in-out;
+  }
+  .headroom--unfixed {
+    transition: transform 250ms ease-out;
+    ${'' /* transform: translateY(0); */}
+  }
+  .headroom--scrolled {
+    transition: transform 200ms ease-in;
+  }
+  .headroom--unpinned {
+    transition: transform 250ms ease-out;
+    transform: translateY(${props => tabHeight*(props.numInMenu-1)}px);
+  }
+  .headroom--pinned {
+    transition: transform 250ms ease-out;
+    ${'' /* transform: translateY(${tabHeight * 4}px); */}
+  }
 `
 
 const PseudoSection = styled.div`
   position: absolute;
   top: 0;
-  transform: translateY(${props => props.active ? 100 + "vh" : "calc(100vh - " + (77+(tabHeight*(props.numInMenu-1)) - props.vOffset) + "px)"});
+  transform: translateY(${props => props.navShowing ?
+    (props.active ? 100 + "vh" : "calc(100vh - " + (77+(tabHeight*(props.numInMenu-1)) - props.vOffset) + "px)") : 
+    (props.active ? 100 + "vh" : "calc(100vh - " + (77+(tabHeight*(props.numInMenu-1)) - props.vOffset/3) + "px)")
+    });
   background-color: white;
   z-index: ${props => props.active ? 0 : 10};
   width: 100%;
@@ -45,6 +71,11 @@ const PseudoSection = styled.div`
   transition: transform ${timeout - delay}ms ease-out, opacity ${timeout - delay}ms ease-out;
   ${props => props.active && 'transition: none !important;'}
   pointer-events: auto;
+
+  h4 {
+    transition: opacity ${timeout - delay}ms ease-out, opacity ${timeout - delay}ms ease-out;
+    opacity: ${props => props.navShowing ? 1 : 0};
+  }
 
   @media (-webkit-min-device-pixel-ratio: 2) {
     transform: translateY(${props => props.active ? 100 + "vh" : "calc(93vh - " + (83 + (tabHeight * (props.numInMenu - 1)) - props.vOffset) + "px)"});
@@ -127,6 +158,7 @@ function NavigationTab(props) {
           vOffset={props.vOffset} 
           active={props.active && status == "exited"}
           numInMenu={props.numInMenu}
+          navShowing={props.navShowing}
         >
           <PageLink to={props.path}><PseudoSectionHeading title={props.name} path={props.path} /></PageLink>
 
@@ -175,7 +207,8 @@ class ReplaceComponentRenderer extends React.PureComponent {
           baseOffset+tabHeight*2,
           baseOffset+tabHeight*3
         ],
-        numInMenu: 3
+        numInMenu: 3,
+        navShowing: true
       }
       
 
@@ -252,6 +285,25 @@ class ReplaceComponentRenderer extends React.PureComponent {
     })
   }
 
+  onNavHide = () => {
+    this.setState({
+      navShowing: false
+    })
+    console.log('HIDING');
+    
+  }
+
+  onNavShow = () => {
+    this.setState({
+      navShowing: true
+    })
+    console.log('SHOWING');
+  }
+
+  showNav = () => {
+    console.log()
+  }
+
   render() {
     const transitionProps = {
       timeout: {
@@ -283,22 +335,25 @@ class ReplaceComponentRenderer extends React.PureComponent {
           </Transition>
         </OldContent>
 
-      <Navigation>
+      <Navigation numInMenu={this.state.numInMenu}>
         <Header />
-
-          {this.navLinks.map(link => (
-            <NavigationTab
-              name={link.name}
-              path={link.path}
-              active={this.props.location.pathname === link.path}
-              nextPageResources={this.state.nextPageResources}
-              numInMenu={this.state.numInMenu}
-              vOffset={this.state.offsets[link.index]}
-              key={link.index}
-              onExiting={this.calcOffsets}
-              onEnter={this.moveLowerLayers}
-            />
-          ))}
+          <Headroom disableInlineStyles onUnpin={this.onNavHide} onPin={this.onNavShow} onUnfix={this.onNavShow}>
+            {this.navLinks.map(link => (
+              <NavigationTab
+                name={link.name}
+                path={link.path}
+                active={this.props.location.pathname === link.path}
+                nextPageResources={this.state.nextPageResources}
+                numInMenu={this.state.numInMenu}
+                vOffset={this.state.offsets[link.index]}
+                key={link.index}
+                onExiting={this.calcOffsets}
+                onEnter={this.moveLowerLayers}
+                navShowing={this.state.navShowing}
+                onMouseOver={this.showNav}
+              />
+            ))}
+          </Headroom>
       </Navigation>
         
       </Container>
