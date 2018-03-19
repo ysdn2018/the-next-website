@@ -51,7 +51,7 @@ const Navigation = styled.div`
     transform: translateY(${props => tabHeight*(props.numInMenu-1)}px);
 
     @media (-webkit-min-device-pixel-ratio: 2) {
-      transform: translateY(${props => tabHeight * (props.numInMenu + 1) - 44}px);
+      transform: translateY(${props => tabHeight * (props.numInMenu + 1) }px);
     }
   }
   .headroom--pinned {
