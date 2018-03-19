@@ -37,12 +37,17 @@ const Container = styled.div`
 
 const InnerContainer = styled.div`
   height: 100%;
-`
+  width: 100%;
+  position: relative;
+`;
 
 const TitleLink = styled(Link)`
   color: black;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1;
 
   &:hover {
     text-decoration: underline;
@@ -50,7 +55,10 @@ const TitleLink = styled(Link)`
 `
 
 const HeaderContainer = styled.div`
-
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: -1px;
+  height: 40px;
 `
 
 
@@ -59,7 +67,7 @@ function Header () {
   return (
     <HeaderContainer>
       <TitleLink to="/">
-          <h1>Boiled</h1>
+          <h1>The Next</h1>
       </TitleLink>
     </HeaderContainer>
   )
@@ -68,7 +76,7 @@ function Header () {
 
 // page component
 const TemplateWrapper = ({ children }) => (
-  <Container>
+  <React.Fragment>
     <Helmet
       title="boiled"
       meta={[
@@ -78,15 +86,11 @@ const TemplateWrapper = ({ children }) => (
     />
 
     <Header />
-
-    {/*
-      Children() is where your page content is inserted.
-    */}
     <InnerContainer>
       {children()}
     </InnerContainer>
 
-  </Container>
+  </React.Fragment>
 )
 
 TemplateWrapper.propTypes = {
@@ -131,6 +135,7 @@ injectGlobal`
 
   #___gatsby {
     height: 100%;
+    overflow: hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {
