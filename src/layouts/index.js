@@ -4,6 +4,8 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import styled, { injectGlobal } from 'styled-components'
 import 'normalize.css'
+import { spacing } from '../utils/constants'
+
 
 // importing fonts
 import NeueHaasGrotTextRoman_eot from "../assets/fonts/NeueHaasGrotText-55Roman-Web.eot"
@@ -58,7 +60,11 @@ const HeaderContainer = styled.div`
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   margin-bottom: -1px;
-  height: 40px;
+  height: ${spacing.big}px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 `
 
 

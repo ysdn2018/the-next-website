@@ -10,6 +10,9 @@ const Container = styled.div`
   text-align: center;
   height: ${spacing.bigger}px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 `
 
