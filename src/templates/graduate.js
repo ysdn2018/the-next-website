@@ -13,13 +13,13 @@ const Content = styled.div`
 
 // page template component
 export default function Post({ data }) {
-  const student = data.markdownRemark;
+  const graduate = data.markdownRemark;
 
   return (
     <div>
-      <h3>{student.frontmatter.title}</h3>
+      <h3>{graduate.frontmatter.title}</h3>
       {/* <Content dangerouslySetInnerHTML={{ __html: project.html }}/> */}
-      <Img resolutions={student.frontmatter.image.childImageSharp.resolutions}/>
+      <Img resolutions={graduate.frontmatter.image.childImageSharp.resolutions}/>
     </div>
   );
 };
@@ -27,7 +27,7 @@ export default function Post({ data }) {
 
 // template query
 export const aboutPageQuery = graphql`
-  query StudentPage($slug: String!) {
+  query GraduatePage($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {

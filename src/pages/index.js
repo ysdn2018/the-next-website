@@ -50,20 +50,20 @@ function PageLink(props) {
 // page component
 export default function IndexPage({ data }) {
   const projects = data.projects.edges;
-  const students = data.students.edges;
+  const graduates = data.graduates.edges;
 
   return (
     <Container>
       <Subtitle>dynamic pages:</Subtitle>
 
       <List>
-        <h3>Students</h3>
-        {students.map( ({ node: student }, i) => (
+        <h3>Graduates</h3>
+        {graduates.map( ({ node: grad }, i) => (
           <PageLink
-            to={student.fields.slug}
-            title={student.frontmatter.title}
-            key={student.id}
-            image={student.frontmatter.image.childImageSharp.resolutions}
+            to={grad.fields.slug}
+            title={grad.frontmatter.title}
+            key={grad.id}
+            image={grad.frontmatter.image.childImageSharp.resolutions}
           />
         ))}
       </List>
@@ -87,7 +87,7 @@ export default function IndexPage({ data }) {
 export const query = graphql`
   query IndexQuery {
     
-    students: allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/students/"} } ) {
+    graduates: allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/graduates/"} } ) {
       edges {
         node {
           id

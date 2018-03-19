@@ -54,8 +54,9 @@ const PseudoSectionHeading = styled(SectionHeading)`
   position: absolute;
   top: ${spacing.big};
   pointer-events: auto;
-  &:hover a {
-    background-color: pink;
+
+  &:hover {
+    text-decoration: underline !important;
   }
 `
 
@@ -64,12 +65,6 @@ const PageLink = styled(Link) `
   color: black;
   width: 100%;
   height: 100%;
-  
-  &:hover {
-    background-color: pink;
-    text-decoration: underline;
-  }
-
 `
 
 const PseudoSectionInner = styled.div`
@@ -79,7 +74,6 @@ const PseudoSectionInner = styled.div`
   pointer-events: auto;
   margin-top: ${spacing.big}px;
 `
-
 
 const OldContent = styled.div`
   position: absolute;
