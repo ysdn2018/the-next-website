@@ -84,8 +84,8 @@ const PseudoSection = styled.div`
 
   transform: translateY(${props => props.mobileSafari ?
     (props.navShowing ?
-      (props.active ? "100vh" : "calc(100vh - " + ((tabHeight * (props.numInMenu + 1)) - props.vOffset - 5 + 44) + "px)") :
-      (props.active ? "100vh" : "calc(93vh - " + (77 + (tabHeight * (props.numInMenu - 1)) - props.vOffset/3 + 44) + "px)") 
+      (props.active ? "100vh" : "calc(95vh - " + ((tabHeight * (props.numInMenu + 1)) - props.vOffset - 5 + 44) + "px)") :
+      (props.active ? "100vh" : "calc(95vh - " + ((tabHeight * (props.numInMenu + 1)) - props.vOffset - 3 + 44) + "px)") 
     ) : (props.navShowing ?
       (props.active ? 100 + "vh" : "calc(100vh - " + (77 + (tabHeight * (props.numInMenu - 1)) - props.vOffset) + "px)") :
       (props.active ? 100 + "vh" : "calc(100vh - " + (77 + (tabHeight * (props.numInMenu - 1)) - props.vOffset / 3) + "px)")
