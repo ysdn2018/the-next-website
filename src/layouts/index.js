@@ -44,7 +44,7 @@ const InnerContainer = styled.div`
 const TemplateWrapper = ({ children }) => (
   <React.Fragment>
     <Helmet
-      title="boiled"
+      title="THE NEXT"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },

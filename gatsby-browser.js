@@ -36,7 +36,7 @@ const Navigation = styled.div`
     top: 0;
     left: 0;
     right: 0;
-    zIndex: 1;
+    z-index: 1;
     transition: transform 250ms ease-in-out;
   }
   .headroom--unfixed {
@@ -49,10 +49,11 @@ const Navigation = styled.div`
   .headroom--unpinned {
     transition: transform 250ms ease-out;
     transform: translateY(${props => tabHeight*(props.numInMenu-1)}px);
+    ${'' /* display: ${props => props.mobileSafari ? "none" : "auto"}; */}
 
     transform: ${props => props.mobileSafari ? 
-      `translateY(${props => tabHeight * (props.numInMenu + 5) }px)` :
-      `translateY(${props => tabHeight * (props.numInMenu - 1)}px)`};
+      `translateY(${tabHeight * (props.numInMenu + 2)+10}px) !important` :
+      `translateY(${tabHeight * (props.numInMenu - 1)}px)`};
   }
   .headroom--pinned {
     transition: transform 250ms ease-out;
@@ -83,7 +84,7 @@ const PseudoSection = styled.div`
 
   transform: translateY(${props => props.mobileSafari ?
     (props.navShowing ?
-      (props.active ? "100vh" : "calc(93vh - " + (77 + (tabHeight * (props.numInMenu - 1)) - props.vOffset + 44) + "px)") :
+      (props.active ? "100vh" : "calc(100vh - " + (77 + (tabHeight * (props.numInMenu)) - props.vOffset) + "px)") :
       (props.active ? "100vh" : "calc(93vh - " + (77 + (tabHeight * (props.numInMenu - 1)) - props.vOffset/3 + 44) + "px)") 
     ) : (props.navShowing ?
       (props.active ? 100 + "vh" : "calc(100vh - " + (77 + (tabHeight * (props.numInMenu - 1)) - props.vOffset) + "px)") :
