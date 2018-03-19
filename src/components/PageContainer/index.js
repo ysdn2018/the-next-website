@@ -8,5 +8,5 @@ export default styled.div`
   position: relative;
   background-color: white;
   height: 200vh;
-  margin-top: ${spacing.big + spacing.bigger}px;
+  margin-top: ${spacing.bigger}px;
 `

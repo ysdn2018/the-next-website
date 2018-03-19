@@ -35,7 +35,7 @@ const Navigation = styled.div`
 const PseudoSection = styled.div`
   position: absolute;
   top: 0;
-  transform: translateY(${props => props.active ? 100 + "vh" : "calc(100vh - " + (87+(tabHeight*props.numInMenu+10) - props.vOffset) + "px)"});
+  transform: translateY(${props => props.active ? 100 + "vh" : "calc(100vh - " + (83+(tabHeight*(props.numInMenu-1)) - props.vOffset) + "px)"});
   background-color: white;
   z-index: ${props => props.active ? 0 : 10};
   width: 100%;
@@ -43,14 +43,16 @@ const PseudoSection = styled.div`
   z-index: 1000;
   transition: transform ${timeout - delay}ms ease-out, opacity ${timeout - delay}ms ease-out;
   ${props => props.active && 'transition: none !important;'}
+  pointer-events: auto;
+
+  &:hover a {
+    text-decoration: underline;
+  }
 
   a {
     text-decoration: none;
     color: black;
 
-    &:hover {
-      text-decoration: underline;
-    }
   }
 `
 
@@ -64,6 +66,8 @@ const PseudoSectionInner = styled.div`
   position: absolute;
   top: 0;
   width: 100%;
+  pointer-events: auto;
+  margin-top: ${spacing.big}px;
 `
 
 
@@ -140,10 +144,16 @@ function NavigationTab(props) {
 const getUserConfirmation = (pathname, callback) => {
   const event = new CustomEvent(historyExitingEventType, { detail: { pathname } })
   window.dispatchEvent(event)
-  setTimeout(() => {
+
+  if (pathname == "/work/" || pathname == "/sponsors/" || pathname == "/info/" || pathname == "/graduates/") {
+    setTimeout(() => {
+      callback(true)
+    }, timeout)
+  } else {
     callback(true)
-  }, timeout)
+  }
 }
+
 const history = createHistory({ getUserConfirmation })
 // block must return a string to conform
 history.block((location, action) => location.pathname)
@@ -251,14 +261,6 @@ class ReplaceComponentRenderer extends React.PureComponent {
       onEnter: this.calcOffsets,
     }
 
-
-    console.log(this.props);
-    
-
-    if (this.props.location.pathname === "/")
-      console.log(this.props.location.pathname)
-    
-    
     return (
       <Container>
         <OldContent>

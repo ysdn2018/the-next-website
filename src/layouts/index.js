@@ -6,6 +6,7 @@ import styled, { injectGlobal } from 'styled-components'
 import 'normalize.css'
 import { spacing } from '../utils/constants'
 import Header from '../components/Header'
+import PageContainer from '../components/PageContainer'
 
 
 // importing fonts
@@ -36,6 +37,7 @@ const InnerContainer = styled.div`
   height: 100%;
   width: 100%;
   position: relative;
+  margin-top: ${spacing.big}px;
 `;
 
 // page component

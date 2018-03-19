@@ -31,6 +31,7 @@ const HeaderContainer = styled.div`
   justify-content: center;
   align-items: center;
   background-color: white;
+  pointer-events: auto;
 `
 
 
