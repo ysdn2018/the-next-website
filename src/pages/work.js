@@ -4,14 +4,65 @@ import { spacing } from '../utils/constants'
 
 import PageContainer from '../components/PageContainer'
 import SectionHeading from '../components/SectionHeading'
+import Project from '../components/Project'
+
+
+const ProjectGrid = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
+
 
 // page component
-export default function Work() {
+export default function Work({ data }) {
+  const projects = data.allMarkdownRemark.edges;
+
   return (
     <PageContainer>
       <SectionHeading fixed title="Work" />
-      <h1>Hi from the second page</h1>
-      <p>Welcome to page 2</p>
+      <h1>Work</h1>
+      <p>Welcome to the work page</p>
+
+      <ProjectGrid>
+        {projects.map(({ node: project }) => (
+          <Project
+            title={project.frontmatter.title}
+            image={project.frontmatter.image.childImageSharp.resolutions}
+            path={project.fields.slug}
+            graduate={project.frontmatter.graduate}
+            key={project.id}
+          />
+        ))}
+      </ProjectGrid>
+
     </PageContainer>
   )
 }
+
+// data query
+export const query = graphql`
+  query WorkQuery {
+    allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/work/"} } ) {
+      edges {
+        node {
+          id
+
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            graduate
+            image {
+              childImageSharp {
+                resolutions(height: 200, width: 200) {
+                  ...GatsbyImageSharpResolutions
+                }
+              }
+            }
+          }
+        }
+      } 
+    }
+  }
+`;

@@ -7,12 +7,12 @@ import SectionHeading from '../components/SectionHeading'
 
 
 // page component
-export default function Sponsors() {
+export default function Sponsors({ data }) {
   return (
     <PageContainer>
       <SectionHeading fixed title="Sponsors" />
-      <h1>Hi from the second page</h1>
-      <p>Welcome to page 2</p>
+      <h1>Hi from the sponsors page</h1>
+
     </PageContainer>
   )
 }

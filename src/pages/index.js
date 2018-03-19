@@ -54,7 +54,7 @@ export default function IndexPage({ data }) {
 
   return (
     <Container>
-      <Subtitle>dynamic pages:</Subtitle>
+      <Subtitle>some kind of homepage will be here, in the mean time here is some content</Subtitle>
 
       <List>
         <h3>Graduates</h3>
@@ -108,7 +108,7 @@ export const query = graphql`
         }
       } 
     }
-    projects: allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/projects/"} } ) {
+    projects: allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/work/"} } ) {
       edges {
         node {
           id

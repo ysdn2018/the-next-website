@@ -15,7 +15,9 @@ const TitleLink = styled(Link) `
   text-transform: uppercase;
   font-size: 0.8rem;
   text-align: center;
-  line-height: 1;
+  line-height: 0.8;
+  width: 100%;
+  height: 100%;
 
   &:hover {
     text-decoration: underline;

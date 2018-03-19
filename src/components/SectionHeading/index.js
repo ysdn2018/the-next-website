@@ -16,6 +16,7 @@ const Container = styled.div`
   top: ${spacing.big-1}px;
   background-color: white;
   position: ${props => props.fixed ? "fixed" : "relative"};
+  z-index: 1;
 `
 
 export default function SectionHeading(props) {

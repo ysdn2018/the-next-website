@@ -14,8 +14,8 @@ const timeout = 360
 const delay = 100
 const historyExitingEventType = `history::exiting`
 const baseOffset = 0
-const offscreenOffset = 1000
 const tabHeight = 47
+const offscreenOffset = baseOffset+tabHeight*4
 
 const Container = styled.div`
   width: 100%;
@@ -107,7 +107,7 @@ const newTransitionStyles = {
     // backgroundColor: "red",
     transition: `none`,
     opacity: 1,
-    transition: `transform ${timeout - delay + 200}ms ease-out`,
+    transition: `transform ${timeout - delay+ 50}ms ease-out`,
   },
 }
 

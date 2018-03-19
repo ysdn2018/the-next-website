@@ -7,7 +7,7 @@ import SectionHeading from '../components/SectionHeading'
 
 
 // page component
-export default function Info() {
+export default function Info({ data }) {
   return (
     <PageContainer>
       <SectionHeading fixed title="Info" />

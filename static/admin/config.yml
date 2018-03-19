@@ -22,12 +22,12 @@ collections:
       - { name: noun, label: Statement Noun }
   - name: projects
     label: Projects
-    folder: src/content/projects
+    folder: src/content/work
     create: true
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: project}
       - { name: title, label: Title }
-      - { name: student, label: Student, widget: relation, collection: students, searchFields: ["title"], valueField: "title"}
+      - { name: graduate, label: Graduate, widget: relation, collection: graduates, searchFields: ["title"], valueField: "title"}
       - { name: image, label: Thumbnail, widget: image }
       - { name: body, label: Body, widget: markdown }
   - name: pages
