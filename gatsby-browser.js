@@ -50,9 +50,9 @@ const Navigation = styled.div`
     transition: transform 250ms ease-out;
     transform: translateY(${props => tabHeight*(props.numInMenu-1)}px);
 
-    @media (-webkit-min-device-pixel-ratio: 2) {
-      transform: translateY(${props => tabHeight * (props.numInMenu + 1) }px);
-    }
+    transform: ${props => props.mobileSafari ? 
+      `translateY(${props => tabHeight * (props.numInMenu + 3) }px)` :
+      `translateY(${props => tabHeight * (props.numInMenu - 1)}px)`};
   }
   .headroom--pinned {
     transition: transform 250ms ease-out;
@@ -81,9 +81,16 @@ const PseudoSection = styled.div`
     opacity: ${props => props.navShowing ? 1 : 0};
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2) {
-    transform: translateY(${props => props.active ? 100 + "vh" : "calc(100vh - " + (77 + (tabHeight * (props.numInMenu - 1)) - props.vOffset + 44) + "px)"});
-  }
+  transform: translateY(${props => props.mobileSafari ?
+    (props.navShowing ?
+      (props.active ? "100vh" : "calc(93vh - " + (77 + (tabHeight * (props.numInMenu - 1)) - props.vOffset + 44) + "px)") :
+      (props.active ? "100vh" : "calc(93vh - " + (77 + (tabHeight * (props.numInMenu - 1)) - props.vOffset/3 + 44) + "px)") 
+    ) : (props.navShowing ?
+      (props.active ? 100 + "vh" : "calc(100vh - " + (77 + (tabHeight * (props.numInMenu - 1)) - props.vOffset) + "px)") :
+      (props.active ? 100 + "vh" : "calc(100vh - " + (77 + (tabHeight * (props.numInMenu - 1)) - props.vOffset / 3) + "px)")
+    )});
+
+${'' /* props.active ? 100 + "vh" : "calc(93vh - " + (77 + (tabHeight * (props.numInMenu - 1)) - props.vOffset + 44) + "px)" */}
 `
 
 const PseudoSectionHeading = styled(SectionHeading)`
@@ -163,6 +170,7 @@ function NavigationTab(props) {
           active={props.active && status == "exited"}
           numInMenu={props.numInMenu}
           navShowing={props.navShowing}
+          mobileSafari={props.mobileSafari}
         >
           <PageLink to={props.path}><PseudoSectionHeading title={props.name} path={props.path} /></PageLink>
 
@@ -212,7 +220,8 @@ class ReplaceComponentRenderer extends React.PureComponent {
           baseOffset+tabHeight*3
         ],
         numInMenu: 3,
-        navShowing: true
+        navShowing: true,
+        mobileSafari: false
       }
       
 
@@ -237,6 +246,7 @@ class ReplaceComponentRenderer extends React.PureComponent {
   componentDidMount() {
     window.addEventListener(historyExitingEventType, this.listenerHandler)
     this.calcOffsets()
+    this.checkMobileSafari()
   }
 
   componentWillUnmount() {
@@ -308,6 +318,17 @@ class ReplaceComponentRenderer extends React.PureComponent {
     console.log()
   }
 
+  checkMobileSafari = () => {
+    const isIphone = /(iPhone)/i.test(navigator.userAgent);
+    const isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+
+    if (isIphone && isSafari) {
+      this.setState({
+        mobileSafari: true
+      })
+    }
+  }
+
   render() {
     const transitionProps = {
       timeout: {
@@ -339,7 +360,7 @@ class ReplaceComponentRenderer extends React.PureComponent {
           </Transition>
         </OldContent>
 
-      <Navigation numInMenu={this.state.numInMenu}>
+      <Navigation numInMenu={this.state.numInMenu} mobileSafari={this.state.mobileSafari}>
         <Header />
           <Headroom disableInlineStyles onUnpin={this.onNavHide} onPin={this.onNavShow} onUnfix={this.onNavShow}>
             {this.navLinks.map(link => (
@@ -355,6 +376,7 @@ class ReplaceComponentRenderer extends React.PureComponent {
                 onEnter={this.moveLowerLayers}
                 navShowing={this.state.navShowing}
                 onMouseOver={this.showNav}
+                mobileSafari={this.state.mobileSafari}
               />
             ))}
           </Headroom>
