@@ -4,6 +4,7 @@ import createHistory from "history/createBrowserHistory"
 import styled from 'styled-components'
 import getTransitionStyle from "./src/utils/getTransitionStyle"
 import SectionHeading from "./src/components/SectionHeading"
+import Header from "./src/components/Header"
 import Link from 'gatsby-link'
 import { spacing } from './src/utils/constants'
 
@@ -18,17 +19,28 @@ const tabHeight = 47
 const Container = styled.div`
   width: 100%;
   height: calc(100% - 40px);
-  border: 1px solid red;
+`
+
+const Navigation = styled.div`
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: fixed;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 10;
 `
 
 
 const PseudoSection = styled.div`
   position: absolute;
   top: 0;
-  transform: translateY(${props => props.active ? 100 + "vh" : "calc(100vh - " + (97+(tabHeight*3) - props.vOffset) + "px)"});
-  background-color: ${props => props.active ? "pink" : "white"};
+  transform: translateY(${props => props.active ? 100 + "vh" : "calc(100vh - " + (87+(tabHeight*props.numInMenu+10) - props.vOffset) + "px)"});
+  background-color: white;
+  z-index: ${props => props.active ? 0 : 10};
   width: 100%;
   opacity: 1;
+  z-index: 1000;
   transition: transform ${timeout - delay}ms ease-out, opacity ${timeout - delay}ms ease-out;
   ${props => props.active && 'transition: none !important;'}
 
@@ -44,7 +56,8 @@ const PseudoSection = styled.div`
 
 const PseudoSectionHeading = styled(SectionHeading)`
   position: absolute;
-  top: 0;
+  top: ${spacing.big};
+  pointer-events: auto;
 `
 
 const PseudoSectionInner = styled.div`
@@ -77,10 +90,10 @@ const newTransitionStyles = {
     transition: `none`,
   },
   exiting: {
-    backgroundColor: "orange",
+    // backgroundColor: "orange",
     opacity: 0,
+    transform: `translateY(100vh)`,
     transition: `none`,
-    transform: `translateY(500px)`,
   },
   exited: {
     // backgroundColor: "red",
@@ -93,6 +106,8 @@ const newTransitionStyles = {
 
 
 function NavigationTab(props) {
+  console.log(props.numInMenu);
+  
   return (
     <Transition 
       in={props.nextPageResources.hasOwnProperty(`component`) && props.nextPageResources.page.path === props.path } 
@@ -101,7 +116,11 @@ function NavigationTab(props) {
     >
 
       {(status) => (
-        <PseudoSection style={newTransitionStyles[status]} vOffset={props.vOffset} active={props.active && status == "exited"}>
+        <PseudoSection style={newTransitionStyles[status]} 
+          vOffset={props.vOffset} 
+          active={props.active && status == "exited"}
+          numInMenu={props.numInMenu}
+        >
           <Link to={props.path}><PseudoSectionHeading title={props.name} path={props.path} /></Link>
 
           <PseudoSectionInner>
@@ -131,7 +150,7 @@ history.block((location, action) => location.pathname)
 exports.replaceHistory = () => history
 
 
-class ReplaceComponentRenderer extends React.Component {
+class ReplaceComponentRenderer extends React.PureComponent {
   constructor(props) {
     super(props)
     this.state = { 
@@ -143,7 +162,9 @@ class ReplaceComponentRenderer extends React.Component {
           baseOffset+tabHeight*2,
           baseOffset+tabHeight*3
         ],
+        numInMenu: 3
       }
+      
 
     this.navLinks = [
       { name: "Work", path: "/work/", index: 0 },
@@ -166,9 +187,6 @@ class ReplaceComponentRenderer extends React.Component {
   componentDidMount() {
     window.addEventListener(historyExitingEventType, this.listenerHandler)
     this.calcOffsets()
-
-    window.scroll(0, 1)
-    
   }
 
   componentWillUnmount() {
@@ -193,9 +211,10 @@ class ReplaceComponentRenderer extends React.Component {
         i++
       }
     }
-    
+
     this.setState({
       offsets,
+      numInMenu: i
     })
   }
 
@@ -259,19 +278,23 @@ class ReplaceComponentRenderer extends React.Component {
           </Transition>
         </OldContent>
 
+      <Navigation>
+        <Header />
+
         {this.navLinks.map(link => (
           <NavigationTab
             name={link.name}
             path={link.path}
             active={this.props.location.pathname === link.path}
             nextPageResources={this.state.nextPageResources}
+            numInMenu={this.state.numInMenu}
             vOffset={this.state.offsets[link.index]}
             key={link.index}
             onExiting={this.calcOffsets}
             onEnter={this.moveLowerLayers}
           />
         ))}
-        
+      </Navigation>
         
       </Container>
     )

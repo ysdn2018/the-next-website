@@ -13,12 +13,14 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  top: ${spacing.big-1}px;
+  background-color: white;
+  position: ${props => props.fixed ? "fixed" : "relative"};
 `
 
 export default function SectionHeading(props) {
   return (
-    <Container>
+    <Container {...props}>
       <h4>{props.title}</h4>
     </Container>
   )

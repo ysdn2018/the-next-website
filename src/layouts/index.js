@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import styled, { injectGlobal } from 'styled-components'
 import 'normalize.css'
 import { spacing } from '../utils/constants'
+import Header from '../components/Header'
 
 
 // importing fonts
@@ -31,54 +32,11 @@ import NeueHaasGrotDispItalic_woff2 from "../assets/fonts/NeueHaasGrotDisp-56Ita
 */
 
 
-// styled components
-const Container = styled.div`
-  margin: 4rem;
-  height: 100%;
-`
-
 const InnerContainer = styled.div`
   height: 100%;
   width: 100%;
   position: relative;
 `;
-
-const TitleLink = styled(Link)`
-  color: black;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  text-align: center;
-  line-height: 1;
-
-  &:hover {
-    text-decoration: underline;
-  }
-`
-
-const HeaderContainer = styled.div`
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  margin-bottom: -1px;
-  height: ${spacing.big}px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-`
-
-
-// components
-function Header () {
-  return (
-    <HeaderContainer>
-      <TitleLink to="/">
-          <h1>The Next</h1>
-      </TitleLink>
-    </HeaderContainer>
-  )
-}
-
 
 // page component
 const TemplateWrapper = ({ children }) => (
@@ -91,7 +49,6 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
 
-    <Header />
     <InnerContainer>
       {children()}
     </InnerContainer>
@@ -126,6 +83,7 @@ injectGlobal`
   body {
       margin: 0;
       height: 100%;
+      overflow-x: hidden;
 
       font-size: 1.6em;
       line-height: 1.6;
@@ -141,7 +99,6 @@ injectGlobal`
 
   #___gatsby {
     height: 100%;
-    overflow: hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {
