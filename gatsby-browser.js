@@ -49,6 +49,10 @@ const Navigation = styled.div`
   .headroom--unpinned {
     transition: transform 250ms ease-out;
     transform: translateY(${props => tabHeight*(props.numInMenu-1)}px);
+
+    @media (-webkit-min-device-pixel-ratio: 2) {
+      transform: translateY(${props => tabHeight * 4}px);
+    }
   }
   .headroom--pinned {
     transition: transform 250ms ease-out;
