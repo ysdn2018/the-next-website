@@ -166,6 +166,8 @@ class ReplaceComponentRenderer extends React.Component {
   componentDidMount() {
     window.addEventListener(historyExitingEventType, this.listenerHandler)
     this.calcOffsets()
+
+    window.scroll(0, 1)
     
   }
 
