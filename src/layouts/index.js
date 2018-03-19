@@ -79,12 +79,12 @@ injectGlobal`
   html {
   ${'' /* Maybe Try?  font-size: calc(1.25vw + 62.5%); */}
     font-size: 62.5%;
-    height: 100%;
+    height: 100% !important;
   }
 
   body {
       margin: 0;
-      height: 100%;
+      height: 100% !important;
       overflow-x: hidden;
 
       font-size: 1.6em;
@@ -100,7 +100,7 @@ injectGlobal`
   }
 
   #___gatsby {
-    height: 100%;
+    height: 100% !important;
   }
 
   h1, h2, h3, h4, h5, h6 {

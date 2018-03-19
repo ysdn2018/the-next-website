@@ -32,7 +32,6 @@ const Navigation = styled.div`
   z-index: 10;
 `
 
-
 const PseudoSection = styled.div`
   position: absolute;
   top: 0;
@@ -46,21 +45,8 @@ const PseudoSection = styled.div`
   ${props => props.active && 'transition: none !important;'}
   pointer-events: auto;
 
-  &:hover a {
-    text-decoration: underline;
-  }
-
-  &:hover {
-    background-color: pink;
-  }
-
-  a {
-    text-decoration: none;
-    color: black;
-  }
-
   @media (-webkit-min-device-pixel-ratio: 2) {
-    transform: translateY(${props => props.active ? 100 + "vh" : "calc(83vh - " + (83 + (tabHeight * (props.numInMenu - 1)) - props.vOffset) + "px)"});
+    transform: translateY(${props => props.active ? 100 + "vh" : "calc(93vh - " + (83 + (tabHeight * (props.numInMenu - 1)) - props.vOffset) + "px)"});
   }
 `
 
@@ -68,6 +54,22 @@ const PseudoSectionHeading = styled(SectionHeading)`
   position: absolute;
   top: ${spacing.big};
   pointer-events: auto;
+  &:hover a {
+    background-color: pink;
+  }
+`
+
+const PageLink = styled(Link) `
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  
+  &:hover {
+    background-color: pink;
+    text-decoration: underline;
+  }
+
 `
 
 const PseudoSectionInner = styled.div`
@@ -131,7 +133,7 @@ function NavigationTab(props) {
           active={props.active && status == "exited"}
           numInMenu={props.numInMenu}
         >
-          <Link to={props.path}><PseudoSectionHeading title={props.name} path={props.path} /></Link>
+          <PageLink to={props.path}><PseudoSectionHeading title={props.name} path={props.path} /></PageLink>
 
           <PseudoSectionInner>
             {props.nextPageResources.component && props.nextPageResources.page.path === props.path && createElement(props.nextPageResources.component, {
