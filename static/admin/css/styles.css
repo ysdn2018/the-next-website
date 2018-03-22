@@ -1,0 +1,32 @@
+html {
+  font-size: 62.5%;
+  height: 100% !important;
+}
+
+body {
+    margin: 0;
+    height: 100% !important;
+    overflow-x: hidden;
+
+    font-size: 1.6em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Haas Grot Text', 'Helvetica', 'Arial', sans-serif;
+    color: #222;
+    webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+#___gatsby {
+  height: 100% !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Haas Grot Display', 'Helvetica', 'Arial', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0rem;
+  font-weight: 400;
+}

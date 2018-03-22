@@ -14,8 +14,8 @@ collections:
     label: Graduates
     folder: src/content/graduates
     create: true
-    editor: 
-     preview: false 
+    # editor: 
+    #  preview: false 
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: graduate}
       - { name: title, label: Name }
