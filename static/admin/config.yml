@@ -14,6 +14,8 @@ collections:
     label: Graduates
     folder: src/content/graduates
     create: true
+    editor: 
+     preview: false 
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: graduate}
       - { name: title, label: Name }
@@ -29,6 +31,8 @@ collections:
     label: Projects
     folder: src/content/work
     create: true
+    editor: 
+     preview: false 
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: project}
       - { name: title, label: Title }
