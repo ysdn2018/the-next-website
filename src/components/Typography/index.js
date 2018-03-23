@@ -33,4 +33,5 @@ const P = styled.p`
 
 `
 
-export { H1, H2, H3, H4, H5, P, Link };
+
+export { H1, H2, H3, H4, H5, P };
