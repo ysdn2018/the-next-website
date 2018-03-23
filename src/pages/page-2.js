@@ -11,8 +11,12 @@ export default function SecondPage() {
     <div>
       <H1>This is a test page, here it is grabbing a sloth image </H1>
       <P>Welcome to page 2</P>
+
       <Statement
+        verb="Verbing"
+        noun="Noun"
       />
+      
       <Link to="/">Go back to the homepage</Link>
     </div>
   )

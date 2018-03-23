@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { spacing, breakpoints } from '../../utils/constants.js'
-
+import { H2 } from '../Typography'
 /*
   Base component
   Copy this directory and rename to your choosing
@@ -13,7 +13,7 @@ const StatementContainer = styled.div`
   border: 1px solid black;
   height: 100%;
   width: 100%;
-  padding: 0 ${spacing.normal}px;
+  padding: 0 ${spacing.smaller}px;
   color: black;
   background-color: white;
 
@@ -34,15 +34,14 @@ const StatementContainer = styled.div`
 const OuterContainer = styled.div`
   width: 100%;
   height: 100%;
-  padding: 10px;
+  padding: ${props => props.pad ? spacing.smaller : 0};
 `
 
-const StatementText = styled.h1`
+const StatementText = styled(H2)`
   text-transform: uppercase;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 5.8rem;
   text-align: left;
   z-index: 1;
 
@@ -51,10 +50,9 @@ const StatementText = styled.h1`
   }
 `
 
-const TheNext = styled.h1`
+const TheNext = styled(H2)`
   position: relative;
   text-transform: uppercase;
-  font-size: 5.8rem;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 0;
