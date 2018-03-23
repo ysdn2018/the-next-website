@@ -20,6 +20,7 @@ collections:
       - { name: templateKey, label: Template Key, widget: hidden, default: graduate}
       - { name: title, label: Name }
       - { name: image, label: Headshot, widget: image }
+      - { name: imageHover, label: Headshot Hover, widget: image }
       - { name: verb, label: Statement Verb }
       - { name: noun, label: Statement Noun }
       - { name: intro, label: Intro, widget: text, required: false }
@@ -27,6 +28,10 @@ collections:
       - { name: tools, label: Tools (optional), widget: text, required: false }
       - { name: watch, label: Movies/TV (optional), widget: text, required: false }
       - { name: typeface, label: Fav Typeface (optional), widget: text, required: false }
+      - { name: twitter, label: Twitter (link), required: false}
+      - { name: instagram, label: Instagram (link), required: false}
+      - { name: linkedin, label: Linkedin (link), required: false}
+      - { name: email, label: Email (link), required: false}
   - name: projects
     label: Projects
     folder: src/content/work
@@ -38,8 +43,16 @@ collections:
       - { name: title, label: Title }
       - { name: graduate, label: Graduate, widget: relation, collection: graduates, searchFields: ["title"], valueField: "title"}
       - { name: image, label: Thumbnail, widget: image }
-      - { name: category, label: Category, widget: select, options: ["Design Memes", "Something Else", "Other Memes", "Selfies"], default: Choose}
+      - name: category
+        label: Category
+        widget: select
+        options: ["Choose...", "Package Design", "Installation", "Environmental Design", "Editorial Design", "Book Design", "Information Design", "Typography", "UI/UX", "Product Design", "Motion Design", "Time Based Communication", "Web Design", "Information Design", "Brand Identity", "Communication Design", "Experiential Design"]
+        default: "Choose..."
+
       - { name: body, label: Body, widget: markdown }
+      # - { name: category, label: Category, widget: select, options: ["Design Memes", "Something Else", "Other Memes", "Selfies"], default: Choose}
+
+
   - name: pages
     label: Pages
     files:

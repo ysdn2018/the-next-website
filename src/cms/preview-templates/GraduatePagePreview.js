@@ -36,17 +36,40 @@ const GraduatePagePreview = ({ entry, getAsset }) => {
   const tools = entry.getIn(['data', 'tools'])
   const watch = entry.getIn(['data', 'watch'])
   const typeface = entry.getIn(['data', 'typeface'])
+
+  const twitter = entry.getIn(['data', 'twitter'])
+  const instagram = entry.getIn(['data', 'instagram'])
+  const linkedin = entry.getIn(['data', 'linkedin'])
+  const email = entry.getIn(['data', 'email'])
+
   
   return (
     <div>
+      <div className="disclaimer"> Styling is only a rough approximation of actual styles</div>
 
       <div className="top-section">
         <img src={headshot}/>
-        <h1>{name}</h1>
+        <h1 className="name">{name}</h1>
         <div className="statement">
           <h3>{verb}</h3> 
           <h3>the next </h3>
           <h3>{noun}</h3>
+        </div>
+
+        <div className="social-links">
+          {twitter &&
+            <a className="social-link" href={twitter} target="_blank">twitter</a>
+          }
+          {instagram &&
+            <a className="social-link" href={instagram} target="_blank">instagram</a>
+          }
+          {linkedin &&
+            <a className="social-link" href={linkedin} target="_blank">linkedin</a>
+          }
+          {email &&
+            <a className="social-link" href={email} target="_blank">email</a>
+          }
+
         </div>
       </div>
 
@@ -54,25 +77,33 @@ const GraduatePagePreview = ({ entry, getAsset }) => {
         {intro}
       </div>
 
-      <div>
-        <h4>Music:</h4> 
-        {music}
-      </div>
+      {music && 
+        <div>
+          <h4>Music:</h4> 
+          {music}
+        </div>
+      }
 
-      <div>
-        <h4>Tools:</h4> 
-        {tools}
-      </div>
+      {tools && 
+        <div>
+          <h4>Tools:</h4> 
+          {tools}
+        </div>
+      }
 
-      <div>
-        <h4>Watch:</h4> 
-        {watch}
-      </div>
+      {watch && 
+        <div>
+          <h4>Watch:</h4> 
+          {watch}
+        </div>
+      }
 
-      <div>
-        <h4>Watch:</h4> 
-        {typeface}
-      </div>
+      {typeface && 
+        <div>
+          <h4>Watch:</h4> 
+          {typeface}
+        </div>
+      }
       
     </div>
   )

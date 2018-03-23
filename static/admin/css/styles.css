@@ -62,3 +62,23 @@ h4 {
 .statement h3:nth-child(2) {
   text-align: right;
 }
+
+.disclaimer {
+  font-size: 0.8rem;
+  width: 100%;
+  text-align: center;
+  opacity: 0.6;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.name {
+  margin-left: 6px;
+  text-transform: uppercase;
+}
+
+
+.social-links {
+  display: flex;
+  border-top: 1px solid black;
+}
