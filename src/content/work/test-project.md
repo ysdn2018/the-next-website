@@ -3,6 +3,7 @@ templateKey: project
 title: Test Project
 graduate: Sarah Keast
 image: /assets/sloth.jpg
+category: Installation
 ---
 ## This is a test Project.
 
