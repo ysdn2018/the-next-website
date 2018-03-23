@@ -1,7 +1,7 @@
 ---
 templateKey: graduate
 title: Aaron Mohr
-image: /assets/sloth2.png
+image: /assets/aaron_mohr-1.jpg
 verb: Dropping
 noun: Deuce
 ---
