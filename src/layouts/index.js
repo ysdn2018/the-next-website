@@ -5,7 +5,6 @@ import Helmet from 'react-helmet'
 import styled, { injectGlobal } from 'styled-components'
 import 'normalize.css'
 import { spacing } from '../utils/constants'
-import Header from '../components/Header'
 import PageContainer from '../components/PageContainer'
 import Nav from '../components/Nav'
 
