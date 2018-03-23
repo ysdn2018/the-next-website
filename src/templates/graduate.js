@@ -1,26 +1,55 @@
 import React from 'react';
 import styled from 'styled-components'
 import Img from 'gatsby-image'
+import Statement from '../components/Statement'
 
 
 // styled-components
-const Content = styled.div`
-  p {
-    max-width: 500px;
+
+const Profile = styled.div`
+  border: 1px solid black;
+  width: 25%;
+  height: 88%;
+  position: fixed;
+  margin: 15px;
+  padding: 10px;
+
+  h2 {
+    text-transform: uppercase;
   }
+
+  img{
+    width: 50%;
+  }
+
 `
 
+const Info = styled.div `
+  width: 60%;
+  float: right;
+  margin: 15px;
+  padding: 10px;
+`
 
 // page template component
+
 export default function Post({ data }) {
   const graduate = data.markdownRemark;
 
   return (
-    <div>
-      <h3>{graduate.frontmatter.title}</h3>
-      {/* <Content dangerouslySetInnerHTML={{ __html: project.html }}/> */}
-      <Img resolutions={graduate.frontmatter.image.childImageSharp.resolutions}/>
-    </div>
+    <React.Fragment>
+
+      <Profile>
+        <h2>{graduate.frontmatter.title}</h2>
+        <Img resolutions={graduate.frontmatter.image.childImageSharp.resolutions}/>
+        <h2>{graduate.frontmatter.verb} The Next {graduate.frontmatter.noun}</h2>
+      </Profile>
+
+      <Info>
+        <h2>About</h2>
+      </Info>
+
+    </React.Fragment>
   );
 };
 
@@ -32,9 +61,11 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        noun
+        verb
         image {
           childImageSharp {
-            resolutions(width: 600) {
+            resolutions(width: 200) {
               ...GatsbyImageSharpResolutions
             }
           }
