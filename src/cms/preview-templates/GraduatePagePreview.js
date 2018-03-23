@@ -37,6 +37,7 @@ const GraduatePagePreview = ({ entry, getAsset }) => {
   const watch = entry.getIn(['data', 'watch'])
   const typeface = entry.getIn(['data', 'typeface'])
 
+
   // const entryPricingPlans = entry.getIn(['data', 'pricing', 'plans'])
   // const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
 
@@ -44,10 +45,12 @@ const GraduatePagePreview = ({ entry, getAsset }) => {
     <div>
 
       <img src={headshot}/>
-      <div>{name}</div>
-      <div>
+      <h1>{name}</h1>
+      <h4>
         {verb} the next {noun}
-      </div>
+      </h4>
+
+
       
     </div>
   )
