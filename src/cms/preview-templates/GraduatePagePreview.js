@@ -36,21 +36,43 @@ const GraduatePagePreview = ({ entry, getAsset }) => {
   const tools = entry.getIn(['data', 'tools'])
   const watch = entry.getIn(['data', 'watch'])
   const typeface = entry.getIn(['data', 'typeface'])
-
-
-  // const entryPricingPlans = entry.getIn(['data', 'pricing', 'plans'])
-  // const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
-
+  
   return (
     <div>
 
-      <img src={headshot}/>
-      <h1>{name}</h1>
-      <h4>
-        {verb} the next {noun}
-      </h4>
+      <div className="top-section">
+        <img src={headshot}/>
+        <h1>{name}</h1>
+        <div className="statement">
+          <h3>{verb}</h3> 
+          <h3>the next </h3>
+          <h3>{noun}</h3>
+        </div>
+      </div>
 
+      <div>
+        {intro}
+      </div>
 
+      <div>
+        <h4>Music:</h4> 
+        {music}
+      </div>
+
+      <div>
+        <h4>Tools:</h4> 
+        {tools}
+      </div>
+
+      <div>
+        <h4>Watch:</h4> 
+        {watch}
+      </div>
+
+      <div>
+        <h4>Watch:</h4> 
+        {typeface}
+      </div>
       
     </div>
   )
