@@ -19,7 +19,6 @@ export default function Work({ data }) {
 
   return (
     <PageContainer>
-      <SectionHeading fixed title="Work" />
       <h1>Work</h1>
       <p>Welcome to the work page</p>
 

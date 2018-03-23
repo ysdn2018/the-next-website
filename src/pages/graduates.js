@@ -19,7 +19,6 @@ export default function Graduates({ data }) {
 
   return (
     <PageContainer>
-      <SectionHeading fixed title="Graduates"/>
       <h1>Wow look at all these cool grads</h1>
       <p>grads page</p>
       

@@ -10,7 +10,6 @@ import SectionHeading from '../components/SectionHeading'
 export default function Info({ data }) {
   return (
     <PageContainer>
-      <SectionHeading fixed title="Info" />
       <h1>Hi from the second page</h1>
       <p>Welcome to page 2</p>
     </PageContainer>

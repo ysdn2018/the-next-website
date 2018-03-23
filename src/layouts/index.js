@@ -7,6 +7,7 @@ import 'normalize.css'
 import { spacing } from '../utils/constants'
 import Header from '../components/Header'
 import PageContainer from '../components/PageContainer'
+import Nav from '../components/Nav'
 
 
 // importing fonts
@@ -50,6 +51,8 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+
+    <Nav/>
 
     <InnerContainer>
       {children()}

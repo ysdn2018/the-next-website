@@ -7,5 +7,4 @@ export default styled.div`
   position: relative;
   background-color: white;
   min-height: 200vh;
-  margin-top: ${spacing.bigger-2}px;
 `

@@ -10,7 +10,6 @@ import SectionHeading from '../components/SectionHeading'
 export default function Sponsors({ data }) {
   return (
     <PageContainer>
-      <SectionHeading fixed title="Sponsors" />
       <h1>Hi from the sponsors page</h1>
 
     </PageContainer>
