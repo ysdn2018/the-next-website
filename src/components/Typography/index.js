@@ -24,6 +24,10 @@ const H4 = styled.h1`
 
 `
 
+const H5 = styled.h1`
+
+`
+
 
 const P = styled.p`
 
