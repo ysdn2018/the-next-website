@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-
+import Link from 'gatsby-link'
 
 // styled-components
 const Content = styled.div`
@@ -13,10 +13,17 @@ const Content = styled.div`
 // page template component
 export default function Post({ data }) {
   const project = data.markdownRemark;
+  const grad = project.frontmatter.graduate;
 
   return (
     <div>
       <h3>{project.frontmatter.title}</h3>
+      <h5>by: 
+      <Link to={`/graduates/${grad.replace(/\s+/g, "-").toLowerCase()}/`}>
+        {grad}
+      </Link>
+      </h5>
+
       <Content dangerouslySetInnerHTML={{ __html: project.html }}/>
     </div>
   );
@@ -30,6 +37,7 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        graduate
       }
     }
   }

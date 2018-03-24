@@ -14,7 +14,6 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   // making frontmatter paths relative
   const { frontmatter } = node;
   if (frontmatter) {
-    console.log();
     const images = [];
 
     for (let prop in frontmatter) {
@@ -76,6 +75,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
            }
            frontmatter {
              templateKey
+             title
            }
          }
        }
@@ -85,13 +85,14 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
    if (result.errors) {
      result.errors.forEach(e => console.error(e.toString()));
      return Promise.reject(result.errors);
-   }
+   } 
    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
      createPage({
        path: node.fields.slug,
        component: path.resolve(`src/templates/${String(node.frontmatter.templateKey)}.js`),
        context: {
-         slug: node.fields.slug
+         slug: node.fields.slug,
+         name: node.frontmatter.title,
        } // additional data can be passed via context
      });
    });
