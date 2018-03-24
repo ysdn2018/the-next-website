@@ -42,12 +42,23 @@ collections:
       - { name: templateKey, label: Template Key, widget: hidden, default: project}
       - { name: title, label: Title }
       - { name: graduate, label: Graduate, widget: relation, collection: graduates, searchFields: ["title"], valueField: "title"}
-      - { name: image, label: Thumbnail, widget: image }
+      - { name: image, label: Feature Image, widget: image }
       - name: category
         label: Category
         widget: select
         options: ["Choose...", "Package Design", "Installation", "Environmental Design", "Editorial Design", "Book Design", "Information Design", "Typography", "UI/UX", "Product Design", "Motion Design", "Time Based Communication", "Web Design", "Information Design", "Brand Identity", "Communication Design", "Experiential Design"]
         default: "Choose..."
+      - name: category2
+        label: Additional Category (optional)
+        widget: select
+        options: ["Package Design", "Installation", "Environmental Design", "Editorial Design", "Book Design", "Information Design", "Typography", "UI/UX", "Product Design", "Motion Design", "Time Based Communication", "Web Design", "Information Design", "Brand Identity", "Communication Design", "Experiential Design"]
+        required: false
+      - name: category3
+        label: Additional Category (optional)
+        widget: select
+        options: ["Package Design", "Installation", "Environmental Design", "Editorial Design", "Book Design", "Information Design", "Typography", "UI/UX", "Product Design", "Motion Design", "Time Based Communication", "Web Design", "Information Design", "Brand Identity", "Communication Design", "Experiential Design"]
+        required: false
+
 
       - { name: body, label: Body, widget: markdown }
       # - { name: category, label: Category, widget: select, options: ["Design Memes", "Something Else", "Other Memes", "Selfies"], default: Choose}
