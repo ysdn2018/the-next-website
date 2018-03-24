@@ -4,6 +4,8 @@ title: Test Project
 graduate: Sarah Keast
 image: /assets/sloth.jpg
 category: Installation
+category2: UI/UX
+category3: Information Design
 ---
 ## This is a test Project.
 
