@@ -40,9 +40,9 @@ collections:
      preview: false 
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: project}
-      - { name: title, label: Title }
-      - { name: graduate, label: Graduate, widget: relation, collection: graduates, searchFields: ["title"], valueField: "title"}
-      - { name: image, label: Feature Image, widget: image }
+      - { name: title, label: Project Title }
+      - { name: graduate, label: Graduate (how you typed it on your graduate page), widget: relation, collection: graduates, searchFields: ["title"], valueField: "title"}
+      - { name: image, label: Feature Image (min-width of 1000px), widget: image }
       - name: category
         label: Category
         widget: select
@@ -65,7 +65,7 @@ collections:
 
 
   - name: pages
-    label: Pages
+    label: Info Pages
     files:
       - name: about
         label: About Page
