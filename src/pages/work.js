@@ -54,7 +54,7 @@ export const query = graphql`
             graduate
             image {
               childImageSharp {
-                resolutions(height: 200, width: 198, quality: 80, duotone: { highlight: "#0ec4f1", shadow: "#192550" }) {
+                resolutions(height: 200, width: 198, quality: 80) {
                   ...GatsbyImageSharpResolutions
                 }
               }
