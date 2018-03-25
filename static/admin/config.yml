@@ -19,8 +19,8 @@ collections:
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: graduate}
       - { name: title, label: Name }
-      - { name: image, label: Headshot, widget: image }
-      - { name: imageHover, label: Headshot Hover, widget: image }
+      - { name: image, label: Headshot, widget: hidden }
+      - { name: imageHover, label: Headshot Hover, widget: hidden }
       - { name: verb, label: Statement Verb }
       - { name: noun, label: Statement Noun }
       - { name: intro, label: Intro, widget: text, required: false }
