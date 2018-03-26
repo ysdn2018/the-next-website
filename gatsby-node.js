@@ -11,8 +11,8 @@ const imageNames = ["headshot", "thumbnail", "image"];
 
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
-  // making frontmatter paths relative
   const { frontmatter } = node;
+  
   if (frontmatter) {
     const images = [];
 
@@ -50,7 +50,11 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators
   if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode, basePath: `pages` })
-
+    
+    const content = node.internal.content;
+    const fixedPathContent = content.replace(/\(\/assets\//g, "(../assets/");
+    node.internal.content = fixedPathContent;
+    
     createNodeField({
       node,
       name: `slug`,
@@ -70,6 +74,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
      allMarkdownRemark(limit: 1000) {
        edges {
          node {
+           html
            fields {
              slug
            }

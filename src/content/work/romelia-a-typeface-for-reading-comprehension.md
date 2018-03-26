@@ -5,7 +5,8 @@ graduate: Emily Wiebe
 image: /assets/romelia.jpg
 category: Typography
 ---
-Romelia, a smooth and elegant old style serif typeface is designed to enhance reading comprehension for all ages and eye sight condition. Intended for use at 9-13pt, Romelia is meant for text within print mediums such as books, or longer bodies of text that need to be memorized. 
+Romelia, a smooth and elegant old style serif typeface is designed to enhance reading comprehension for all ages and eye sight condition. Intended for use at 9-13pt, Romelia is meant for text within print mediums such as books, or longer bodies of text that need to be memorized. 
+
 
 ![](/assets/romelia_spread.jpg)
 
