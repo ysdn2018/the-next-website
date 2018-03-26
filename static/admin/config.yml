@@ -24,9 +24,9 @@ collections:
       - { name: verb, label: Statement Verb }
       - { name: noun, label: Statement Noun }
       - { name: intro, label: Intro, widget: text, required: false }
-      - { name: music, label: Music (optional), widget: text, required: false }
-      - { name: tools, label: Tools (optional), widget: text, required: false }
-      - { name: watch, label: Movies/TV (optional), widget: text, required: false }
+      - { name: music, label: Fav Music (optional), widget: text, required: false }
+      - { name: tools, label: Fav Tools (optional), widget: text, required: false }
+      - { name: watch, label: Fav Movies/TV (optional), widget: text, required: false }
       - { name: typeface, label: Fav Typeface (optional), widget: text, required: false }
       - { name: twitter, label: Twitter (link)(optional), required: false}
       - { name: instagram, label: Instagram (link)(optional), required: false}
