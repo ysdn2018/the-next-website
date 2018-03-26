@@ -54,7 +54,7 @@ export const query = graphql`
             graduate
             image {
               childImageSharp {
-                resolutions(height: 200, width: 198) {
+                resolutions(height: 200, width: 198, quality: 80) {
                   ...GatsbyImageSharpResolutions
                 }
               }

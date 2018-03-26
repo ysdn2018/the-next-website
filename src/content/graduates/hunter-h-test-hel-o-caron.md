@@ -1,6 +1,6 @@
 ---
 templateKey: graduate
-title: Hunter H Test Hel'o Caron
+title: Hunter  Caron
 image: /assets/sloth.jpg
 imageHover: /assets/sloth2.png
 verb: building

@@ -107,7 +107,7 @@ export const aboutPageQuery = graphql`
           frontmatter {
             image {
               childImageSharp {
-                sizes(maxWidth: 600, quality: 90) {
+                sizes(maxWidth: 800, quality: 90, maxHeight: 300) {
                   ...GatsbyImageSharpSizes
                 }
               }

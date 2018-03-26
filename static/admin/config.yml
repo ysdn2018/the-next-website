@@ -19,20 +19,22 @@ collections:
     #  preview: false 
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: graduate}
-      - { name: title, label: Name }
-      - { name: image, label: Headshot, widget: image }
-      - { name: imageHover, label: Headshot Hover, widget: image }
+      - { name: title, label: Your Name }
+      - { name: image, label: Headshot, widget: hidden }
+      - { name: imageHover, label: Headshot Hover, widget: hidden }
       - { name: verb, label: Statement Verb }
       - { name: noun, label: Statement Noun }
       - { name: intro, label: Intro, widget: text, required: false }
-      - { name: music, label: Music (optional), widget: text, required: false }
-      - { name: tools, label: Tools (optional), widget: text, required: false }
-      - { name: watch, label: Movies/TV (optional), widget: text, required: false }
+      - { name: hobbies, label: Hobbies (optional), widget: text, required: false }
+      - { name: music, label: Fav Music (optional), widget: text, required: false }
+      - { name: tools, label: Design Tools (optional), widget: text, required: false }
+      - { name: watch, label: Fav Movies/TV (optional), widget: text, required: false }
       - { name: typeface, label: Fav Typeface (optional), widget: text, required: false }
-      - { name: twitter, label: Twitter (link), required: false}
-      - { name: instagram, label: Instagram (link), required: false}
-      - { name: linkedin, label: Linkedin (link), required: false}
-      - { name: email, label: Email (link), required: false}
+      - { name: twitter, label: Twitter (link)(optional), required: false}
+      - { name: instagram, label: Instagram (link)(optional), required: false}
+      - { name: linkedin, label: Linkedin (link)(optional), required: false}
+      - { name: email, label: Email (link)(optional), required: false}
+      - { name: website, label: Personal Website (link)(optional), required: false}
   - name: projects
     label: Projects
     folder: src/content/work
@@ -41,9 +43,9 @@ collections:
      preview: false 
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: project}
-      - { name: title, label: Title }
-      - { name: graduate, label: Graduate, widget: relation, collection: graduates, searchFields: ["title"], valueField: "title"}
-      - { name: image, label: Feature Image, widget: image }
+      - { name: title, label: Project Title }
+      - { name: graduate, label: "Your Name (make sure it's consistent with your name on your profile so the links work)", widget: relation, collection: graduates, searchFields: ["title"], valueField: "title"}
+      - { name: image, label: Feature Image (large (2000px+) will be auto-cropped square & landscape), widget: image }
       - name: category
         label: Category
         widget: select
@@ -66,7 +68,7 @@ collections:
 
 
   - name: pages
-    label: Pages
+    label: Info Pages
     files:
       - name: about
         label: About Page
