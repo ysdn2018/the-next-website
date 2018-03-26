@@ -1,6 +1,8 @@
 ---
 templateKey: graduate
 title: Emily Wiebe
+image: /assets/sloth.jpg
+imageHover: /assets/sloth2.png
 verb: crafting
 noun: solution
 intro: >-
