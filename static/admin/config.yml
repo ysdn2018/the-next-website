@@ -18,14 +18,15 @@ collections:
     #  preview: false 
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: graduate}
-      - { name: title, label: Name }
+      - { name: title, label: Your Name }
       - { name: image, label: Headshot, widget: hidden }
       - { name: imageHover, label: Headshot Hover, widget: hidden }
       - { name: verb, label: Statement Verb }
       - { name: noun, label: Statement Noun }
       - { name: intro, label: Intro, widget: text, required: false }
+      - { name: hobbies, label: Hobbies (optional), widget: text, required: false }
       - { name: music, label: Fav Music (optional), widget: text, required: false }
-      - { name: tools, label: Fav Tools (optional), widget: text, required: false }
+      - { name: tools, label: Design Tools (optional), widget: text, required: false }
       - { name: watch, label: Fav Movies/TV (optional), widget: text, required: false }
       - { name: typeface, label: Fav Typeface (optional), widget: text, required: false }
       - { name: twitter, label: Twitter (link)(optional), required: false}
@@ -42,7 +43,7 @@ collections:
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: project}
       - { name: title, label: Project Title }
-      - { name: graduate, label: Your Name (make sure its consistent with your name on your profile so the links work), widget: relation, collection: graduates, searchFields: ["title"], valueField: "title"}
+      - { name: graduate, label: "Your Name (make sure it's consistent with your name on your profile so the links work)", widget: relation, collection: graduates, searchFields: ["title"], valueField: "title"}
       - { name: image, label: Feature Image (large (2000px+) will be auto-cropped square & landscape), widget: image }
       - name: category
         label: Category
