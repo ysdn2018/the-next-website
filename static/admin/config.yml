@@ -28,10 +28,11 @@ collections:
       - { name: tools, label: Tools (optional), widget: text, required: false }
       - { name: watch, label: Movies/TV (optional), widget: text, required: false }
       - { name: typeface, label: Fav Typeface (optional), widget: text, required: false }
-      - { name: twitter, label: Twitter (link), required: false}
-      - { name: instagram, label: Instagram (link), required: false}
-      - { name: linkedin, label: Linkedin (link), required: false}
-      - { name: email, label: Email (link), required: false}
+      - { name: twitter, label: Twitter (link)(optional), required: false}
+      - { name: instagram, label: Instagram (link)(optional), required: false}
+      - { name: linkedin, label: Linkedin (link)(optional), required: false}
+      - { name: email, label: Email (link)(optional), required: false}
+      - { name: website, label: Personal Website (link)(optional), required: false}
   - name: projects
     label: Projects
     folder: src/content/work
@@ -41,7 +42,7 @@ collections:
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: project}
       - { name: title, label: Project Title }
-      - { name: graduate, label: Graduate (how you typed it on your graduate page), widget: relation, collection: graduates, searchFields: ["title"], valueField: "title"}
+      - { name: graduate, label: Your Name (make sure its consistent with your name on your profile so the links work), widget: relation, collection: graduates, searchFields: ["title"], valueField: "title"}
       - { name: image, label: Feature Image (large (2000px+) will be auto-cropped square & landscape), widget: image }
       - name: category
         label: Category
