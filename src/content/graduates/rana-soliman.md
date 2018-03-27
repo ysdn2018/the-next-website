@@ -16,7 +16,9 @@ intro: >-
 hobbies: >-
   Catching up on hockey news, Art gallery hopping, Sightseeing and
   photographing, Finding cool tunes, and Consuming lots of poutine
-music: 'Hip-hop, Rap, and Alternative'
+music: 'Hip-hop, Rap, Alternative'
+tools: 'Sharpies, Post-it notes, Tea'
+watch: 'Back to the Future, Doctor Who, Jessica Jones'
 typeface: Dala Floda
 twitter: 'https://twitter.com/ransolz'
 instagram: 'https://www.instagram.com/ransolz/'
