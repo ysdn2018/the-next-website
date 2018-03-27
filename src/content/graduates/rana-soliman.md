@@ -19,7 +19,7 @@ hobbies: >-
 music: 'Alternative, Hip-hop, Rap, or anything involving Kanye West or Kendrick Lamar'
 tools: >-
   Post-it notes, Sharpies, random scraps of paper, her hands, and many cups of
-  Orange Pekoe
+  orange pekoe
 watch: >-
   Back to the Future, Star Wars, Doctor Who, Jessica Jones, Letterkenny, The
   Simpsons
