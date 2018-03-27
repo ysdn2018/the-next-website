@@ -22,7 +22,7 @@ tools: >-
   orange pekoe
 watch: >-
   Back to the Future, Star Wars, Doctor Who, Jessica Jones, Letterkenny, The
-  Simpsons
+  Simpsons, or anything with Gordon Ramsay
 typeface: Dala Floda and GT America
 twitter: 'https://twitter.com/ransolz'
 instagram: 'https://www.instagram.com/ransolz/'
