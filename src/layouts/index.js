@@ -51,7 +51,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
 
-    {location.pathname !== `/` && <Nav/>}
+    {/* {location.pathname === `/` ? <p>nav</p> : <Nav />} */}
 
     <InnerContainer>
       {children()}
