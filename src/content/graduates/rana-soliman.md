@@ -20,7 +20,9 @@ music: 'Alternative, Hip-hop, Rap, or anything involving Kanye West or Kendrick 
 tools: >-
   Post-it notes, Sharpies, random scraps of paper, her hands, and many cups of
   Orange Pekoe
-watch: 'Back to the Future, Star Wars, Doctor Who, Jessica Jones, Letterkenny'
+watch: >-
+  Back to the Future, Star Wars, Doctor Who, Jessica Jones, Letterkenny, The
+  Simpsons
 typeface: Dala Floda and GT America
 twitter: 'https://twitter.com/ransolz'
 instagram: 'https://www.instagram.com/ransolz/'
