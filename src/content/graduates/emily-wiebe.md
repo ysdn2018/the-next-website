@@ -17,7 +17,7 @@ hobbies: 'Exploring the outdoors, macro photography, embroidery, longboarding'
 music: >-
   Indie Pop, Alternative R&B, and any 2000's song because I love to bust a move
   to a good throwback
-watch: 'Friends '
+watch: ''
 typeface: Gotham Bold
 twitter: 'https://twitter.com/emilyawiebe'
 instagram: 'https://www.instagram.com/emilyawiebe/'
