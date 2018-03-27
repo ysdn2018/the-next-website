@@ -13,9 +13,12 @@ intro: >-
   empathy, and research. Striving for impact, whether through physical or
   digital mediums, Emily hopes to construct powerful and inspiring solutions
   driven by purpose. 
+hobbies: 'Exploring nature, photography, and embroidery'
+typeface: Gotham and Bodoni
 twitter: 'https://twitter.com/emilyawiebe'
 instagram: 'https://www.instagram.com/emilyawiebe/'
 linkedin: 'https://ca.linkedin.com/in/emilyawiebe'
 email: hello@emilywiebedesign.com
+website: emilywiebedesign.com
 ---
 
