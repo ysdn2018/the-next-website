@@ -14,9 +14,11 @@ intro: >-
   colour palette, simple shapes and closely cropped images to express a language
   that is powerful enough to read without having to depend on words to tell a
   story.
-hobbies: dancing
-music: 'reggae, dancehall, hip hop'
-typeface: Avenir
+hobbies: ' modern contemporary dancing'
+music: >-
+  reggae, dancehall, hip hop and when it comes carnival season, you have to
+  listen to that soca
+typeface: 'Avenir '
 email: dana.neita@gmail.com
 website: 'https://dananeita.myportfolio.com/'
 ---
