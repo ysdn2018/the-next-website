@@ -5,7 +5,7 @@ graduate: 'Acadia Stewart '
 image: /assets/frontandback_mockup+copy.jpg
 category: Brand Identity
 ---
-![]()
+![](/assets/brochure_map.jpg)
 
 ![](/assets/calgary_poster_mockup.jpg)
 
