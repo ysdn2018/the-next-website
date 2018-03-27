@@ -10,8 +10,8 @@ hobbies: |-
   Long-distance running
   Nostalgic video games
   Creating things
-music: Lo-fi hip-hop radio
-tools: Sharpie pens and grid paper (+ the Adobe Suite)
+music: Lo-fi hip hop radio
+tools: Sharpie pens & grid paper (+ Adobe Suite)
 typeface: Roboto
 instagram: instagram.com/seanlauten
 linkedin: www.linkedin.com/in/seanlauten
