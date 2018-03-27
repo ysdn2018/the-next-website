@@ -1,6 +1,6 @@
 ---
 templateKey: graduate
-title: Hunter  Caron
+title: Hunter  Caron test
 image: /assets/sloth.jpg
 imageHover: /assets/sloth2.png
 verb: building
