@@ -14,5 +14,10 @@ intro: >-
   enjoys challenging herself to break through her comfort zone and indulge in
   new opportunities and experiences.
 hobbies: 'throwing around some plastic discs #discislife'
+twitter: '@kristenyeung'
+instagram: '@kristenyeung'
+linkedin: 'https://www.linkedin.com/in/kristenyeung/'
+email: kristennyeung@gmail.com
+website: www.kristenyeung.ca
 ---
 
