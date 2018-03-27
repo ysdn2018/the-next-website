@@ -14,12 +14,14 @@ intro: >-
   our communities. She believes in the power of learning from one another,
   exploring many new opportunities, and pushing boundaries.
 hobbies: >-
-  Catching up on hockey news, Art gallery hopping, Sightseeing and
-  photographing, Finding cool tunes, and Consuming lots of poutine
-music: 'Hip-hop, Rap, Alternative'
-tools: 'Sharpies, Post-it notes, Tea'
-watch: 'Back to the Future, Doctor Who, Jessica Jones'
-typeface: Dala Floda
+  Catching up on hockey news, art gallery hopping, sightseeing and
+  photographing, finding cool tunes, and consuming lots of poutine
+music: 'Alternative, Hip-hop, Rap, or anything involving Kanye West or Kendrick Lamar'
+tools: >-
+  Post-it notes, Sharpies, random scraps of paper, her hands, and many cups of
+  Orange Pekoe
+watch: 'Back to the Future, Star Wars, Doctor Who, Jessica Jones, Letterkenny'
+typeface: Dala Floda and GT America
 twitter: 'https://twitter.com/ransolz'
 instagram: 'https://www.instagram.com/ransolz/'
 linkedin: 'https://www.linkedin.com/in/ransolz'
