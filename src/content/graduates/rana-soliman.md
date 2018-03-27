@@ -21,8 +21,8 @@ tools: >-
   Post-it notes, Sharpies, random scraps of paper, her hands, and many cups of
   orange pekoe
 watch: >-
-  Back to the Future, Star Wars, Doctor Who, Jessica Jones, Letterkenny, The
-  Simpsons, or anything with Gordon Ramsay
+  Back to the Future, Star Wars, Doctor Who, Jessica Jones, Sherlock,
+  Letterkenny, The Simpsons, or anything with Gordon Ramsay
 typeface: Dala Floda and GT America
 twitter: 'https://twitter.com/ransolz'
 instagram: 'https://www.instagram.com/ransolz/'
