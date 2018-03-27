@@ -26,6 +26,7 @@ export default function Graduates({ data }) {
         {grads.map(({ node: grad }) => (
           <Link to={grad.fields.slug} key={grad.id}>
             <Img resolutions={grad.frontmatter.image.childImageSharp.resolutions}/>
+            <p>{grad.frontmatter.title}</p>
           </Link>
         ))}
       </GradsGrid>

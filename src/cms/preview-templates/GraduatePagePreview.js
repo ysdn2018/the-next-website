@@ -100,7 +100,7 @@ const GraduatePagePreview = ({ entry, getAsset }) => {
 
       {typeface && 
         <div>
-          <h4>Watch:</h4> 
+          <h4>Typefaces:</h4> 
           {typeface}
         </div>
       }

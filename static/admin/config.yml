@@ -45,7 +45,7 @@ collections:
       - { name: templateKey, label: Template Key, widget: hidden, default: project}
       - { name: title, label: Project Title }
       - { name: graduate, label: "Your Name (make sure it's consistent with your name on your profile so the links work)", widget: relation, collection: graduates, searchFields: ["title"], valueField: "title"}
-      - { name: image, label: Feature Image (large (2000px+) will be auto-cropped square & landscape), widget: image }
+      - { name: image, label: Feature Image (2mb Max - large (2000px+) will be auto-cropped square & landscape), widget: image }
       - name: category
         label: Category
         widget: select
