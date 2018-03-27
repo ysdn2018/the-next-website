@@ -13,6 +13,10 @@ intro: >-
   Rana wants to change the way we interact with technologies, environments, and
   our communities. She believes in the power of learning from one another,
   exploring many new opportunities, and pushing boundaries.
+hobbies: >-
+  Catching up on hockey news, Sightseeing and photographing, Finding cool tunes,
+  and Consuming lots of poutine
+music: 'Hip-hop, Rap, and Alternative'
 typeface: Dala Floda
 twitter: 'https://twitter.com/ransolz'
 instagram: 'https://www.instagram.com/ransolz/'
