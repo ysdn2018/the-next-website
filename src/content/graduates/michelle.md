@@ -1,6 +1,6 @@
 ---
 templateKey: graduate
-title: Michelle
+title: Michelle Vu
 image: /assets/sloth.jpg
 imageHover: /assets/sloth2.jpg
 verb: Producing
