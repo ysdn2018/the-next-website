@@ -3,8 +3,8 @@ templateKey: graduate
 title: Aaron Mohr
 image: /assets/aaron_mohr-1.jpg
 imageHover: /assets/sloth2.png
-verb: Dropping
-noun: Deuce
+verb: Defining
+noun: Moment
 intro: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nisl ac
   metus auctor, eget dapibus lorem varius. Nulla gravida leo pulvinar, fermentum
@@ -16,5 +16,9 @@ intro: >-
   varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
   mus. Donec ac velit eu leo scelerisque vulputate sit amet eu quam. Sed non
   gravida nisi. Nulla facilisi. Aliquam id gravida diam, eu tempus nibh.
+twitter: 'https://twitter.com/aaronjmohr'
+instagram: 'https://www.instagram.com/aaronjmohr/'
+email: aaronjonmohr@gmail.com
+website: 'http://aaronmohr.co/'
 ---
 
