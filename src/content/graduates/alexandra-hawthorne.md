@@ -1,6 +1,6 @@
 ---
 templateKey: graduate
-title: ALEXANDRA HAWTHORNE
+title: Alexandra Hawthorne
 image: /assets/sloth.jpg
 imageHover: /assets/sloth2.jpg
 verb: QUESTION
