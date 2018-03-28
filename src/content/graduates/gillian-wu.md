@@ -20,9 +20,7 @@ hobbies: >-
   new people, reading, playing sports, swimming
 music: 'The Weekend, Ed Sheeran, Beyonce '
 tools: ''
-watch: >-
-  Stranger Things, Game of Thrones, Black Mirror, Lion King, Black Panther,
-  Mulan
+watch: 'Stranger Things, Game of Thrones, Black Mirror, Lion King, Black Panther'
 typeface: 'Lora, Gotham, Century Gothic'
 linkedin: 'https://www.linkedin.com/in/gillian-wu-147779120'
 email: gillianwu.design@gmail.com
