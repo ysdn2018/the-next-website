@@ -14,8 +14,10 @@ intro: >-
   general. When designing his typeface, he starts by considering what its
   purpose will be and how it should be designed before he adds his own character
   to it. 
-hobbies: ''
-typeface: 'Gill Sans, and Sorts Mill Goudy. '
+hobbies: Video Games
+typeface: |-
+  Gill Sans 
+  Sorts Mill Goudy
 linkedin: 'https://www.linkedin.com/in/armanpourshadi/'
 email: arman.pourshadi@gmail.com
 website: 'https://armanpourshadi.wixsite.com/aikondesign'
