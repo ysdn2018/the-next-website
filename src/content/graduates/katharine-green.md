@@ -18,7 +18,9 @@ intro: >-
 hobbies: 'Illustration, photography, urban exploration, fantasy and horror'
 music: ''
 tools: 'InDesign, Illustrator, Photoshop, After Effects'
-watch: 'The Breakfast Club, Brooklynn Nine-Nine, The X Files, Star Wars '
+watch: >-
+  Back to the Future, Star Wars, Monty Python and the Holy Grail, Brooklynn
+  Nine-Nine, The Office, The X Files
 email: katharine.green06@gmail.com
 website: kdsgn.me
 ---
