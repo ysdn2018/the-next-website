@@ -1,0 +1,16 @@
+---
+templateKey: graduate
+title: Anna De-Jia Li
+image: /assets/sloth.jpg
+imageHover: /assets/sloth2.jpg
+verb: Seeing
+noun: Attitude
+intro: >-
+  Anna is an integrative designer who enjoys incorporating her creative skill
+  set into the beauty, expression and the arts of design. She believes design
+  could achieve some of the conceptual and aesthetic impacts of illustration and
+  design could become designer's attitude and the attitude can give birth to new
+  concepts. She also believes in provoking thought and emotions through her work
+  and she's always up for new challenges.
+---
+
