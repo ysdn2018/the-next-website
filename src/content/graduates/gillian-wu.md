@@ -15,9 +15,15 @@ intro: >+
   and strategy. Ultimately, she wants to change the way people experience
   products, places, and environments. 
 
-hobbies: 'Travel, hiking, reading'
+hobbies: >-
+  Travelling and discovering new places, hiking, catching waterfalls, meeting
+  new people, reading, playing sports, swimming
+music: 'The Weekend, Ed Sheeran, Beyonce '
 tools: ''
-watch: 'Black Panther, Stranger Things, Game of Thrones, '
+watch: >-
+  Stranger Things, Game of Thrones, Black Mirror, Lion King, Black Panther,
+  Mulan
+typeface: 'Lora, Gotham, Century Gothic'
 linkedin: 'https://www.linkedin.com/in/gillian-wu-147779120'
 email: gillianwu.design@gmail.com
 website: www.gillianwu.com
