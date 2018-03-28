@@ -1,6 +1,6 @@
 ---
 templateKey: graduate
-title: Patrick descartin
+title: Patrick Descartin
 image: /assets/sloth.jpg
 imageHover: /assets/sloth2.jpg
 verb: Setting
