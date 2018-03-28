@@ -11,9 +11,7 @@ intro: >-
   package design. She aims to educate and inform both herself and her audience,
   while creating and innovating new products. She strives to design in hope of
   creating a change, no matter how small.
-watch: |-
-  New Girl
-  Friends
+watch: Friends
 typeface: Avenir
 instagram: 'https://www.instagram.com/jenniferflotodesigns/'
 linkedin: 'https://www.linkedin.com/in/jennifer-floto-398097135/'
