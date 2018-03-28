@@ -11,27 +11,46 @@ const Container = styled.div`
 
 const Profile = styled.div`
   border: 1px solid black;
-  width: 25%;
-  height: 88%;
+  width: 23%;
+  height: 93%;
   position: fixed;
   margin: 15px;
-  padding: 10px;
+  float: left;
 
   h2 {
+    padding: 10px;
     text-transform: uppercase;
   }
 
   .image {
     width: 100%;
+    border-bottom: 1px solid;
+    object-fit: cover;
   }
+`
 
+const Name = styled.h2 `
+  border-bottom: 1px solid;
+`
+
+const Social = styled.div `
+  border-top: 1px solid;
+  padding: 10px;
 `
 
 const Info = styled.div `
   width: 60%;
-  float: right;
   margin: 15px;
   padding: 10px;
+  float: right;
+
+  h2 {
+    text-transform: uppercase;
+  }
+
+`
+const About = styled.div `
+  margin-bottom: 100px;
 `
 
 const Projects = styled.div`
@@ -49,15 +68,28 @@ export default function Post({ data }) {
     <Container>
 
       <Profile>
-        <h2>{graduate.frontmatter.title}</h2>
+        <Name>{graduate.frontmatter.title}</Name>
         <Img sizes={graduate.frontmatter.image.childImageSharp.sizes} className="image"/>
         <h2>{graduate.frontmatter.verb} The Next {graduate.frontmatter.noun}</h2>
+        <Social>
+          <h3>Website</h3>
+          <h3>Email</h3>
+          <h3>Twitter</h3>
+        </Social>
       </Profile>
 
       <Info>
-        <h2>About</h2>
+
+        <About>
+          <h2>About</h2>
+
+          <p>{graduate.frontmatter.intro}</p>
+        </About>
+
 
         <Projects>
+          <h2>Projects</h2>
+
           {data.projects ? data.projects.edges.map(({ node: project }) => (
             <Project key={project.id}>
               <Img sizes={project.frontmatter.image.childImageSharp.sizes} className="image" />
@@ -67,9 +99,10 @@ export default function Post({ data }) {
             <h4>This student has no projects :( </h4>
           )}
         </Projects>
+
       </Info>
 
-      
+
 
 
     </Container>
@@ -86,6 +119,16 @@ export const aboutPageQuery = graphql`
         title
         noun
         verb
+        intro
+        music
+        tools
+        watch
+        typeface
+        twitter
+        instagram
+        linkedin
+        email
+        website
         image {
           childImageSharp {
             sizes(maxWidth: 700, quality: 90) {
@@ -99,7 +142,7 @@ export const aboutPageQuery = graphql`
     projects: allMarkdownRemark(filter: { frontmatter: { graduate: { eq: $name }}}) {
       edges {
         node {
-          id 
+          id
           fields {
             slug
           }
