@@ -41,24 +41,28 @@ const InnerContainer = styled.div`
 `;
 
 // page component
-const TemplateWrapper = ({ children }) => (
-  <React.Fragment>
-    <Helmet
-      title="THE NEXT"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
+function TemplateWrapper (props) {
+  const { location, children } = props
 
-    {/* {location.pathname === `/` ? <p>nav</p> : <Nav />} */}
+  return (
+    <React.Fragment>
+      <Helmet
+        title="THE NEXT"
+        meta={[
+          { name: 'description', content: 'Sample' },
+          { name: 'keywords', content: 'sample, something' },
+        ]}
+      />
 
-    <InnerContainer>
-      {children()}
-    </InnerContainer>
+      {location.pathname === `/` ? <p>nav</p> : <Nav />}
 
-  </React.Fragment>
-)
+      <InnerContainer>
+        {children()}
+      </InnerContainer>
+
+    </React.Fragment>
+  )
+}
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
