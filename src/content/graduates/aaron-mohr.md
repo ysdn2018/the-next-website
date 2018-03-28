@@ -16,6 +16,18 @@ intro: >-
   varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
   mus. Donec ac velit eu leo scelerisque vulputate sit amet eu quam. Sed non
   gravida nisi. Nulla facilisi. Aliquam id gravida diam, eu tempus nibh.
+music: |-
+  Four Tet
+  Geotic
+  Washed Out
+tools: ''
+watch: |
+  High Maintenance
+  Good Time
+typeface: |-
+  Suisse Intl
+  NB Akademie
+  LL Replica
 twitter: 'https://twitter.com/aaronjmohr'
 instagram: 'https://www.instagram.com/aaronjmohr/'
 email: aaronjonmohr@gmail.com
