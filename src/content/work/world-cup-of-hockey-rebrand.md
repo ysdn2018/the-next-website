@@ -29,3 +29,5 @@ The redesign will also display a sense of “pride” for each team’s country,
 ![Bilingual website, desktop and responsive, demonstrating fan zones and curated news.](/assets/rana_wcoh_5.jpg)
 
 ![Process work for the program book.](/assets/rana_wcoh_6.jpg)
+
+![Program book, showing off the z-fold and interior spreads.](/assets/rana_wcoh_7.jpg)
