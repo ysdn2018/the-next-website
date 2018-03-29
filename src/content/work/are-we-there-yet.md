@@ -52,8 +52,6 @@ _There will be, in the next generation or so, a pharmacological method of making
 
 ![Spread.](/assets/rana_arewethereyet_13.jpg)
 
-
-
 ## The Goal
 
 Together, we have chosen to accept dystopia and disregard the cautioning of these fictional tales. The goal of this project is to give enough visual and written evidence to readers to nudge them to think about the dystopian cautions we constantly choose to ignore and are always shocked about. This book was created to give readers a heads-up on how they can take preventative actions, for the sake of our current and future generations, to stop our world from becoming a full-on disastrous dystopian reality.
