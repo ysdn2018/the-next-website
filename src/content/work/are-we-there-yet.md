@@ -41,3 +41,11 @@ _There will be, in the next generation or so, a pharmacological method of making
 ![Spread.](/assets/rana_arewethereyet_8.jpg)
 
 ![Spread.](/assets/rana_arewethereyet_9.jpg)
+
+![Spread.](/assets/rana_arewethereyet_10.jpg)
+
+![Spread.](/assets/rana_arewethereyet_11.jpg)
+
+![Spread.](/assets/rana_arewethereyet_12.jpg)
+
+![Spread.](/assets/rana_arewethereyet_13.jpg)
