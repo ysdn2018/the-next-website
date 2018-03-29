@@ -6,11 +6,12 @@ imageHover: /assets/sloth2.jpg
 verb: Paving
 noun: Way
 intro: hi
-hobbies: |-
-  Watching dogs' videos
-  Tagging people memes
-music: 'Mando Pop, Christian music, '
-watch: All the pixar movies
+hobbies: |
+  Watching dogs' videos (especially pugs)
+  Eating spicy food
+  Playing Tetris games
+music: 'MandoPop, Christian music & Ed Sheeran '
+watch: 'Friends, all the Pixar movies and anything on Netflix'
 typeface: Avenir Next
 instagram: www.instagram.com/cloverchang/
 linkedin: www.linkedin.com/in/cloverchang
