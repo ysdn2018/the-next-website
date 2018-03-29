@@ -11,6 +11,7 @@ hobbies: |
   Eating spicy food
   Playing Tetris games
 music: 'MandoPop, Christian music & Ed Sheeran '
+tools: 'Illustrator, Indesign, Photoshop, After Effects, Sketch, Invision'
 watch: 'Friends, all the Pixar movies and anything on Netflix'
 typeface: Avenir Next
 instagram: www.instagram.com/cloverchang/
