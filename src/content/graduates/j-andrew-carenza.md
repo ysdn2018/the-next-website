@@ -23,6 +23,8 @@ hobbies: |-
   Morning jogs, that more like sprints
 music: |
   Madonna (and I'm very serious.)
+  Aretha Franklin
+  The Beatles
 tools: 'Illustrator, InDesign, Photoshop, After Effects, XD, Invision'
 watch: 'Mad Men, Friends'
 typeface: Avenir
