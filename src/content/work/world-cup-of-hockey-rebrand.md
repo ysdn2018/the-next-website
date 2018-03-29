@@ -31,3 +31,5 @@ The redesign will also display a sense of “pride” for each team’s country,
 ![Process work for the program book.](/assets/rana_wcoh_6.jpg)
 
 ![Program book, showing off the z-fold and interior spreads.](/assets/rana_wcoh_7.jpg)
+
+![Ephemera, "shirseys"](/assets/rana_wcoh_8.jpg)
