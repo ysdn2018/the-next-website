@@ -35,3 +35,5 @@ The redesign will also display a sense of “pride” for each team’s country,
 ![Ephemera, "shirseys".](/assets/rana_wcoh_8.jpg)
 
 ![Ephemera, name tags and accreditation.](/assets/rana_wcoh_9.jpg)
+
+![3D Environment; fences along Distillery District for Fan Village.](/assets/rana_wcoh_10.jpg)
