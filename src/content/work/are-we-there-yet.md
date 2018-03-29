@@ -17,3 +17,5 @@ The word dystopia is defined as “an imagined place or state in which everythin
 “Are We There Yet?” is a book that compares fictional dystopias that were written and predicted in earlier years to dystopian realities that are happening today. The title, “Are We There Yet?”, questions if our current world has reached the dystopia that was once warned about. “Are We There Yet?” refers to popular dystopian fictions, such as _Nineteen Eighty-Four_, _Fahrenheit 451_, _It Can't Happen Here_, and more. Themes and quotes in these novels are compared to real life dystopias, such as the rise of CCTV, escapism through reality television, and America’s falling political climate. 
 
 “Are We There Yet?” is mostly visual and does not offer context, unless the reader refers to the book’s glossary at the end. This allows readers to ponder and question themselves about popular dystopian contrasts presented in the book. It is up to the reader to educate themselves and find out more about the events that we have ignored for many years.
+
+![Collection of quotes from dystopian fiction.](/assets/rana_arewethereyet_2.jpg)
