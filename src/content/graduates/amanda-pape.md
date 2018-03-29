@@ -9,7 +9,7 @@ intro: Amanda
 hobbies: Travelling
 music: Old school hip-hop
 tools: 'Pencil, Paper, Sketch, Illustrator, InDesign, Photoshop'
-watch: 'The Office, This Is Us'
+watch: The Office
 typeface: 'Noe Text, Open Sans'
 instagram: 'https://www.instagram.com/pape.design/'
 linkedin: 'https://www.linkedin.com/in/amandaluciapape/'
