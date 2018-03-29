@@ -22,7 +22,7 @@ The word dystopia is defined as “an imagined place or state in which everythin
 
 ## The Process
 
-After collecting various quotes from fictional novels and real-life news, I manipulated images and created visuals based off of the dystopian events. The spreads depict an unrestful, fearful, and imperfect representation of our how far we have let our world come. Playing along this mood, the reading experience as a whole is distorted and unclear, which forces readers to connect cues and find out major dystopian themes.
+After collecting various quotes from fictional novels and real-life news, I manipulated images and created visuals based off of the dystopian events. The spreads depict an unrestful, fearful, and imperfect representation of how far we have let our world come. Playing along this mood, the reading experience as a whole is distorted and unclear, which forces readers to connect cues and find out major dystopian themes.
 
 Through many spread iterations and figuring out how to depict comparisons of the fiction and non-fiction, the book was refined and created. Using plexiglass covers, the project’s look contrasts between what dystopian fiction believes is a polished and controlled world, verses coptic stitch binding, which is a loose, unrefined spine, that is barely holding on.
 
