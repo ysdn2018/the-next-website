@@ -23,3 +23,5 @@ The redesign will also display a sense of “pride” for each team’s country,
 ![Process work for developing poster.](/assets/rana_wcoh_2.jpg)
 
 ![Poster for team Canada.](/assets/rana_wcoh_3.jpg)
+
+![All 8 teams' posters.](/assets/rana_wcoh_4.jpg)
