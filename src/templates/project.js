@@ -17,14 +17,15 @@ export default function Post({ data }) {
 
   return (
     <div>
+
       <h3>{project.frontmatter.title}</h3>
-      <h5>by: 
+      <h5>by:
       <Link to={`/graduates/${grad.replace(/\s+/g, "-").toLowerCase()}/`}>
         {grad}
       </Link>
       </h5>
-
       <Content dangerouslySetInnerHTML={{ __html: project.html }}/>
+      
     </div>
   );
 };

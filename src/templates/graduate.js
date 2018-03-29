@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import Img from 'gatsby-image'
 import Link from 'gatsby-link'
 import Statement from '../components/Statement'
-import {A} from '../components/Typography'
+import {A,H2,H3} from '../components/Typography'
+
 
 
 // styled-components
@@ -12,7 +13,7 @@ const Container = styled.div`
 
 const Profile = styled.div`
   border: 1px solid black;
-  width: 25%;
+  width: 23%;
   height: 93%;
   position: fixed;
   margin: 15px;
@@ -25,6 +26,7 @@ const Profile = styled.div`
 
   .image {
     width: 100%;
+    height: 400px;
     border-bottom: 1px solid;
     object-fit: cover;
   }
@@ -38,6 +40,7 @@ const Name = styled.h2 `
 const Social = styled.div `
   border-top: 1px solid;
   padding: 10px;
+  bottom: 0;
 
   A {
     margin-right: 5px;
@@ -84,7 +87,10 @@ export default function Post({ data }) {
       <Profile>
         <Name>{graduate.frontmatter.title}</Name>
         <Img sizes={graduate.frontmatter.image.childImageSharp.sizes} className="image"/>
-        <h2>{graduate.frontmatter.verb} The Next {graduate.frontmatter.noun}</h2>
+        <Statement
+          verb = {graduate.frontmatter.verb}
+          noun = {graduate.frontmatter.noun}
+        />
         <Social>
           {graduate.frontmatter.website && (
               <A href={graduate.frontmatter.website}>Website</A>
