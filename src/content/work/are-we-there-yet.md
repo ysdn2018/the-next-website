@@ -26,6 +26,8 @@ After collecting various quotes from fictional novels and real-life news, I mani
 
 Through many spread iterations and figuring out how to depict comparisons of the fiction and non-fiction, the book was refined and created. Using plexiglass covers, the project’s look contrasts between what dystopian fiction believes is a polished and controlled world, verses coptic stitch binding, which is a loose, unrefined spine, that is barely holding on.
 
+[Click here for a full documentation of process work.](https://ranaysdn4005.tumblr.com/)
+
 ![Collection of process work for creating spreads.](/assets/rana_arewethereyet_3.jpg)
 
 ![Final book, showing coptic stitch binding and plexiglass covers.](/assets/rana_arewethereyet_5.jpg)
@@ -49,3 +51,9 @@ _There will be, in the next generation or so, a pharmacological method of making
 ![Spread.](/assets/rana_arewethereyet_12.jpg)
 
 ![Spread.](/assets/rana_arewethereyet_13.jpg)
+
+
+
+## The Goal
+
+Together, we have chosen to accept dystopia and disregard the cautioning of these fictional tales. The goal of this project is to give enough visual and written evidence to readers to nudge them to think about the dystopian cautions we constantly choose to ignore and are always shocked about. This book was created to give readers a heads-up on how they can take preventative actions, for the sake of our current and future generations, to stop our world from becoming a full-on disastrous dystopian reality.
