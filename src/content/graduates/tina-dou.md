@@ -5,5 +5,6 @@ image: /assets/sloth.jpg
 imageHover: /assets/sloth2.jpg
 verb: Preserving
 noun: lifestyle
+intro: hi it me
 ---
 
