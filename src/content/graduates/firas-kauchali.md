@@ -5,10 +5,12 @@ image: /assets/sloth.jpg
 imageHover: /assets/sloth2.jpg
 verb: Sharing
 noun: Gem
-typeface: 'NB International, Founders Grotesk, Neue Haas Grotesk'
-twitter: '@firaskauchali'
-instagram: '@firaskauchali'
-email: firaskauchali@gmail.com
-website: firaskauchali.com
+music: 90s/2000s R&B
+watch: The Five Obstructions
+typeface: 'Founders Grotesk, Plantin'
+twitter: 'http://twitter.com/firaskauchali'
+instagram: 'http://instagram.com/firaskauchali'
+email: 'mailto:firaskauchali@gmail.com'
+website: 'http://firaskauchali.com'
 ---
 
