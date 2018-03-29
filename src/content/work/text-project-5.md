@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: Text Project 5
-graduate: Hunter  Caron
+graduate: Aaron Mohr
 image: /assets/arrow-1.jpg
 category: Information Design
 ---
