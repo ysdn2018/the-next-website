@@ -8,7 +8,7 @@ noun: Way
 hobbies: |-
   Watching dogs' videos
   Tagging people memes
-music: 'Christian Music, Pop, '
+music: 'Mando Pop, Christian music, '
 watch: All the pixar movies
 typeface: Avenir Next
 instagram: www.instagram.com/cloverchang/
