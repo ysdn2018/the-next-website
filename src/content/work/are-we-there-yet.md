@@ -27,3 +27,9 @@ After collecting various quotes from fictional novels and real-life news, I mani
 Through many spread iterations and figuring out how to depict comparisons of the fiction and non-fiction, the book was refined and created. Using plexiglass covers, the project’s look contrasts between what dystopian fiction believes is a polished and controlled world, verses coptic stitch binding, which is a loose, unrefined spine, that is barely holding on.
 
 ![Collection of process work for creating spreads.](/assets/rana_arewethereyet_3.jpg)
+
+![Final book, showing coptic stitch binding and plexiglass covers.](/assets/rana_arewethereyet_5.jpg)
+
+_There will be, in the next generation or so, a pharmacological method of making people love their servitude, and producing dictatorship without tears, so to speak, producing a kind of painless concentration camp for entire societies, so that people will in fact have their liberties taken away from them, but will rather enjoy it, because they will be distracted from any desire to rebel by propaganda or brainwashing, or brainwashing enhanced by pharmacological methods. And this seems to be the final revolution._
+
+**Aldous Huxley, 1962**
