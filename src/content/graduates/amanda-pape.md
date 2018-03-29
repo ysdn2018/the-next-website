@@ -5,7 +5,7 @@ image: /assets/sloth.jpg
 imageHover: /assets/sloth2.jpg
 verb: Prompting
 noun: Movement
-intro: Hi
+intro: Hey there
 hobbies: ''
 music: Old school hip-hop
 tools: 'Sketch, Illustrator, InDesign, Photoshop'
