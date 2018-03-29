@@ -47,5 +47,13 @@ const P = styled.p`
 
 `
 
+const A = styled.a `
+  text-decoration: none;
+  color: black;
 
-export { H1, H2, H3, H4, H5, H6, P };
+  &:hover {
+    text-decoration: underline;
+  }
+`
+
+export { H1, H2, H3, H4, H5, H6, P, A };

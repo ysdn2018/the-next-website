@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Img from 'gatsby-image'
 import Link from 'gatsby-link'
 import Statement from '../components/Statement'
+import {A} from '../components/Typography'
 
 
 // styled-components
@@ -11,7 +12,7 @@ const Container = styled.div`
 
 const Profile = styled.div`
   border: 1px solid black;
-  width: 23%;
+  width: 25%;
   height: 93%;
   position: fixed;
   margin: 15px;
@@ -27,6 +28,7 @@ const Profile = styled.div`
     border-bottom: 1px solid;
     object-fit: cover;
   }
+
 `
 
 const Name = styled.h2 `
@@ -36,21 +38,33 @@ const Name = styled.h2 `
 const Social = styled.div `
   border-top: 1px solid;
   padding: 10px;
+
+  A {
+    margin-right: 5px;
+  }
+
 `
 
 const Info = styled.div `
-  width: 60%;
-  margin: 15px;
+  width: 70%;
+  margin: 15px 15px 200px 15px;
   padding: 10px;
   float: right;
 
-  h2 {
+  h2, h3 {
     text-transform: uppercase;
   }
 
 `
 const About = styled.div `
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+`
+const Question = styled.div `
+  margin-bottom: 30px;
+
+  h3 {
+    margin-bottom: -10px;
+  }
 `
 
 const Projects = styled.div`
@@ -72,9 +86,21 @@ export default function Post({ data }) {
         <Img sizes={graduate.frontmatter.image.childImageSharp.sizes} className="image"/>
         <h2>{graduate.frontmatter.verb} The Next {graduate.frontmatter.noun}</h2>
         <Social>
-          <h3>Website</h3>
-          <h3>Email</h3>
-          <h3>Twitter</h3>
+          {graduate.frontmatter.website && (
+              <A href={graduate.frontmatter.website}>Website</A>
+          )}
+          {graduate.frontmatter.email && (
+              <A href={graduate.frontmatter.email}>Email</A>
+          )}
+          {graduate.frontmatter.twitter && (
+              <A href={graduate.frontmatter.instagram}>Instagram</A>
+          )}
+          {graduate.frontmatter.twitter && (
+              <A href={graduate.frontmatter.twitter}>Twitter</A>
+          )}
+          {graduate.frontmatter.linkedin && (
+              <A href={graduate.frontmatter.linkedin}>LinkedIn</A>
+          )}
         </Social>
       </Profile>
 
@@ -82,8 +108,37 @@ export default function Post({ data }) {
 
         <About>
           <h2>About</h2>
-
           <p>{graduate.frontmatter.intro}</p>
+        </About>
+
+        <About>
+          {graduate.frontmatter.music && (
+            <Question>
+              <h3>Listening To</h3>
+              <p>{graduate.frontmatter.music}</p>
+            </Question>
+          )}
+
+          {graduate.frontmatter.tools && (
+            <Question>
+              <h3>Favourite Tools</h3>
+              <p>{graduate.frontmatter.tools}</p>
+            </Question>
+          )}
+
+          {graduate.frontmatter.watch && (
+            <Question>
+              <h3>Currently Watching</h3>
+              <p>{graduate.frontmatter.watch}</p>
+            </Question>
+          )}
+
+          {graduate.frontmatter.typeface && (
+            <Question>
+              <h3>Favourite Typefaces</h3>
+              <p>{graduate.frontmatter.typeface}</p>
+            </Question>
+          )}
         </About>
 
 
@@ -94,6 +149,7 @@ export default function Post({ data }) {
             <Project key={project.id}>
               <Img sizes={project.frontmatter.image.childImageSharp.sizes} className="image" />
               <Link to={project.fields.slug}>go to project -></Link>
+              <h2>{project.frontmatter.title}</h2>
             </Project>
           )) : (
             <h4>This student has no projects :( </h4>
