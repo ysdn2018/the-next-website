@@ -5,6 +5,7 @@ image: /assets/sloth.jpg
 imageHover: /assets/sloth2.jpg
 verb: Paving
 noun: Way
+intro: hi
 hobbies: |-
   Watching dogs' videos
   Tagging people memes
