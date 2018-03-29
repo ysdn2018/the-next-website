@@ -2,7 +2,7 @@
 templateKey: project
 title: Wave
 graduate: Lauren Kuzyk
-image: /assets/kuzyk_lauren_rfs_digital_004.png
+image: /assets/kuzyk_lauren_rfs_digital_004.jpg
 category: Motion Design
 category2: Typography
 ---
