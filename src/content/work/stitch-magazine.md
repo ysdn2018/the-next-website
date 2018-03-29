@@ -6,13 +6,7 @@ image: /assets/img_9382-covers-rgbcolour.jpg
 category: Editorial Design
 category2: Typography
 ---
-Stitch is a fashion magazine based around thrifted
- and vintage clothing that explores current topics
- related to second-hand items, the history and
- significance of clothing pieces, the sociology of
- fashion, as well as providing a styling guide for
- pairing vintage clothing with modern styles to make
- them wearable in everyday contexts.
+Stitch is a fashion magazine based around thrifted and vintage clothing that explores current topics related to second-hand items, the history and significance of clothing pieces, the sociology of fashion, as well as providing a styling guide for pairing vintage clothing with modern styles to make them wearable in everyday contexts.
 
 ![null](/assets/img_9398 crop rgb.png)
 
