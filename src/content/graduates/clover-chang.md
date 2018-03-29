@@ -17,7 +17,7 @@ hobbies: |
   Watching dogs' videos (especially pugs)
   Eating spicy food
   Playing Tetris games
-music: 'MandoPop, Christian music & Ed Sheeran '
+music: 'MandoPop, Christian music, Ed Sheeran and a little bit of K-pop'
 tools: 'Illustrator, Indesign, Photoshop, After Effects, Sketch, Invision'
 watch: 'Friends, all the Pixar movies and anything on Netflix'
 typeface: Avenir Next
