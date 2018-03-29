@@ -14,3 +14,7 @@ Handler is a multi-functional package that can store, hold, and most importantly
 Whether for handiwork, food, or art, Handler can carry anything in its central pouch and its two placeholders on the left and right side. This sustainable solution can be re-used as either a knitting kit, art kit, or even a lunch box.
 
 ![Handler used in many different applications.](/assets/rana_handler_3.jpg)
+
+## The Process
+
+The dielines have gone over 12 versions... Whether it be through adjusting tabs, their openings, or the angles of the central pouch. The integration of the side panel holders was thought of around midway through the process. This would strategically hold utensils that are necessary for any jobs that would be secured and not mixed with any of the contents in the central pouch.
