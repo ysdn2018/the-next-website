@@ -21,3 +21,5 @@ In the simplest terms, the purpose of WCOH is “a global celebration of hockey�
 The redesign will also display a sense of “pride” for each team’s country, exhibiting why the sport has become so prevalent on a global scale. It will also give off a feel of “old time hockey” in order to bring the feeling of nostalgia; the objective of this is to give a sense that each country goes way back in history when it comes to hockey. However, it is important to introduce elements / colours that are intriguing to many audiences (such as being family friendly, but still appealing to single adults). These intentions can be accomplished by harmonizing elements of each team’s colours (For example, use iconic red, white, and blue for the USA, yellow and blue for Sweden, etc.), and modernizing the sense of heritage (clean, minimalistic, but does not over power the feeling of “old time hockey”).
 
 ![Process work for developing poster.](/assets/rana_wcoh_2.jpg)
+
+![Poster for team Canada.](/assets/rana_wcoh_3.jpg)
