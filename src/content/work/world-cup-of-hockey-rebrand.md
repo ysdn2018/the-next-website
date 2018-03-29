@@ -39,3 +39,5 @@ The redesign will also display a sense of “pride” for each team’s country,
 ![3D Environment; fences along Distillery District for Fan Village.](/assets/rana_wcoh_10.jpg)
 
 ![The design system as a whole.](/assets/rana_wcoh_11.jpg)
+
+This proposed design system is for the Canadian WCOH event. In the future, if the event was to be hosted in a different country, the team colours would easily be interchanged to suit the location.
