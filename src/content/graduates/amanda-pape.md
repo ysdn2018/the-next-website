@@ -7,7 +7,7 @@ verb: Prompting
 noun: Movement
 intro: Amanda
 hobbies: Travelling
-music: Old school hip-hop
+music: 'Disco, soul & old school hip-hop'
 tools: 'Pencil, Paper, Illustrator, InDesign, Photoshop, Sketch'
 watch: The Office
 typeface: 'Noe Text, Open Sans, Calibre'
