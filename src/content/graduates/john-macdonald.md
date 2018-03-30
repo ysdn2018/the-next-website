@@ -7,7 +7,7 @@ verb: Understanding
 noun: Project
 tools: 'Pens and sketch book, Illustrator and InDesign'
 watch: 'Vikings, Peaky Blinders, Portlandia, The IT Crowd and the Office  '
-typeface: 'Baskerville '
+typeface: Fira Sans
 linkedin: www.linkedin.com/in/john-macdonald
 email: macdonald.john09@gmail.com
 website: johnamac.com
