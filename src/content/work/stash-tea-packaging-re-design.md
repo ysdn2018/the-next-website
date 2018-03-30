@@ -7,15 +7,23 @@ category: Package Design
 ---
 # For Millenials, STASH Tea is the brand that will deliver specialty teas using all natural, quality ingredients in packaging which pays tribute to it’s roots. 
 
+# 
 
+## Background
+
+The Stash Tea Company is a privately-held company headquartered in Tigard, Oregon, a suburb of Portland. Founded in 1972 by Steven Smith, STASH transformed the nations tea-drinking habits by co-founding STASH and Tazo tea. Stash Tea is one of the largest specialty tea companies in the United States, with products available through food service, grocery stores, tea and coffee shops, club stores, mass merchandisers, natural foods stores, mail order and the Internet. Stash Tea is also available in Canada and in several other countries.
 
 ## The Challenge
 
-STASH Tea’s mission is to become the leader in creating and selling high quality specialty teas and products that enhance the tea drinking experience. However, due to lack of innovation in packaging and branding, STASH Tea is falling behind. Although they have been keeping up with social media such as Instagram and revamping their website to make it more modern, their packaging lacks the appeal and is still stuck to the original package design which doesn’t stand out on shelves. Three different packages – an evolutionary, revolutionary, and transformational design – were to be created to present to a client for a revamp which encompassed the STASH brand and attracted target audience consumers.
+STASH Tea’s mission is to become the leader in creating and selling high quality specialty teas and products that enhance the tea drinking experience and continue the 5000 year old tea tradition. However, due to lack of innovation in packaging and branding, STASH Tea is falling behind. Although they have been keeping up with social media such as Instagram and revamping their website to make it more modern, their packaging lacks the appeal and is still stuck to the original package design which doesn’t stand out on shelves. Three different packages – an evolutionary, revolutionary, and transformational design – were to be created to present to a client for a revamp which encompassed the STASH brand and attracted target audience consumers.
 
 ## Brand Equities
 
 ![](/assets/brandequities.png)
+
+STASH Tea derives its name from an entertaining aspect of tea folklore. In earlier centuries, tea was a valuable commodity traditionally transported by clipper ship. The ship’s captain often was presented with some of the finest teas for his personal use. This supply was his “stash,” stowed carefully as his “private reserve.” 
+
+
 
 ## Evolutionary Design
 
