@@ -21,28 +21,28 @@ According to the US Department for Veteran Affairs, 1 in 5 women and 1 in 10 men
 
 ## Key Features
 
-Symple enables individuals with PTSD to do three key things: anticipate their symptoms, track their symptoms over time, and manage their symptoms as they occur in real-time.
+SYMPLE enables individuals with PTSD to do three key things: anticipate their symptoms, track their symptoms over time, and manage their symptoms as they occur in real-time.
 
 ![Anticipate, track, and manage symptoms app screens](/assets/symple2.png)
 
 _**Anticipate Symptoms**_
 
-Symple allows individuals to monitor unique risk factors such as isolation, inactivity, and fatigue, and suggests actions they can take to reduce their risk of experiencing a PTSD symptom. The app shows the user how much each action will reduce risk by, enabling them to make informed decisions about how they choose to mitigate their risk.
+SYMPLE allows individuals to monitor unique risk factors such as isolation, inactivity, and fatigue, and suggests actions they can take to reduce their risk of experiencing a PTSD symptom. The app shows the user how much each action will reduce risk by, enabling them to make informed decisions about how they choose to mitigate their risk.
 
 ![App screen showing how it helps the user anticipate symptoms](/assets/simple-03.png)
 
 _**Track Symptoms Over Time**_
 
-Symple also allows individuals to document their symptoms' frequency and severity over time, enabling them to observe patterns and be encouraged by their progress as they continue to learn about how to recognize and manage their symptoms.
+SYMPLE also allows individuals to document their symptoms' frequency and severity over time, enabling them to observe patterns and be encouraged by their progress as they continue to learn about how to recognize and manage their symptoms.
 
 ![App screen showing how it enables the user to track symptoms over time](/assets/simple-01.png)
 
 _**Manage Symptoms in Real-Time**_
 
-Symple's final feature is it's symptom management function. If the user is experiencing a symptom, they can manually  or automatically be taken into the management flow. The app takes them through a sequence which asks them a few simple questions about their symptom(s), and provides them with some customized recommendations for coping mechanisms to help them get through the episode.
+SYMPLE's final feature is it's symptom management function. If the user is experiencing a symptom, they can manually  or automatically be taken into the management flow. The app takes them through a sequence which asks them a few simple questions about their symptom(s), and provides them with some customized recommendations for coping mechanisms to help them get through the episode.
 
 ![](/assets/simple-02.png)
 
 ## Why Symple Matters
 
-Symple acts as an affordable, accessible first step for individuals to begin learning about their PTSD symptoms. Ideally it can be used in conjunction with professional therapy, but since therapy services aren't affordable for many individuals, it serves as a way to provide individuals with personal agency by giving them access to their own mental health data. The app enables individuals to move from simply reacting to their symptoms to understanding, mitigating, and eventually managing their symptoms in a way that is sustainable and empowering.
+SYMPLE acts as an affordable, accessible first step for individuals to begin learning about their PTSD symptoms. Ideally it can be used in conjunction with professional therapy, but since therapy services aren't affordable for many individuals, it serves as a way to provide individuals with personal agency by giving them access to their own mental health data. The app enables individuals to move from simply reacting to their symptoms to understanding, mitigating, and eventually managing their symptoms in a way that is sustainable and empowering.
