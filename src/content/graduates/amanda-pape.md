@@ -6,7 +6,7 @@ imageHover: /assets/sloth2.jpg
 verb: Prompting
 noun: Movement
 intro: Amanda
-hobbies: Travelling
+hobbies: 'Travelling, cooking, singing in the shower'
 music: 'Disco, soul & old school hip-hop'
 tools: 'Pencil & Paper. Adobe Illustrator, InDesign, Photoshop, Sketch'
 watch: The Office
