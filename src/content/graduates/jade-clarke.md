@@ -14,7 +14,7 @@ intro: >-
 hobbies: ''
 music: >-
   For chill days: Chronixx - Somewhere | For positive vibes: Chronixx - Champion
-  | & Other days: Solange and Miguel and Soca music because it's life.
+  | & Other days: Solange, Miguel and Soca music because Soca is life.
 tools: ''
 watch: >-
   Pride and Prejudice(2005) | Deadpool | X-men because who doesn't love
