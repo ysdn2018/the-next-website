@@ -14,6 +14,7 @@ intro: >-
   problem as a learning opportunity. His design balances functionality with
   creating a memorable experience for the audience. John’s strengths are in
   storytelling, combining typography and illustrations 
+music: too many to list but right now Biffy Clyro
 tools: 'Pens and sketch book, Illustrator and InDesign'
 watch: 'Vikings, Peaky Blinders, Portlandia, the IT Crowd and the Office  '
 typeface: Fira Sans
