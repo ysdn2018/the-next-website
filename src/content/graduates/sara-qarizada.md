@@ -16,6 +16,8 @@ intro: >-
   the designers who strive to create a better world for future generations, but
   lead them in this change through the ideas and passions she plans to further
   develop and carry with her. 
+instagram: instagram.com/sqarizada
+linkedin: 'https://www.linkedin.com/in/sara-qarizada-89987a13b/'
 email: sqarizada@hotmail.com
 website: saraqarizada.com
 ---
