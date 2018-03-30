@@ -16,6 +16,10 @@ intro: >-
   most effective solution, and then to showcase its elegance. Having always
   sought to leave a mark of positive difference in the world, she believes she
   can utilize design to do just that.
+hobbies: >-
+  Working on personal endaveours, from creating videos, art and music to picking
+  up new skills in unfamiliar territories. On downtime, she likes to relax with
+  a challenging video game or an interesting documentary. 
 tools: 'Adobe: Photoshop, Illustrator, Indesign, After Effects, Audition'
 linkedin: 'https://www.linkedin.com/in/martina-serafimovska-021392112/'
 email: martinase@hotmail.co.uk
