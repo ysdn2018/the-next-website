@@ -16,3 +16,5 @@ People travel from countries to be there from Jan 5- Feb. 25 for spending good q
 In this project I was challenged to design a coherent system of interrelated pieces, which required developing a visual identity and applying it over several communications mediums. This festival established a new bilingual identity to accommodate local citizens of China. 
 
 youtube https://www.youtube.com/watch?v=RI0U1YxO_DQ
+
+I made a promotional video which presents thrill and magic to the audience where they couldn't resist to plan their vacations for frigid temperature event.
