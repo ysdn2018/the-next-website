@@ -28,7 +28,7 @@ In my sketching process, the use of the “U” as the main symbol for the campa
 
 ![YorkUnite poster](/assets/yunite_poster.png)
 
-The process was a series of back-and-forth between me, the client (CREW), and my class. Once the brand was finalized, I then implemented it across different media.
+The process was a series of back-and-forth between me, the client (CREW), and my class. Once the brand was finalized, I then implemented it across different media.
 
 One of the deliverables was a postcard. CREW uses these cards as another form of advertising for their cause. The postcard I designed not only serves as advertising, but it also serves as a checklist for the community to use when preparing their emergency kits.
 
@@ -48,7 +48,7 @@ youtube https://youtu.be/jRBvYFA4ooc
 
 # Conclusion
 
-The client particularly liked how this campaign can be implemented right away and at a low cost, since it utilizes already-existing resources.
+The client particularly liked how this campaign can be implemented right away and at a low cost, since it utilizes already-existing resources.
 
 This project taught me how design can be used as a tool to build community. The project is united through a consistent and impactful visual brand that will stand out amongst current advertising in the university. Moreover, the strategy in place makes sure that the message is received by its intended audience. Overall, I believe the project can be successful in its goal of generating discussion on extreme weather preparedness within the community. 
 
