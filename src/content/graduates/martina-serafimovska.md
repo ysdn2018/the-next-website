@@ -16,6 +16,7 @@ intro: >-
   most effective solution, and then to showcase its elegance. Having always
   sought to leave a mark of positive difference in the world, she believes she
   can utilize design to do just that.
+tools: 'Adobe: Photoshop, Illustrator, Indesign, After Effects, Audition'
 linkedin: 'https://www.linkedin.com/in/martina-serafimovska-021392112/'
 email: martinase@hotmail.co.uk
 website: 'https://www.martinase.com/'
