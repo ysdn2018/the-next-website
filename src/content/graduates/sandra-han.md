@@ -19,6 +19,6 @@ tools: Coffee
 typeface: 'Currently: Programme, Bluu'
 instagram: www.instagram.com/hanlettering
 email: hi@sandra-han.com
-website: sandra-han.com
+website: www.sandra-han.com
 ---
 
