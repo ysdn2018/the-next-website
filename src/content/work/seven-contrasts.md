@@ -8,6 +8,6 @@ category2: Typography
 ---
 Seven Contrasts is an engaging online tool that makes learning typographic hierarchies fun. It captures the user's attention and with bold layouts, vibrant colours and dynamic movement. The interactive movement is created using HTML/CSS and parallax scrolling. 
 
-![](/assets/sevencontrasts_2.jpg)
+![null](/assets/sevencontrasts_2.jpg)
 
-![](/assets/sevencontrasts_3.png)
+![null](/assets/sevencontrasts_3.png)
