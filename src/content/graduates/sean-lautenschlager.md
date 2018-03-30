@@ -6,8 +6,15 @@ imageHover: /assets/sloth2.jpg
 verb: Solving
 noun: Puzzle
 intro: >-
-  Sean Lautenschlager is a multidisciplinary designer eager to apply a lens of
-  design thinking to solve problems and create possibilities.
+  Design is about solving problems. Sean believes that design thinking is the
+  method through which we can learn and understand the world. Through careful
+  observation and immersing one self in the problem, one can develop the pieces
+  which can come together to form possible solutions.
+
+  While the tools for creation may change, as a multidisciplinary designer, Sean
+  aims to apply his continually refinable technical skills and endless obsession
+  with creating to discover new ways of constructing individual pieces which  t
+  together into a great whole.
 hobbies: |-
   Long-distance running
   Nostalgic video games
