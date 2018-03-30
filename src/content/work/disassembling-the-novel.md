@@ -19,8 +19,10 @@ The written word has been around ever since humans have felt the need to express
 
 In order to test this theory I selected a well know and beloved work of literature _The Lord of the Flies_. This novel has been around since 1954 and tells the disastrous story of a group of boys shipwrecked on a deserted island as war wages on outside. While it has all the elements of a great novel, it is the perfect example of how a wonderful read can be neglected due to how the novel is presented. The story is reimagined as an interactive text through tactile touch. The novel has been deconstructed from its original form and reassembled in an exciting new manner which meets the needs of a generation that demands stimulation, excitement, and grabs both the attention and imagination. Paper textures, die cuts, and embossing are all utilized to reimagine some of the major themes and ideas within the novel using tactility. Using texture as a way to communicate pushes how materials and the way in which they are used, can convey a message. While in the reader’s hands the novel comes alive, through the textures, the sights and feelings it provokes, and the physical pleasure of the book itself. In this way it is a reinvention of the physical book and hints at the direction books can take. 
 
-!["His mind was crowded with memories" page fro Disassembling the Novel](/assets/rtb_circles.jpg)
+!["His mind was crowded with memories" page from Disassembling the Novel](/assets/rtb_circles.jpg)
 
 ## Final
 
 This reimagined _Lord of the Flies_ is an example of what the future of the book may be. As technologies become even more complex, offering all manner of information, it would be a tragedy if the written word in novel form were to disappear. Through designing for touch, we can keep pace with this need for interaction and reinvent the book through innovation and new designs.
+
+![Pig head with vines, page from Disassembling the Novel ](/assets/rtb_pig.jpg)
