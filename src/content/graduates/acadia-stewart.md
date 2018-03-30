@@ -15,6 +15,15 @@ intro: >-
   important because it leads to effective, efficient and customized solutions
   for the user. This can make a huge difference in the overall design
   experience. 
+music: ''
+tools: |
+  Indesign
+  Illustrator 
+  Photoshop 
+watch: |-
+  The Office 
+  Imposters 
+instagram: '@acadiastewart '
 linkedin: 'https://www.linkedin.com/in/acadia-stewart-2b6541117/ '
 email: 'acadiastewart@gmail.com '
 website: acadiastewart.com
