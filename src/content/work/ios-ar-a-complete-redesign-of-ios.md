@@ -2,7 +2,7 @@
 templateKey: project
 title: 'iOS AR: A complete redesign of iOS'
 graduate: Michael Calcada
-image: /assets/calcada_1.png
+image: /assets/calcada1.png
 category: UI/UX
 category2: Product Design
 category3: Motion Design
