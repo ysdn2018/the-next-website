@@ -8,7 +8,7 @@ noun: Movement
 intro: Amanda
 hobbies: Travelling
 music: Old school hip-hop
-tools: 'Pencil, Paper, Sketch, Illustrator, InDesign, Photoshop'
+tools: 'Pencil, Paper, Illustrator, InDesign, Photoshop, Sketch'
 watch: The Office
 typeface: 'Noe Text, Open Sans, Calibre'
 instagram: 'https://www.instagram.com/pape.design/'
