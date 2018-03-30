@@ -8,9 +8,9 @@ noun: Movement
 intro: Amanda
 hobbies: Travelling
 music: 'Disco, soul & old school hip-hop'
-tools: 'Pencil, Paper, Illustrator, InDesign, Photoshop, Sketch'
+tools: 'Pencil & Paper. Adobe Illustrator, InDesign, Photoshop, Sketch'
 watch: The Office
-typeface: 'Noe Text, Open Sans, SangBleu Kingdom'
+typeface: 'Noe Text, Graphik, Open Sans'
 instagram: 'https://www.instagram.com/pape.design/'
 linkedin: 'https://www.linkedin.com/in/amandaluciapape/'
 email: amandaluciapape@gmail.com
