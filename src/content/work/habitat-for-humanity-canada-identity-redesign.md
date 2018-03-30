@@ -5,9 +5,9 @@ graduate: 'J. Andrew Carenza '
 image: /assets/logo_h4h-02.png
 category: Brand Identity
 ---
-The Problem
+# The Problem
 
-Though a widely known organization, Habitat for Humanity Canada had fallen behind in the competitive nonprofit sector. Internal research found that while the name held equity, much of the public were unfamiliar with their mission and services. Depending on corporate or private donations and the active involvement of volunteers in homebuilding projects, Hab 
+Though a widely known organization, Habitat for Humanity Canada had fallen behind in the competitive nonprofit sector. Internal research found that while the name held equity, much of the public were unfamiliar with their mission and services. Depending on corporate and private donations and the active involvement of volunteers in homebuilding projects, Habitat needed to pull together its widely dispersed local affiliates and sub-brands to present a strong, unified and mobilized organization. Their former identity had been misconstrued across their extensive brand architecture, further implying organizational disharmony. The goals of this project would be to create an updated, more energetic identity that clearly projects the charity's mission and active nature, while creating a system that easily enables application across the many local Habitats and multiple sub-brands.
 
 # The Solution
 
