@@ -15,14 +15,10 @@ intro: >-
   important because it leads to effective, efficient and customized solutions
   for the user. This can make a huge difference in the overall design
   experience. 
-music: ''
+music: 'Pop, country, hip-hop '
 tools: |
-  Indesign
-  Illustrator 
-  Photoshop 
-watch: |-
-  The Office 
-  Imposters 
+  Indesign, Illustrator, Photoshop 
+watch: 'The Office, Imposters, Riverdale, Sherlock'
 instagram: '@acadiastewart '
 linkedin: 'https://www.linkedin.com/in/acadia-stewart-2b6541117/ '
 email: 'acadiastewart@gmail.com '
