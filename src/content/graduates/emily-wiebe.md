@@ -15,8 +15,8 @@ intro: >-
   driven by purpose. 
 hobbies: 'Exploring the outdoors, macro photography, embroidery, longboarding'
 music: >-
-  Indie Pop, Alternative R&B, and any 2000's song because I love to bust a move
-  to a good throwback
+  Indie Pop, Alternative R&B, and any early 2000's song because I love to bust a
+  move to a good throwback
 watch: ''
 typeface: Gotham Bold
 twitter: 'https://twitter.com/emilyawiebe'
