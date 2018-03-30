@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: Architecture & Design Film Festival Title Sequence
+title: Architecture & Design Film Festival - Intro
 graduate: Clover Chang
 image: /assets/styleframe_proj1-01.jpg
 category: Motion Design
