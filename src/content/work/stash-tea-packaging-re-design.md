@@ -31,7 +31,7 @@ Stash Tea’s brand character is best described as an exclusive, private collect
 
 ![](/assets/evolutionaryfinalmockup copy.png)
 
-Stash Tea’s brand character is best described as an exclusive, private collection which displays quality and tranquility. 
+STASH Tea proclaims that they have high quality teas, however most people who have reviewed the product found it didn’t have much flavour. Because of the bright colours on the boxes of tea, consumer’s expectations of flavour for the company may be higher than others. The Evolutionary Design dulls down the colours while keeping a dreamy-like visual appearance with the floating peppermint leaves. The readability of the logo is improved by bringing in the tracking of the word "STASH" and moving the compass behind the wordmark to create a
 
 
 
