@@ -25,23 +25,23 @@ SYMPLE enables individuals with PTSD to do three key things: anticipate their sy
 
 ![Anticipate, track, and manage symptoms app screens](/assets/symple2.png)
 
-_**Anticipate Symptoms**_
+**_Anticipate Symptoms_**
 
 SYMPLE allows individuals to monitor unique risk factors such as isolation, inactivity, and fatigue, and suggests actions they can take to reduce their risk of experiencing a PTSD symptom. The app shows the user how much each action will reduce risk by, enabling them to make informed decisions about how they choose to mitigate their risk.
 
-![App screen showing how it helps the user anticipate symptoms](/assets/simple-03.png)
+![App screen showing how it helps the user anticipate symptoms](/assets/symple features-01.png)
 
-_**Track Symptoms Over Time**_
+**_Track Symptoms Over Time_**
 
 SYMPLE also allows individuals to document their symptoms' frequency and severity over time, enabling them to observe patterns and be encouraged by their progress as they continue to learn about how to recognize and manage their symptoms.
 
-![App screen showing how it enables the user to track symptoms over time](/assets/simple-01.png)
+![App screen showing how it enables the user to track symptoms over time](/assets/symple features-02.png)
 
-_**Manage Symptoms in Real-Time**_
+**_Manage Symptoms in Real-Time_**
 
 SYMPLE's final feature is it's symptom management function. If the user is experiencing a symptom, they can manually  or automatically be taken into the management flow. The app takes them through a sequence which asks them a few simple questions about their symptom(s), and provides them with some customized recommendations for coping mechanisms to help them get through the episode.
 
-![](/assets/simple-02.png)
+![null](/assets/symple features-03.png)
 
 ## Why Symple Matters
 
