@@ -6,6 +6,7 @@ imageHover: /assets/sloth2.jpg
 verb: Understanding
 noun: Project
 tools: 'Pens and sketch book, Illustrator and InDesign'
+linkedin: www.linkedin.com/in/john-macdonald
 email: macdonald.john09@gmail.com
 website: johnamac.com
 ---
