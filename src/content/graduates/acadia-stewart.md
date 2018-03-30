@@ -15,7 +15,7 @@ intro: >-
   important because it leads to effective, efficient and customized solutions
   for the user. This can make a huge difference in the overall design
   experience. 
-music: 'Pop, country, hip-hop '
+music: 'Pop, Country, Hip-hop '
 tools: |
   Indesign, Illustrator, Photoshop, SketchBook
 watch: 'The Office, Imposters, Riverdale, Sherlock'
