@@ -10,8 +10,10 @@ intro: >-
   create fun, lighthearted designs that explore the idea of irony between text
   and image. She likes to use her design and art skills to create work that
   tests the boundaries between the two mediums to prove that they have the
-  ability to coexist. 
+  ability to coexist. She also really likes cats and carbs.
+music: Arctic Monkeys
 tools: 'iPad Pro, illustrator, skills, puns and dad jokes'
+watch: 'Requiem for a Dream, Step Brothers, Boy Meets World. '
 instagram: '@stephpanier'
 email: stephpanierdesign@gmail.com
 website: stephaniepanier.com
