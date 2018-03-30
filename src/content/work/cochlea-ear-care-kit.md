@@ -15,16 +15,16 @@ Ear infections are painful because of inflammation and buildup of fluids in the 
 
 ## THE KIT
 
-![](/assets/lecompte202.jpg)
+![null](/assets/lecompte202.jpg)
 
 The package’s name is derived from snail shaped part of the inner ear that’s responsible for hearing, which is called the cochlea. The clean, round shape of the container allows for the product to come off as friendly, but still medical and professional looking. 
 
-
-
-![](/assets/lecompte203.jpg)
+![null](/assets/lecompte203.jpg)
 
 Inside the kit, there are easy access drawers that people can pull out when laying on their side. People with ear infections are often laying on their side for two reasons. They are either lying on the opposite side of the infected ear to administer drops that need time to drip and enter the ear canal, or because they are lying on the side with the infected ear to provide relief and drainage. 
 
-![]()
+![](/assets/lecompte206.jpg)
 
-![]()
+![null](/assets/lecompte204.jpg)
+
+![null](/assets/lecompte205.jpg)
