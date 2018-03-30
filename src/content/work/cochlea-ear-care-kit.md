@@ -11,8 +11,6 @@ Cochlea Ear Care Kit is a medical set intended for children who suffer from chro
 
 Ear infections are painful because of inflammation and buildup of fluids in the middle ear. If left untreated infections can lead to diminished hearing and speech delays if the problem becomes serious or chronic. Even a one-off infection or a mild infection can result in permanent hearing loss if left untreated.
 
-
-
 ## THE KIT
 
 ![null](/assets/lecompte202.jpg)
@@ -23,9 +21,7 @@ The package’s name is derived from snail shaped part of the inner ear that’s
 
 Inside the kit, there are easy access drawers that people can pull out when laying on their side. People with ear infections are often laying on their side for two reasons. They are either lying on the opposite side of the infected ear to administer drops that need time to drip and enter the ear canal, or because they are lying on the side with the infected ear to provide relief and drainage. 
 
-
-
-![](/assets/lecompte204.jpg)
+![null](/assets/lecompte204.jpg)
 
 The top slot of the drawer contains a informational booklet in order to teach the user about the ear and ear infections. There is also a dosage card with instructions on how to administer ear drops in order for the user to know how to use the drops as well as keep track of how many drops they have used.
 
@@ -35,14 +31,12 @@ The Clean drawer relates to keeping the ear clean. You cannot get water in the e
 
 The Comfort drawer snail-shaped heating pad which can provide both relief and comfort to children, as the heat can make the ear feel better, and the snail is a companion the child can have with them to help get them through the infection.
 
-
-
 ![null](/assets/lecompte205.jpg)
 
 On the back of the kit, there is a slotted opening where a tray piece can be inserted and used a entertainment stand for items such as phones or books.
 
 This relates back to having to lay on one’s side so often, as people can often get bored or lose track of time. By having a way to hold up a device, you can keep track of the time to see how long you need to lay on your side for, as well as keep yourself entertained while you wait for the drops to enter the ear canal.
 
+![null](/assets/lecompte206.jpg)
 
-
-![](/assets/lecompte206.jpg)
+[See more about Cochlea Ear Care Kit here.](http://www.chelsealecompte.com/cochlea-ear-care-kit/)
