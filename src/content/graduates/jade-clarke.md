@@ -11,7 +11,7 @@ intro: >-
   enjoys brainstorming new ideas and creating and embracing new approaches. With
   her minimal and playful style, she aims to create meaningful and pleasurable
   experiences that challenge perceptions and spark discussions.
-hobbies: ''
+hobbies: Photography
 music: >-
   For chill days: Chronixx - Somewhere | For positive vibes: Chronixx - Champion
   | & Other days: Solange, Miguel and Soca music because Soca is life.
