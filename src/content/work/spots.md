@@ -8,7 +8,7 @@ category2: UI/UX
 ---
 ## Project Overview
 
-If you are in a big city, finding a new place to eat can be overwhelming. Researching different options can take forever, and it’s always hard to know if reviews are trust-worthy. SPOTS makes it quick, fun, and easy to discover local places to eat, drink, and hang out. The app connects you to restaurants, bars, and cafes that are close to your current location, and it provides you with curated recommendations based on your existing habits and preferences.
+If you are in a big city, finding a new place to eat can be overwhelming. Researching different options can take forever, and it’s always hard to know if reviews are trustworthy. SPOTS makes it quick, fun, and easy to discover local places to eat, drink, and hang out. The app connects you to restaurants, bars, and cafes that are close to your current location, and it provides you with curated recommendations based on your existing habits and preferences.
 
 ## Target Audience
 
@@ -18,25 +18,25 @@ SPOTS is designed for people are who looking to try new places in the moment, ei
 
 SPOTS enables individuals to do three key things: discover new places, compare their options effortlessly, and fine tune their Spots to suit their tastes.
 
-![Spots key features](/assets/spots features.png)
+![The three key features of SPOTS](/assets/spots features.png)
 
-**_Discover New Places_**
+_**Discover New Places**_
 
-SPOTS shows the user a variety of nearby local Spots based on similarity ratings to places they like. They user can either discard the recommendations, or like them.
+SPOTS shows the user a variety of nearby local Spots based on their similarity to places they like. The user can either discard the recommendations, or like them.
 
-![App screen showing how it enables the user to track symptoms over time](/assets/spots features-05.png)
+![App screen showing how the user discovers new Spots](/assets/spots features-05.png)
 
-_**Compare Options Effortlessly**_
+**_Compare Options Effortlessly_**
 
-The Spots that the user has liked are stored in My Spots, where they can be filtered, sorted, searched, and rated. 
+The Spots that the user likes are stored in a place where they can be filtered, sorted, searched, and rated. 
 
-![](/assets/spots features-06.png)
+![Screen showing where liked Spots are stored](/assets/spots features-06.png)
 
-**_Fine Tune Spots to Suit Your Tastes_**
+_**Fine Tune Spots to Suit Your Tastes**_
 
-In the detailed Spot view, users can rate Spots that they've visited. The user-provided ratings feed into and help to refine the app's future recommendations.
+In the detailed Spot view, users can rate Spots once they've visited them. The user-provided ratings feed into and help to refine the app's future recommendations.
 
-![null](/assets/spots features-07.png)
+![Screen showing how user rates Spots](/assets/spots features-07.png)
 
 ## Why Spots Matters
 
