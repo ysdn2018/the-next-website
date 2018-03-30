@@ -9,8 +9,9 @@ category: Editorial Design
 
 OMENS is a paranormal appreciation print and digital magazine with a focus on on legitimizing and curating paranormal content in order to make it more reader friendly and visually engaging fans of all things supernatural. The magazine aims to bring a more chilling mood to paranormal content while still being informative. It features content such as ghost stories, theories and investigative tactics. 
 
-## \
-THE MAGAZINE
+## 
+
+## THE MAGAZINE
 
 ![null](/assets/lecompte402.png)
 
