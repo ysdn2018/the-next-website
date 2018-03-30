@@ -17,7 +17,7 @@ intro: >-
   experience. 
 music: 'Pop, country, hip-hop '
 tools: |
-  Indesign, Illustrator, Photoshop 
+  Indesign, Illustrator, Photoshop, SketchBook
 watch: 'The Office, Imposters, Riverdale, Sherlock'
 instagram: '@acadiastewart '
 linkedin: 'https://www.linkedin.com/in/acadia-stewart-2b6541117/ '
