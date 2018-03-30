@@ -2,7 +2,7 @@
 templateKey: project
 title: Pulse Film Festival
 graduate: Steph Hoekstra
-image: /assets/hoekstra_steph_pulseff.png
+image: /assets/hoekstra_steph_pulseff.jpg
 category: Motion Design
 category2: Typography
 ---

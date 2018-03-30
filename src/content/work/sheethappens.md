@@ -2,7 +2,7 @@
 templateKey: project
 title: SHEETHAPPENS
 graduate: Alyah Holmes
-image: /assets/c0507b59617691.5a28bd76dbd4a-2-3.jpeg
+image: /assets/c0507b59617691.5a28bd76dbd4a-2-3.jpg
 category: Package Design
 category2: Brand Identity
 category3: ''

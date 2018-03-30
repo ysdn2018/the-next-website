@@ -2,7 +2,7 @@
 templateKey: project
 title: Book Trailer - Need
 graduate: Stephanie Walser
-image: /assets/screen shot 2018-03-30 at 3.21.51 pm.png
+image: /assets/screen shot 2018-03-30 at 3.21.51 pm.jpg
 category: Time Based Communication
 ---
 The book I have chosen for this project is one I’ve read many times called Need by Carrie Jones. It was one of the first ones I thought of, that wouldn’t be too hard to film because I wouldn’t need to have a human involved. I am going to be filming significant objects and environments that the book references to make the viewer interested in what is so special about this objects.

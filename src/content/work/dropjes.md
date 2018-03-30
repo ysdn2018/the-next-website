@@ -2,7 +2,7 @@
 templateKey: project
 title: Dropjes
 graduate: Steph Hoekstra
-image: /assets/dropjes_hand.png
+image: /assets/dropjes_hand.jpg
 category: Package Design
 category2: ''
 category3: ''
@@ -46,12 +46,12 @@ candies, but also those that want to celebrate the
  Netherlands, and have a collection piece to remind them 
 of their travels.
 
-![The top of the box folded up features a Dutch windmill with sails that can rotate.](/assets/dropjes_front.png)
+![The top of the box folded up features a Dutch windmill with sails that can rotate.](/assets/dropjes_front.jpg)
 
-![The informational sheet that accompanies the box is lifted out.](/assets/dropjes_sheet.png)
+![The informational sheet that accompanies the box is lifted out.](/assets/dropjes_sheet.jpg)
 
-![The individual boxes of Dropjes](/assets/dropjes_boxes.png)
+![The individual boxes of Dropjes](/assets/dropjes_boxes.jpg)
 
-![A detail of the side of the container, where the individual boxes peak through.](/assets/dropjes_side.png)
+![A detail of the side of the container, where the individual boxes peak through.](/assets/dropjes_side.jpg)
 
-![Dutch candies spill out of a box.](/assets/dropjes_candy.png)
+![Dutch candies spill out of a box.](/assets/dropjes_candy.jpg)

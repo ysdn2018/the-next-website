@@ -2,7 +2,7 @@
 templateKey: project
 title: TIMEMACHINE
 graduate: Alyah Holmes
-image: /assets/e6c90259866647.5a56e79dcd207-2-4.jpg
+image: /assets/sloth.jpg
 category: Editorial Design
 category2: Brand Identity
 ---

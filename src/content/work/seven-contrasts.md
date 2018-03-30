@@ -10,4 +10,4 @@ Seven Contrasts is an engaging online tool that makes learning typographic hiera
 
 ![null](/assets/sevencontrasts_2.jpg)
 
-![null](/assets/sevencontrasts_3.png)
+![null](/assets/sevencontrasts_3.jpg)

@@ -2,7 +2,7 @@
 templateKey: project
 title: Symple
 graduate: Danielle Sheahan
-image: /assets/symple1.png
+image: /assets/symple1.jpg
 category: Product Design
 category2: UI/UX
 category3: Information Design

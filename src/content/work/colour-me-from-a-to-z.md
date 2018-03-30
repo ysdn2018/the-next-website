@@ -2,7 +2,7 @@
 templateKey: project
 title: Colour Me From A to Z
 graduate: Stephanie Panier
-image: /assets/colouringbook.png
+image: /assets/colouringbook.jpg
 category: Typography
 category2: Book Design
 category3: Experiential Design
@@ -11,8 +11,8 @@ Colour me from A – Z is a colouring book created for designers, artists, and a
 
 This project was created to test the boundaries between art and design and prove that they have the possibility to coexist together.
 
-![null](/assets/colourmemock1.png)
+![null](/assets/colourmemock1.jpg)
 
-![null](/assets/colourmemock3.png)
+![null](/assets/colourmemock3.jpg)
 
-![null](/assets/colourmemock2.png)
+![null](/assets/colourmemock2.jpg)

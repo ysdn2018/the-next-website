@@ -2,7 +2,7 @@
 templateKey: graduate
 title: Aaron Mohr
 image: /assets/aaron_mohr-1.jpg
-imageHover: /assets/sloth2.png
+imageHover: /assets/sloth2.jpg
 verb: Defining
 noun: Moment
 intro: >-

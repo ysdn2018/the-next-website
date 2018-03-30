@@ -2,7 +2,7 @@
 templateKey: project
 title: Titling Sequence - The Social Network
 graduate: Stephanie Walser
-image: /assets/screen shot 2018-03-30 at 3.27.45 pm.png
+image: /assets/screen shot 2018-03-30 at 3.27.45 pm.jpg
 category: Time Based Communication
 ---
 This project was done with two other classmates in my Time-Based Communication class. What intrigued us about this titling sequence was the setting of the movie and the idea behind the starting scene. We wanted to continue this existing title sequence idea into our own. We knew we had the setting down, as we have a university campus and we have props down with a backpack and laptop.

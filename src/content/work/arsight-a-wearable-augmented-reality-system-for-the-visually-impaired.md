@@ -2,7 +2,7 @@
 templateKey: project
 title: 'ARSight: A wearable augmented reality system for the visually impaired'
 graduate: Michael Calcada
-image: /assets/calcada3.png
+image: /assets/calcada3.jpg
 category: UI/UX
 category2: Web Design
 category3: Experiential Design

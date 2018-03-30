@@ -2,7 +2,7 @@
 templateKey: project
 title: Habitat for Humanity Canada – Identity Redesign
 graduate: 'J. Andrew Carenza '
-image: /assets/logo_h4h-02.png
+image: /assets/logo_h4h-02.jpg
 category: Brand Identity
 ---
 # The Problem
@@ -15,12 +15,12 @@ The new graphic identity for Habitat for Humanity Canada presents the master bra
 
 Their mission and values of support, community and opportunity, drive the bright and friendly new system. In the new logo, the heart is a ‘supportive’ element to the rooftop, sitting at its foundation. It represents the love of ‘community’ that is built into every Habitat home. The rooftop also forms an upward facing arrow, representing the ‘opportunities’ that come from partnering, volunteering or any involvement with Habitat. The iconographic and typographic system created easily allows affiliate sub-brands to showcase their own unique mission while undoubtably belonging to the Habitat family.
 
-![Habitat Canada Brand Architecture](/assets/h4h1.png)
+![Habitat Canada Brand Architecture](/assets/h4h1.jpg)
 
-![Habitat Canada Heart Icon](/assets/h4h2.png)
+![Habitat Canada Heart Icon](/assets/h4h2.jpg)
 
-![Habitat Canada Website](/assets/h4h_3.png)
+![Habitat Canada Website](/assets/h4h_3.jpg)
 
-![Habitat Canada Adverts](/assets/h4h_4.png)
+![Habitat Canada Adverts](/assets/h4h_4.jpg)
 
-![Habitat Canada Stationery](/assets/h4h_5.png)
+![Habitat Canada Stationery](/assets/h4h_5.jpg)

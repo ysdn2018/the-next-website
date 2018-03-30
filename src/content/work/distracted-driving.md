@@ -2,7 +2,7 @@
 templateKey: project
 title: Distracted Driving
 graduate: Stephanie Walser
-image: /assets/screen shot 2018-03-30 at 2.29.20 pm.png
+image: /assets/screen shot 2018-03-30 at 2.29.20 pm.jpg
 category: Communication Design
 ---
 Distractions are everywhere while on the road. From our mobile phones, to make-up, to 

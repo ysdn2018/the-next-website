@@ -2,7 +2,7 @@
 templateKey: project
 title: Natural Balance Repackage
 graduate: Stephanie Walser
-image: /assets/screen shot 2018-03-30 at 2.21.15 pm.png
+image: /assets/screen shot 2018-03-30 at 2.21.15 pm.jpg
 category: Package Design
 category2: Brand Identity
 ---

@@ -2,7 +2,7 @@
 templateKey: project
 title: Experimental Film - Pool Shark
 graduate: Stephanie Walser
-image: /assets/screen shot 2018-03-30 at 3.34.19 pm.png
+image: /assets/screen shot 2018-03-30 at 3.34.19 pm.jpg
 category: Time Based Communication
 category2: Experiential Design
 ---

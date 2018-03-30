@@ -9,8 +9,8 @@ One of the many struggles of students and working professionals is how to manage
 
 Check combines the functions of a game, social network and productivity app. Users earn points by completing tasks on time, and can level up to different tiers. The app also keeps track of work habits and let's the user know whether they are on track or not. The social aspect allows users to use healthy competition to fuel their own productivity. While on the surface they are competing in the game, the reality is they are competing to better their own work habits.
 
-![null](/assets/check-tasks.png)
+![null](/assets/check-tasks.jpg)
 
-![null](/assets/check-progress-7.png)
+![null](/assets/check-progress-7.jpg)
 
-![null](/assets/check-calendar-2.png)
+![null](/assets/check-calendar-2.jpg)
