@@ -9,6 +9,7 @@ tools: |-
   InDesign
   Illustrator
   Pen & Paper
+watch: 'Doctor Who, Yu-Gi-Oh'
 typeface: |-
   Bodoni
   Futura
