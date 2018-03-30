@@ -1,11 +1,11 @@
 ---
 templateKey: project
-title: Stellar
+title: 'Stellar: A Look at the Greek Constellations'
 graduate: Jessica Brennan
 image: /assets/stellartitle.jpg
 category: Book Design
-category2: Package Design
-category3: Typography
+category2: Typography
+category3: Package Design
 ---
 Description goes here.
 
@@ -13,8 +13,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique mauris 
 
 Nunc congue tempor turpis, vitae semper neque aliquam ut. Donec iaculis lorem dui, blandit laoreet neque porta ut. Donec lacus metus, ornare eu lorem et, viverra eleifend nisi. Donec lorem purus, vestibulum eu justo vel, sollicitudin maximus sapien. Nunc non lorem sit amet quam feugiat feugiat non non metus. Sed vitae eleifend tortor, vitae dictum nisl. Donec posuere odio ac maximus faucibus. Etiam tempus sollicitudin orci et vestibulum. Pellentesque vitae vestibulum est, non malesuada urna. Sed felis orci, finibus in pharetra quis, pretium sit amet dui. Fusce cursus faucibus erat. Nullam at velit leo.
 
-![](/assets/stdisplay.jpg)
+![null](/assets/stdisplay.jpg)
 
-![](/assets/stcards.jpg)
+![null](/assets/stcards.jpg)
 
-![](/assets/storion.jpg)
+![null](/assets/storion.jpg)
