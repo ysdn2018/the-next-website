@@ -13,9 +13,16 @@ intro: >-
   effective solutions. Alyah specializes in branding, packaging, creative
   direction, communication design, and print. Aside from design she has skills
   in illustration, painting, writing, interior design, cosmetics, and a
-  background in psychology. One of her goals in the next few years is to move to
-  a bigger city like New York or San Francisco, where she'd feel inspired and
-  experience a new environment.
+  background in psychology. 
+
+
+  Alyah always knew she loved anything that involved thinking creative and
+  making things that excited people. After a year and a half of Psychology Alyah
+  decided she had to do something she loved, and turn her skill and passion into
+  something bigger. She moved to Toronto as the first step in pursuing her
+  dreams of becoming a Creative Director. One of her goals in the next few years
+  is to move to a bigger city like New York or San Francisco, where she'd feel
+  inspired and experience a new environment.
 hobbies: 'drawing, painting, makeup, interior design'
 music: 90's rnb & Hip Hop
 tools: 'my brain!! + a pencil & notepad, InDesign & Photoshop'
