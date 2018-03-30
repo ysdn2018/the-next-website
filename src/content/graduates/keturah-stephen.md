@@ -14,11 +14,12 @@ intro: >-
   that design is a means to continue to awaken, disrupt, and inspire. That is
   what she hopes to accomplish for her future, as well as, to continue to learn
   and experience new adventures wherever they may take her.
-hobbies: 'Robotics, Sewing, Book making, Reading'
-music: Anything with Prince or Queen
+hobbies: 'Robotics, sewing, reading, and travelling.'
+music: Anything with Prince or Queen!
 tools: 'InDesign, Illustrator, Photoshop, XD, Sketch, After Effects'
 watch: Grace & Frankie
 typeface: Avenir Next
+instagram: 'https://www.instagram.com/keturahstephen/'
 linkedin: 'https://www.linkedin.com/in/keturah-stephen-06581aa0/'
 email: keturah_stephen@hotmail.com
 website: keturah-stephen.com
