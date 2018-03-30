@@ -14,8 +14,8 @@ intro: >
 
   Her lifelong interest in all things cute and pretty brought her to study
   illustration for 2 years. However, she quickly realized she didn’t enjoy the
-  actual process of drawing and painting. She stumbled across design, as a fall
-  back and through her four years in the YSDN program fell in love with it. 
+  actual process of drawing and painting. She stumbled across design and through
+  her four years in the YSDN program fell in love with it. 
 
 
   With her background in illustration and a fine attention to detail she enjoys
