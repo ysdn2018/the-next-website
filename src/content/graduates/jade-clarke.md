@@ -21,6 +21,6 @@ watch: >-
   Wolverine and Professor X
 typeface: Georgia and Metropolis
 email: clarkejade22@yahoo.com
-website: www.jadeclarkedesign.com
+website: 'https://www.jadeclarkedesign.com/'
 ---
 
