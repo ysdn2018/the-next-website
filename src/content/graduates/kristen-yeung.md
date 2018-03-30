@@ -18,7 +18,7 @@ music: 'Pop, indie pop and whatever''s on the radio.'
 tools: 'Adobe Illustrator, T-Square, Cutting Knife, Bandaids.'
 watch: 'Blackfish, One Flew Over the Cuckoo''s Nest'
 typeface: Gotham or Proxima Nova
-twitter: 'https://twitter.com/kristenyeung'
+twitter: ''
 instagram: 'https://www.instagram.com/kristenyeung/'
 linkedin: 'https://www.linkedin.com/in/kristenyeung/'
 email: kristennyeung@gmail.com
