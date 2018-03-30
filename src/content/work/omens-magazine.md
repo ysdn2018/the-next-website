@@ -11,15 +11,16 @@ OMENS is a paranormal appreciation print and digital magazine with a focus on on
 
 This article details the main mistakes that the writer believes that ghost hunters are making within the paranormal investigative industry. The writer speaks in very scientific and condescending tone, and the article was approached as if the writer was marking up a paper with all of the things that irked him the most about his cohorts in the industry. 
 
-![]()
+![](/assets/lecompte403.png)
 
-\
-This article outlines what it's like to use mediums while ghost hunting. Everyone has their own approaches on ghost hunting and there is no “right” approach. 
+This article outlines what it's like to use mediums while ghost hunting. Everyone has their own approaches on ghost hunting and there is no “right” approach.
 
-
+![](/assets/lecompte404.png)
 
 \
 The article talks about how different people react to living in a haunted house and the wide range of emotions that it can evoke, such as anxiety, depression, insomnia or nightmares. 
+
+![](/assets/lecompte411.jpg)
 
 \
 OMENS ultimately wants to create a community for those who enjoy all things paranormal and be able to bring all different aspects of the paranormal all into one place.\
