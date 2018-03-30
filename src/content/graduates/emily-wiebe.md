@@ -13,13 +13,13 @@ intro: >-
   listening, empathy, and research. Striving for impact, whether through
   physical or digital mediums, Emily hopes to construct powerful, inspiring
   solutions and experiences driven by purpose. 
-hobbies: >-
-  Exploring the outdoors, macro photography, longboarding, embroidery, arts &
-  crafts
+hobbies: 'Exploring the outdoors, macro photography, arts & crafts, longboarding'
 music: >-
   Indie Pop, Alternative R&B, and any early 2000's song because I love to bust a
   move to a good throwback
-tools: 'Sharpies + Post-It Notes, Pencil + Paper, Paint, Collaging, and Adobe CS '
+tools: >-
+  Sharpies + Post-It Notes, Dry-Erase Boards, My Sketchbook, Paint, Collaging,
+  Adobe CS, and many shots of espresso.
 watch: ''
 typeface: Gotham Bold
 twitter: 'https://twitter.com/emilyawiebe'
