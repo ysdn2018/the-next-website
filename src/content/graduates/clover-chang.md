@@ -6,7 +6,13 @@ imageHover: /assets/sloth2.jpg
 verb: Paving
 noun: Way
 intro: >-
-  Clover is a multi-disciplinary designer whose passion lies in branding,
+  Before Clover moved to Canada in 2011, she was born and raised in Macau, which
+  is a compact and vibrant city in China. Growing up in such a small city with
+  diverse cultural backgrounds, it has shaped her to become easily adaptable to
+  new environments and to respect cultural differences.
+
+
+  She is a multi-disciplinary designer whose passion lies in branding,
   communication, motion and package design. Through these different design
   streams, she always incorporates some interesting and meaningful stories in
   her work, which are mainly geared towards enhancing user experience,
