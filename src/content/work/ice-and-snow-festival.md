@@ -11,7 +11,7 @@ The Harbin International Snow and Ice Festival, famed for its gigantic illuminat
 
 People travel from countries to be there from Jan 5- Feb. 25 for spending good quality of vacations and family time. I made a promotional video in an iconic and symbolic way, which thrive audience to explore more about it after watching a video.
 
-![](/assets/free poster mockup psd.jpg)
+![](/assets/poster-01.jpg)
 
 In this project I was challenged to design a coherent system of interrelated pieces, which required developing a visual identity and applying it over several communications mediums. This festival established a new bilingual identity to accommodate local citizens of China. 
 
