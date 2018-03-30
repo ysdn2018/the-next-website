@@ -18,3 +18,9 @@ Their mission and values of support, community and opportunity, drive the bright
 ![Habitat Canada Brand Architecture](/assets/h4h1.png)
 
 ![Habitat Canada Heart Icon](/assets/h4h2.png)
+
+![](/assets/h4h_3.png)
+
+![](/assets/h4h_4.png)
+
+![](/assets/h4h_5.png)
