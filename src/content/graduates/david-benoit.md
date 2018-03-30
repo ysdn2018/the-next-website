@@ -17,9 +17,9 @@ intro: >
   designing concepts of what our livable space could become with the addition of
   art installation in our homes, offices and other shared livable environments. 
 music: Depeche Mode  & Ladytron
-instagram: instagram.com/daisetsuki/
-linkedin: linkedin.com/in/davidbenoitdesign/
-email: davidbenoit@me.com
+instagram: ''
+linkedin: ''
+email: ''
 website: davidbenoitportfolio.squarespace.com
 ---
 
