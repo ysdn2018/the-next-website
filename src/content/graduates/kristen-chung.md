@@ -13,6 +13,7 @@ intro: >-
   work will resonate with at least one person and make them see the world a
   little differently.
 hobbies: Photography and dance.
+instagram: instagram.com/creativeplace
 website: www.kristen-chung.com
 ---
 
