@@ -29,6 +29,10 @@ Stash Tea’s brand character is best described as an exclusive, private collect
 
 ## Evolutionary Design
 
+![](/assets/evolutionaryfinalmockup copy.png)
+
+Stash Tea’s brand character is best described as an exclusive, private collection which displays quality and tranquility. 
+
 
 
 ## Revolutionary Design
