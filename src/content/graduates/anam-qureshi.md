@@ -17,7 +17,7 @@ intro: >-
   something she may not otherwise get a chance to do. Anam thinks being a
   designer has increased her thirst for learning. The more she know, the more
   she wants to know and the better her solutions. 
-hobbies: 'Painting/drawing, and music'
+hobbies: 'Painting/drawing, music and swimming'
 tools: 'Illustrator, Indesign, After Effects, AutoCad, Sketch up'
 typeface: Roboto and Avenir
 instagram: instagram.com/anamnaeemq/
