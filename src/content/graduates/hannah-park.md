@@ -3,7 +3,7 @@ templateKey: graduate
 title: Hannah Park
 image: /assets/sloth.jpg
 imageHover: /assets/sloth2.jpg
-verb: Interpreting
+verb: reinterpreting
 noun: definition
 intro: >-
   As a curious designer, Hannah always seeks to learn, experience, and venture
