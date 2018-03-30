@@ -19,10 +19,9 @@ intro: >-
   displaying cultural values and ultimately, leading to a positive impact in the
   world that can potentially change peoples’ lives. She believes in the power of
   design that influences our everyday life even without us realizing.
-hobbies: |
-  Watching dogs' videos (especially pugs)
-  Eating spicy food
-  Playing Tetris games
+hobbies: >
+  Watching dogs' videos (especially pugs), eating spicy food, playing Tetris
+  games
 music: 'MandoPop, Christian music, Ed Sheeran and a little bit of K-pop'
 tools: 'Illustrator, Indesign, Photoshop, After Effects, Sketch, Invision'
 watch: 'Friends, all the Pixar movies and anything on Netflix'
