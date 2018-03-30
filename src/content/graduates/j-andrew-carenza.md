@@ -20,13 +20,11 @@ intro: >-
 hobbies: |-
   Drawing in his notebook
   Horseback riding
-  Morning jogs, that more like sprints
+  Joggings, that is more like sprinting
 music: |
-  Madonna (and I'm very serious),
-  Aretha Franklin,
-  The Beatles
+  Madonna, Aretha Franklin, Motown (I'm an old soul)
 tools: 'Illustrator, InDesign, Photoshop, After Effects, XD, Invision'
-watch: 'Mad Men, Friends'
+watch: GOT
 typeface: Avenir
 email: andrew.carenza@gmail.com
 ---
