@@ -7,6 +7,6 @@ verb: Understanding
 noun: Project
 tools: 'Pens and sketch book, Illustrator and InDesign'
 email: macdonald.john09@gmail.com
-website: 'http://johnamac.com/'
+website: johnamac.com
 ---
 
