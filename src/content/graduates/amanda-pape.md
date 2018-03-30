@@ -10,7 +10,7 @@ hobbies: Travelling
 music: 'Disco, soul & old school hip-hop'
 tools: 'Pencil, Paper, Illustrator, InDesign, Photoshop, Sketch'
 watch: The Office
-typeface: 'Noe Text, Open Sans, Calibre'
+typeface: 'Noe Text, Open Sans, SangBleu Kingdom'
 instagram: 'https://www.instagram.com/pape.design/'
 linkedin: 'https://www.linkedin.com/in/amandaluciapape/'
 email: amandaluciapape@gmail.com
