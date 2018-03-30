@@ -16,9 +16,11 @@ intro: >-
   to show new forms of creation through the progressive advancements of
   technology. Design has the power to make an impact, and Emily wants to take
   part in the changes she wishes to see.
+hobbies: 'Consuming too much caffeine '
+music: ''
 typeface: Tahoma
 instagram: ''
 email: emilygrace.pm@gmail.com
-website: www.emilygrace.design
+website: 'https://www.emilygrace.design/'
 ---
 
