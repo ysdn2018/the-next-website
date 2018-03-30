@@ -6,7 +6,7 @@ imageHover: /assets/sloth2.jpg
 verb: Understanding
 noun: Project
 tools: 'Pens and sketch book, Illustrator and InDesign'
-watch: 'Vikings, Peaky Blinders, Portlandia, The IT Crowd and the Office  '
+watch: 'Vikings, Peaky Blinders, Portlandia, the IT Crowd and the Office  '
 typeface: Fira Sans
 linkedin: www.linkedin.com/in/john-macdonald
 email: macdonald.john09@gmail.com
