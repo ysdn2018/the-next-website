@@ -14,10 +14,11 @@ intro: >-
   simply elicit delight, she aims to make a positive impact on people through
   design. When not designing, she is an avid cat-petter, concertgoer, and bubble
   tea enthusiast.
-hobbies: ''
-music: 'Indie rock, alternative hip-hop, jazz'
-tools: 'Illustrator, Sketch, After Effects, Cinema 4D'
-watch: 'SIngin'' in the Rain, Whiplash, Wes Anderson films'
+hobbies: 'photography, video games, petting cats, cloudgazing'
+music: 'indie rock, alternative hip-hop, jazz'
+tools: 'Illustrator, Sketch, After Effects, Cinema 4D, Sony A6000'
+watch: ''
+typeface: FF DIN by Albert-Jan Pool
 instagram: 'http://instagram.com/char.lc'
 linkedin: 'https://www.linkedin.com/in/charlotte-lucas/'
 email: charlottejazmine@gmail.com

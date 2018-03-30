@@ -33,13 +33,14 @@ For best results, Romelia should have a leading of 120-130% of the font size bei
 
 ## Key Features
 
-![null](/assets/romela_spread_keyfeatures.jpg)
-
 **X-HEIGHT**\
 Romelia’s large x-height not only allows for readability and legibility, but it makes the typeface suitable for all ages and eye sight condition when aiding in reading comprehension.
 
 **ASCENDERS**\
-Romelia’s ascenders are longer than the top of the capitals letters, creating extra space which acts as a natural leading between lines of text; aiding in readability and legibility.\
+Romelia’s ascenders are longer than the top of the capitals letters. This creates extra space which acts as natural leading between lines of text and aids in readability and legibility.
+
+![null](/assets/romela_spread_keyfeatures.jpg)
+
 \
 **STEMS & BARS **\
 The low contrast between the stems and bars of Romelia allows for less distraction when reading and creates a smooth flowing typeface.
@@ -57,8 +58,12 @@ The straight cut serif of the ‘b’ is a distinguishing feature. Although lett
 The ball terminal of letterforms like ‘c’, ‘a’, ‘f’, ‘g’, and ‘r’, add an elegance to the typeface.
 
 **LARGE COUNTERS**\
-Romelia’s large counters correlate with it’s large x-height, creating an aid for character recognition. 
+Romelia’s large counters correlate with it’s large x-height, creating an aid for character recognition.
+
+
+
+## Comparison
 
 ![null](/assets/romela_spread_comparingtypeface.jpg)
 
-When comparing Romelia to Adobe Garamond, Adobe Caslon, and Baskerville, you can see that the larger x-height.
+When comparing Romelia to Adobe Garamond, Adobe Caslon, and Baskerville, you can see Romelia takes on a larger x-height than the others. This large x-height is to accommodate all ages and eyesight conditions, as body copy in books can be very small and hard to read for younger or older readers. When looking closely at each letterform, there are very prominent similarities with Adobe Garamond, Adobe Caslon, and Baskerville. During research, these body copy typefaces were studied; taking the best readability and legibility features from each one and combining them to create a hybrid typeface, Romelia.
