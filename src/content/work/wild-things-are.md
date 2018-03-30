@@ -2,13 +2,15 @@
 templateKey: project
 title: Wild Things Are
 graduate: J. Andrew Carenza
-image: /assets/wtr_big_img.png
+image: /assets/wtr2.png
 category: Web Design
 category2: Communication Design
 ---
 # The Movement 
 
 The portrayal of animals in our visual culture has traditionally masked or justified their objectification. As the environmental repercussions of habitat destruction, unethical farming and other violence become an inescapable reality, the time is now for a ‘graphic intervention’ in the visual representation of animals. _Wild Things Are_ is a movement exposing the oppressive nature of art and design’s relationship to the nonhuman animal while inviting creatives of all disciplines to contribute to the expansion of this discourse.
+
+![Wild Things Are Brand](/assets/wtr1.png)
 
 # The Process
 
@@ -18,4 +20,12 @@ After exploring how the challenger-themes could be represented through an illust
 
 # The Solution
 
-The primary platform of this movement is its academic style website. The site is divided into three parts: The first addresses historical and present day perceptions of animality by defining themes of oppression  and how to read them in visual art and design. The second part lays the building blocks for a new visual language in animal representation for dissenting creatives to consider in their practice. The third part directly attempts to bring creatives from any discipline into this discourse by allowing users to upload their own projects related to website content, to be approved for display in the _Wild Things Are_ online gallery.
+The primary platform of this movement is its academic style website. The site is divided into three parts: The first addresses historical and present day perceptions of animality by defining themes of oppression  and how to read them in visual art and design. The second part lays the building blocks for a new visual language in animal representation for dissenting creatives to consider in their practice. The third part directly attempts to bring creatives from any discipline into this discourse by allowing users to upload their own projects related to website content, to be approved for display in the _Wild Things Are_ online gallery. 
+
+![PART I: The Animal In Visual Culture](/assets/wtr3.png)
+
+![PART II: Redefining Animal](/assets/wtr6.png)
+
+![PART II: Illustrative Series 2.0](/assets/wtr7.png)
+
+![PART III: Project Gallery](/assets/wtr4.png)
