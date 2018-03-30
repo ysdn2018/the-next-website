@@ -7,14 +7,13 @@ verb: Understanding
 noun: Project
 intro: >-
   John began exploring art in high school but never pursued it seriously until a
-  few years ago returning to Sheridan College as a mature student. It was there
-  an instructor suggested the Bachelor of Design program at York. Now after a
+  few years ago. After Returning to Sheridan College as a mature student, an
+  instructor suggested the Bachelor of Design program at York. Now after a
   roundabout journey John has found a way to take his early creativity and use
-  it in design. As a designer, John is empathetic and passionate about
-  typography. He approaches every design problem as a learning opportunity. His
-  design balances functionality with creating a memorable experience for the
-  audience. John’s strengths are in storytelling, combining typography with
-  illustrations, whether it is for print or motion design.
+  it in design. As a designer, John approaches every design problem as a
+  learning opportunity. His design balances functionality with creating a
+  memorable experience for the audience. John’s strengths are in storytelling,
+  combining typography and illustrations 
 tools: 'Pens and sketch book, Illustrator and InDesign'
 watch: 'Vikings, Peaky Blinders, Portlandia, the IT Crowd and the Office  '
 typeface: Fira Sans
