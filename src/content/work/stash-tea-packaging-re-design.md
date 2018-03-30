@@ -42,7 +42,7 @@ The Revolutionary Design pushes further away from the original design while stil
 ## \
 Transformational Design
 
-
+![](/assets/3-stash-trans_rgb.jpg)
 
 
 
