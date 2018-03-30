@@ -12,7 +12,7 @@ intro: >-
   very enthusiastic individual who values meeting new people, encourages daily
   laughter, and is inspired by everything she sees.
 hobbies: Billiards
-music: ''
+music: Of Monsters and Men
 tools: Adobe Suite and a camera
 typeface: Railway
 instagram: 'https://www.instagram.com/stephielizz27/'
