@@ -21,7 +21,9 @@ STASH Tea’s mission is to become the leader in creating and selling high quali
 
 ![](/assets/brandequities.png)
 
-STASH Tea derives its name from an entertaining aspect of tea folklore. In earlier centuries, tea was a valuable commodity traditionally transported by clipper ship. The ship’s captain often was presented with some of the finest teas for his personal use. This supply was his “stash,” stowed carefully as his “private reserve.” 
+STASH Tea derives its name from an entertaining aspect of tea folklore. In earlier centuries, tea was a valuable commodity traditionally transported by clipper ship. The ship’s captain often was presented with some of the finest teas for his personal use. This supply was his “stash,” stowed carefully as his “private reserve.” Because of this, the compass is highly important to STASH Tea's brand equities. Along with the compass, the black band, colourful tones, and simple typography all contribute to the brand character displayed.\
+\
+Stash Tea’s brand character is best described as an exclusive, private collection which displays quality and tranquility. 
 
 
 
