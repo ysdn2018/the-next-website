@@ -19,6 +19,8 @@ The next step was to select a new tagline that would become an interesting theme
 
 While designing a new identity of Whole Foods, I want to represent the natural and welcoming persona. Dark bottle green was the signature choice to represent the company as a whole for what they represent and relate with easily. I wanted to keep the colors natural and organic related which helps to maintain the essence of bright and rich identity similar to their products. Green can help enhance vision, stability and endurance. The dark green color has a healing power to understand their consumers to trust this new identity.
 
+![](/assets/qureshi_rebrand.jpg)
+
 ![](/assets/six applications-11.jpg)
 
 ![null](/assets/van-05.jpg)
