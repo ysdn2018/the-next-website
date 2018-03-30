@@ -17,6 +17,7 @@ collections:
     create: true
     # editor: 
     #  preview: false 
+    # pattern: ['^(?:\b\w+\b[\s\r\n]*){1,250}$', "Max word count of 250"] 
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: graduate}
       - { name: title, label: Your Name }
@@ -24,7 +25,7 @@ collections:
       - { name: imageHover, label: Headshot Hover, widget: hidden, default: "/assets/sloth2.jpg" }
       - { name: verb, label: Statement Verb }
       - { name: noun, label: Statement Noun }
-      - { name: intro, label: Intro (third-person), widget: text, required: false}
+      - { name: intro, label: Intro (third-person), widget: text, required: false }
       - { name: hobbies, label: Hobbies (optional), widget: text, required: false }
       - { name: music, label: Fav Music (optional), widget: text, required: false }
       - { name: tools, label: Design Tools (optional), widget: text, required: false }

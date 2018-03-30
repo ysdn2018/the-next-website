@@ -38,7 +38,7 @@ CMS.registerEditorComponent({
   },
   // Function to create a text block from an instance of this component
   toBlock: function (obj) {
-    return 'youtube ' + obj.id;
+    return `<iframe width="560" height="315" src=https://www.youtube.com/embed/${obj.id}?rel=0&amp;showinfo=0 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`
   },
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
@@ -48,3 +48,33 @@ CMS.registerEditorComponent({
     );
   }
 });
+
+CMS.registerEditorComponent({
+  // Internal id of the component
+  id: "vimeo",
+  // Visible label
+  label: "Vimeo",
+  // Fields the user need to fill out when adding an instance of the component
+  fields: [{ name: 'id', label: 'Vimeo Video ID', widget: 'string' }],
+  // Pattern to identify a block as being an instance of this component
+  pattern: /^youtube (\S+)$/,
+  // Function to extract data elements from the regexp match
+  fromBlock: function (match) {
+    return {
+      id: match[1]
+    };
+  },
+  // Function to create a text block from an instance of this component
+  toBlock: function (obj) {
+    return `<iframe src="https://player.vimeo.com/video/${obj.id}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>`
+  },
+  // Preview output for this component. Can either be a string or a React component
+  // (component gives better render performance)
+  toPreview: function (obj) {
+    return (
+      '<img src="http://img.youtube.com/vi/' + obj.id + '/maxresdefault.jpg" alt="Youtube Video"/>'
+    );
+  }
+});
+
+// <iframe src="https://player.vimeo.com/video/201540199" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
