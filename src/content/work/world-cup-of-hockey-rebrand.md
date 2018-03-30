@@ -14,7 +14,7 @@ While the event is largely themed after international hockey, there are other va
 
 ![Moodboard; taking a look at the atmosphere of hockey.](/assets/rana_wcoh_1.jpg)
 
-# Intensity, Passion, and Pride
+# Intensity, Pride, and Passion
 
 In the simplest terms, the purpose of WCOH is “a global celebration of hockey” (WCOH, 2016). Hockey has become an integral part of Canadian culture, with many other countries sharing this tradition. It is crucial that the design implemented will display the importance and purpose of this event. The event must showcase the importance of heritage and culture, emphasizing why hockey brings many countries together. 
 
