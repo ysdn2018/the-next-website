@@ -18,8 +18,8 @@ hobbies: >-
   photographing, finding cool tunes, and consuming lots of poutine
 music: 'Alternative, Hip-hop, Rap, or anything involving Kanye West or Kendrick Lamar'
 tools: >-
-  Post-it notes, Sharpies, random scraps of paper, her hands, and many cups of
-  orange pekoe
+  The Adobe gang, Post-it notes, Sharpies, random scraps of paper, her hands,
+  and many cups of orange pekoe
 watch: >-
   Back to the Future, Star Wars, Doctor Who, Jessica Jones, Sherlock, Riverdale,
   Letterkenny, The Simpsons, or anything with Gordon Ramsay
