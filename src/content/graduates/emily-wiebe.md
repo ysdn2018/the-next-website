@@ -17,6 +17,9 @@ hobbies: 'Exploring the outdoors, macro photography, embroidery, longboarding'
 music: >-
   Indie Pop, Alternative R&B, and any early 2000's song because I love to bust a
   move to a good throwback
+tools: >-
+  Pencil + Paper, Paint, Collaging, Embroidery, InDesign, Illustrator,
+  Photoshop, Lightroom, and After Effects
 watch: ''
 typeface: Gotham Bold
 twitter: 'https://twitter.com/emilyawiebe'
