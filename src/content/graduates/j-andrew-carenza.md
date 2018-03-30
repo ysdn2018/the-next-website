@@ -20,7 +20,7 @@ intro: >-
 hobbies: |-
   Drawing in his notebook
   Horseback riding
-  Joggings, that is more like sprinting
+  Jogging, that is more like sprinting
 music: |
   Madonna, Aretha Franklin, Motown (I'm an old soul)
 tools: 'Illustrator, InDesign, Photoshop, After Effects, XD, Invision'
