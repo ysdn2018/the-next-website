@@ -17,18 +17,14 @@ Racism in Russia
 
 This article examines the concerns around the potential for racism at the 2018 World Cup in Russia. It looks at incidents that have occured and the the attitude of the authorities.
 
-
-
 FIFA Corruption Crisis
 
-![](/assets/mafiagradafix.jpg)
+![null](/assets/mafiagradafix.jpg)
 
 The opening spread on the corruption scandal that engulfed FIFA and the results of an FBI investigation. 
 
-![](/assets/mafiagradafix3.jpg)
-
-
+![null](/assets/mafiagradafix3.jpg)
 
 ## WHAT'S NEXT
 
-Adding positive stories to balance the magazine and look at the good soccer can do for communities.
+Adding positive stories to add  balance the magazine and look at the good soccer can do for communities.
