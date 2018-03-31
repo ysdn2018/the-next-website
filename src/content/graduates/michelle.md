@@ -28,7 +28,8 @@ tools: |
   Adobe Illustrator
 watch: >-
   Favourites: Naruto, Riverdale, The Ancient Magus' Bride, Card Captor Sakura,
-  Himouto! Umaru-chan, One Piece, Full Metal Alchemist
+  Himouto! Umaru-chan, One Piece, Full Metal Alchemist, Game of Thrones,
+  Riverdale
 
 
   Things I should watch soon: Stranger Things, Black Mirror (Sorry I don't have
