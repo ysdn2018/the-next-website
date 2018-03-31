@@ -28,3 +28,7 @@ Solution\
 In the end, I created a visual narrative in the form of a brochure/poster and digital application. The visual style is more likely to be taken seriously than if it appeared to look “too nice,” and the information was presented in a language that they could better relate to. The project not only included stats and statistics about veganism but also cleared some misconceptions and myths, provided meal plans, address larger problems such as health and economical issues, while further addressing the fact that using/consuming animal products is unnecessary and why and how we’ll be fine without them by encouraging readers to try begin being vegan just one day a week. 
 
 For me personally, this project was very interesting and has help me made some major lifestyle choices. I am not a vegan, but have since not used products made from/tested on animals, and have significantly cut down on my meat intake. Save the animals!
+
+
+
+![](/assets/infodes-pamphlet-mockup-05rgb.jpg)
