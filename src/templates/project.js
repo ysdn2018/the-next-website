@@ -16,7 +16,7 @@ const HeroImage = styled(Img)`
 `
 const ProjectContainer = styled.div `
   height: 92%;
-  width: 20%;
+  width: 25%;
   float: left;
   position: fixed;
   z-index: 100;
@@ -30,6 +30,10 @@ const ProjectInfo = styled.div `
   justify-content: space-between;
   margin: 15px;
   border: 1px solid;
+`
+
+const Legend = styled.div `
+  border-top: 1px solid;
 `
 
 const InfoContainer = styled.div `
@@ -60,6 +64,7 @@ export default function Post({ data }) {
               {grad}
             </Link>
           </H4>
+          <Legend></Legend>
         </ProjectInfo>
       </ProjectContainer>
 

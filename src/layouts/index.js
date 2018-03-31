@@ -93,7 +93,7 @@ injectGlobal`
       height: 100% !important;
       overflow-x: hidden;
 
-      font-size: 1.6em;
+      font-size: 2em;
       line-height: 1.6;
       font-weight: 400;
       font-family: 'Haas Grot Text', 'Helvetica', 'Arial', sans-serif;

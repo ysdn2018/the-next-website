@@ -4,14 +4,13 @@ import Img from 'gatsby-image'
 import Link from 'gatsby-link'
 import Statement from '../components/Statement'
 import ProfileStatement from '../components/ProfileStatement'
-import {A,H2,H3, H4} from '../components/Typography'
+import {P,A,H1,H2,H3,H4} from '../components/Typography'
 
 // styled-components
 
 const ProfileContainer = styled.div `
   height: 92%;
   width: 20%;
-
   float: left;
   position: fixed;
 `
@@ -85,7 +84,7 @@ export default function Post({ data }) {
       <ProfileContainer>
         <Profile>
           <Name>
-            <H4>{graduate.frontmatter.title}</H4>
+            <H3>{graduate.frontmatter.title}</H3>
           </Name>
           <Img sizes={graduate.frontmatter.headshot.childImageSharp.sizes} className="image"/>
           <Statement
@@ -117,42 +116,42 @@ export default function Post({ data }) {
         <Info>
 
           <About>
-            <H4>About</H4>
-            <p>{graduate.frontmatter.intro}</p>
+            <H3>About</H3>
+            <P>{graduate.frontmatter.intro}</P>
           </About>
 
           <About>
             {graduate.frontmatter.music && (
               <Question>
                 <H4>Listening To</H4>
-                <p>{graduate.frontmatter.music}</p>
+                <P>{graduate.frontmatter.music}</P>
               </Question>
             )}
 
             {graduate.frontmatter.tools && (
               <Question>
                 <H4>Favourite Tools</H4>
-                <p>{graduate.frontmatter.tools}</p>
+                <P>{graduate.frontmatter.tools}</P>
               </Question>
             )}
 
             {graduate.frontmatter.watch && (
               <Question>
                 <H4>Currently Watching</H4>
-                <p>{graduate.frontmatter.watch}</p>
+                <P>{graduate.frontmatter.watch}</P>
               </Question>
             )}
 
             {graduate.frontmatter.typeface && (
               <Question>
                 <H4>Favourite Typefaces</H4>
-                <p>{graduate.frontmatter.typeface}</p>
+                <P>{graduate.frontmatter.typeface}</P>
               </Question>
             )}
           </About>
 
           <Projects>
-            <H4>Projects</H4>
+            <H3>Projects</H3>
 
             {data.projects ? data.projects.edges.map(({ node: project }) => (
               <Project key={project.id}>
