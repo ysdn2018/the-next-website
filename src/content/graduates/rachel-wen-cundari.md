@@ -15,6 +15,7 @@ intro: >-
   aesthetic boundaries of design with excellence. 
 hobbies: ''
 music: ''
+typeface: ITC Grouch
 linkedin: www.linkedin.com/in/rachel-wen-cundari-189703119
 email: rachelcundari@gmail.com
 ---
