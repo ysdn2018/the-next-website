@@ -58,3 +58,15 @@ This sketch was followed with experiments in how to deform type according to the
 The images of the project in progress are a little misleading in showing how much trial and error lead to even the crudest of sketches. When coding, I lost track of the original goal set at the beginning of the project: to use natural phenomena to _tell a story_ in a new way. My full focus was on the visual execution until now.  
 
 I have a typographic embodiment of entropy, now I need to use it to tell a story that’s appropriate. I started to think about fiction novels that were based on gradual destruction of one’s character to make a book that gradually destructed over time. But, why be limited to fiction when destruction is happening right before our eyes?
+
+## Final Output
+
+On the first of February 2017, President Donald Trump had issued an executive order that had been understood by many as the Muslim Ban or Travel Ban that he had promised as part of his agenda during his campaign.
+
+> "They’re not coming to this country if I’m president. And if Obama has brought some to this country they are leaving, they’re going, they’re gone." - Donald Trump, CNN GOP Debate, Dec. 15, 2015
+
+Almost immediately, numerous protests and legal challenges began across the country, causing a greater divide in a country that has been torn apart already. Diplomats around the world condemned Trump’s actions, so did CEOs from the United States, and even members of the Republican party were against the executive order. The executive order immediately caused chaos across the country, and in my view if it hadn’t been challenged by the American judicial system it could’ve resulted in even more destruction in the future.
+
+![](/assets/saba-ta-5.jpg)
+
+I use Trump’s Travel Ban as the text for this work as a representation of his destructive behaviour, steering America into an even more divided country that will eventually result in chaos and destruction.
