@@ -18,8 +18,8 @@ hobbies: |-
   Concert junkie
   Wanna-be beer connoisseur
   Animal-enthusiast
-  Napping expert
-music: Arcade Fire has my heart
+  Nap expert
+music: Arcade Fire stole my heart
 tools: 'Adobe Creative Suite, Sketch, Invision'
 watch: >-
   Sci-fi drama romances and absurdist dystopias (e.g. Her, The Lobster and Never
