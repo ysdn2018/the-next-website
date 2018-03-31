@@ -15,7 +15,7 @@ intro: >-
 hobbies: 'Drawing, Eating, Traveling'
 music: >-
   Soul, Jazz, Ballad, Indie, Folk, New-age, Pop rock, Alternative, Vaporwave,
-  Shibuya-kei, Classical, Instrumental
+  Lo-fi, Shibuya-kei, Classical, Instrumental
 tools: 'Pen, Paper, Camera, Adobe Creative Suite'
 typeface: 'Lato, Adobe Jenson Pro, Archer Pro'
 linkedin: 'https://www.linkedin.com/in/de-jia-li-630212139/'
