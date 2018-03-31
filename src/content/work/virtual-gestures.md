@@ -7,4 +7,6 @@ category: Experiential Design
 category2: Installation
 category3: Web Design
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Virtual Gestures is a series of interactive objects examining reverse skeumorphism. It explores how immaterial objects look when given the sense of materiality and feel when digital gestures of scrolling, dragging, resizing and clicking are performed physically. By bringing the digital to the physical world, the digital is radically transformed into bizarre behaviours and nonsensical objects, revealing the gap between how we experience these two distinct yet intertwined worlds. 
+
+[Click here](soojinna.com/virtualgestures) to learn more about the project.

@@ -13,8 +13,10 @@ intro: >-
   experiences and adventures and tries to live her life in the most optimistic
   way.
 hobbies: 'Illustration, and hugging my dog.'
-music: ''
+music: 'Usually anything pop or indie, and I love Taylor Swift.'
 tools: I always start with a pencil and paper!
+watch: I'm a sucker for chick flicks.
+typeface: Futura
 instagram: '@meeeganthompson'
 linkedin: ''
 email: megan9thompson@gmail.com

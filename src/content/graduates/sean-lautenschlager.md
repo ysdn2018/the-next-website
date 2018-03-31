@@ -8,18 +8,18 @@ noun: Puzzle
 intro: >-
   Design is about solving problems. Sean believes that design thinking is the
   method through which we can learn and understand the world. Through careful
-  observation and immersing one self in the problem, one can develop the pieces
-  which can come together to form possible solutions.
+  observation and immersing yourself in a problem, Sean believes you can develop
+  the pieces that come together to form a variety of solutions.
 
-  While the tools for creation may change, as a multidisciplinary designer, Sean
-  aims to apply his continually refinable technical skills and endless obsession
-  with creating to discover new ways of constructing individual pieces which  t
-  together into a great whole.
+  As a multidisciplinary designer, Sean aims to continually refine his technical
+  skills and explore new and exciting ideas. Paired with his endless desire to
+  create, Sean pieces together his thoroughly considered ideas to form a greater
+  whole.
 hobbies: |-
-  Long-distance running
-  Nostalgic video games
+  Running (working up to run a half-marathon)
+  Nostalgic / Indie video games
   Creating things
-music: Lo-fi hip hop
+music: Relaxing to some lo-fi hip hop
 tools: Sharpie pens & grid paper (+ Adobe Suite)
 typeface: Roboto
 instagram: instagram.com/seanlauten
