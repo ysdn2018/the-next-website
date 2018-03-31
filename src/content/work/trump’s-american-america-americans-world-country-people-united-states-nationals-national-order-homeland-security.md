@@ -1,14 +1,14 @@
 ---
 templateKey: project
-title: >-
-  Trump’s american, america, americans, world, country, people, united, states,
-  nationals, national, order, homeland, security.
+title: 'Trump’s american, america, americans, world...'
 graduate: Saba Sobhani
 image: /assets/saba-ta-header.jpg
 category: Typography
 category2: Communication Design
 category3: Information Design
 ---
+# Trump’s american, america, americans, world, country, people, united, states, nationals, national, order, homeland, security.
+
 ## Summary
 
 This project started with the idea of merging scientific phenomena into design artefacts in order to tell stories in a new way, working through this goal I created a generative type treatment that is inspired by the second law of thermodynamics and used it to express the current state of America. 
@@ -41,4 +41,4 @@ A pivotal moment in the research phase of this project was I found the text _Ent
 
 (Above) Created in illustrator by using a warp distort tool, exponentially changing the variables according to the frequency in which they appear. In the end creating a form that is not recognizable. This is mimicking Arnheim’s quote above.
 
-After this, I knew what I wanted the final output to look like so it was up to me to try to learn a new programming language in order to do it. A turbulent road was ahead, and along the way I learned to not be afraid of asking others for help. Below was by first attempt at using processing to affect the appearance of characters according to their frequencies.
+After this, I knew what I wanted the final output to look like so it was up to me to try to learn a new programming language in order to do it. A turbulent road was ahead, and along the way I learned to not be afraid of asking others for help. Below was by first attempt at using [Processing](http://processing.org) to affect the appearance of characters according to their frequencies.
