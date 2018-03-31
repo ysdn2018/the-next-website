@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
+import {A,H2,H3,H4} from '../components/Typography'
 
 // styled-components
 const Content = styled.div`
@@ -11,9 +12,37 @@ const Content = styled.div`
 `
 
 const HeroImage = styled(Img)`
-  height: 90vh;
+  height: 100vh;
+`
+const ProjectContainer = styled.div `
+  height: 92%;
+  width: 20%;
+  float: left;
+  position: fixed;
+  z-index: 100;
 `
 
+const ProjectInfo = styled.div `
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px;
+  border: 1px solid;
+`
+
+const InfoContainer = styled.div `
+    width: 75%;
+    float: right;
+`
+
+const Info = styled.div `
+  width: 75%;
+  margin: 15px auto;
+  padding: 10px;
+  white-space: pre-wrap;
+`
 
 // page template component
 export default function Post({ data }) {
@@ -22,15 +51,26 @@ export default function Post({ data }) {
 
   return (
     <div>
+
+      <ProjectContainer>
+        <ProjectInfo>
+          <H4>{project.frontmatter.title}</H4>
+          <H4>
+            <Link to={`/graduates/${grad.replace(/\s+/g, "-").toLowerCase()}/`}>
+              {grad}
+            </Link>
+          </H4>
+        </ProjectInfo>
+      </ProjectContainer>
+
       <HeroImage sizes={project.frontmatter.image.childImageSharp.sizes}/>
-      <h3>{project.frontmatter.title}</h3>
-      <h5>by:
-      <Link to={`/graduates/${grad.replace(/\s+/g, "-").toLowerCase()}/`}>
-        {grad}
-      </Link>
-      </h5>
-      <Content dangerouslySetInnerHTML={{ __html: project.html }}/>
-      
+
+      <InfoContainer>
+        <Info>
+            <Content dangerouslySetInnerHTML={{ __html: project.html }}/>
+        </Info>
+      </InfoContainer>
+
     </div>
   );
 };
