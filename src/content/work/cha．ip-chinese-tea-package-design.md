@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: CHA．IP - Chinese Tea Package Design
+title: 'CHA．IP '
 graduate: Clover Chang
 image: /assets/clover1b.jpg
 category: Package Design
