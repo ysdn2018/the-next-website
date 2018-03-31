@@ -23,7 +23,7 @@ The problem I created for myself was to design a robotics set could appeal to gi
 
 For most projects, I begin researching as much as I can and making sketches. Looking into robots and the gender gap within stem, while sketching early ideas of what the potential package could look.
 
-Thinking about a name for the robotics set that was both relevant and meaningful to the potential users. Settling on CiRKET, utilizing a part of my first name with the word “circuit,” leaving the lowercase “i” to illustrate that we changing the world with one girl at a time.
+Thinking about a name for the robotics set that was both relevant and meaningful to the potential users. Settling on CiRKET, utilizing a part of my first name with the word “circuit,” leaving the lowercase “i” to illustrate that we are changing the world with one girl at a time.
 
 Thinking about a name for the robotics set that was both relevant and meaningful to the potential users. Settling on CiRKET, utilizing a part of my first name with the word “circuit,” leaving the lowercase “i” to illustrate that we changing the world with one girl at a time.
 
