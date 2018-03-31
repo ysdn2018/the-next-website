@@ -14,7 +14,7 @@ intro: >-
   communication, interaction, and user-experience, Amanda’s goal as a designer
   is to create a positive impact and build experiences that resonate with the
   people who interact with her work.
-hobbies: 'Travelling, cooking, singing in the shower'
+hobbies: ''
 music: 'Disco, soul & old school hip-hop'
 tools: 'Pencil & Paper. Adobe Illustrator, InDesign, Photoshop, Sketch'
 watch: The Office
