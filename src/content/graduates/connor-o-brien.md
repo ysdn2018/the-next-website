@@ -5,7 +5,14 @@ image: /assets/sloth.jpg
 imageHover: /assets/sloth2.jpg
 verb: helping
 noun: generation
-intro: ''
+intro: >-
+  Connor is a designer that is constantly striving for new and different
+  problems to solve and messages to communicate. He is a strong believer in the
+  power 
+
+  design has to have a meaningful and lasting impression on an audience. His
+  interests in design lie primarily in user experience, brand development and
+  packaging.
 hobbies: ''
 email: hello@connorobriendesign.com
 website: www.connorobriendesign.com
