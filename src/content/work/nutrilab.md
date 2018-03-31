@@ -2,7 +2,8 @@
 templateKey: project
 title: NutriLab
 graduate: Madeleine Rae
-image: /assets/m-rae-nutrilab2.gif
+image: /assets/sloth.jpg
+# image: /assets/m-rae-nutrilab2.gif
 category: Product Design
 category2: UI/UX
 category3: Brand Identity

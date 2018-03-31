@@ -1,11 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
 import { spacing, breakpoints } from '../../utils/constants.js'
-import { H3 } from '../Typography'
+import { H3, H1 } from '../Typography'
 /*
   Base component
   Copy this directory and rename to your choosing
 */
+
+// function HeadingSelector(props) {
+//   switch(props.size) {
+//     case 'big':
+//       return <H1>
+//   }
+// }
 
 
 const StatementContainer = styled.div`
