@@ -5,6 +5,7 @@ graduate: Anna De-Jia Li
 image: /assets/ali_seasons-1.jpg
 category: Package Design
 category2: Brand Identity
+category3: Product Design
 ---
 食节 24-Season Food is a whole grain package (五谷杂粮礼包). It is a special gift collection during Chinese lunar holidays. People give the whole grain package as a gift with blessing meaning during Chinese New Year in the north of China, especially as a gift for elders. The package includes three main parts. The first part is the outside container. The second part is the poster inside the container. The third part is the collection of the whole grain bags. 
 
