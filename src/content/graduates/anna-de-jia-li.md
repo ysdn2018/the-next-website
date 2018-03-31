@@ -12,5 +12,11 @@ intro: >-
   design could become designer's attitude and the attitude can give birth to new
   concepts. She also believes in provoking thought and emotions through her work
   and she's always up for new challenges.
+hobbies: 'Drawing, Eating, Traveling'
+music: >-
+  Soul, Jazz, Blue, Ballad, Indie pop, Indie folk, New-age, Pop rock, Vaporwave,
+  Lo-fi, Classical, Instrumental... 
+email: annadjli21@gmail.com
+website: annadjli.net
 ---
 
