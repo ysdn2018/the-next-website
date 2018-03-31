@@ -53,7 +53,7 @@ This sketch was followed with experiments in how to deform type according to the
 
 (above left) In this example, the shape of each repeated character is exponentially deformed horizontally only. (above right) In this example, the shape of each repeated character is exponentially deformed horizontally and vertically. Also the hue of the stroke is relative to the frequency of the characters.
 
-![](/assets/saba-ta-4.jpg)
+![null](/assets/saba-ta-4.jpg)
 
 The images of the project in progress are a little misleading in showing how much trial and error lead to even the crudest of sketches. When coding, I lost track of the original goal set at the beginning of the project: to use natural phenomena to _tell a story_ in a new way. My full focus was on the visual execution until now.  
 
@@ -67,15 +67,15 @@ On the first of February 2017, President Donald Trump had issued an executive or
 
 Almost immediately, numerous protests and legal challenges began across the country, causing a greater divide in a country that has been torn apart already. Diplomats around the world condemned Trump’s actions, so did CEOs from the United States, and even members of the Republican party were against the executive order. The executive order immediately caused chaos across the country, and in my view if it hadn’t been challenged by the American judicial system it could’ve resulted in even more destruction in the future.
 
-![](/assets/saba-ta-5.jpg)
+![null](/assets/saba-ta-5.jpg)
 
 I use Trump’s Travel Ban as the text for this work as a representation of his destructive behaviour, steering America into an even more divided country that will eventually result in chaos and destruction. 
 
-![](/assets/saba-ta-6.jpg)
+![null](/assets/saba-ta-6.jpg)
 
-![](/assets/saba-ta-7.jpg)
+![null](/assets/saba-ta-7.jpg)
 
-![](/assets/saba-ta-8.jpg)
+![null](/assets/saba-ta-8.jpg)
 
 The final output of this project is a mammoth 24x100” poster using the generative typographic system based on entropy, mimicking Trump’s path of destruction through the exponential deformation of a set of words found within Trump’s own executive order.
 
@@ -84,3 +84,5 @@ american, america, americans, world, country, people, united, states, nationals,
 
 **Special Thanks:**\
 Hunter Caron
+
+<iframe src="https://player.vimeo.com/video/https://vimeo.com/261512550" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
