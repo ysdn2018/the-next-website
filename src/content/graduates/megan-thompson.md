@@ -12,6 +12,9 @@ intro: >-
   and influential graphic design can be. She is constantly craving new
   experiences and adventures and tries to live her life in the most optimistic
   way.
+hobbies: 'Illustration, and hugging my dog.'
+music: ''
+tools: I always start with a pencil and paper!
 instagram: '@meeeganthompson'
 linkedin: ''
 email: megan9thompson@gmail.com
