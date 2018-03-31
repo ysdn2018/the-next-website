@@ -1,11 +1,11 @@
 ---
 templateKey: project
-title: COMICANIC
+title: Comicanic
 graduate: Jayme Kalpin
 image: /assets/comicanic-01.png
 category: Typography
 ---
-More complex artwork and text have made diving into the thrilling tales of our favourite superheroes a challenge for readers with impaired vision. COMICANIC updates the popular print standard type used in action comics for improved legibility at small sizes, while still maintaining the fun, dynamic voice we all know and love.
+More complex artwork and text have made diving into the thrilling tales of our favourite superheroes a challenge for readers with impaired vision. Comicanic updates the popular print standard type used in action comics for improved legibility at small sizes, while still maintaining the fun, dynamic voice we all know and love.
 
 ![Examples of the Comicanic typeface in use.](/assets/lklsdf-01.png)
 
