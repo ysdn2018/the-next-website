@@ -13,7 +13,9 @@ intro: >-
   public, and as a creative thinker, she has the power to provide information in
   an engaging way, and solve real world problems by creating better solutions
   for generations to come.
+hobbies: 'Fine art, Videography, Animation'
 tools: 'After Effects, Premier, Illustrator, InDesign, Sketchbook, Tablet'
+instagram: '@desbook'
 email: madeleine-rae@outlook.com
 website: www.mrae.design
 ---
