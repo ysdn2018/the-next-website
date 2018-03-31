@@ -24,7 +24,9 @@ music: >-
 tools: >-
   All Adobe all day baby! I like to dabble in Processing every now and then to
   push myself out of my comfort zone and to force new ways of thinking. 
-typeface: Theinhardt by Optimo is everything.
+typeface: |-
+  Theinhardt by Optimo is everything.
+  Ivar by Letters from Sweden is also incredible. 
 twitter: 'https://twitter.com/SabaSob'
 instagram: 'https://www.instagram.com/sabasob/'
 linkedin: 'https://www.linkedin.com/in/sabasob/'
