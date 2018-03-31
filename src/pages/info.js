@@ -11,7 +11,7 @@ const Title = styled.div `
   margin-top: 160px;
   width: 100%;
   border-width: 1px 0;
-  border-style: solid
+  border-style: solid;
   border-color: #000;
   padding: 8px 0 8px 0;
   text-align: center;

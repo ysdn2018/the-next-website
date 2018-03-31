@@ -2,7 +2,7 @@
 templateKey: project
 title: Virtual Gestures
 graduate: Soojin Kim
-image: /assets/virtual gestures.jpg
+image: /assets/virtual-gestures.jpg
 category: Experiential Design
 category2: Installation
 category3: Web Design

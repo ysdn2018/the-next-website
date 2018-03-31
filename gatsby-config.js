@@ -32,6 +32,7 @@ module.exports = {
              resolve: `gatsby-remark-images`,
              options: {
                maxWidth: 500,
+               quality: 85,
                linkImagesToOriginal: false,
              },
            },

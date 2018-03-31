@@ -13,26 +13,53 @@ const GradsGrid = styled.div`
   flex-wrap: wrap;
 `;
 
+const SearchField = styled.input`
+  
+`;
+
 // page component
-export default function Graduates({ data }) {
-  const grads = data.allMarkdownRemark.edges;
+export default class Graduates extends React.Component {
 
-  return (
-    <PageContainer>
-      <h1>Wow look at all these cool grads</h1>
-      <p>grads page</p>
-      
-      <GradsGrid>
-        {grads.map(({ node: grad }) => (
-          <Link to={grad.fields.slug} key={grad.id}>
-            <Img resolutions={grad.frontmatter.image.childImageSharp.resolutions}/>
-            <p>{grad.frontmatter.title}</p>
-          </Link>
-        ))}
-      </GradsGrid>
+  state = {
+    search: ""
+  }
 
-    </PageContainer>
-  )
+  updateSearch = (e) => {
+    this.setState({
+      search: e.target.value.toLowerCase()
+    })
+  }
+
+  render() {
+    const grads = this.props.data.allMarkdownRemark.edges;
+    const filteredGrads = grads.filter(({ node: grad }) => {
+      return grad.frontmatter.title.toLowerCase().indexOf(this.state.search) !== -1;
+    });
+
+    return (
+      <PageContainer>
+        <h1>Wow look at all these cool grads</h1>
+        <p>grads page</p>
+
+        <SearchField
+          type="text" 
+          placeholder="Search"
+          value={this.state.search}
+          onChange={this.updateSearch}
+        /> 
+
+        <GradsGrid>
+          {filteredGrads.map(({ node: grad }) => (
+            <Link to={grad.fields.slug} key={grad.id}>
+              <Img resolutions={grad.frontmatter.image.childImageSharp.resolutions} />
+              <p>{grad.frontmatter.title}</p>
+            </Link>
+          ))}
+        </GradsGrid>
+
+      </PageContainer>
+    )
+  }
 }
 
 // data query
@@ -50,7 +77,7 @@ export const query = graphql`
             title
             image {
               childImageSharp {
-                resolutions(height: 150, width: 150) {
+                resolutions(height: 150, width: 150, quality: 75) {
                   ...GatsbyImageSharpResolutions
                 }
               }

@@ -12,30 +12,58 @@ const ProjectGrid = styled.div`
   flex-wrap: wrap;
 `;
 
+const SearchField = styled.input`
+  
+`;
 
 // page component
-export default function Work({ data }) {
-  const projects = data.allMarkdownRemark.edges;
+export default class Work extends React.Component {
+  state = {
+    search: ""
+  }
 
-  return (
-    <PageContainer>
-      <h1>Work</h1>
-      <p>Welcome to the work page</p>
+  updateSearch = (e) => {
+    this.setState({
+      search: e.target.value.toLowerCase()
+    })
+  }
 
-      <ProjectGrid>
-        {projects.map(({ node: project }) => (
-          <Project
-            title={project.frontmatter.title}
-            image={project.frontmatter.image.childImageSharp.resolutions}
-            path={project.fields.slug}
-            graduate={project.frontmatter.graduate}
-            key={project.id}
-          />
-        ))}
-      </ProjectGrid>
+  render() {
+    const projects = this.props.data.allMarkdownRemark.edges;
+    const filteredProjects = projects.filter(({ node: project }) => {
+      return project.frontmatter.title.toLowerCase().indexOf(this.state.search) !== -1 ||
+        project.frontmatter.graduate.toLowerCase().indexOf(this.state.search) !== -1;
+    });
 
-    </PageContainer>
-  )
+
+    return (
+      <PageContainer>
+        <h1>Work</h1>
+        <p>Welcome to the work page</p>
+
+        <SearchField
+          type="text"
+          placeholder="Search"
+          value={this.state.search}
+          onChange={this.updateSearch}
+        /> 
+
+        <ProjectGrid>
+          {filteredProjects.map(({ node: project }) => (
+            <Project
+              title={project.frontmatter.title}
+              image={project.frontmatter.image.childImageSharp.resolutions}
+              path={project.fields.slug}
+              graduate={project.frontmatter.graduate}
+              key={project.id}
+            />
+          ))}
+        </ProjectGrid>
+
+      </PageContainer>
+    )
+  }
+
 }
 
 // data query
