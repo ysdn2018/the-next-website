@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: Ender’s Game
+title: Ender’s Game — Book Trailer
 graduate: Sean Lautenschlager
 image: /assets/sean_lauten-enders_game-1.png
 category: Time Based Communication
