@@ -16,4 +16,6 @@ category2: Book Design
 
 ![An inside spread of the brand book.](/assets/screen shot 2018-01-21 at 15.31.07.png)
 
+![The Japanese bound ALTX brand book with a staggered edge to mark sections.](/assets/img_0799.jpg)
+
 ALTX is a kickstarter company and brand designed to bridge cultural differences for explorers of any city or space, connecting people to influencers wherever they choose to adventure. The foundations of the brand, mission, vision, and values are crafted into a Japanese-bound guide book.
