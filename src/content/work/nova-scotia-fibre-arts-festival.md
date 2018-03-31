@@ -26,7 +26,7 @@ Nova Scotia and the Maritime provinces have Canada's highest population of elder
 
 
 
-## EPHEMERA SAMPLES
+## EPHEMERA
 
 ![](/assets/lecompte106.jpg)
 
