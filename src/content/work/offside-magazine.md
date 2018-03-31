@@ -7,7 +7,7 @@ category: Editorial Design
 ---
 ## ABOUT
 
-Offside is a soccer magazine which looks at social, political issues which affect soccer. More than just a magazine that looks at player statistics, transfer moves and league tables. Offside looks at positive and negative stories in soccer and provides a platform for discussion. This issue features stories about the corruption in FIFA and the racism problem in Russian soccer.
+Offside is a soccer magazine which looks at the social and political issues which affect soccer. More than just a magazine that looks at player statistics, transfer moves and league tables. Offside looks at positive and negative stories in soccer and provides a platform for discussion. This issue features stories about corruption in FIFA and the problem of racism in Russian soccer.
 
 ## FEATURES
 
