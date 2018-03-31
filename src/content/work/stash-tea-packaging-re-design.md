@@ -44,9 +44,7 @@ Transformational Design
 
 ![](/assets/3-stash-trans_rgb.jpg)
 
-While staying true to one aspect of the brand equity, the The Transformational Design takes a different turn an pushes further away from the original design while still staying true to STASH Tea's brand equities. 
-
-
+While staying true to the meaning behind the name of the company, The Transformational Design creates a different take on the traditional tea box. Because in earlier centuries, the ship's captain would be presented with a "stash" of tea, I interpreted this as a paper bag. 
 
 ## Conclusion
 
