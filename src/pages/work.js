@@ -47,6 +47,10 @@ export default class Work extends React.Component {
   render() {
     const projects = this.props.data.allMarkdownRemark.edges;
     const filteredCategory = projects.filter(({node: project}) => {
+      let projCategories = [];
+
+      console.log();
+      
       return project.frontmatter.category.indexOf(this.state.category) !== -1 ;
     });
     const filteredSearch = filteredCategory.filter(({ node: project }) => {
@@ -60,9 +64,9 @@ export default class Work extends React.Component {
         <h1>Work</h1>
         <p>Welcome to the work page</p>
 
-        <button onClick={() => this.updateCategory("")}>All</button>
-        <button onClick={() => this.updateCategory("UI/UX")}>UI/UX</button>
-        <button onClick={() => this.updateCategory("Product Design")} >Product Design</button>
+        <Button onClick={() => this.updateCategory("")}>All</Button>
+        <Button onClick={() => this.updateCategory("UI/UX")}>UI/UX</Button>
+        <Button onClick={() => this.updateCategory("Product Design")} >Product Design</Button>
         <br/><br/>
         <SearchField
           type="text"

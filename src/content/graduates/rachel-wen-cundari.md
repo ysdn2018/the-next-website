@@ -13,7 +13,7 @@ intro: >-
   resonate with her intended audience. With the combination of forward thinking
   and appreciation of design’s history, Rachel aspires to constantly push the
   aesthetic boundaries of design with excellence. 
-hobbies: 'Eating ramen '
+hobbies: 'Eating ramen'
 music: Daniel Caesar & Sabrina Claudio
 typeface: ITC Grouch
 linkedin: www.linkedin.com/in/rachel-wen-cundari-189703119
