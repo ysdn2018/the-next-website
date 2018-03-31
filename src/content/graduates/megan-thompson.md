@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Megan Thompson
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Megan_Thompson-1.jpg
+headshotHover: ../headshots/looking/Megan_Thompson-2.jpg
 verb: Provoking
 noun: Emotion
 intro: >-

@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Ariel Muir
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Ariel_Muir-1.jpg
+headshotHover: ../headshots/looking/Ariel_Muir-2.jpg
 verb: Visualizing
 noun: Story
 instagram: 'https://www.instagram.com/ariel.muir/?hl=en'

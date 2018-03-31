@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Gillian Wu
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Gillian_Wu-1.jpg
+headshotHover: ../headshots/looking/Gillian_Wu-2.jpg
 verb: Creating
 noun: Impact
 intro: >+

@@ -7,7 +7,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`);
 
 const staticImagePath = "./static/assets/";
 const contentPath = "./src/content/";
-const imageNames = ["headshot", "thumbnail", "image"];
+const imageNames = ["thumbnail", "image"];
 
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {

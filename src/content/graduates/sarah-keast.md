@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Sarah Keast
-image: /assets/sarah_keast-small.jpg
-imageHover: /assets/sarah_keast-2(1).jpg
+headshot: ../headshots/normal/Sarah_Keast-1.jpg
+headshotHover: ../headshots/looking/Sarah_Keast-2.jpg
 verb: Conquering
 noun: Challenge
 intro: >+

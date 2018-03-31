@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Chloe Typert-Morrison
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Chloe-TMorrison-1.jpg
+headshotHover: ../headshots/looking/Chloe-TMorrison-2.jpg
 verb: protecting
 noun: generation
 intro: >-

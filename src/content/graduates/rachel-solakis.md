@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Rachel Solakis
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Rachel_Cundari-1.jpg
+headshotHover: ../headshots/looking/Rachel_Cundari-2.jpg
 verb: Making
 noun: Mistake
 intro: >-

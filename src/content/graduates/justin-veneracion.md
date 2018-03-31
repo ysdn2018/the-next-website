@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Justin Veneracion
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Justin_Veneracion-1.jpg
+headshotHover: ../headshots/looking/Justin_Veneracion-2.jpg
 verb: seeking
 noun: possibilities
 intro: >-

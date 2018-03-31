@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: John MacDonald
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/John_McDonald-1.jpg
+headshotHover: ../headshots/looking/John_McDonald-2.jpg
 verb: Understanding
 noun: Project
 intro: >-

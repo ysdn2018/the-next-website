@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Sean Lautenschlager
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Sean_Lautenschalger-1.jpg
+headshotHover: ../headshots/looking/Sean_Lautenschalger-2.jpg
 verb: Solving
 noun: Puzzle
 intro: >-

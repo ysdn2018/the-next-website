@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Charlotte Lucas
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Charlotte_Lucas-1.jpg
+headshotHover: ../headshots/looking/Charlotte_Lucas-2.jpg
 verb: Crafting
 noun: Experience
 intro: >-

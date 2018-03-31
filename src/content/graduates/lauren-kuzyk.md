@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Lauren Kuzyk
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Lauren_Kuzyk-1.jpg
+headshotHover: ../headshots/looking/Lauren_Kuzyk-2.jpg
 verb: exploring
 noun: sphere
 intro: >-

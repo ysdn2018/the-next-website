@@ -7,12 +7,14 @@ import { H3, H1 } from '../Typography'
   Copy this directory and rename to your choosing
 */
 
-// function HeadingSelector(props) {
-//   switch(props.size) {
-//     case 'big':
-//       return <H1>
-//   }
-// }
+function Heading(props) {
+  switch(props.size) {
+    case 'big':
+      return <H1>{props.children}</H1>
+    default:
+      return <H3>{props.children}</H3>
+  }
+}
 
 
 const StatementContainer = styled.div`

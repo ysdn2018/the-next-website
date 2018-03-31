@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: J. Andrew Carenza
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Andrew_Carenza-1.jpg
+headshotHover: ../headshots/looking/Andrew_Carenza-2.jpg
 verb: Starting
 noun: Revolution
 intro: >-

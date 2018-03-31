@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Stephanie Panier
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Stephanie_Panier-1.jpg
+headshotHover: ../headshots/looking/Stephanie_Panier-2.jpg
 verb: Discovering
 noun: Paradox
 intro: >-

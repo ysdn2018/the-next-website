@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Meaghan Gray
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Meaghan_Gray-1.jpg
+headshotHover: ../headshots/looking/Meaghan_Gray-2.jpg
 verb: Exploring
 noun: Possibility
 intro: >-

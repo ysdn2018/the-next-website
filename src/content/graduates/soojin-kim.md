@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Soojin Kim
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Susan_Kim-1.jpg
+headshotHover: ../headshots/looking/Susan_Kim-2.jpg
 verb: 'Exploring '
 noun: Material
 intro: >-

@@ -86,7 +86,7 @@ export default function Post({ data }) {
 
       <Profile>
         <Name>{graduate.frontmatter.title}</Name>
-        <Img sizes={graduate.frontmatter.image.childImageSharp.sizes} className="image"/>
+        <Img sizes={graduate.frontmatter.headshot.childImageSharp.sizes} className="image"/>
         <Statement
           verb = {graduate.frontmatter.verb}
           noun = {graduate.frontmatter.noun}
@@ -210,7 +210,7 @@ export const aboutPageQuery = graphql`
           }
 
           frontmatter {
-            image {
+            headshot {
               childImageSharp {
                 sizes(maxWidth: 800, quality: 90, maxHeight: 300) {
                   ...GatsbyImageSharpSizes

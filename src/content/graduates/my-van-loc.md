@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: My Van Loc
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Park_Van-1.jpg
+headshotHover: ../headshots/looking/Park_Van-2.jpg
 verb: Catching
 noun: Plane
 intro: >-

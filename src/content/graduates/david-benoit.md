@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: David Benoit
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/David_Benoit-1.jpg
+headshotHover: ../headshots/looking/David_Benoit-2.jpg
 verb: Crafting
 noun: Discipline
 intro: >

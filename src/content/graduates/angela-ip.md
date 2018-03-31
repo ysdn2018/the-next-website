@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Angela Ip
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Angela_Ip-1.jpg
+headshotHover: ../headshots/looking/Angela_Ip-2.jpg
 verb: Formulating
 noun: Interaction
 intro: >-

@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Kristen Yeung
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Kristen_Yeung-1.jpg
+headshotHover: ../headshots/looking/Kristen_Yeung-2.jpg
 verb: DRAWING
 noun: ILLUSTRATION
 intro: >-

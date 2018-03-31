@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Sandra Han
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Sandra_Han-1.jpg
+headshotHover: ../headshots/looking/Sandra_Han-2.jpg
 verb: Provoking
 noun: Experience
 intro: >-

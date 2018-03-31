@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Saba Sobhani
-image: /assets/sloth.jpg
-imageHover: /assets/sloth.jpg
+headshot: ../headshots/normal/Saba_Sobhani-1.jpg
+headshotHover: ../headshots/looking/Saba_Sobhani-2.jpg
 verb: Starting
 noun: Conversation
 intro: >

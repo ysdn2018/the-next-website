@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Anna De-Jia Li
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Anna_Li-1.jpg
+headshotHover: ../headshots/looking/Anna_Li-2.jpg
 verb: Seeing
 noun: Attitude
 intro: >-

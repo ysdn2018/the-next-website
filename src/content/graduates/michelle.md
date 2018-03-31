@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Michelle Vu
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Michelle_Vu-1.jpg
+headshotHover: ../headshots/looking/Michelle_Vu-2.jpg
 verb: Producing
 noun: Visual
 intro: >-

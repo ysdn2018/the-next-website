@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Martina Serafimovska
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Martina_Serafimovska-1.jpg
+headshotHover: ../headshots/looking/Martina_Serafimovska-2.jpg
 verb: Shape
 noun: Generations
 intro: >-

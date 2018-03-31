@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Stephanie Walser
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Stephanie_Walser-1.jpg
+headshotHover: ../headshots/looking/Stephanie_Walser-2.jpg
 verb: Experiencing
 noun: Moment
 intro: >-

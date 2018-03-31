@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Arman Pourshadi
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Arman_Pourshadi-1.jpg
+headshotHover: ../headshots/looking/Arman_Pourshadi-2.jpg
 verb: Creating
 noun: Type
 intro: >-

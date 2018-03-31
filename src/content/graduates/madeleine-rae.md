@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Madeleine Rae
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Madeleine_Rae-1.jpg
+headshotHover: ../headshots/looking/Madeleine_Rae-2.jpg
 verb: Advancing
 noun: Generation
 intro: >-

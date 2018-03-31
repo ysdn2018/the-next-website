@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Emily Michalicka
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Emily_Michalicka-1.jpg
+headshotHover: ../headshots/looking/Emily_Michalicka-2.jpg
 verb: 'Being '
 noun: Change
 intro: >-

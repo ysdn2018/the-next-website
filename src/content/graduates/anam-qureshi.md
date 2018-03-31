@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Anam Qureshi
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Anam_Quereshi-1.jpg
+headshotHover: ../headshots/looking/Anam_Quereshi-2.jpg
 verb: Advance
 noun: World
 intro: >-

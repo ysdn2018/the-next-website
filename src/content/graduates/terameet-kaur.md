@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Terameet Kaur
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Terameet_Kaur-1.jpg
+headshotHover: ../headshots/looking/Terameet_Kaur-2.jpg
 verb: Revolutionizing
 noun: Solution
 intro: >-

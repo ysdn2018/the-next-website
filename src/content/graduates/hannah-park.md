@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Hannah Park
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Hannah_Park-1.jpg
+headshotHover: ../headshots/looking/Hannah_Park-2.jpg
 verb: reinterpreting
 noun: definition
 intro: >-

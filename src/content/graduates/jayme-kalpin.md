@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Jayme Kalpin
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Jayme_Kalpin-1.jpg
+headshotHover: ../headshots/looking/Jayme_Kalpin-2.jpg
 verb: Overcoming
 noun: Obstacle
 intro: >

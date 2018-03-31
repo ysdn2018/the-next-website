@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Chelsea Lecompte
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Chelsea_Lecompte-1.jpg
+headshotHover: ../headshots/looking/Chelsea_Lecompte-2.jpg
 verb: TELLING
 noun: STORY
 intro: >-

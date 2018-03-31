@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Amanda Pape
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Amanda_Pape-1.jpg
+headshotHover: ../headshots/looking/Amanda_Pape-2.jpg
 verb: Prompting
 noun: Movement
 intro: >-

@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Ashley O'Brien
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Ashley_Obrien-1.jpg
+headshotHover: ../headshots/looking/Ashley_Obrien-2.jpg
 verb: conquering
 noun: 'challenge '
 intro: >-

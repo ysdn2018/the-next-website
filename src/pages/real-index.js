@@ -3,33 +3,15 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 import Button from '../components/Button'
 import Img from 'gatsby-image'
+import StatementHeader from '../components/SectionHeading'
 
 
 // styled components
 const Container = styled.div`
-
+  height: 100%;
+  width: 100%;
 `
 
-const Subtitle = styled.div`
-  text-align: left;
-`
-
-const List = styled.ul`
-  margin-bottom: 70px;
-`
-
-const LinkContainer = styled.li`
-  margin-bottom: 1rem;
-`
-
-const LinkText = styled(Link)`
-  font-style: italic;
-  color: black;
-
-  &:hover {
-    text-decoration: none;
-  }
-`
 
 
 // components
@@ -54,31 +36,11 @@ export default function IndexPage({ data }) {
 
   return (
     <Container>
-      <Subtitle>some kind of homepage will be here, in the mean time here is some content</Subtitle>
+      <StatementHeader
+       />
 
-      <List>
-        <h3>Graduates</h3>
-        {graduates.map( ({ node: grad }, i) => (
-          <PageLink
-            to={grad.fields.slug}
-            title={grad.frontmatter.title}
-            key={grad.id}
-            image={grad.frontmatter.image.childImageSharp.resolutions}
-          />
-        ))}
-      </List>
 
-      <List>
-        <h3>Work</h3>
-        {projects.map(({ node: project }, i) => (
-          <PageLink
-            to={project.fields.slug}
-            title={project.frontmatter.title}
-            key={project.id}
-            image={project.frontmatter.image.childImageSharp.resolutions}
-          />
-        ))}
-      </List>
+
     </Container>
   )
 }

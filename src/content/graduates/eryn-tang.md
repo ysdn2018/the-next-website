@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Eryn Tang
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Eryn_Tang-1.jpg
+headshotHover: ../headshots/looking/Eryn_Tang-2.jpg
 verb: Start
 noun: Conversation
 linkedin: ''

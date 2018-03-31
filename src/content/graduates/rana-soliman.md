@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Rana Soliman
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Rana_Soliman-1.jpg
+headshotHover: ../headshots/looking/Rana_Soliman-2.jpg
 verb: Questioning
 noun: Move
 intro: >-

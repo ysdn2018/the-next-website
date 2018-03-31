@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Alicia Lee
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Alicia_Lee-1.jpg
+headshotHover: ../headshots/looking/Alicia_Lee-2.jpg
 verb: becoming
 noun: superstar
 intro: |-

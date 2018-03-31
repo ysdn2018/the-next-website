@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Michael Calcada
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Michael_Calcada-1.jpg
+headshotHover: ../headshots/looking/Michael_Calcada-2.jpg
 verb: Designing
 noun: interfaces
 intro: >-

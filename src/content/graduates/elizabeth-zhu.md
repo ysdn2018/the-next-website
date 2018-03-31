@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Elizabeth Zhu
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Elizabeth_Zhou-1.jpg
+headshotHover: ../headshots/looking/Elizabeth_Zhou-2.jpg
 verb: Helping
 noun: Person
 intro: >-

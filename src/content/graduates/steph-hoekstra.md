@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Steph Hoekstra
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Steph_Hoekstra-1.jpg
+headshotHover: ../headshots/looking/Steph_Hoekstra-2.jpg
 verb: Sharing
 noun: Laugh
 intro: >-

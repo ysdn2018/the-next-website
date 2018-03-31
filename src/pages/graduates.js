@@ -6,6 +6,7 @@ import { spacing } from '../utils/constants'
 
 import PageContainer from '../components/PageContainer'
 import SectionHeading from '../components/SectionHeading'
+import Graduate from '../components/Graduate'
 
 
 const GradsGrid = styled.div`
@@ -16,6 +17,7 @@ const GradsGrid = styled.div`
 const SearchField = styled.input`
   
 `;
+
 
 // page component
 export default class Graduates extends React.Component {
@@ -50,10 +52,13 @@ export default class Graduates extends React.Component {
 
         <GradsGrid>
           {filteredGrads.map(({ node: grad }) => (
-            <Link to={grad.fields.slug} key={grad.id}>
-              <Img resolutions={grad.frontmatter.image.childImageSharp.resolutions} />
-              <p>{grad.frontmatter.title}</p>
-            </Link>
+            <Graduate
+              to={grad.fields.slug}
+              key={grad.id}
+              image={grad.frontmatter.headshot.childImageSharp.resolutions}
+              link={grad.fields.slug}
+              title={grad.frontmatter.title}
+              />
           ))}
         </GradsGrid>
 
@@ -75,10 +80,10 @@ export const query = graphql`
           }
           frontmatter {
             title
-            image {
+            headshot {
               childImageSharp {
-                resolutions(height: 150, width: 150, quality: 75) {
-                  ...GatsbyImageSharpResolutions
+                resolutions(height: 200, width: 150, quality: 75, cropFocus: CENTER) {
+                  ...GatsbyImageSharpResolutions_noBase64
                 }
               }
             }

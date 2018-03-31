@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Sara Qarizada
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Sara_Qarizada-1.jpg
+headshotHover: ../headshots/looking/Sara_Qarizada-2.jpg
 verb: Influencing
 noun: Change
 intro: >-

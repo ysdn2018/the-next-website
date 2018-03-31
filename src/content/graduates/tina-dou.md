@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Tina Dou
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Tina_Dou-1.jpg
+headshotHover: ../headshots/looking/Tina_Dou-2.jpg
 verb: Preserving
 noun: lifestyle
 intro: >-

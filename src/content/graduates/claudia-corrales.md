@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Claudia Corrales
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Claudia_Corrales-1.jpg
+headshotHover: ../headshots/looking/Claudia_Corrales-2.jpg
 verb: educating
 noun: generation
 intro: >-

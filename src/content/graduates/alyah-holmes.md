@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Alyah Holmes
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Alyah_Holmes-1.jpg
+headshotHover: ../headshots/looking/Alyah_Holmes-2.jpg
 verb: creating
 noun: solution
 intro: >-

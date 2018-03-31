@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Bethany Moy
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Bethany_Moi-1.jpg
+headshotHover: ../headshots/looking/Bethany_Moi-2.jpg
 verb: Pushing
 noun: Limit
 intro: >-

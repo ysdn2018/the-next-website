@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Acadia Stewart
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Acadia_Stewart-1.jpg
+headshotHover: ../headshots/looking/Acadia_Stewart-2.jpg
 verb: 'Creating '
 noun: 'Experience '
 intro: >-

@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Danielle Sheahan
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Danielle_Sheahan-1.jpg
+headshotHover: ../headshots/looking/Danielle_Sheahan-2.jpg
 verb: Facilitating
 noun: Connection
 intro: >

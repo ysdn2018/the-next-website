@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Patrick Descartin
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Pat_Descartin-1.jpg
+headshotHover: ../headshots/looking/Pat_Descartin-2.jpg
 verb: Setting
 noun: Stage
 intro: >-

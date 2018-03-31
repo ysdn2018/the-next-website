@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Manushi Patel
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Manushi_Patel-1.jpg
+headshotHover: ../headshots/looking/Manushi_Patel-2.jpg
 verb: Discovering
 noun: Solution
 intro: >-

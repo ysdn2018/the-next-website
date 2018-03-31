@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Gary Fung
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Gary_Fung-1.jpg
+headshotHover: ../headshots/looking/Gary_Fung-2.jpg
 verb: Exploring
 noun: Experience
 tools: 'Sketch Framer Cinema 4D InDesign '

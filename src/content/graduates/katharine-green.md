@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Katharine Green
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Justin_White-1.jpg
+headshotHover: ../headshots/looking/Justin_White-2.jpg
 verb: exploring
 noun: possibility
 intro: >-

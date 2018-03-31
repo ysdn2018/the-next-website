@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Victoria Cake
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Victoria_Cake-1.jpg
+headshotHover: ../headshots/looking/Victoria_Cake-2.jpg
 verb: Being
 noun: Voice
 tools: 'Adobe Creative Suite, Pigma Micron pens, and her coconut.'

@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Clover Chang
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Clover_Chang-1.jpg
+headshotHover: ../headshots/looking/Clover_Chang-2.jpg
 verb: Paving
 noun: Way
 intro: >-

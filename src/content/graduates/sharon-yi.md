@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Sharon Yi
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Sharon_Yi-1.jpg
+headshotHover: ../headshots/looking/Sharon_Yi-2.jpg
 verb: Observing
 noun: Perspective
 intro: >-

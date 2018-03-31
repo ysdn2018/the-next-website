@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: ROMAN DROBOT
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Roman_Drobot-1.jpg
+headshotHover: ../headshots/looking/Roman_Drobot-2.jpg
 verb: TAKING
 noun: RISK
 intro: >-

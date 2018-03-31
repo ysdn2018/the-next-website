@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: John Kowalski
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/John_Kowalski-1.jpg
+headshotHover: ../headshots/looking/John_Kowalski-2.jpg
 verb: Envisioning
 noun: 'Experience '
 intro: >-

@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Joshua Monk
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Joshua_Monk-1.jpg
+headshotHover: ../headshots/looking/Joshua_Monk-2.jpg
 verb: Seeking
 noun: challenge
 intro: >-

@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Jennifer Floto
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Jennifer_Floto-1.jpg
+headshotHover: ../headshots/looking/Jennifer_Floto-2.jpg
 verb: Creating
 noun: Solution
 intro: >-

@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Kristen Chung
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Kristen_Chung-1.jpg
+headshotHover: ../headshots/looking/Kristen_Chung-2.jpg
 verb: Inciting
 noun: reaction
 intro: >-

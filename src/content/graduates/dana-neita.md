@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Dana Neita
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Dana_Neita-1.jpg
+headshotHover: ../headshots/looking/Dana_Neita-2.jpg
 verb: Recreating
 noun: language
 intro: >-

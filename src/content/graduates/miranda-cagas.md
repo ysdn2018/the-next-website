@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Miranda Cagas
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Miranda_Cagas-1.jpg
+headshotHover: ../headshots/looking/Miranda_Cagas-2.jpg
 verb: Creating
 noun: Experience
 intro: >-

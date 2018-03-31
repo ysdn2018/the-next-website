@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Firas Kauchali
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Firas_Kauchali-1.jpg
+headshotHover: ../headshots/looking/Firas_Kauchali-2.jpg
 verb: Sharing
 noun: Gem
 intro: >-

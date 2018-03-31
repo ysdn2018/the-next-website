@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Keturah Stephen
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Keturah_Stephen-1.jpg
+headshotHover: ../headshots/looking/Keturah_Stephen-2.jpg
 verb: Inspiring
 noun: Wave
 intro: >-

@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Nimrit Kaur
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Nimrit_Kaur-1.jpg
+headshotHover: ../headshots/looking/Nimrit_Kaur-2.jpg
 verb: Defining
 noun: user
 intro: >-

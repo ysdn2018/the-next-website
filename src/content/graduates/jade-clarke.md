@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Jade Clarke
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Jade_Clarke-1.jpg
+headshotHover: ../headshots/looking/Jade_Clarke-2.jpg
 verb: Owning
 noun: Experience
 intro: >-

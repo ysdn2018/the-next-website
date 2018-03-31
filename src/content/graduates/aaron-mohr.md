@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Aaron Mohr
-image: /assets/aaron_mohr-1.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Aaron_Mohr-1.jpg
+headshotHover: ../headshots/looking/Aaron_Mohr-2.jpg
 verb: Defining
 noun: Moment
 intro: >-

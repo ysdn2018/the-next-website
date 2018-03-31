@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Jeff Bae
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Jeff_Bae-1.jpg
+headshotHover: ../headshots/looking/Jeff_Bae-2.jpg
 verb: Visualizing
 noun: Moment
 intro: >-

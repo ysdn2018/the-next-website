@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Rachel Wen Cundari
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Rachel_Solakis-1.jpg
+headshotHover: ../headshots/looking/Rachel_Solakis-2.jpg
 verb: Pushing
 noun: Boundary
 intro: >-

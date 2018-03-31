@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Jessica Brennan
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Jessica_Brennan-1.jpg
+headshotHover: ../headshots/looking/Jessica_Brennan-2.jpg
 verb: Expressing
 noun: Idea
 intro: >

@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Alexandra Hawthorne
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Alexandra_Hawthorne-1.jpg
+headshotHover: ../headshots/looking/Alexandra_Hawthorne-2.jpg
 verb: QUESTION
 noun: NORM
 intro: >-
