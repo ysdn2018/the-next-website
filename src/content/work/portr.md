@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: Portr
+title: Portr - Navigate the Urban Sea
 graduate: Gillian Wu
 image: /assets/main.jpg
 category: Product Design
