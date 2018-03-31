@@ -2,7 +2,7 @@
 templateKey: project
 title: Zoolog Children's App
 graduate: My Van Loc
-image: /assets/screen shot 2018-01-22 at 12.45.34.png
+image: /assets/screen shot 2018-01-22 at 12.44.57.png
 category: UI/UX
 category2: Product Design
 category3: Experiential Design
