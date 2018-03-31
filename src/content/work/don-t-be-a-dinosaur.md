@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: Don't Be A Dinosaur
+title: Don't Be A Dinosaur — Extreme Weather Preparedness
 graduate: Sean Lautenschlager
 image: /assets/sean_lauten-dont_be_a_dinosaur-1.jpg
 category: Communication Design
