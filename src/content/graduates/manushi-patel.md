@@ -22,5 +22,6 @@ hobbies: >-
   Travelling - I love venturing out in to the world and experiencing new things.
 instagram: 'https://www.instagram.com/manushi.patel/?hl=en'
 email: p.manushi96@gmail.com
+website: manushipatel.com
 ---
 
