@@ -17,6 +17,13 @@ const SearchField = styled.input`
 
 `;
 
+const Button = styled.button`
+  outline: none;
+  border: none;
+  background-color: none;
+
+`
+
 // page component
 export default class Work extends React.Component {
   state = {
@@ -53,8 +60,8 @@ export default class Work extends React.Component {
         <h1>Work</h1>
         <p>Welcome to the work page</p>
 
-        <button onClick={() => this.updateCategory("")} >All</button>
-        <button onClick={() => this.updateCategory("UI/UX")} >UI/UX</button>
+        <button onClick={() => this.updateCategory("")}>All</button>
+        <button onClick={() => this.updateCategory("UI/UX")}>UI/UX</button>
         <button onClick={() => this.updateCategory("Product Design")} >Product Design</button>
         <br/><br/>
         <SearchField
@@ -101,7 +108,7 @@ export const query = graphql`
             category3
             image {
               childImageSharp {
-                resolutions(height: 200, width: 198, quality: 80) {
+                resolutions(height: 200, width: 198, quality: 80, cropFocus: CENTER) {
                   ...GatsbyImageSharpResolutions
                 }
               }

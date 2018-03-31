@@ -12,6 +12,10 @@ import Graduate from '../components/Graduate'
 const GradsGrid = styled.div`
   display: flex;
   flex-wrap: wrap;
+
+  &:nth-child(3n+0) .image {
+    background-color: pink !important;
+  }
 `;
 
 const SearchField = styled.input`
@@ -53,12 +57,13 @@ export default class Graduates extends React.Component {
         <GradsGrid>
           {filteredGrads.map(({ node: grad }) => (
             <Graduate
-              to={grad.fields.slug}
+              path={grad.fields.slug}
               key={grad.id}
               image={grad.frontmatter.headshot.childImageSharp.resolutions}
+              imageHover={grad.frontmatter.headshotHover.childImageSharp.resolutions}
               link={grad.fields.slug}
               title={grad.frontmatter.title}
-              />
+            />
           ))}
         </GradsGrid>
 
@@ -81,6 +86,13 @@ export const query = graphql`
           frontmatter {
             title
             headshot {
+              childImageSharp {
+                resolutions(height: 200, width: 150, quality: 75, cropFocus: CENTER) {
+                  ...GatsbyImageSharpResolutions_noBase64
+                }
+              }
+            }
+            headshotHover {
               childImageSharp {
                 resolutions(height: 200, width: 150, quality: 75, cropFocus: CENTER) {
                   ...GatsbyImageSharpResolutions_noBase64

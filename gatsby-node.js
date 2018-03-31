@@ -36,14 +36,14 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
     }
   }
 
-  // adding images to static folder for preview (only in prod)
-  if ((node.internal.mediaType == "image/png" || node.internal.mediaType === `image/jpeg`) && process.env.NODE_ENV === 'production') {
-    if (!fs.existsSync(staticImagePath)){
-      fs.mkdirSync(staticImagePath);
-    }
+  // // adding images to static folder for preview (only in prod)
+  // if ((node.internal.mediaType == "image/png" || node.internal.mediaType === `image/jpeg`) && process.env.NODE_ENV === 'production') {
+  //   if (!fs.existsSync(staticImagePath)){
+  //     fs.mkdirSync(staticImagePath);
+  //   }
 
-    fs.createReadStream(contentPath + node.relativePath).pipe(fs.createWriteStream(staticImagePath + node.base));
-  }
+  //   fs.createReadStream(contentPath + node.relativePath).pipe(fs.createWriteStream(staticImagePath + node.base));
+  // }
 
 
   // adding slugs to pages
