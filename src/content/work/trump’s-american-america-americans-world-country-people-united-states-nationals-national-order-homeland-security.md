@@ -36,3 +36,5 @@ A pivotal moment in the research phase of this project was I found the text _Ent
 > [Entropy and Art](http://www.aakkozzll.com/pdf/arnheim.pdf)
 >
 > , 7).
+
+![](/assets/saba-ta-1.jpg)
