@@ -11,4 +11,8 @@ Aegis is a wearable protection device that addresses the fear of crime and rape 
 
 The [app](https://invis.io/A3GM3JB2GE4) allows the user to manage the aegis devices they own, manage their contacts, view the location of people they have received an alert from, and send alerts if using their phone is more discrete or convenient than tapping their hip in that moment. In the background, the app is used to send alerts from the product when activated.
 
+![aegis app screens](/assets/aegis_app.jpg)
+
 The [website](http://aegis.myportfoliospot.com/) is for people new to aegis and want to learn more about it, people who want to purchase the product, or anyone that has a question or concern about the product. It is a simple, one page design that gives straightforward and easy to follow information.
+
+![aegis website screens](/assets/aegis_comp.jpg)
