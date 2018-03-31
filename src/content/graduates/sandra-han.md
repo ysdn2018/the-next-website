@@ -16,7 +16,7 @@ intro: >-
 hobbies: 'Basketball, walking her dog...'
 music: 'Soul, Jazz, R&B, Hip Hop'
 tools: Coffee
-typeface: 'Currently: Programme, Bluu'
+typeface: 'Currently: Programme, Bluu, Akkurat'
 instagram: www.instagram.com/hanlettering
 email: hi@sandra-han.com
 website: www.sandra-han.com
