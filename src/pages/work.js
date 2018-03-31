@@ -7,32 +7,44 @@ import SectionHeading from '../components/SectionHeading'
 import Project from '../components/Project'
 
 
+
 const ProjectGrid = styled.div`
   display: flex;
   flex-wrap: wrap;
 `;
 
 const SearchField = styled.input`
-  
+
 `;
 
 // page component
 export default class Work extends React.Component {
   state = {
-    search: ""
+    search: "",
+    category: ""
   }
+
+  updateCategory = (e) => {
+    this.setState({
+      category: e
+    })
+  }
+
 
   updateSearch = (e) => {
     this.setState({
-      search: e.target.value.toLowerCase()
+      search: e.target.value.toLowerCase(),
     })
   }
 
   render() {
     const projects = this.props.data.allMarkdownRemark.edges;
-    const filteredProjects = projects.filter(({ node: project }) => {
-      return project.frontmatter.title.toLowerCase().indexOf(this.state.search) !== -1 ||
-        project.frontmatter.graduate.toLowerCase().indexOf(this.state.search) !== -1;
+    const filteredCategory = projects.filter(({node: project}) => {
+      return project.frontmatter.category.indexOf(this.state.category) !== -1 ;
+    });
+    const filteredSearch = filteredCategory.filter(({ node: project }) => {
+      return project.frontmatter.graduate.toLowerCase().indexOf(this.state.search) !== -1 ||
+        project.frontmatter.title.toLowerCase().indexOf(this.state.search) !== -1;
     });
 
 
@@ -41,15 +53,19 @@ export default class Work extends React.Component {
         <h1>Work</h1>
         <p>Welcome to the work page</p>
 
+        <button onClick={() => this.updateCategory("")} >All</button>
+        <button onClick={() => this.updateCategory("UI/UX")} >UI/UX</button>
+        <button onClick={() => this.updateCategory("Product Design")} >Product Design</button>
+        <br/><br/>
         <SearchField
           type="text"
           placeholder="Search"
           value={this.state.search}
           onChange={this.updateSearch}
-        /> 
+        />
 
         <ProjectGrid>
-          {filteredProjects.map(({ node: project }) => (
+          {filteredSearch.map(({ node: project }) => (
             <Project
               title={project.frontmatter.title}
               image={project.frontmatter.image.childImageSharp.resolutions}
@@ -80,6 +96,9 @@ export const query = graphql`
           frontmatter {
             title
             graduate
+            category
+            category2
+            category3
             image {
               childImageSharp {
                 resolutions(height: 200, width: 198, quality: 80) {
@@ -89,7 +108,7 @@ export const query = graphql`
             }
           }
         }
-      } 
+      }
     }
   }
 `;
