@@ -11,4 +11,4 @@ The NutriLab kit and mobile application is a system designed to help combat the 
 
 NutriLab is a 3-step system which has combined the technology behind microfluidic lab-on-a-chip devices, equipped with the most reliable form of Soft Lithography, the inclusion of reactors within micro-channels, and the functionality of Intracellular Analysis in order to create a microfluidic device that tests for 8 of the most common nutrient deficiencies: iron, B12, iodine, magnesium, calcium, vitamin A, vitamin E and vitamin D.
 
-![]()
+![NutriLab](/assets/mockup-full-1.jpg)
