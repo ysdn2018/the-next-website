@@ -2,7 +2,7 @@
 templateKey: project
 title: ALTX Brand Guide
 graduate: My Van Loc
-image: /assets/img_0799.jpg
+image: /assets/loc_myvan_4_digital_002.jpg
 category: Brand Identity
 category2: Book Design
 ---
