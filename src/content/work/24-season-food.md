@@ -21,6 +21,8 @@ category3: Product Design
 
 ![null](/assets/ali_seasons-4.jpg)
 
+
+
 # **The Cylinder Container**
 
 The cylinder of the package is a holder or collator for the 24 whole grain bags. The cylinder is a look-a-like design with a Chinese bamboo slip. There are the names of the 24 solar terms on the cylinder. In order to create a connection between the 24 seasons in the lunar calendar and the 4 seasons in the Gregorian calendar, there is a hole above each solar term on the outside of the cylinder, which using yellow (spring), green (summer), red (autumn), and white (winter). 
