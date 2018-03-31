@@ -37,18 +37,20 @@ A pivotal moment in the research phase of this project was I found the text _Ent
 >
 > , 7).
 
-![](/assets/saba-ta-1.jpg)
+![null](/assets/saba-ta-1.jpg)
 
 (Above) Created in illustrator by using a warp distort tool, exponentially changing the variables according to the frequency in which they appear. In the end creating a form that is not recognizable. This is mimicking Arnheim’s quote above.
 
 After this, I knew what I wanted the final output to look like so it was up to me to try to learn a new programming language in order to do it. A turbulent road was ahead, and along the way I learned to not be afraid of asking others for help. Below was by first attempt at using [Processing](http://processing.org) to affect the appearance of characters according to their frequencies. 
 
-![](/assets/saba-ta-2.jpg)
+![null](/assets/saba-ta-2.jpg)
 
 (Above) The text is inputed into a Processing sketch. Then the opacity of each character is calculated according to their frequency. Then adjusting the size of the font according to their frequency.
 
 This sketch was followed with experiments in how to deform type according to the entropic trend of the universe. These sketches were also performed in Processing. 
 
-![](/assets/saba-ta-3.jpg)
+![null](/assets/saba-ta-3.jpg)
 
 (above left) In this example, the shape of each repeated character is exponentially deformed horizontally only. (above right) In this example, the shape of each repeated character is exponentially deformed horizontally and vertically. Also the hue of the stroke is relative to the frequency of the characters.
+
+![](/assets/saba-ta-4.jpg)
