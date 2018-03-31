@@ -22,6 +22,7 @@ intro: >-
 hobbies: Binge-watching Netflix shows
 music: ''
 watch: 'Sense 8, Scandal, Black Mirror, This Is Us'
+instagram: 'https://www.instagram.com/sharon.yi/'
 linkedin: 'https://www.linkedin.com/in/sharon-yi-66215110a/'
 email: sharon.yi@me.com
 ---
