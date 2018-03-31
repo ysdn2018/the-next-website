@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Img from 'gatsby-image'
 import Link from 'gatsby-link'
 import Statement from '../components/Statement'
-import {A,H2,H3} from '../components/Typography'
+import {A,H2,H3, H4} from '../components/Typography'
 
 
 
@@ -53,6 +53,7 @@ const Info = styled.div `
   margin: 15px 15px 200px 15px;
   padding: 10px;
   float: right;
+  white-space: pre-wrap;
 
   h2, h3 {
     text-transform: uppercase;
@@ -120,28 +121,28 @@ export default function Post({ data }) {
         <About>
           {graduate.frontmatter.music && (
             <Question>
-              <h3>Listening To</h3>
+              <H4>Listening To</H4>
               <p>{graduate.frontmatter.music}</p>
             </Question>
           )}
 
           {graduate.frontmatter.tools && (
             <Question>
-              <h3>Favourite Tools</h3>
+              <H4>Favourite Tools</H4>
               <p>{graduate.frontmatter.tools}</p>
             </Question>
           )}
 
           {graduate.frontmatter.watch && (
             <Question>
-              <h3>Currently Watching</h3>
+              <H4>Currently Watching</H4>
               <p>{graduate.frontmatter.watch}</p>
             </Question>
           )}
 
           {graduate.frontmatter.typeface && (
             <Question>
-              <h3>Favourite Typefaces</h3>
+              <H4>Favourite Typefaces</H4>
               <p>{graduate.frontmatter.typeface}</p>
             </Question>
           )}
@@ -191,7 +192,7 @@ export const aboutPageQuery = graphql`
         linkedin
         email
         website
-        image {
+        headshot {
           childImageSharp {
             sizes(maxWidth: 700, quality: 90) {
               ...GatsbyImageSharpSizes
@@ -210,9 +211,9 @@ export const aboutPageQuery = graphql`
           }
 
           frontmatter {
-            headshot {
+            image {
               childImageSharp {
-                sizes(maxWidth: 800, quality: 90, maxHeight: 300) {
+                sizes(maxWidth: 1000, quality: 90, maxHeight: 300, cropFocus: CENTER) {
                   ...GatsbyImageSharpSizes
                 }
               }

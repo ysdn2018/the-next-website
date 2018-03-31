@@ -13,7 +13,7 @@ const GradsGrid = styled.div`
   display: flex;
   flex-wrap: wrap;
 
-  &:nth-child(3n+0) .image {
+  &:nth-child(3n+0) div * {
     background-color: pink !important;
   }
 `;

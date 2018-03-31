@@ -1,12 +1,17 @@
 import React from 'react';
 import styled from 'styled-components'
 import Link from 'gatsby-link'
+import Img from 'gatsby-image'
 
 // styled-components
 const Content = styled.div`
   p {
     max-width: 500px;
   }
+`
+
+const HeroImage = styled(Img)`
+  height: 90vh;
 `
 
 
@@ -17,7 +22,7 @@ export default function Post({ data }) {
 
   return (
     <div>
-
+      <HeroImage sizes={project.frontmatter.image.childImageSharp.sizes}/>
       <h3>{project.frontmatter.title}</h3>
       <h5>by:
       <Link to={`/graduates/${grad.replace(/\s+/g, "-").toLowerCase()}/`}>
@@ -39,6 +44,14 @@ export const aboutPageQuery = graphql`
       frontmatter {
         title
         graduate
+
+        image {
+              childImageSharp {
+                sizes(maxWidth: 1500, quality: 90, maxHeight: 600, cropFocus: CENTER) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
+            }
       }
     }
   }

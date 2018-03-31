@@ -47,7 +47,7 @@ const P = styled.p`
 
 `
 
-const A = styled.a `
+const A = styled.a`
   text-decoration: none;
   color: black;
 
