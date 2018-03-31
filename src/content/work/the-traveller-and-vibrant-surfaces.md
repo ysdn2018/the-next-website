@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: The Traveller and Vibrant Surfaces
+title: The Traveller and Vivid Surfaces
 graduate: Michelle Vu
 image: /assets/advance_topics_mv.png
 category: Web Design
