@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: 'Frank, Your Life Coach'
+title: 'Frank, Your AI Life Coach'
 graduate: Amanda Pape
 image: /assets/web-frank.jpg
 category: UI/UX
