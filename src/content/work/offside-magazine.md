@@ -2,7 +2,7 @@
 templateKey: project
 title: Offside Magazine
 graduate: John MacDonald
-image: /assets/gradoffsidecoverfinal.jpg
+image: /assets/offside_grad.jpg
 category: Editorial Design
 ---
 Offside Magazine
