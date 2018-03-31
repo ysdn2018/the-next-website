@@ -11,9 +11,11 @@ intro: >-
   design, Bethany always strives for “more” through a process of constant
   iteration and reiteration. She pushes the limits of form, meaning, and beauty
   often creating very unconventional pieces as a result.
-hobbies: "staging lit photoshoots \U0001F525, curating spotify playlists, finding the next best spot to eat"
+hobbies: "staging lit photoshoots \U0001F525, curating spotify playlists, finding the next best spot to eat \U0001F37D"
 music: 'FKJ, Tom Misch, The Internet'
-tools: 'Adobe Suite, Sketch, Principle, Canon 6D, pen & paper'
+tools: >-
+  Illustrator, Indesign, Lightroom, AfterEffects, Sketch, Principle, Canon 6D,
+  pen & paper
 watch: 'Black Mirror, any Studio Ghibli'
 typeface: 'Canela, Chap, Optima, Fabrik'
 instagram: 'https://instagram.com/bethmoy'
