@@ -6,7 +6,7 @@ image: /assets/rsolakis-revise01.jpg
 category: UI/UX
 category2: Web Design
 ---
-Eye strain is a group of symptoms which occur in some people after extended use of the eyes. With the increased usage of computers, Computer Vision Syndrome (the medial term for digital eyestrain) is becoming the most common computer-related repetitive strain injury. Symptoms include; blurred vision, pain around the yes, burning sensation in the eyes, red eyes or dryness and headaches. While this not only causes physical pain, but reduces productivity.
+Revise Smart Lenses tap into a key issue many glasses-wearing people experience, eye strain. Eye strain is a group of symptoms which occur in some people after extended use of the eyes. With the increased usage of computers, Computer Vision Syndrome (the medial term for digital eyestrain) is becoming the most common computer-related repetitive strain injury. Symptoms include; blurred vision, pain around the yes, burning sensation in the eyes, red eyes or dryness and headaches. While this not only causes physical pain, but reduces productivity.
 
 Revise Smart Lenses work to prevent the wearer from developing symptoms of eyestrain by targeting the behaviours that work to contribute to eyestrain itself. Using colour tints around the perimeter of the lens, they notify the wearer when they participate in unhealthy eye behaviours. These behaviours are lumped into 3 categories; proximity, poor lighting and prolonged use. 
 
