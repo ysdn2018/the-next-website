@@ -8,17 +8,15 @@ noun: Way
 intro: >-
   Before Clover moved to Canada in 2011, she was born and raised in Macau, which
   is a compact and vibrant city in China. Growing up in such a small city with
-  diverse cultural backgrounds, it has shaped her to become easily adaptable to
-  new environments and to respect cultural differences.
-
-
-  She is a multi-disciplinary designer whose passion lies in branding,
-  communication, motion and package design. Through these different design
-  streams, she always incorporates some interesting and meaningful stories in
-  her work, which are mainly geared towards enhancing user experience,
-  displaying cultural values and ultimately, leading to a positive impact in the
-  world that can potentially change peoples’ lives. She believes in the power of
-  design that influences our everyday life even without us realizing.
+  diverse cultural backgrounds, she becomes easily adaptable to new environments
+  and very appreciative of cultural differences. She is a multi-disciplinary
+  designer whose passion lies in branding, communication, motion and package
+  design. Through these different design streams, she always incorporates some
+  interesting and meaningful stories in her work, which are mainly geared
+  towards enhancing user experience, displaying cultural values and ultimately,
+  leading to a positive impact in the world that can potentially change peoples’
+  lives. She believes in the power of design that influences our everyday life,
+  even without us realizing.
 hobbies: >
   Watching dogs' videos (especially pugs), eating spicy food, playing Tetris
   games
