@@ -27,4 +27,4 @@ The opening spread on the corruption scandal that engulfed FIFA and the results 
 
 ## WHAT'S NEXT
 
-Adding positive stories to add  balance the magazine and look at the good soccer can do for communities.
+Adding positive stories to add balance to the magazine and look at the good soccer can do for communities.
