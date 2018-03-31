@@ -15,7 +15,7 @@ intro: >-
   creating a memorable experience for the audience. John’s strengths are in
   storytelling, combining typography and illustrations 
 music: too many to list but right now Biffy Clyro
-tools: 'Pens and sketch book, Illustrator and InDesign'
+tools: 'Pens and sketch book, Illustrator, InDesign and After Effects'
 watch: 'Vikings, Peaky Blinders, Portlandia, the IT Crowd and the Office  '
 typeface: Fira Sans
 linkedin: www.linkedin.com/in/john-macdonald
