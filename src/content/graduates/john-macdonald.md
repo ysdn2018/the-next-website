@@ -13,8 +13,8 @@ intro: >-
   take on the next challenge. As a designer, John approaches every design
   problem as a learning opportunity. His design balances functionality with
   creating a memorable experience for the audience. John’s strengths are in
-  storytelling, combining typography and illustrations 
-music: too many to list but right now Biffy Clyro
+  storytelling, combining typography and illustrations.
+music: 'too many to list but right now Biffy Clyro, the Dead Weather and Radiohead'
 tools: 'Pens and sketch book, Illustrator, InDesign and After Effects'
 watch: 'Vikings, Peaky Blinders, Portlandia, the IT Crowd and the Office  '
 typeface: Fira Sans
