@@ -16,7 +16,7 @@ intro: >-
   create, Sean pieces together his thoroughly considered ideas to form a greater
   whole.
 hobbies: |-
-  Running (working up run half-marathon)
+  Running (working up to run a half-marathon)
   Nostalgic / Indie video games
   Creating things
 music: Relaxing to some lo-fi hip hop
