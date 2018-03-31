@@ -37,3 +37,5 @@ Developing the aesthetic for the campaign proved challenging. With the concept o
 ## Bi-Lingual
 
 Though centred on Toronto, Don't Be a Dinosaur has the ability to scale to a national campaign. In order to embody Canada's shared preparedness, information has been made available in both French and English. This representation can be found in all forms of communication digital and print.
+
+![Don't Be a Dinosaur Campaign Website Desktop and Mobile](/assets/sean_lauten-dont_be_a_dinosaur-website.jpg)
