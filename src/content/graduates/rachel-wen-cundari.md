@@ -14,7 +14,7 @@ intro: >-
   and appreciation of design’s history, Rachel aspires to constantly push the
   aesthetic boundaries of design with excellence. 
 hobbies: ''
-music: ''
+music: Daniel Caesar & Sabrina Claudio
 typeface: ITC Grouch
 linkedin: www.linkedin.com/in/rachel-wen-cundari-189703119
 email: rachelcundari@gmail.com
