@@ -36,4 +36,4 @@ Nova Scotia and the Maritime provinces have Canada's highest population of elder
 
 ## \
 \
-[See more about the festival rebranding here](http://www.chelsealecompte.com/nova-scotia-fibre-arts-festival/).
+[See more about the festival rebranding here](http://www.chelsealecompte.com/nova-scotia-fibre-arts-festival/)
