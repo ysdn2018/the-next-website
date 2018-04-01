@@ -8,21 +8,25 @@ import Statement from '../components/Statement'
 
 // Profile Card
 
+const Container = styled.div `
+  display: flex;
+`
+
 const ProfileContainer = styled.div `
-  height: 92%;
+  height: 93vh;
   width: 22%;
-  float: left;
-  position: fixed;
+  display: flex;
 `
 
 const Profile = styled.div`
   width: 100%;
   height: 100%;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 15px;
   border: 1px solid;
+  position: sticky;
+  top: 50px;
 
   .image {
     border-bottom: 1px solid;
@@ -47,8 +51,9 @@ const Social = styled.div `
 // Content
 
 const InfoContainer = styled.div `
-    width: 75%;
-    float: right;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 `
 
 const Info = styled.div `
@@ -62,17 +67,25 @@ const Info = styled.div `
     font-size: 2.5rem;
     line-height: 1.5;
   }
+
+  h4 {
+    margin-bottom: -10px;
+  }
 `
 const About = styled.div `
   margin-bottom: 50px;
 `
 
 const Question = styled.div `
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 `
 
 const Projects = styled.div`
   margin-top: 100px;
+
+  h2 {
+    margin-bottom: 20px;
+  }
 `
 
 const Project = styled.div`
@@ -92,7 +105,7 @@ export default function Post({ data }) {
   const graduate = data.markdownRemark;
 
   return (
-    <div>
+    <Container>
 
       <ProfileContainer>
         <Profile>
@@ -177,7 +190,7 @@ export default function Post({ data }) {
 
       </InfoContainer>
 
-    </div>
+    </Container>
   );
 };
 
@@ -223,7 +236,7 @@ export const aboutPageQuery = graphql`
             title
             image {
               childImageSharp {
-                sizes(maxWidth: 1000, quality: 90, maxHeight: 520, cropFocus: CENTER) {
+                sizes(maxWidth: 1000, quality: 90, maxHeight: 600, cropFocus: CENTER) {
                   ...GatsbyImageSharpSizes
                 }
               }
