@@ -9,8 +9,13 @@ import Project from '../components/Project'
 
 
 const ProjectGrid = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  ${'' /* display: flex;
+  flex-wrap: wrap; */}
+
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
 `;
 
 const SearchField = styled.input`
@@ -47,11 +52,22 @@ export default class Work extends React.Component {
   render() {
     const projects = this.props.data.allMarkdownRemark.edges;
     const filteredCategory = projects.filter(({node: project}) => {
-      let projCategories = [];
+      let projCategories = [project.frontmatter.category];
 
-      console.log();
+      if (project.frontmatter.category2)
+        projCategories.push(project.frontmatter.category2)
+      if (project.frontmatter.category3)
+        projCategories.push(project.frontmatter.category3)
+
+      console.log(projCategories);
+
       
-      return project.frontmatter.category.indexOf(this.state.category) !== -1 ;
+      for (let category of projCategories) {
+        if (category.indexOf(this.state.category) === -1 )
+          return false
+      }
+      
+      return true;
     });
     const filteredSearch = filteredCategory.filter(({ node: project }) => {
       return project.frontmatter.graduate.toLowerCase().indexOf(this.state.search) !== -1 ||

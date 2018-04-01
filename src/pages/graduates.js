@@ -10,11 +10,20 @@ import Graduate from '../components/Graduate'
 
 
 const GradsGrid = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  ${'' /* display: flex;
+  flex-wrap: wrap; */}
 
-  &:nth-child(3n+0) div * {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  div:nth-child(3n+0) .image div {
     background-color: pink !important;
+    display: none;
+  }
+
+  &:nth-child(3) {
+    background-color: pink !important;
+    display: none;
   }
 `;
 
@@ -59,8 +68,8 @@ export default class Graduates extends React.Component {
             <Graduate
               path={grad.fields.slug}
               key={grad.id}
-              image={grad.frontmatter.headshot.childImageSharp.resolutions}
-              imageHover={grad.frontmatter.headshotHover.childImageSharp.resolutions}
+              image={grad.frontmatter.headshot.childImageSharp.sizes}
+              imageHover={grad.frontmatter.headshotHover.childImageSharp.sizes}
               link={grad.fields.slug}
               title={grad.frontmatter.title}
             />
@@ -75,7 +84,8 @@ export default class Graduates extends React.Component {
 // data query
 export const query = graphql`
   query GradsQuery {
-    allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/graduates/"} } ) {
+    allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/graduates/"} },
+    sort: {fields: [frontmatter___title], order: ASC} ) {
       edges {
         node {
           id
@@ -87,15 +97,15 @@ export const query = graphql`
             title
             headshot {
               childImageSharp {
-                resolutions(height: 200, width: 150, quality: 75, cropFocus: CENTER) {
-                  ...GatsbyImageSharpResolutions_noBase64
+                sizes(maxHeight: 250, maxWidth: 200, quality: 75, cropFocus: CENTER) {
+                  ...GatsbyImageSharpSizes_noBase64
                 }
               }
             }
             headshotHover {
               childImageSharp {
-                resolutions(height: 200, width: 150, quality: 75, cropFocus: CENTER) {
-                  ...GatsbyImageSharpResolutions_noBase64
+                sizes(maxHeight: 250, maxWidth: 200, quality: 75, cropFocus: CENTER) {
+                  ...GatsbyImageSharpSizes_noBase64
                 }
               }
             }

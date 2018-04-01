@@ -23,14 +23,14 @@ const Text = styled.p`
   max-width: 100%;
   text-transform: uppercase;
   margin: 0.4rem;
-  font-size: 1.4rem;
-  
+  font-size: 1.4rem; 
 `
 
 const LookingImage = styled(Img)`
   position: absolute;
   top: 0;
-
+  height: 100%;
+  width: 100%;
 `
 
 const NormalImage = styled(Img) `
@@ -40,22 +40,28 @@ const NormalImage = styled(Img) `
 
   position: relative;
   z-index: 3;
-
 `
+
+const ImagesContainer = styled.div`
+  position: relative;
+`;
 
 // component
 export default function Graduate(props) {
   return (
     <Container to={props.path}>
-      <NormalImage
-        resolutions={props.image}
-        className=".image"
-      />
-      <LookingImage
-        resolutions={props.imageHover}
-        style={{position: "absolute"}}
-        className=".image"
-      />
+      <ImagesContainer>
+        <NormalImage
+          sizes={props.image}
+          className="image"
+          backgroundColor
+        />
+        <LookingImage
+          sizes={props.imageHover}
+          style={{position: "absolute"}}
+          className=".image"
+        />
+      </ImagesContainer>
       <Text>{props.title}</Text>
     </Container>
   )

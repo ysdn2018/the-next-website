@@ -13,7 +13,7 @@ import { H4 } from '../Typography'
 // styled components
 const Container = styled.div`
   border: 1px solid black;
-  width: 200px;
+  width: 100%;
   margin: 1rem;
   padding: 15px;
 `
