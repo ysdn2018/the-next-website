@@ -116,6 +116,44 @@ injectGlobal`
     font-weight: 400;
   }
 
+  h1 {
+    text-transform: uppercase;
+    font-size: 6rem;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 4.5rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+  }
+
+  h5 {
+    font-size: 1 rem;
+  }
+
+  p {
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   @font-face {
     font-family: 'Haas Grot Text';
     src: url(${NeueHaasGrotTextRoman_eot});

@@ -29,7 +29,8 @@ const H5 = styled.h1`
 `
 
 const P = styled.p`
-  font-size: 1.8 rem;
+  font-size: 2.5rem;
+  line-height: 1.5;
 `
 
 const A = styled.a`

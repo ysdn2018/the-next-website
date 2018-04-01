@@ -15,6 +15,7 @@ const Container = styled.div`
   border: 1px solid black;
   width: 200px;
   margin: 1rem;
+  padding: 15px;
 `
 
 const Text = styled(H4)`

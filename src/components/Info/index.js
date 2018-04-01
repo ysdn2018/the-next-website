@@ -44,7 +44,7 @@ const NavContainer = styled.div`
   top: 0;
   z-index: 10;
   width: 100%;
-  background-color: white;
+  background-color: yellow;
   pointer-events: auto;
   padding: 0 ${spacing.small}px;
 `
@@ -69,14 +69,8 @@ export default function Nav() {
   return (
     <NavContainer>
       <TitleLink to="/">
-        <p>The Next</p>
+        <p>Info</p>
       </TitleLink>
-
-      <PageLinks>
-        <PageLink to="/graduates/">Graduates</PageLink>
-        <PageLink to="/work/">Work</PageLink>
-        <PageLink to="/sponsors/">Sponsors</PageLink>
-      </PageLinks>
 
     </NavContainer>
   )

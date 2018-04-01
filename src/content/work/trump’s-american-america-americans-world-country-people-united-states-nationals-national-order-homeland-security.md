@@ -11,23 +11,23 @@ category3: Information Design
 
 ## Summary
 
-This project started with the idea of merging scientific phenomena into design artefacts in order to tell stories in a new way, working through this goal I created a generative type treatment that is inspired by the second law of thermodynamics and used it to express the current state of America. 
+This project started with the idea of merging scientific phenomena into design artefacts in order to tell stories in a new way, working through this goal I created a generative type treatment that is inspired by the second law of thermodynamics and used it to express the current state of America.
 
 ## Context
 
-As I mentioned earlier, this research project started off with this question of ‘how can scientific phenomena enter generative design artefacts to tell stories in a different way?” Through this project I wanted to contribute to the dialogue between design, scientific and philosophical practice through my explorative exercises. The research explored how complex concepts can enter everyday design practice, perhaps impacting the way today’s designers approach projects by developing ideas that are rooted in nature as a means of creating more captivating solutions. 
+As I mentioned earlier, this research project started off with this question of ‘how can scientific phenomena enter generative design artefacts to tell stories in a different way?” Through this project I wanted to contribute to the dialogue between design, scientific and philosophical practice through my explorative exercises. The research explored how complex concepts can enter everyday design practice, perhaps impacting the way today’s designers approach projects by developing ideas that are rooted in nature as a means of creating more captivating solutions.
 
 The scientific phenomena that was researched in this project was Entropy. I wasn’t able to research this subject in great detail – entire courses are dedicated to understanding it – instead, I glanced at the scientific concept in order to take what I needed from it to inform the rules of machine-generated works.
 
 > [Entropy](https://www.merriam-webster.com/dictionary/entropy), noun.
 >
 > 2. a: the degradation of the matter and energy in the universe to an ultimate state of inert uniformity. _Entropy is the general trend of the universe toward death and disorder. – James R. Newman _\
->    b: a process of degradation or running down or a trend to disorder 
+>    b: a process of degradation or running down or a trend to disorder
 > 3. chaos, disorganization, randomness.
 
 ## Process
 
-There were essentially three steps that I took to create this piece. First, it was to research the subject of Entropy to the best of my ability and synthesize it. Then, to convert that synthesis into rules that can be read by a computer. And finally, to execute the rules to form a generative type treatment and use it in a design artefact. 
+There were essentially three steps that I took to create this piece. First, it was to research the subject of Entropy to the best of my ability and synthesize it. Then, to convert that synthesis into rules that can be read by a computer. And finally, to execute the rules to form a generative type treatment and use it in a design artefact.
 
 A pivotal moment in the research phase of this project was I found the text _Entropy and Art: An Essay on Disorder and Order_ by Rudolf Arnheim. It helped me understand entropy within the context of art, and gave me clues for how to proceed in making something that embodies entropy. One of the quotes that jump started the process was:
 
@@ -41,13 +41,13 @@ A pivotal moment in the research phase of this project was I found the text _Ent
 
 (Above) Created in illustrator by using a warp distort tool, exponentially changing the variables according to the frequency in which they appear. In the end creating a form that is not recognizable. This is mimicking Arnheim’s quote above.
 
-After this, I knew what I wanted the final output to look like so it was up to me to try to learn a new programming language in order to do it. A turbulent road was ahead, and along the way I learned to not be afraid of asking others for help. Below was by first attempt at using [Processing](http://processing.org) to affect the appearance of characters according to their frequencies. 
+After this, I knew what I wanted the final output to look like so it was up to me to try to learn a new programming language in order to do it. A turbulent road was ahead, and along the way I learned to not be afraid of asking others for help. Below was by first attempt at using [Processing](http://processing.org) to affect the appearance of characters according to their frequencies.
 
 ![null](/assets/saba-ta-2.jpg)
 
 (Above) The text is inputed into a Processing sketch. Then the opacity of each character is calculated according to their frequency. Then adjusting the size of the font according to their frequency.
 
-This sketch was followed with experiments in how to deform type according to the entropic trend of the universe. These sketches were also performed in Processing. 
+This sketch was followed with experiments in how to deform type according to the entropic trend of the universe. These sketches were also performed in Processing.
 
 ![null](/assets/saba-ta-3.jpg)
 
@@ -69,7 +69,7 @@ Almost immediately, numerous protests and legal challenges began across the coun
 
 ![null](/assets/saba-ta-5.jpg)
 
-I use Trump’s Travel Ban as the text for this work as a representation of his destructive behaviour, steering America into an even more divided country that will eventually result in chaos and destruction. 
+I use Trump’s Travel Ban as the text for this work as a representation of his destructive behaviour, steering America into an even more divided country that will eventually result in chaos and destruction.
 
 ![null](/assets/saba-ta-6.jpg)
 

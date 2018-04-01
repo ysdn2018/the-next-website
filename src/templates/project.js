@@ -2,42 +2,39 @@ import React from 'react';
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
-import {A,H2,H3,H4} from '../components/Typography'
+import {P,A,H2,H3,H4} from '../components/Typography'
 
 // styled-components
 const Content = styled.div`
   p {
-    max-width: 500px;
+    max-width: 800px;
+    font-size: 2.8rem;
   }
 `
 
 const HeroImage = styled(Img)`
-  height: 100vh;
-`
-const ProjectContainer = styled.div `
-  height: 92%;
-  width: 25%;
-  float: left;
-  position: fixed;
-  z-index: 100;
+  height: 60vh;
 `
 
-const ProjectInfo = styled.div `
+const ProjectHeader = styled.div `
+  padding: 10px;
   width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 15px;
-  border: 1px solid;
+`
+
+const Categories = styled.div `
+  display: inline-grid;
+`
+
+const LegendContainer = styled.div `
+  width: 30%;
+  float: left;
 `
 
 const Legend = styled.div `
-  border-top: 1px solid;
 `
 
 const InfoContainer = styled.div `
-    width: 75%;
+    width: 70%;
     float: right;
 `
 
@@ -46,6 +43,10 @@ const Info = styled.div `
   margin: 15px auto;
   padding: 10px;
   white-space: pre-wrap;
+
+  img {
+    width: 100%;
+  }
 `
 
 // page template component
@@ -56,19 +57,41 @@ export default function Post({ data }) {
   return (
     <div>
 
-      <ProjectContainer>
-        <ProjectInfo>
-          <H4>{project.frontmatter.title}</H4>
-          <H4>
-            <Link to={`/graduates/${grad.replace(/\s+/g, "-").toLowerCase()}/`}>
-              {grad}
-            </Link>
-          </H4>
-          <Legend></Legend>
-        </ProjectInfo>
-      </ProjectContainer>
+      <ProjectHeader>
+
+        <H2>{project.frontmatter.title}</H2>
+        <H3>
+          <A href={`/graduates/${grad.replace(/\s+/g, "-").toLowerCase()}/`}>
+            {grad}
+          </A>
+        </H3>
+
+        <Categories>
+          {project.frontmatter.category && (
+            <H4>{project.frontmatter.category}</H4>
+          )}
+
+          {project.frontmatter.category2 && (
+            <H4>{project.frontmatter.category2}</H4>
+          )}
+
+          {project.frontmatter.category3 && (
+            <H4>{project.frontmatter.category3}</H4>
+          )}
+        </Categories>
+
+      </ProjectHeader>
 
       <HeroImage sizes={project.frontmatter.image.childImageSharp.sizes}/>
+
+      <LegendContainer>
+        <Legend>
+            <H3>Heading One</H3>
+            <H3>Heading Two</H3>
+            <H3>Heading Three</H3>
+            <H3>Heading Four</H3>
+        </Legend>
+      </LegendContainer>
 
       <InfoContainer>
         <Info>
@@ -89,7 +112,9 @@ export const aboutPageQuery = graphql`
       frontmatter {
         title
         graduate
-
+        category
+        category2
+        category3
         image {
               childImageSharp {
                 sizes(maxWidth: 1500, quality: 90, maxHeight: 600, cropFocus: CENTER) {

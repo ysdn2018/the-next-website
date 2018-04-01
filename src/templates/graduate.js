@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import Img from 'gatsby-image'
 import Link from 'gatsby-link'
 import Statement from '../components/Statement'
-import {P,A,H1,H2,H3,H4} from '../components/Typography'
 
 // styled-components
 
@@ -11,7 +10,7 @@ import {P,A,H1,H2,H3,H4} from '../components/Typography'
 
 const ProfileContainer = styled.div `
   height: 92%;
-  width: 20%;
+  width: 22%;
   float: left;
   position: fixed;
 `
@@ -40,7 +39,7 @@ const Social = styled.div `
   border-top: 1px solid;
   padding: 5px;
 
-  A {
+  a {
     margin-right: 5px;
   }
 `
@@ -55,7 +54,7 @@ const InfoContainer = styled.div `
 const Info = styled.div `
   width: 75%;
   max-width: 900px;
-  margin: 15px auto;
+  margin: 50px auto;
   padding: 10px;
   white-space: pre-wrap;
 
@@ -63,33 +62,24 @@ const Info = styled.div `
     font-size: 2.5rem;
     line-height: 1.5;
   }
-
 `
 const About = styled.div `
   margin-bottom: 50px;
-
-  H1 {
-    margin-bottom: -20px;
-  }
-
 `
 
 const Question = styled.div `
   margin-bottom: 30px;
-
-  H4 {
-    margin-bottom: -10px;
-  }
 `
 
 const Projects = styled.div`
+  margin-top: 100px;
 `
 
 const Project = styled.div`
   border: 1px solid;
   margin-bottom: 30px;
 
-  A {
+  a {
     font-size: 2rem;
     text-transform: uppercase;
     padding: 10px;
@@ -107,7 +97,7 @@ export default function Post({ data }) {
       <ProfileContainer>
         <Profile>
           <Name>
-            <H3>{graduate.frontmatter.title}</H3>
+            <h3>{graduate.frontmatter.title}</h3>
           </Name>
           <Img sizes={graduate.frontmatter.headshot.childImageSharp.sizes} className="image"/>
           <Statement
@@ -116,19 +106,19 @@ export default function Post({ data }) {
           />
           <Social>
             {graduate.frontmatter.website && (
-                <A href={graduate.frontmatter.website}>Website</A>
+                <a href={graduate.frontmatter.website}>Website</a>
             )}
             {graduate.frontmatter.email && (
-                <A href={graduate.frontmatter.email}>Email</A>
+                <a href={graduate.frontmatter.email}>Email</a>
             )}
             {graduate.frontmatter.twitter && (
-                <A href={graduate.frontmatter.instagram}>Instagram</A>
+                <a href={graduate.frontmatter.instagram}>Instagram</a>
             )}
             {graduate.frontmatter.twitter && (
-                <A href={graduate.frontmatter.twitter}>Twitter</A>
+                <a href={graduate.frontmatter.twitter}>Twitter</a>
             )}
             {graduate.frontmatter.linkedin && (
-                <A href={graduate.frontmatter.linkedin}>LinkedIn</A>
+                <a href={graduate.frontmatter.linkedin}>LinkedIn</a>
             )}
           </Social>
         </Profile>
@@ -137,47 +127,47 @@ export default function Post({ data }) {
       <InfoContainer>
         <Info>
           <About>
-            <H2>About</H2>
-            <P>{graduate.frontmatter.intro}</P>
+            <h2>About</h2>
+            <p>{graduate.frontmatter.intro}</p>
           </About>
 
           <About>
             {graduate.frontmatter.music && (
               <Question>
-                <H4>Listening To</H4>
-                <P>{graduate.frontmatter.music}</P>
+                <h4>Listening To</h4>
+                <p>{graduate.frontmatter.music}</p>
               </Question>
             )}
 
             {graduate.frontmatter.tools && (
               <Question>
-                <H4>Favourite Tools</H4>
-                <P>{graduate.frontmatter.tools}</P>
+                <h4>Favourite Tools</h4>
+                <p>{graduate.frontmatter.tools}</p>
               </Question>
             )}
 
             {graduate.frontmatter.watch && (
               <Question>
-                <H4>Currently Watching</H4>
-                <P>{graduate.frontmatter.watch}</P>
+                <h4>Currently Watching</h4>
+                <p>{graduate.frontmatter.watch}</p>
               </Question>
             )}
 
             {graduate.frontmatter.typeface && (
               <Question>
-                <H4>Favourite Typefaces</H4>
-                <P>{graduate.frontmatter.typeface}</P>
+                <h4>Favourite Typefaces</h4>
+                <p>{graduate.frontmatter.typeface}</p>
               </Question>
             )}
           </About>
 
           <Projects>
-            <H2>Projects</H2>
+            <h2>Projects</h2>
 
             {data.projects ? data.projects.edges.map(({ node: project }) => (
                 <Project key={project.id}>
                   <Img sizes={project.frontmatter.image.childImageSharp.sizes} className="image" />
-                  <A href={project.fields.slug}>{project.frontmatter.title}</A>
+                  <a href={project.fields.slug}>{project.frontmatter.title}</a>
                 </Project>
             )) : (
               <h4>This student has no projects :( </h4>
