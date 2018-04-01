@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
+import { H4 } from '../Typography'
 
 /*
   Base component
@@ -16,7 +17,7 @@ const Container = styled.div`
   margin: 1rem;
 `
 
-const Text = styled.p`
+const Text = styled(H4)`
 
 `
 

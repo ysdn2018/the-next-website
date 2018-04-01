@@ -9,7 +9,8 @@ const H1 = styled.h1`
 `
 
 const H2 = styled.h1`
-  font-size: 5rem;
+  text-transform: uppercase;
+  font-size: 4.5rem;
 `
 
 const H3 = styled.h1`

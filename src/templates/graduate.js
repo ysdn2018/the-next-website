@@ -3,10 +3,11 @@ import styled from 'styled-components'
 import Img from 'gatsby-image'
 import Link from 'gatsby-link'
 import Statement from '../components/Statement'
-import ProfileStatement from '../components/ProfileStatement'
 import {P,A,H1,H2,H3,H4} from '../components/Typography'
 
 // styled-components
+
+// Profile Card
 
 const ProfileContainer = styled.div `
   height: 92%;
@@ -44,6 +45,8 @@ const Social = styled.div `
   }
 `
 
+// Content
+
 const InfoContainer = styled.div `
     width: 75%;
     float: right;
@@ -51,17 +54,30 @@ const InfoContainer = styled.div `
 
 const Info = styled.div `
   width: 75%;
+  max-width: 900px;
   margin: 15px auto;
   padding: 10px;
   white-space: pre-wrap;
+
+  p {
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
 `
 const About = styled.div `
   margin-bottom: 50px;
+
+  H1 {
+    margin-bottom: -20px;
+  }
+
 `
+
 const Question = styled.div `
   margin-bottom: 30px;
 
-  h3 {
+  H4 {
     margin-bottom: -10px;
   }
 `
@@ -70,7 +86,14 @@ const Projects = styled.div`
 `
 
 const Project = styled.div`
+  border: 1px solid;
+  margin-bottom: 30px;
 
+  A {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 10px;
+  }
 `
 
 // page template component
@@ -112,11 +135,9 @@ export default function Post({ data }) {
       </ProfileContainer>
 
       <InfoContainer>
-
         <Info>
-
           <About>
-            <H3>About</H3>
+            <H2>About</H2>
             <P>{graduate.frontmatter.intro}</P>
           </About>
 
@@ -151,14 +172,13 @@ export default function Post({ data }) {
           </About>
 
           <Projects>
-            <H3>Projects</H3>
+            <H2>Projects</H2>
 
             {data.projects ? data.projects.edges.map(({ node: project }) => (
-              <Project key={project.id}>
-                <Img sizes={project.frontmatter.image.childImageSharp.sizes} className="image" />
-                <Link to={project.fields.slug}>go to project -></Link>
-                <h2>{project.frontmatter.title}</h2>
-              </Project>
+                <Project key={project.id}>
+                  <Img sizes={project.frontmatter.image.childImageSharp.sizes} className="image" />
+                  <A href={project.fields.slug}>{project.frontmatter.title}</A>
+                </Project>
             )) : (
               <h4>This student has no projects :( </h4>
             )}
@@ -210,9 +230,10 @@ export const aboutPageQuery = graphql`
           }
 
           frontmatter {
+            title
             image {
               childImageSharp {
-                sizes(maxWidth: 1000, quality: 90, maxHeight: 300, cropFocus: CENTER) {
+                sizes(maxWidth: 1000, quality: 90, maxHeight: 520, cropFocus: CENTER) {
                   ...GatsbyImageSharpSizes
                 }
               }
