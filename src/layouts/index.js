@@ -133,7 +133,7 @@ injectGlobal`
 
   h4 {
     text-transform: uppercase;
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   h5 {

@@ -23,6 +23,7 @@ const TitleLink = styled(Link) `
 
 
   h1 {
+    font-size: 1.6rem;
     margin: 0;
   }
 
@@ -69,7 +70,7 @@ export default function Nav() {
   return (
     <NavContainer>
       <TitleLink to="/">
-        <p>The Next</p>
+        <h1>The Next</h1>
       </TitleLink>
 
       <PageLinks>
