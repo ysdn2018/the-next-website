@@ -137,7 +137,8 @@ injectGlobal`
   }
 
   h5 {
-    font-size: 1 rem;
+    text-transform: uppercase;
+    font-size: 1.5 rem;
   }
 
   p {
