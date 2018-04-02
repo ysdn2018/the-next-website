@@ -6,6 +6,7 @@ noun: lifestyle
 intro: >-
   Designer interested in systems, cultural impact, and societal connotations.
 
+
   Tina aims to naturally integrate intuitive solutions into every day life. She
   believes in portraying complexity through the elegance of simplicity.
 hobbies: 'Memes, travelling'
