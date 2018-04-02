@@ -16,15 +16,28 @@ const GradsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
-  div:nth-child(3n+0) .image div {
-    background-color: pink !important;
-    display: none;
+
+  a .image div {
+    background-color: #eee !important;
   }
 
-  &:nth-child(3) {
-    background-color: pink !important;
-    display: none;
+  ${'' /* a:nth-child(4n-3) .image div {
+    background-color: #FF3200 !important;
   }
+
+  a:nth-child(4n-2) .image div {
+    background-color: #FFE000 !important;
+  }
+
+  a:nth-child(4n-1) .image div {
+    background-color: #00B919 !important;
+  }
+
+  a:nth-child(4n) .image div {
+    background-color: #233CE1 !important;
+  } */}
+
+
 `;
 
 const SearchField = styled.input`
@@ -98,7 +111,7 @@ export const query = graphql`
             headshot {
               childImageSharp {
                 sizes(maxHeight: 250, maxWidth: 200, quality: 75, cropFocus: CENTER) {
-                  ...GatsbyImageSharpSizes_noBase64
+                  ...GatsbyImageSharpSizes
                 }
               }
             }
