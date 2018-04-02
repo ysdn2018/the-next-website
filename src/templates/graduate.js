@@ -14,7 +14,7 @@ const Container = styled.div `
 
 const ProfileContainer = styled.div `
   height: 93vh;
-  width: 22%;
+  width: 32%;
   display: flex;
 `
 
