@@ -11,7 +11,7 @@ category3: Web Design
 
 When a Supermassive Black Hole opens up with Void Villains crawling out, the Galaxia Guardians are called upon to defeat them and save the universe. Team up and compete against your fellow Guardians to become the greatest hero of the Galaxy.
 
-Galaxia Guardians is a dice rolling card game that requires players to work together in order to compete against each other to win. It allows players to learn positive socio-behavioural skills through the act of play.
+_Galaxia Guardians_ is a dice rolling card game that requires players to work together in order to compete against each other to win. It allows players to learn positive socio-behavioural skills through the act of play.
 
 ![Galaxia Guardians - Guardian Card](/assets/guardiancard.png)
 
