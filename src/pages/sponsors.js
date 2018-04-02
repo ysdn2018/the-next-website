@@ -23,10 +23,24 @@ const SponsorContainer = styled.div `
   }
 `
 
-const Sponsor = styled.div`
+const SponsorImage = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  ${props => props.column && "flex-direction: column;"}
+  ${props => props.justify && "justify-content: space-around; width:90%"}
+
+  @media screen and (max-width: ${breakpoints.mobile} ) {
+    flex-direction: column;
+  }
 `
 
+const Title = styled.h5 `
+  margin-top: 10px;
+`
 
 const PresentingSponsor = styled.div `
   border-bottom: 1px solid;
@@ -37,7 +51,7 @@ const PresentingSponsor = styled.div `
   flex-direction: column;
 
   h5 {
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   img {
@@ -47,6 +61,10 @@ const PresentingSponsor = styled.div `
 
   @media screen and (max-width: ${breakpoints.mobile} ) {
     height: 50vh;
+
+    img {
+      width: 80%;
+    }
   }
 
 `
@@ -67,6 +85,11 @@ const SponsorTwo = styled.div`
 
   @media screen and (max-width: ${breakpoints.mobile} ) {
     width: 100%;
+    height: 50vh;
+
+    img {
+      width: 80%;
+    }
   }
 `
 const SponsorThree = styled.div `
@@ -87,6 +110,11 @@ const SponsorThree = styled.div `
   @media screen and (max-width: ${breakpoints.mobile} ) {
     width: 100%;
     border-right: 0px;
+    height: 60vh;
+
+    img {
+      width: 60%;
+    }
   }
 `
 
@@ -99,12 +127,18 @@ const SponsorFour = styled.div`
   border-bottom: 1px solid;
 
   img {
-    width: 50%;
+    width: 40%;
     max-width: 400px;
+    margin-bottom: 15px;
   }
 
   @media screen and (max-width: ${breakpoints.mobile} ) {
     width: 100%;
+    height: 50vh;
+
+    img {
+      width: 60%;
+    }
   }
 `
 
@@ -122,33 +156,43 @@ export default function Sponsors({ data }) {
 
       <SponsorContainer>
         <PresentingSponsor>
-          <h5>Presenting Sponsor</h5>
-          <img src = {RL_Logo} alt="RL Solutions"/>
+          <Title>Presenting Sponsor</Title>
+          <SponsorImage>
+            <img src = {RL_Logo} alt="RL Solutions"/>
+          </SponsorImage>
         </PresentingSponsor>
       </SponsorContainer>
 
       <SponsorContainer>
         <SponsorTwo>
-          <h5>Venue Sponsor</h5>
-          <img src = {GladstoneLogo} alt="Gladstone Hotel"/>
+          <Title>Venue Sponsor</Title>
+          <SponsorImage>
+            <img src = {GladstoneLogo} alt="Gladstone Hotel"/>
+          </SponsorImage>
         </SponsorTwo>
         <SponsorTwo>
-          <h5>Print Sponsor</h5>
-          <img src = {VeritifLogo} alt="Veritif"/>
+          <Title>Print Sponsor</Title>
+          <SponsorImage>
+            <img src = {VeritifLogo} alt="Veritif"/>
+          </SponsorImage>
         </SponsorTwo>
       </SponsorContainer>
 
       <SponsorContainer>
         <SponsorThree>
-          <h5>Event Sponsors</h5>
-          <img src = {CriticalMassLogo} alt="Critical Mass"/>
-          <img src = {ForgeLogo} alt="Forge Media"/>
-          <img src = {WattLogo} alt="Watt International"/>
+          <Title>Event Sponsors</Title>
+          <SponsorImage justify>
+            <img src = {CriticalMassLogo} alt="Critical Mass"/>
+            <img src = {ForgeLogo} alt="Forge Media"/>
+            <img src = {WattLogo} alt="Watt International"/>
+          </SponsorImage>
         </SponsorThree>
         <SponsorFour>
-          <h5>With Support From</h5>
-          <img src = {YorkLogo} alt="York University"/>
-          <img src = {SheridanLogo} alt="Sheridan College"/>
+          <Title>With Support From</Title>
+          <SponsorImage column>
+            <img src = {YorkLogo} alt="York University"/>
+            <img src = {SheridanLogo} alt="Sheridan College"/>
+          </SponsorImage>
         </SponsorFour>
       </SponsorContainer>
 
