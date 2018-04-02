@@ -86,7 +86,6 @@ export default class Work extends React.Component {
         project.frontmatter.title.toLowerCase().indexOf(this.state.search) !== -1;
     });
 
-    // const filteredSearch = projects;
 
     return (
       <PageContainer>

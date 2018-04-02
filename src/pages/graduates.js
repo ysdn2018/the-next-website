@@ -57,14 +57,11 @@ export default class Graduates extends React.Component {
     })
   }
 
-  render() {
-    console.log("GRADUATES PAGE");
-    
+  render() {    
     const grads = this.props.data.allMarkdownRemark.edges;
-    // const filteredGrads = grads.filter(({ node: grad }) => {
-    //   return grad.frontmatter.title.toLowerCase().indexOf(this.state.search) !== -1;
-    // });
-    const filteredGrads = grads;
+    const filteredGrads = grads.filter(({ node: grad }) => {
+      return grad.frontmatter.title.toLowerCase().indexOf(this.state.search) !== -1;
+    });
 
     return (
       <PageContainer scrollbar>

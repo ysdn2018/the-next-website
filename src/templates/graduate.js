@@ -104,7 +104,6 @@ const Project = styled.div`
 
 export default function Graduate({ data }) {
   const graduate = data.markdownRemark;
-  console.log("GRADUATE PAGE");
 
   return (
     <Container>

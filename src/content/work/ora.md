@@ -2,7 +2,7 @@
 templateKey: project
 title: ORA
 graduate: Aaron Mohr
-image: /assets/ora-thumb.png
+image: /assets/ora-thumb.jpg
 category: UI/UX
 category2: Web Design
 ---

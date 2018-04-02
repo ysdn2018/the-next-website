@@ -88,8 +88,6 @@ export default function Post({ data }) {
   const project = data.markdownRemark;
   const grad = project.frontmatter.graduate;
 
-  console.log("PROJECT PAGE");
-
   return (
     <div>
 

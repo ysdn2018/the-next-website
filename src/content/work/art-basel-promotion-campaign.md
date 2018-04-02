@@ -27,6 +27,6 @@ One of the biggest challenges I’ve encountered along the way is coming up with
 
 Art Basel Miami is an art show known for its contemporary and sometimes controversial works, often admired or criticized for, in some cases, mundane objects and works being presented as art. Although the modern art world would like to reject such thinking, what would it mean to instead embrace it? Upon discovering Art Basel regular Jeff Koons' Lobster, an aluminum sculpture made to look like a pool toy, I found that this singular work was an illustrious representation of Art Basel, Miami, and contemporary art in itself. I paired Koons' Lobster with generic, inflatable pool toys in the shapes of a flamingo and alligator, that were not considered art and could instead be purchased at a local department store. In doing so, I elevate the everyday pool toys to symbols of high art representing the essence of Art Basel as well as the city of Miami, Florida; a triptych of land, air, and sea. Through the subversion of popular art and inflatable swimming accessories and the use of bold colours (such as the Art Basel pink, blue for the sky and ocean, and yellow for warmth and vibrancy), I brought Art Basel closer to the reality of its show while also letting its location inform the the brand’s themes and aesthetics.
 
-![](/assets/pamphletmockup.png)
+![](/assets/pamphletmockup.jpg)
 
 This Art Basel campaign embodies both the contemporary art found at the exhibition and the city of Miami’s vibrancy, targeted at artists and their respective audiences and prospective buyers.
