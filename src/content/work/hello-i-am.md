@@ -13,3 +13,11 @@ _Hello, I Am_ reflects the way I and many others were raised surrounded by two d
 ![](/assets/img_2841.jpg)
 
 ![](/assets/img_3100.jpg)
+
+The book uses a system using stickers was developed in order to allow individuals to interact with the physical piece as well as it conceptually reflects the idea that we label others. The stickers are also used to capture small pull quotes from the stories collected from others about their personal experiences regarding identity.
+
+![](/assets/laura_img2.jpg)
+
+Additionally, the website exhibits videos of the juxtaposed compositions being used and interacted with as well as information about the project and historical information about the food that was used. The aim of the website is to inform those on the history of Chinese American food as well as breathe life and bring movement to each of the photos that were taken. The background of the website is composed of all of the items purchased in order to produce the compositions, essentially mimicking a receipt, while the foreground mimics the layout of a menu.
+
+![](/assets/thefinalquestionmark.052.jpeg)
