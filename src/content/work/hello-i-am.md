@@ -10,4 +10,6 @@ _Hello, I Am_ reflects the way I and many others were raised surrounded by two d
 
 ![](/assets/dsc_0086.jpg)
 
+![](/assets/img_2841.jpg)
+
 ![](/assets/img_3100.jpg)
