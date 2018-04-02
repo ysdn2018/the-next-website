@@ -63,7 +63,6 @@ const SponsorTwo = styled.div`
   img {
     width: 50%;
     max-width: 800px;
-        justify-content: center;
   }
 
   @media screen and (max-width: ${breakpoints.mobile} ) {
