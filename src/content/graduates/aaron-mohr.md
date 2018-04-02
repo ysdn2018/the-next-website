@@ -12,6 +12,7 @@ intro: >-
 music: |-
   Four Tet
   Geotic
+  Todd Terje
   Washed Out
 tools: |-
   Ableton
@@ -24,7 +25,7 @@ watch: |+
 
 typeface: |-
   NB Akademie
-  LL Replica
+  Replica
   Suisse Intl
 twitter: 'https://twitter.com/aaronjmohr'
 instagram: 'https://www.instagram.com/aaronjmohr/'
