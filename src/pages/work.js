@@ -3,9 +3,10 @@ import styled from 'styled-components'
 import { spacing } from '../utils/constants'
 
 import PageContainer from '../components/PageContainer'
-import SectionHeading from '../components/SectionHeading'
+import StatementHeader from '../components/StatementHeader'
 import Project from '../components/Project'
-
+import SearchField from '../components/SearchField'
+import Toolbar from '../components/Toolbar'
 
 
 const ProjectGrid = styled.div`
@@ -18,16 +19,27 @@ const ProjectGrid = styled.div`
   grid-gap: 20px;
 `;
 
-const SearchField = styled.input`
+const FiltersContainer = styled.div`
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  border-left: 1px solid black;
+`
 
-`;
-
-const Button = styled.button`
+const StyledButton = styled.button`
   outline: none;
   border: none;
-  background-color: none;
-
+  text-transform: uppercase;
+  background-color: transparent;
 `
+
+function FilterButton(props) {
+  return(
+    <StyledButton onClick={() => props.handleCategoryUpdate(props.category)}>
+      {props.category || "All"}
+    </StyledButton>
+  )
+}
 
 // page component
 export default class Work extends React.Component {
@@ -42,15 +54,17 @@ export default class Work extends React.Component {
     })
   }
 
-
   updateSearch = (e) => {
+    let inputValue = e.target.value.toLowerCase() || "";
+
     this.setState({
-      search: e.target.value.toLowerCase(),
+      search: inputValue,
     })
   }
 
   render() {
     const projects = this.props.data.allMarkdownRemark.edges;
+
     const filteredCategory = projects.filter(({node: project}) => {
       let projCategories = [project.frontmatter.category];
 
@@ -59,9 +73,6 @@ export default class Work extends React.Component {
       if (project.frontmatter.category3)
         projCategories.push(project.frontmatter.category3)
 
-      console.log(projCategories);
-
-      
       for (let category of projCategories) {
         if (category.indexOf(this.state.category) === -1 )
           return false
@@ -69,27 +80,37 @@ export default class Work extends React.Component {
       
       return true;
     });
+
     const filteredSearch = filteredCategory.filter(({ node: project }) => {
       return project.frontmatter.graduate.toLowerCase().indexOf(this.state.search) !== -1 ||
         project.frontmatter.title.toLowerCase().indexOf(this.state.search) !== -1;
     });
 
+    // const filteredSearch = projects;
 
     return (
       <PageContainer>
-        <h1>Work</h1>
-        <p>Welcome to the work page</p>
-
-        <Button onClick={() => this.updateCategory("")}>All</Button>
-        <Button onClick={() => this.updateCategory("UI/UX")}>UI/UX</Button>
-        <Button onClick={() => this.updateCategory("Product Design")} >Product Design</Button>
-        <br/><br/>
-        <SearchField
-          type="text"
-          placeholder="Search"
-          value={this.state.search}
-          onChange={this.updateSearch}
+        <StatementHeader
+          verb="Explore"
+          noun="project"
+          height="30vh"
         />
+
+        <Toolbar>
+          <SearchField
+            value={this.state.search}
+            onChange={this.updateSearch}
+          />
+
+          <FiltersContainer>
+            <FilterButton handleCategoryUpdate={this.updateCategory} category="" />
+            <FilterButton handleCategoryUpdate={this.updateCategory} category="UI/UX" />
+            <FilterButton handleCategoryUpdate={this.updateCategory} category="Product Design"/>
+            <FilterButton handleCategoryUpdate={this.updateCategory} category="Typography" />
+            <FilterButton handleCategoryUpdate={this.updateCategory} category="Print" />
+          </FiltersContainer>
+
+        </Toolbar>
 
         <ProjectGrid>
           {filteredSearch.map(({ node: project }) => (

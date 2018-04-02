@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { spacing, breakpoints } from '../../utils/constants.js'
-import { H3, H1 } from '../Typography'
+
 /*
   Base component
   Copy this directory and rename to your choosing
@@ -9,7 +9,7 @@ import { H3, H1 } from '../Typography'
 
 
 
-const StatementContainer = styled.div`
+const StatementContainer = styled.h1`
   position: relative;
   width: 100%;
   height: 100%;
@@ -19,24 +19,21 @@ const StatementContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 
-  &:hover .image {
-    opacity: 1;
-  }
-
-
-  @media (max-width: ${breakpoints.mobile}px) {
+  @media (max-width: ${breakpoints.mobile}) {
     padding: 0 ${ spacing.smaller}px;
   }
 `
 
 const OuterContainer = styled.div`
   width: 100%;
-  height: 100%;
+  height: ${props => props.height ? props.height : "100%"};
   padding: ${props => props.pad ? spacing.smaller : 0};
 `
 
-const StatementText = styled(H1)`
+const StatementText = styled.span`
   text-transform: uppercase;
   line-height: 1;
   margin-top: 0;
@@ -49,7 +46,7 @@ const StatementText = styled(H1)`
   }
 `
 
-const TheNext = styled(H1)`
+const TheNext = styled.span`
   position: relative;
   text-transform: uppercase;
   line-height: 1;
@@ -68,7 +65,7 @@ const TheNext = styled(H1)`
 
 export default function Statement(props) {
   return (
-    <OuterContainer>
+    <OuterContainer {...props}>
       <StatementContainer>
         <StatementText>
           {props.verb || "Announcing"}

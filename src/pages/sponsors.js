@@ -3,14 +3,18 @@ import styled from 'styled-components'
 import { spacing } from '../utils/constants'
 
 import PageContainer from '../components/PageContainer'
-import SectionHeading from '../components/SectionHeading'
-
+import StatementHeader from '../components/StatementHeader'
 
 // page component
 export default function Sponsors({ data }) {
   return (
     <PageContainer>
-      <h1>Hi from the sponsors page</h1>
+
+      <StatementHeader
+        verb="Thanking"
+        noun="Sponsors"
+        height="30vh"
+      />
 
     </PageContainer>
   )

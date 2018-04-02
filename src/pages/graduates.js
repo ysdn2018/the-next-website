@@ -5,9 +5,10 @@ import Img from 'gatsby-image'
 import { spacing } from '../utils/constants'
 
 import PageContainer from '../components/PageContainer'
-import SectionHeading from '../components/SectionHeading'
 import Graduate from '../components/Graduate'
-
+import StatementHeader from '../components/StatementHeader'
+import SearchField from '../components/SearchField'
+import Toolbar from '../components/Toolbar'
 
 const GradsGrid = styled.div`
   ${'' /* display: flex;
@@ -21,7 +22,7 @@ const GradsGrid = styled.div`
     background-color: #eee !important;
   }
 
-  ${'' /* a:nth-child(4n-3) .image div {
+  a:nth-child(4n-3) .image div {
     background-color: #FF3200 !important;
   }
 
@@ -35,13 +36,9 @@ const GradsGrid = styled.div`
 
   a:nth-child(4n) .image div {
     background-color: #233CE1 !important;
-  } */}
+  }
 
 
-`;
-
-const SearchField = styled.input`
-  
 `;
 
 
@@ -53,28 +50,37 @@ export default class Graduates extends React.Component {
   }
 
   updateSearch = (e) => {
+    let inputValue = e.target.value || "";
+
     this.setState({
-      search: e.target.value.toLowerCase()
+      search: inputValue,
     })
   }
 
   render() {
+    console.log("GRADUATES PAGE");
+    
     const grads = this.props.data.allMarkdownRemark.edges;
-    const filteredGrads = grads.filter(({ node: grad }) => {
-      return grad.frontmatter.title.toLowerCase().indexOf(this.state.search) !== -1;
-    });
+    // const filteredGrads = grads.filter(({ node: grad }) => {
+    //   return grad.frontmatter.title.toLowerCase().indexOf(this.state.search) !== -1;
+    // });
+    const filteredGrads = grads;
 
     return (
-      <PageContainer>
-        <h1>Wow look at all these cool grads</h1>
-        <p>grads page</p>
+      <PageContainer scrollbar>
+        <StatementHeader
+          verb="Meet"
+          noun="Graduates"
+          height="30vh"
+        />
 
-        <SearchField
-          type="text" 
-          placeholder="Search"
-          value={this.state.search}
-          onChange={this.updateSearch}
-        /> 
+        <Toolbar>
+          <SearchField
+            value={this.state.search}
+            onChange={this.updateSearch}
+          /> 
+        </Toolbar>
+        
 
         <GradsGrid>
           {filteredGrads.map(({ node: grad }) => (
@@ -83,7 +89,6 @@ export default class Graduates extends React.Component {
               key={grad.id}
               image={grad.frontmatter.headshot.childImageSharp.sizes}
               imageHover={grad.frontmatter.headshotHover.childImageSharp.sizes}
-              link={grad.fields.slug}
               title={grad.frontmatter.title}
             />
           ))}

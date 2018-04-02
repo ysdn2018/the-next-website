@@ -6,5 +6,5 @@ export default styled.div`
   width: 100%;
   position: relative;
   background-color: white;
-  min-height: 200vh;
+  height: 100%;
 `
