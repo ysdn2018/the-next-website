@@ -15,18 +15,18 @@ music: |-
   Geotic
   Washed Out
 tools: |-
-  Processing
   Ableton
+  Processing
   Sketch
 watch: |+
-  High Maintenance
   Atlanta
   Crashing
+  High Maintenance
 
 typeface: |-
-  Suisse Intl
   NB Akademie
   LL Replica
+  Suisse Intl
 twitter: 'https://twitter.com/aaronjmohr'
 instagram: 'https://www.instagram.com/aaronjmohr/'
 email: aaronjonmohr@gmail.com
