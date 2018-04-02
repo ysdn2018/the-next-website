@@ -24,8 +24,8 @@ collections:
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: graduate}
       - { name: title, label: Your Name }
-      - { name: image, label: Headshot, widget: hidden, default: "/assets/sloth.jpg" }
-      - { name: imageHover, label: Headshot Hover, widget: hidden, default: "/assets/sloth2.jpg" }
+      - { name: headshot, label: Headshot, widget: hidden, default: "/assets/sloth.jpg" }
+      - { name: headshotHover, label: Headshot Hover, widget: hidden, default: "/assets/sloth2.jpg" }
       - { name: verb, label: Statement Verb }
       - { name: noun, label: Statement Noun }
       - { name: intro, label: Intro (third-person), widget: text, required: false }
