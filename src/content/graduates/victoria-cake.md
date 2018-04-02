@@ -3,6 +3,8 @@ templateKey: graduate
 title: Victoria Cake
 verb: Being
 noun: Voice
+headshot: ../headshots/normal/Victoria_Cake-1.jpg
+headshotHover: ../headshots/looking/Victoria_Cake-2.jpg
 intro: >-
   Victoria is a curious creative with a passion for print communication and bold
   colours. Since high school, she knew that she wanted to be in a creative
@@ -16,7 +18,7 @@ intro: >-
 hobbies: 'Photography, knitting, and embroidering.'
 music: 'Classic rock, R&B, Alternative.'
 tools: 'Illustrator, InDesign, Pigma Micron pens, and her coconut.'
-watch: 'Jessica Jones, Bob''s Burgers, Thor: Ragnarok, Star Wars.'
+watch: "Jessica Jones, Bob's Burgers, Thor: Ragnarok, Star Wars."
 typeface: 'Okomito, and Gilda Display.'
 instagram: '@viccake'
 linkedin: 'https://www.linkedin.com/in/victoria-cake/'

@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Laura Pitt
-image: /assets/sloth.jpg
-imageHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Laura_Pitt-1.jpg
+headshotHover: ../headshots/looking/Laura_Pitt-2.jpg
 verb: Evoking
 noun: Feeling
 intro: >-
