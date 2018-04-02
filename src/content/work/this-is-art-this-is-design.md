@@ -5,7 +5,7 @@ graduate: Tina Dou
 image: /assets/spine.jpg
 category: Book Design
 ---
-## What is Art? What is Design?
+# What is Art? What is Design?
 
 A shovel presented by Duchamp is considered art. A chair created by the Eames is considered design. The description of artist and designer have different contextual meanings, however there is undeniable overlap between the two fields. This book tackles the blurred line between art and design.
 
