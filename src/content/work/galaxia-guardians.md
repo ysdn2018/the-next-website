@@ -13,6 +13,6 @@ When a Supermassive Black Hole opens up with Void Villains crawling out, the Gal
 
 _Galaxia Guardians_ is a dice rolling card game that requires players to work together in order to compete against each other to win. It allows players to learn positive socio-behavioural skills through the act of play.
 
-![Galaxia Guardians - Guardian Card](/assets/guardiancard.png)
+![Galaxia Guardians - Guardian Card](/assets/guardiancard.jpg)
 
 Click [here](www.tinadou.com/g-g) to learn how to play.
