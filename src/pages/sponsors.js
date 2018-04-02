@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { spacing, breakpoints } from '../utils/constants'
 
 import PageContainer from '../components/PageContainer'
-import SectionHeading from '../components/SectionHeading'
+import StatementHeader from '../components/StatementHeader'
 
 import RL_Logo from '../assets/images/rl-solutions.svg'
 import GladstoneLogo from '../assets/images/gladstone.svg'
@@ -108,10 +108,18 @@ const SponsorFour = styled.div`
   }
 `
 
+
 // page component
 export default function Sponsors({ data }) {
   return (
     <PageContainer>
+
+      <StatementHeader
+        verb="Thanking"
+        noun="Sponsors"
+        height="30vh"
+      />
+
       <SponsorContainer>
         <PresentingSponsor>
           <h5>Presenting Sponsor</h5>

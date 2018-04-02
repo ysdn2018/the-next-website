@@ -33,7 +33,6 @@ const TitleLink = styled(Link) `
 `
 
 const NavContainer = styled.div`
-  border-top: 1px solid black;
   border-bottom: 1px solid black;
   margin-bottom: -1px;
   height: ${spacing.bigger}px;

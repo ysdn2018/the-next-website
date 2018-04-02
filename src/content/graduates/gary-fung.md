@@ -3,6 +3,8 @@ templateKey: graduate
 title: Gary Fung
 verb: Exploring
 noun: Experience
+headshot: ../headshots/normal/Gary_Fung-1.jpg
+headshotHover: ../headshots/looking/Gary_Fung-2.jpg
 intro: >-
   Hoping to work on problems for people to feel present, connected and
   comfortable. 

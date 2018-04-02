@@ -3,6 +3,8 @@ templateKey: graduate
 title: Tina Dou
 verb: Preserving
 noun: lifestyle
+headshot: ../headshots/normal/Tina_Dou-1.jpg
+headshotHover: ../headshots/looking/Tina_Dou-2.jpg
 intro: >-
   Designer interested in systems, cultural impact, and societal connotations.
 

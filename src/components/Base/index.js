@@ -17,7 +17,7 @@ const Text = styled.p`
 `
 
 // component
-export default function Base(props) {
+export default function SearchField(props) {
   return (
     <Container>
       <Text>{props.text}</Text>

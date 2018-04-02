@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 import Button from '../components/Button'
 import Img from 'gatsby-image'
-import StatementHeader from '../components/SectionHeading'
+import StatementHeader from '../components/StatementHeader'
 
 
 // styled components
@@ -13,26 +13,9 @@ const Container = styled.div`
 `
 
 
-
-// components
-function PageLink(props) {
-  return (
-    <LinkContainer>
-      
-      <LinkText to={props.to}>
-        {props.title}
-        <Img resolutions={props.image} />
-      </LinkText>
-      
-    </LinkContainer>
-  )
-}
-
-
 // page component
 export default function IndexPage({ data }) {
-  const projects = data.projects.edges;
-  const graduates = data.graduates.edges;
+  const graduates = data.allMarkdownRemark.edges;
 
   return (
     <Container>
@@ -49,7 +32,7 @@ export default function IndexPage({ data }) {
 export const query = graphql`
   query IndexQuery {
     
-    graduates: allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/graduates/"} } ) {
+    allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/graduates/"} } ) {
       edges {
         node {
           id
@@ -59,37 +42,12 @@ export const query = graphql`
           }
           frontmatter {
             title
-            image {
-              childImageSharp {
-                resolutions(height: 50, width: 150) {
-                  ...GatsbyImageSharpResolutions
-                }
-              }
-            }
+            noun
+            verb
           }
         }
       } 
     }
-    projects: allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/work/"} } ) {
-      edges {
-        node {
-          id
 
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            image {
-              childImageSharp {
-                resolutions(height: 50, width: 150) {
-                  ...GatsbyImageSharpResolutions
-                }
-              }
-            }
-          }
-        }
-      } 
-    }
   }
 `;

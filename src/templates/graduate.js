@@ -10,10 +10,11 @@ import Statement from '../components/Statement'
 
 const Container = styled.div `
   display: flex;
+  height: 100%:
 `
 
 const ProfileContainer = styled.div `
-  height: 93vh;
+  height: 100%;
   width: 32%;
   display: flex;
 `
@@ -101,8 +102,9 @@ const Project = styled.div`
 
 // page template component
 
-export default function Post({ data }) {
+export default function Graduate({ data }) {
   const graduate = data.markdownRemark;
+  console.log("GRADUATE PAGE");
 
   return (
     <Container>

@@ -14,6 +14,7 @@ const Container = styled(Link)`
   position: relative;
   border: 1px solid black;
   margin: 2rem;
+  max-width: 200px;
 `
 
 

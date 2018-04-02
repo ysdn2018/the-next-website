@@ -37,7 +37,7 @@ const InnerContainer = styled.div`
   height: 100%;
   width: 100%;
   position: relative;
-  margin-top: ${spacing.big}px;
+  padding-top: ${spacing.big + 3}px;
 `;
 
 // page component
@@ -106,7 +106,7 @@ injectGlobal`
   }
 
   #___gatsby {
-    height: 100% !important;
+    height: 100%;
   }
 
   h1, h2, h3, h4, h5, h6 {
