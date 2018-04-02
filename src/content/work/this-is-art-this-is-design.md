@@ -11,7 +11,7 @@ A shovel presented by Duchamp is considered art. A chair created by the Eames is
 
 ![Opening spread - Paragraphs on Conceptual Art](/assets/dou_opening spread.jpg)
 
-_This is Art. This is Design._ tackles the blurred line between art and design through writings and images from renounced artists, designers and scholars. The information provided by the book is intended to be educational, and aimed to be created in a way that allows readers to flow through the readings smoothly. 
+_This is Art. This is Design._ tackles the blurred line between art and design through writings and images from renounced artists, designers and scholars. The information provided by the book is intended to be educational, and created in a way that allows readers to flow through the readings smoothly. 
 
 ![Spread - Charles and Ray Eames ](/assets/dou_spread1.jpg)
 
