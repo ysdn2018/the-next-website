@@ -7,7 +7,7 @@ category: Brand Identity
 category2: Package Design
 category3: Web Design
 ---
-## The Battle of Heroes
+# The Battle of Heroes
 
 When a Supermassive Black Hole opens up with Void Villains crawling out, the Galaxia Guardians are called upon to defeat them and save the universe. Team up and compete against your fellow Guardians to become the greatest hero of the Galaxy.
 
