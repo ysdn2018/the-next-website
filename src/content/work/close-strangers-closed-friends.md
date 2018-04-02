@@ -19,8 +19,6 @@ I approached my project initially wondering whether there were patterns in relat
 
 ![Data visualization of physical interaction in my relationships in unrolled form](/assets/_mg_5546.jpg)
 
-
-
 # Expanding on Unique Relationships in a Physical-Digital Sphere
 
 After realizing that physical interaction was not an indicator of relationship strength and longevity, I explored moments of digital interaction and "connectors" that are prominent in the relationship. "Connectors" included mutual relationships, similarities in ethnic backgrounds, gender, age, and interests. Exploring this component through an interactive data visualization piece allowed me to filter through the data to understand more prominent "connectors" and whether these "connectors" were significant in the strength of our relationship.
@@ -40,8 +38,6 @@ In my next design exploration, I decided to explore the significance of memory a
 ![The you I remember inside accordion](/assets/_mg_5539.jpg)
 
 ![The you I remember inside accordion](/assets/_mg_5541.jpg)
-
-
 
 # The space we exist in
 
