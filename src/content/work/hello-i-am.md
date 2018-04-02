@@ -2,7 +2,7 @@
 templateKey: project
 title: 'Hello, I Am'
 graduate: Laura Pitt
-image: /assets/laura_img2.jpg
+image: /assets/thefinalquestionmark.031.jpeg
 category: Book Design
 category2: UI/UX
 ---
