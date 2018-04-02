@@ -112,7 +112,7 @@ export default function Graduate({ data }) {
       <ProfileContainer>
         <Profile>
           <Name>
-            <h3>{graduate.frontmatter.title}</h3>
+            {graduate.frontmatter.title}
           </Name>
           <Img sizes={graduate.frontmatter.headshot.childImageSharp.sizes} className="image"/>
           <Statement
