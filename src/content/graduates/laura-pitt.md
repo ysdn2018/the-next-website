@@ -10,6 +10,9 @@ intro: >-
   emotional one. Laura aims to enhance our experiences and interactions with our
   environment and each other through eliciting the thoughts and feelings of
   others—the beginning a conversation.
+hobbies: >-
+  Eating too many pastries, learning how to take better care of my plants,
+  buying lots of orange things
 music: 'Anderson .Paak, SZA, Rex Orange County, and Charlotte Day Wilson.'
 tools: 'InDesign, Illustrator, Sketch, After Effects'
 watch: 'Ferris Bueller''s Day Off, When Harry Met Sally, Short Term 12'
