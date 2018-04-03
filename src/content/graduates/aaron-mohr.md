@@ -1,10 +1,10 @@
 ---
 templateKey: graduate
 title: Aaron Mohr
-verb: Defining
-noun: Moment
 headshot: ../headshots/normal/Aaron_Mohr-1.jpg
 headshotHover: ../headshots/looking/Aaron_Mohr-2.jpg
+verb: Defining
+noun: Moment
 intro: >-
   Aaron is a digitally-driven designer and electronic musician. He is focused on
   finding new ways of creating engaging experience that blur the lines between
@@ -20,11 +20,10 @@ tools: |-
   Ableton
   Processing
   Sketch
-watch: |+
+watch: |-
   Atlanta
   Crashing
   High Maintenance
-
 typeface: |-
   NB Akademie
   Replica
