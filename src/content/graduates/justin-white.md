@@ -1,8 +1,8 @@
 ---
 templateKey: graduate
 title: Justin White
-headshot: /assets/sloth.jpg
-headshotHover: /assets/sloth2.jpg
+headshot: ../headshots/normal/Justin_White-1.jpg
+headshotHover: ../headshots/looking/Justin_White-2.jpg
 verb: Enhancing
 noun: Collaboration
 intro: >-

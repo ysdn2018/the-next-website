@@ -16,7 +16,8 @@ const ProjectGrid = styled.div`
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 40px 90px;
+  margin: ${spacing.bigger}px;
 `;
 
 const FiltersContainer = styled.div`

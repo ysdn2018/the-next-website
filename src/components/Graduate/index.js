@@ -8,13 +8,14 @@ import Img from 'gatsby-image'
   Copy this directory and rename to your choosing
 */
 
+const OuterContainer = styled.div`
+  border: 1px solid black;
+  overflow: hidden;
+`
 
 // styled components
 const Container = styled(Link)`
   position: relative;
-  border: 1px solid black;
-  margin: 2rem;
-  max-width: 400px;
 `
 
 
@@ -31,7 +32,7 @@ const LookingImage = styled(Img)`
   position: absolute;
   top: 0;
   height: 100%;
-  width: 100%;
+  width: calc(100% - 2px);
 `
 
 const NormalImage = styled(Img) `
@@ -41,29 +42,44 @@ const NormalImage = styled(Img) `
 
   position: relative;
   z-index: 3;
+  width: calc(100% - 2px);
 `
 
+const ImagesOuterContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+
+  
 const ImagesContainer = styled.div`
   position: relative;
+
 `;
+
 
 // component
 export default function Graduate(props) {
   return (
-    <Container to={props.path}>
-      <ImagesContainer>
-        <NormalImage
-          resolutions={props.image}
-          className="image"
-          backgroundColor
-        />
-        <LookingImage
-          resolutions={props.imageHover}
-          style={{position: "absolute"}}
-          className=".image"
-        />
-      </ImagesContainer>
-      <Text>{props.title}</Text>
-    </Container>
+    <OuterContainer>
+      <Container to={props.path}>
+        <ImagesOuterContainer>
+          <ImagesContainer>
+          <NormalImage
+            resolutions={props.image}
+            className="image"
+            backgroundColor
+          />
+          <LookingImage
+            resolutions={props.imageHover}
+            style={{position: "absolute"}}
+            className=".image"
+          />
+          </ImagesContainer>
+        </ImagesOuterContainer>
+        <Text>{props.title}</Text>
+      </Container>
+    </OuterContainer>
   )
 }
