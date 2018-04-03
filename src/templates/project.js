@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
-import {P,A,H2,H3,H4} from '../components/Typography'
+import { spacing, breakpoints } from '../utils/constants'
 
 // styled-components
 const Content = styled.div`
@@ -11,8 +11,8 @@ const Content = styled.div`
   }
 
   img {
-    position: absolute;
-    width: 100%;
+    width: auto;
+    height: auto;
   }
 
   h1 {
@@ -24,8 +24,9 @@ const Content = styled.div`
 
   h2 {
     text-transform: uppercase;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: normal;
+    margin-bottom: -${spacing.medium}px;
   }
 `
 
@@ -34,7 +35,7 @@ const HeroImage = styled(Img)`
 `
 
 const ProjectHeader = styled.div `
-  padding: 10px;
+  padding: ${spacing.smaller}px;
   width: 100%;
   height: 30vh;
   display: flex;
@@ -56,32 +57,46 @@ const GraduateName = styled.div`
 const Categories = styled.div `
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
 `
 
 const ContentContainer = styled.div`
   display: flex;
+
 `
 
 const LegendContainer = styled.div `
   flex: 1;
+
+  @media screen and (max-width: ${breakpoints.mobile} ) {
+    display: none;
+  }
 `
 
 const Legend = styled.div `
   position: sticky;
-  top: 50px;
-  padding: 50px;
+  top: ${spacing.bigger}px;
+  padding: ${spacing.bigger}px;
 `
 
 const InfoContainer = styled.div `
     width: 70%;
+
+    @media screen and (max-width: ${breakpoints.mobile} ) {
+      width: 100%
+    }
 `
 
 const Info = styled.div `
   width: 75%;
-  margin: 50px auto;
-  padding: 10px;
+  margin: ${spacing.bigger}px auto;
+  padding: ${spacing.smaller}px;
   white-space: pre-wrap;
+
+  @media screen and (max-width: ${breakpoints.mobile} ) {
+    width: 90%;
+  }
+
 `
 
 // page template component
@@ -94,28 +109,28 @@ export default function Post({ data }) {
 
       <ProjectHeader>
 
-        <H2>{project.frontmatter.title}</H2>
+        <h1>{project.frontmatter.title}</h1>
 
         <ProjectInfo>
           <GraduateName>
-            <H3>
+            <h3>
               <Link href={`/graduates/${grad.replace(/\s+/g, "-").toLowerCase()}/`}>
                 {grad}
               </Link>
-            </H3>
+            </h3>
           </GraduateName>
 
           <Categories>
             {project.frontmatter.category && (
-              <H4>{project.frontmatter.category}</H4>
+              <h4>{project.frontmatter.category}</h4>
             )}
 
             {project.frontmatter.category2 && (
-              <H4>{project.frontmatter.category2}</H4>
+              <h4>{project.frontmatter.category2}</h4>
             )}
 
             {project.frontmatter.category3 && (
-              <H4>{project.frontmatter.category3}</H4>
+              <h4>{project.frontmatter.category3}</h4>
             )}
           </Categories>
         </ProjectInfo>
@@ -165,7 +180,7 @@ export const aboutPageQuery = graphql`
         category3
         image {
               childImageSharp {
-                sizes(maxWidth: 1500, quality: 90, maxHeight: 600, cropFocus: CENTER) {
+                sizes(maxWidth: 1500, maxHeight: 1000, quality: 90, cropFocus: CENTER) {
                   ...GatsbyImageSharpSizes
                 }
               }

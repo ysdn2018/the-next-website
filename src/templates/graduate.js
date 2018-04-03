@@ -93,37 +93,36 @@ const Info = styled.div `
   width: 75%;
   max-width: 900px;
   margin: 50px auto;
-  padding: 10px;
+  padding: ${spacing.smaller}px;
   white-space: pre-wrap;
 
   h4 {
-    margin-bottom: -10px;
+    margin-bottom: -${spacing.small}px;
   }
 `
 const About = styled.div `
-  margin-bottom: 50px;
+  margin-bottom: ${spacing.bigger}px;
 `
 
 const Question = styled.div `
-  margin-bottom: 50px;
+  margin-bottom: ${spacing.bigger}px;
 `
 
 const Projects = styled.div`
-  margin-top: 100px;
+  margin-top: ${spacing.bigger*2}px;
 
   h2 {
-    margin-bottom: 20px;
+    margin-bottom: ${spacing.medium}px;
   }
 `
 
 const Project = styled.div`
   border: 1px solid;
-  margin-bottom: 30px;
+  margin-bottom: ${spacing.big}px;
 
   a {
-    font-size: 2rem;
-    text-transform: uppercase;
-    padding: 10px;
+    font-size: calc(0.5vw + 1.2rem);
+    padding: ${spacing.smaller}px;
   }
 `
 
@@ -188,6 +187,14 @@ export default function Graduate({ data }) {
           </About>
 
           <About>
+
+            {graduate.frontmatter.hobbies && (
+              <Question>
+                <h4>Hobbies</h4>
+                <p>{graduate.frontmatter.hobbies}</p>
+              </Question>
+            )}
+
             {graduate.frontmatter.music && (
               <Question>
                 <h4>Listening To</h4>
@@ -223,7 +230,7 @@ export default function Graduate({ data }) {
             {data.projects ? data.projects.edges.map(({ node: project }) => (
                 <Project key={project.id}>
                   <Img sizes={project.frontmatter.image.childImageSharp.sizes} className="image" />
-                  <a href={project.fields.slug}>{project.frontmatter.title}</a>
+                  <Link to ={project.fields.slug}>{project.frontmatter.title}</Link>
                 </Project>
             )) : (
               <h4>This student has no projects :( </h4>
@@ -248,6 +255,7 @@ export const aboutPageQuery = graphql`
         noun
         verb
         intro
+        hobbies
         music
         tools
         watch

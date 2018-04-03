@@ -13,6 +13,7 @@ const spacing = {
   smaller: 6,
   small: 12,
   normal: 18,
+  medium: 24,
   big: 36,
   bigger: 42
 };
