@@ -15,26 +15,29 @@ const GradsGrid = styled.div`
   flex-wrap: wrap; */}
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 2fr));
+  grid-gap: ${spacing.bigger * 2}px;
+  margin: ${spacing.bigger * 2}px;
 
 
   a .image div {
     background-color: #eee !important;
   }
 
-  a:nth-child(4n-3) .image div {
+  div:nth-child(4n-3) .image div {
     background-color: #FF3200 !important;
   }
 
-  a:nth-child(4n-2) .image div {
+  div:nth-child(4n-2) .image div {
     background-color: #FFE000 !important;
   }
 
-  a:nth-child(4n-1) .image div {
+  div:nth-child(4n-1) .image div {
     background-color: #00B919 !important;
   }
 
-  a:nth-child(4n) .image div {
+  div:nth-child(4n) .image div {
     background-color: #233CE1 !important;
   }
 
@@ -112,14 +115,14 @@ export const query = graphql`
             title
             headshot {
               childImageSharp {
-                resolutions(height: 250, width: 200, quality: 75, cropFocus: CENTER) {
-                  ...GatsbyImageSharpResolutions
+                resolutions(height: 300, width: 250, quality: 75, cropFocus: CENTER, grayscale: true) {
+                  ...GatsbyImageSharpResolutions_noBase64
                 }
               }
             }
             headshotHover {
               childImageSharp {
-                resolutions(height: 250, width: 200, quality: 75, cropFocus: CENTER) {
+                resolutions(height: 300, width: 250, quality: 75, cropFocus: CENTER) {
                   ...GatsbyImageSharpResolutions_noBase64
                 }
               }

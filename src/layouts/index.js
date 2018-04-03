@@ -83,7 +83,8 @@ injectGlobal`
   }
 
   html {
-  ${'' /* Maybe Try?  font-size: calc(1.25vw + 62.5%); */}
+    /* Maybe Try?  font-size: calc(1.25vw + 62.5%); */
+    /* font-size: calc(0.30vw + 42.5%); */
     font-size: 62.5%;
     height: 100% !important;
   }
@@ -141,8 +142,13 @@ injectGlobal`
     font-size: 1.5 rem;
   }
 
+  strong {
+    font-weight: 400;
+  }
+
   p {
-    font-size: 2.2rem;
+    font-size: calc(0.5vw + 1.2rem);
+  
     line-height: 1.5;
   }
 

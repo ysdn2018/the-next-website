@@ -8,7 +8,6 @@ import {P,A,H2,H3,H4} from '../components/Typography'
 const Content = styled.div`
   p {
     max-width: 800px;
-    font-size: 2.8rem;
   }
 
   img {
@@ -20,11 +19,13 @@ const Content = styled.div`
     text-transform: uppercase;
     font-size: 4.5rem;
     line-height: 1.2;
+    font-weight: normal;
   }
 
   h2 {
     text-transform: uppercase;
     font-size: 1.8rem;
+    font-weight: normal;
   }
 `
 
