@@ -125,14 +125,15 @@ export default function Post({ data }) {
       <HeroImage sizes={project.frontmatter.image.childImageSharp.sizes}/>
 
       <ContentContainer>
-        <LegendContainer>
-          <Legend>
-              <H3>Heading One</H3>
-              <H3>Heading Two</H3>
-              <H3>Heading Three</H3>
-              <H3>Heading Four</H3>
-          </Legend>
-        </LegendContainer>
+        {project.headings !== [] && (
+          <LegendContainer>
+            <Legend>
+              {project.headings.map(heading =>
+                <h3>{heading.value}</h3>
+              )}
+            </Legend>
+          </LegendContainer>
+        )}
 
         <InfoContainer>
           <Info>
@@ -150,6 +151,10 @@ export default function Post({ data }) {
 export const aboutPageQuery = graphql`
   query ProjectPage($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
+      headings {
+        value
+        depth
+      }
       html
       frontmatter {
         title
