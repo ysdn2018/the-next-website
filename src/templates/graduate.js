@@ -59,7 +59,6 @@ const PhotoContainer = styled.div `
 
   .outer-wrapper {
     height: 100%;
-
   }
 
   .image {

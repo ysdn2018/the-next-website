@@ -20,6 +20,7 @@ const Content = styled.div`
     font-size: 4.5rem;
     line-height: 1.2;
     font-weight: normal;
+    margin: ${spacing.smaller}px
   }
 
   h2 {
@@ -28,6 +29,7 @@ const Content = styled.div`
     font-weight: normal;
     margin-bottom: -${spacing.medium}px;
   }
+
 `
 
 const HeroImage = styled(Img)`
@@ -35,34 +37,58 @@ const HeroImage = styled(Img)`
 `
 
 const ProjectHeader = styled.div `
-  padding: ${spacing.smaller}px;
+  padding: 0 ${spacing.smaller}px;
   width: 100%;
   height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  h1 {
+    line-height: 1.1;
+  }
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    justify-content: flex-start;
+  }
+
 `
 
 const ProjectInfo = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    flex-direction: column;
+  }
 `
 
 const GraduateName = styled.div`
   width: 100%;
-  align-items: flex-end;
 `
 
 const Categories = styled.div `
   display: flex;
+  justify-content: flex-end;
   width: 100%;
-  justify-content: space-between;
+
+  h4 {
+    margin-left:${spacing.medium}px;
+  }
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    justify-content: flex-start;
+
+    h4 {
+      margin-left: 0;
+      margin-right:${spacing.medium}px;
+    }
+  }
 `
 
 const ContentContainer = styled.div`
   display: flex;
-
 `
 
 const LegendContainer = styled.div `
@@ -92,6 +118,7 @@ const Info = styled.div `
   margin: ${spacing.bigger}px auto;
   padding: ${spacing.smaller}px;
   white-space: pre-wrap;
+
 
   @media screen and (max-width: ${breakpoints.mobile} ) {
     width: 90%;
@@ -145,7 +172,7 @@ export default function Post({ data }) {
           <LegendContainer>
             <Legend>
               {project.headings.map(heading =>
-                <h3>{heading.value}</h3>
+                <h4>{heading.value}</h4>
               )}
             </Legend>
           </LegendContainer>

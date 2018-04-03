@@ -7,8 +7,6 @@ import { spacing, breakpoints } from '../../utils/constants.js'
   Copy this directory and rename to your choosing
 */
 
-
-
 const StatementContainer = styled.h1`
   position: relative;
   width: 100%;
