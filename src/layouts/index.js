@@ -118,12 +118,12 @@ injectGlobal`
 
   h1 {
     text-transform: uppercase;
-    font-size: 6rem;
+    font-size: 5.5rem;
   }
 
   h2 {
     text-transform: uppercase;
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 
   h3 {
@@ -142,7 +142,7 @@ injectGlobal`
   }
 
   p {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 1.5;
   }
 

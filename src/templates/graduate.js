@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Img from 'gatsby-image'
 import Link from 'gatsby-link'
 import Statement from '../components/Statement'
+import { spacing, breakpoints } from '../utils/constants'
 
 // styled-components
 
@@ -10,42 +11,68 @@ import Statement from '../components/Statement'
 
 const Container = styled.div `
   display: flex;
-  height: 100%:
+  width: 100%;
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    flex-direction: column;
+  }
+
 `
 
 const ProfileContainer = styled.div `
+  width: 30%;
   height: 100%;
-  width: 32%;
-  display: flex;
+  position: sticky;
+  top: ${spacing.bigger + spacing.small}px;
+  height: calc(100vh - ${spacing.bigger + spacing.small*2}px);
+  margin: ${spacing.small}px;
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    top: ${spacing.small}px;
+    width: 100%;
+    position: relative;
+  }
+
 `
 
 const Profile = styled.div`
   width: 100%;
   height: 100%;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 15px;
+  align-items: stretch;
   border: 1px solid;
-  position: sticky;
-  top: 50px;
+`
 
-  .image {
-    border-bottom: 1px solid;
-    object-fit: cover;
+const NameContainer = styled.div `
+  border-bottom: 1px solid;
+  align-items: center;
+`
+
+const Name = styled.h3 `
+  padding: ${spacing.smaller}px;
+`
+
+const PhotoContainer = styled.div `
+  height: 50%;
+  object-fit: fill;
+
+  image {
+      object-fit: cover;
   }
 `
 
-const Name = styled.h2 `
-  border-bottom: 1px solid;
-  padding: 5px;
+const SocialContainer = styled.div `
+  width: 100%;
+  height: 10%;
 `
 
 const Social = styled.div `
   border-top: 1px solid;
-  padding: 5px;
+  padding: ${spacing.smaller}px;
 
   a {
-    margin-right: 5px;
+    margin-right: ${spacing.small}px;
   }
 `
 
@@ -63,11 +90,6 @@ const Info = styled.div `
   margin: 50px auto;
   padding: 10px;
   white-space: pre-wrap;
-
-  p {
-    font-size: 2.5rem;
-    line-height: 1.5;
-  }
 
   h4 {
     margin-bottom: -10px;
@@ -110,31 +132,42 @@ export default function Graduate({ data }) {
 
       <ProfileContainer>
         <Profile>
-          <Name>
-            {graduate.frontmatter.title}
-          </Name>
-          <Img sizes={graduate.frontmatter.headshot.childImageSharp.sizes} className="image"/>
+
+          <NameContainer>
+            <Name>
+              {graduate.frontmatter.title}
+            </Name>
+          </NameContainer>
+
+          <PhotoContainer>
+            <Img sizes={graduate.frontmatter.headshot.childImageSharp.sizes} className="image"/>
+          </PhotoContainer>
+
           <Statement
-            verb = {graduate.frontmatter.verb}
-            noun = {graduate.frontmatter.noun}
+              verb = {graduate.frontmatter.verb}
+              noun = {graduate.frontmatter.noun}
           />
-          <Social>
-            {graduate.frontmatter.website && (
-                <a href={graduate.frontmatter.website}>Website</a>
-            )}
-            {graduate.frontmatter.email && (
-                <a href={graduate.frontmatter.email}>Email</a>
-            )}
-            {graduate.frontmatter.twitter && (
-                <a href={graduate.frontmatter.instagram}>Instagram</a>
-            )}
-            {graduate.frontmatter.twitter && (
-                <a href={graduate.frontmatter.twitter}>Twitter</a>
-            )}
-            {graduate.frontmatter.linkedin && (
-                <a href={graduate.frontmatter.linkedin}>LinkedIn</a>
-            )}
-          </Social>
+
+          <SocialContainer>
+            <Social>
+              {graduate.frontmatter.website && (
+                  <a href={graduate.frontmatter.website}>Website</a>
+              )}
+              {graduate.frontmatter.email && (
+                  <a href={graduate.frontmatter.email}>Email</a>
+              )}
+              {graduate.frontmatter.twitter && (
+                  <a href={graduate.frontmatter.instagram}>Instagram</a>
+              )}
+              {graduate.frontmatter.twitter && (
+                  <a href={graduate.frontmatter.twitter}>Twitter</a>
+              )}
+              {graduate.frontmatter.linkedin && (
+                  <a href={graduate.frontmatter.linkedin}>LinkedIn</a>
+              )}
+            </Social>
+          </SocialContainer>
+
         </Profile>
       </ProfileContainer>
 
