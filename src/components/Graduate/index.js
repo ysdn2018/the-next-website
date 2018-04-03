@@ -53,12 +53,12 @@ export default function Graduate(props) {
     <Container to={props.path}>
       <ImagesContainer>
         <NormalImage
-          sizes={props.image}
+          resolutions={props.image}
           className="image"
           backgroundColor
         />
         <LookingImage
-          sizes={props.imageHover}
+          resolutions={props.imageHover}
           style={{position: "absolute"}}
           className=".image"
         />

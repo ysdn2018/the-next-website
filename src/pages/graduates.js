@@ -84,8 +84,8 @@ export default class Graduates extends React.Component {
             <Graduate
               path={grad.fields.slug}
               key={grad.id}
-              image={grad.frontmatter.headshot.childImageSharp.sizes}
-              imageHover={grad.frontmatter.headshotHover.childImageSharp.sizes}
+              image={grad.frontmatter.headshot.childImageSharp.resolutions}
+              imageHover={grad.frontmatter.headshotHover.childImageSharp.resolutions}
               title={grad.frontmatter.title}
             />
           ))}
@@ -112,15 +112,15 @@ export const query = graphql`
             title
             headshot {
               childImageSharp {
-                sizes(maxHeight: 250, maxWidth: 200, quality: 75, cropFocus: CENTER) {
-                  ...GatsbyImageSharpSizes
+                resolutions(height: 250, width: 200, quality: 75, cropFocus: CENTER) {
+                  ...GatsbyImageSharpResolutions
                 }
               }
             }
             headshotHover {
               childImageSharp {
-                sizes(maxHeight: 250, maxWidth: 200, quality: 75, cropFocus: CENTER) {
-                  ...GatsbyImageSharpSizes_noBase64
+                resolutions(height: 250, width: 200, quality: 75, cropFocus: CENTER) {
+                  ...GatsbyImageSharpResolutions_noBase64
                 }
               }
             }
