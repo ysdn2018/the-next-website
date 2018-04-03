@@ -17,18 +17,9 @@ intro: >-
   In his spare time, he likes to explore illustration and motion design as a way
   to experiment with different design mediums that might help strengthen his
   future work in product design.
-hobbies: |-
-  Hockey
-  Golf
-  Reading
-music: |-
-  Carpenter Brut
-  Miami Nights 1984
-  Empire of the Sun
-tools: |
-  Sketch
-  Framer
-  Invision
+hobbies: ''
+music: ''
+tools: ''
 watch: |-
   Blade Runner
   Good Will Hunting
@@ -36,7 +27,7 @@ watch: |-
 typeface: Drive (Black Foundry)
 twitter: 'https://twitter.com/jgjwhite'
 linkedin: 'https://www.linkedin.com/in/justin-white-68366724/'
-email: justin.gj.white@gmail.com
+email: ''
 website: 'http://www.jgwhite.co/'
 ---
 
