@@ -55,10 +55,15 @@ const Name = styled.h3 `
 
 const PhotoContainer = styled.div `
   height: 50%;
-  object-fit: fill;
+  overflow: hidden;
 
-  image {
-      object-fit: cover;
+  .outer-wrapper {
+    height: 100%;
+
+  }
+
+  .image {
+    min-height: 200px;
   }
 `
 
@@ -140,7 +145,11 @@ export default function Graduate({ data }) {
           </NameContainer>
 
           <PhotoContainer>
-            <Img sizes={graduate.frontmatter.headshot.childImageSharp.sizes} className="image"/>
+            <Img
+              sizes={graduate.frontmatter.headshot.childImageSharp.sizes}
+              outerWrapperClassName="outer-wrapper"
+              className="image"
+            />
           </PhotoContainer>
 
           <Statement
