@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import styled, { injectGlobal } from 'styled-components'
 import 'normalize.css'
-import { spacing } from '../utils/constants'
+import { spacing, breakpoints } from '../utils/constants'
 import PageContainer from '../components/PageContainer'
 import Nav from '../components/Nav'
 
@@ -31,7 +31,6 @@ import NeueHaasGrotDispItalic_woff2 from "../assets/fonts/NeueHaasGrotDisp-56Ita
 
   this is where global styles/font loading lives
 */
-
 
 const InnerContainer = styled.div`
   height: 100%;
@@ -148,7 +147,6 @@ injectGlobal`
 
   p {
     font-size: calc(0.5vw + 1.2rem);
-  
     line-height: 1.5;
   }
 
@@ -160,6 +158,32 @@ injectGlobal`
       text-decoration: underline;
     }
   }
+
+  @media screen and (max-width: ${breakpoints.mobile} ) {
+
+    h1 {
+      font-size: 4.5rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 3rem;
+    }
+
+    h4 {
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: calc(0.5vw + 1.3rem);
+      line-height: 1.5;
+    }
+
+  }
+
 
   @font-face {
     font-family: 'Haas Grot Text';

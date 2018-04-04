@@ -15,11 +15,22 @@ const Container = styled.div`
   border: 1px solid black;
   width: 100%;
   margin: 1rem;
+
+  img {
+    object-fit: cover;
+    width: 50%;
+  }
 `
 
-const Text = styled(H4)`
-  
+const Text = styled.p`
+  z-index: 4;
+  color: black;
+  max-width: 100%;
+  text-transform: uppercase;
+  margin: 0.4rem;
+  font-size: 1.4rem;
 `
+
 
 // component
 export default function Base(props) {

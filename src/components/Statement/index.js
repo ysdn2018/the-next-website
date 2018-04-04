@@ -31,8 +31,13 @@ const StatementContainer = styled.div`
 
 const OuterContainer = styled.div`
   width: 100%;
-  height: 30%;
+  height:35%;
   padding: ${props => props.pad ? spacing.smaller : 0};
+
+  @media screen and (max-width: ${breakpoints.mobile} ) {
+    height:30%;
+  }
+
 `
 
 const StatementText = styled(H3)`

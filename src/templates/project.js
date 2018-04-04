@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
 import { spacing, breakpoints } from '../utils/constants'
+import Project from '../components/Project'
 
 // styled-components
 const Content = styled.div`
@@ -25,9 +26,21 @@ const Content = styled.div`
 
   h2 {
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: normal;
     margin-bottom: -${spacing.medium}px;
+  }
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+
   }
 
 `
@@ -109,7 +122,7 @@ const InfoContainer = styled.div `
     width: 70%;
 
     @media screen and (max-width: ${breakpoints.mobile} ) {
-      width: 100%
+      width: 100%;
     }
 `
 
@@ -118,7 +131,6 @@ const Info = styled.div `
   margin: ${spacing.bigger}px auto;
   padding: ${spacing.smaller}px;
   white-space: pre-wrap;
-
 
   @media screen and (max-width: ${breakpoints.mobile} ) {
     width: 90%;

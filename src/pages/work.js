@@ -10,15 +10,12 @@ import Toolbar from '../components/Toolbar'
 
 
 const ProjectGrid = styled.div`
-  ${'' /* display: flex;
-  flex-wrap: wrap; */}
-
-
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 40px 90px;
-  margin: ${spacing.bigger}px;
-`;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 2fr));
+    grid-gap: ${spacing.bigger * 2}px;
+    margin: ${spacing.bigger * 2}px;
+`
 
 const FiltersContainer = styled.div`
   display: flex;
@@ -78,7 +75,7 @@ export default class Work extends React.Component {
         if (category.indexOf(this.state.category) === -1 )
           return false
       }
-      
+
       return true;
     });
 
@@ -149,7 +146,7 @@ export const query = graphql`
             category3
             image {
               childImageSharp {
-                resolutions(height: 200, width: 198, quality: 80, cropFocus: CENTER) {
+                resolutions(height: 200, quality: 220, cropFocus: CENTER) {
                   ...GatsbyImageSharpResolutions
                 }
               }

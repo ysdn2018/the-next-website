@@ -15,12 +15,13 @@ const Container = styled.div `
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
     flex-direction: column;
+    width: calc(100% - ${spacing.small}px);
   }
 
 `
 
 const ProfileContainer = styled.div `
-  width: 30%;
+  width: 28%;
   height: 100%;
   position: sticky;
   top: ${spacing.bigger + spacing.small}px;
@@ -28,8 +29,10 @@ const ProfileContainer = styled.div `
   margin: ${spacing.small}px;
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
-    top: ${spacing.small}px;
+    top: 0;
+    padding-right: ${spacing.small}px;
     width: 100%;
+    height: calc(90vh - ${spacing.bigger + spacing.small*2}px);
     position: relative;
   }
 
@@ -44,31 +47,14 @@ const Profile = styled.div`
   border: 1px solid;
 `
 
-const NameContainer = styled.div `
-  border-bottom: 1px solid;
-  align-items: center;
-`
-
 const Name = styled.h3 `
-  padding: ${spacing.smaller}px;
+  padding: 0 ${spacing.smaller}px;
+  border-bottom: 1px solid;
 `
 
-const PhotoContainer = styled.div `
-  height: 50%;
+const ProfileImage = styled.div `
   overflow: hidden;
-
-  .outer-wrapper {
-    height: 100%;
-  }
-
-  .image {
-    min-height: 200px;
-  }
-`
-
-const SocialContainer = styled.div `
-  width: 100%;
-  height: 10%;
+  object-fit: cover;
 `
 
 const Social = styled.div `
@@ -78,6 +64,7 @@ const Social = styled.div `
   a {
     margin-right: ${spacing.small}px;
   }
+
 `
 
 // Content
@@ -91,12 +78,16 @@ const InfoContainer = styled.div `
 const Info = styled.div `
   width: 75%;
   max-width: 900px;
-  margin: 50px auto;
+  margin: ${spacing.small}px auto;
   padding: ${spacing.smaller}px;
   white-space: pre-wrap;
 
   h4 {
     margin-bottom: -${spacing.small}px;
+  }
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    width: width: calc(100% - ${spacing.smaller}px);
   }
 `
 const About = styled.div `
@@ -135,29 +126,20 @@ export default function Graduate({ data }) {
 
       <ProfileContainer>
         <Profile>
-
-          <NameContainer>
-            <Name>
-              {graduate.frontmatter.title}
-            </Name>
-          </NameContainer>
-
-          <PhotoContainer>
+          <Name>{graduate.frontmatter.title}</Name>
+          <ProfileImage>
             <Img
               sizes={graduate.frontmatter.headshot.childImageSharp.sizes}
               outerWrapperClassName="outer-wrapper"
               className="image"
             />
-          </PhotoContainer>
-
+          </ProfileImage>
           <Statement
               verb = {graduate.frontmatter.verb}
               noun = {graduate.frontmatter.noun}
           />
-
-          <SocialContainer>
-            <Social>
-              {graduate.frontmatter.website && (
+          <Social>
+            {graduate.frontmatter.website && (
                   <a href={graduate.frontmatter.website}>Website</a>
               )}
               {graduate.frontmatter.email && (
@@ -172,9 +154,7 @@ export default function Graduate({ data }) {
               {graduate.frontmatter.linkedin && (
                   <a href={graduate.frontmatter.linkedin}>LinkedIn</a>
               )}
-            </Social>
-          </SocialContainer>
-
+          </Social>
         </Profile>
       </ProfileContainer>
 
