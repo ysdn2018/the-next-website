@@ -54,7 +54,7 @@ function TemplateWrapper (props) {
       <Nav />
 
       <InnerContainer>
-        {children()}
+        {props.children()}
       </InnerContainer>
 
     </React.Fragment>
