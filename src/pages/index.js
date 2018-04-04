@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
-import StatementHome from '../components/StatementHome'
 
 
 // styled components
@@ -14,7 +13,6 @@ const Container = styled.div`
 export default function IndexPage() {
   return (
     <Container>
-      <StatementHome></StatementHome>
     </Container>
   )
 }
