@@ -80,7 +80,7 @@ const InfoContainer = styled.div `
 const Info = styled.div `
   width: 75%;
   max-width: 900px;
-  margin: ${spacing.small}px auto;
+  margin: ${spacing.bigger}px auto;
   padding: ${spacing.smaller}px;
   white-space: pre-wrap;
 
