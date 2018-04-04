@@ -11,11 +11,6 @@ const Content = styled.div`
     max-width: 800px;
   }
 
-  img {
-    width: auto;
-    height: auto;
-  }
-
   h1 {
     text-transform: uppercase;
     font-size: 4.5rem;
@@ -107,7 +102,7 @@ const ContentContainer = styled.div`
 const LegendContainer = styled.div `
   flex: 1;
 
-  @media screen and (max-width: ${breakpoints.mobile} ) {
+  @media screen and (max-width: ${breakpoints.tablet} ) {
     display: none;
   }
 `
@@ -121,7 +116,7 @@ const Legend = styled.div `
 const InfoContainer = styled.div `
     width: 70%;
 
-    @media screen and (max-width: ${breakpoints.mobile} ) {
+    @media screen and (max-width: ${breakpoints.tablet} ) {
       width: 100%;
     }
 `
@@ -132,8 +127,8 @@ const Info = styled.div `
   padding: ${spacing.smaller}px;
   white-space: pre-wrap;
 
-  @media screen and (max-width: ${breakpoints.mobile} ) {
-    width: 90%;
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    width: calc(100% - ${spacing.medium}px);
   }
 
 `

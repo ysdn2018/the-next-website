@@ -146,7 +146,7 @@ export const query = graphql`
             category3
             image {
               childImageSharp {
-                resolutions(height: 200, quality: 220, cropFocus: CENTER) {
+                resolutions(height: 200, width: 200, quality: 90, cropFocus: CENTER) {
                   ...GatsbyImageSharpResolutions
                 }
               }

@@ -15,7 +15,6 @@ const Container = styled.div `
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
     flex-direction: column;
-    width: calc(100% - ${spacing.small}px);
   }
 
 `
@@ -39,7 +38,7 @@ const ProfileContainer = styled.div `
 `
 
 const Profile = styled.div`
-  width: 100%;
+  width: calc(100% - ${spacing.small}px);;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -87,7 +86,7 @@ const Info = styled.div `
   }
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
-    width: width: calc(100% - ${spacing.smaller}px);
+    width: calc(100% - ${spacing.medium}px);
   }
 `
 const About = styled.div `
