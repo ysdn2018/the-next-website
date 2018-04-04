@@ -131,11 +131,11 @@ export default function Graduate({ data }) {
         <Profile>
           <Name>{graduate.frontmatter.title}</Name>
           <ProfileImage>
-            <Img
+            {/* <Img
               sizes={graduate.frontmatter.headshot.childImageSharp.sizes}
               outerWrapperClassName="outer-wrapper"
               className="image"
-            />
+            /> */}
           </ProfileImage>
           <Statement
               verb = {graduate.frontmatter.verb}
@@ -247,13 +247,7 @@ export const aboutPageQuery = graphql`
         linkedin
         email
         website
-        headshot {
-          childImageSharp {
-            sizes(maxWidth: 700, quality: 90) {
-              ...GatsbyImageSharpSizes
-            }
-          }
-        }
+
       }
     }
 
@@ -280,3 +274,12 @@ export const aboutPageQuery = graphql`
     }
   }
 `;
+
+
+// headshot {
+//   childImageSharp {
+//     sizes(maxWidth: 700, quality: 90) {
+//               ...GatsbyImageSharpSizes
+//     }
+//   }
+// }
