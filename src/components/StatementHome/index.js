@@ -36,6 +36,7 @@ const OuterContainer = styled.div`
 `
 
 const StatementText = styled(H1)`
+  font-size: 10vw;
   text-transform: uppercase;
   line-height: 1;
   margin-top: 0;
@@ -46,6 +47,7 @@ const StatementText = styled(H1)`
 `
 
 const TheNext = styled(H1)`
+  font-size: 10vw;
   position: relative;
   text-transform: uppercase;
   line-height: 1;
