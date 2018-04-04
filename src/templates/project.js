@@ -26,6 +26,10 @@ const Content = styled.div`
     margin-bottom: -${spacing.medium}px;
   }
 
+  h4 {
+    line-height: 1;
+  }
+
   @media screen and (max-width: ${breakpoints.tablet} ) {
 
     h1 {
@@ -93,6 +97,7 @@ const Categories = styled.div `
     h4 {
       margin-left: 0;
       margin-right:${spacing.medium}px;
+      margin-bottom: ${spacing.smaller}px
     }
   }
 `
@@ -112,6 +117,7 @@ const LegendContainer = styled.div `
 const Legend = styled.div `
   position: sticky;
   top: ${spacing.bigger}px;
+  margin: ${spacing.big}px;
   padding: ${spacing.bigger}px;
 `
 

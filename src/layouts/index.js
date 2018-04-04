@@ -175,6 +175,7 @@ injectGlobal`
 
     h4 {
       font-size: 1.8rem;
+      line-height: 1.2;
     }
 
     p {
