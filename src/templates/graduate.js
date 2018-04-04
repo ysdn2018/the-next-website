@@ -47,8 +47,9 @@ const Profile = styled.div`
 `
 
 const Name = styled.h3 `
-  padding: 0 ${spacing.smaller}px;
+  padding: ${spacing.smaller}px;
   border-bottom: 1px solid;
+  line-height: 1.2;
 `
 
 const ProfileImage = styled.div `

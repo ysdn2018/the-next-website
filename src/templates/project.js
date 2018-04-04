@@ -125,7 +125,7 @@ const LegendContainer = styled.div `
 const Legend = styled.div `
   position: sticky;
   top: ${spacing.bigger}px;
-  margin: ${spacing.big}px;
+  margin: ${spacing.medium}px;
   padding: ${spacing.bigger}px;
 `
 
