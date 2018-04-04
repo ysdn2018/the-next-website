@@ -26,8 +26,16 @@ const Content = styled.div`
     margin-bottom: -${spacing.medium}px;
   }
 
-  h4 {
-    line-height: 1;
+  .gatsby-resp-image-wrapper {
+    line-height: 0;
+  }
+
+  .gatsby-resp-image-background-image {
+    height: 0 !important;
+  }
+
+  .gatsby-resp-image-image {
+    height: auto !important;
   }
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
