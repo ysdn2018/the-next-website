@@ -88,7 +88,7 @@ export default class Graduates extends React.Component {
               path={grad.fields.slug}
               key={grad.id}
               image={grad.frontmatter.headshot.childImageSharp.resolutions}
-              imageHover={grad.frontmatter.headshotHover.childImageSharp.resolutions}
+              // imageHover={grad.frontmatter.headshotHover.childImageSharp.resolutions}
               title={grad.frontmatter.title}
             />
           ))}
@@ -120,6 +120,17 @@ export const query = graphql`
                 }
               }
             }
+
+          }
+        }
+      } 
+    }
+  }
+`;
+
+
+/*
+
             headshotHover {
               childImageSharp {
                 resolutions(height: 300, width: 250, quality: 75, cropFocus: CENTER) {
@@ -127,9 +138,5 @@ export const query = graphql`
                 }
               }
             }
-          }
-        }
-      } 
-    }
-  }
-`;
+
+*/

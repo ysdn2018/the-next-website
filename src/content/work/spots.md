@@ -2,7 +2,7 @@
 templateKey: project
 title: Spots
 graduate: Danielle Sheahan
-image: /assets/spots main.png
+image: /assets/spots main.jpg
 category: Product Design
 category2: UI/UX
 ---

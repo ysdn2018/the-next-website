@@ -71,11 +71,11 @@ export default function Graduate(props) {
             className="image"
             backgroundColor
           />
-          <LookingImage
+          {/* <LookingImage
             resolutions={props.imageHover}
             style={{position: "absolute"}}
             className=".image"
-          />
+          /> */}
           </ImagesContainer>
         </ImagesOuterContainer>
         <Text>{props.title}</Text>

@@ -26,6 +26,6 @@ These are the three main features to learn proper techniques.
 
 Marketing website 
 
-![](/assets/formcheck_website.png)
+![](/assets/formcheck_website.jpg)
 
 Form Check is still in the works. The full case study is coming soon on Gary's portfolio.
