@@ -59,6 +59,9 @@ const ProfileImage = styled.div `
 const Social = styled.div `
   border-top: 1px solid;
   padding: ${spacing.smaller}px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: none;
 
   a {
     margin-right: ${spacing.small}px;
@@ -138,7 +141,7 @@ export default function Graduate({ data }) {
               noun = {graduate.frontmatter.noun}
           />
           <Social>
-            {graduate.frontmatter.website && (
+              {graduate.frontmatter.website && (
                   <a href={graduate.frontmatter.website}>Website</a>
               )}
               {graduate.frontmatter.email && (

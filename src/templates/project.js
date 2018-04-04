@@ -69,6 +69,8 @@ const ProjectInfo = styled.div`
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
     flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
   }
 `
 
