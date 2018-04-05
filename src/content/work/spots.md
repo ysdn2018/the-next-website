@@ -2,7 +2,7 @@
 templateKey: project
 title: Spots
 graduate: Danielle Sheahan
-image: /assets/spots main.jpg
+image: /assets/spots-main.jpg
 category: Product Design
 category2: UI/UX
 ---
@@ -12,25 +12,25 @@ If you are in a big city, finding a new place to eat can be overwhelming. Resear
 
 ## Target Audience
 
-SPOTS is designed for people are who looking to try new places in the moment, either in their home city or abroad. 
+SPOTS is designed for people are who looking to try new places in the moment, either in their home city or abroad.
 
 ## Key Features
 
 SPOTS enables individuals to do three key things: discover new places, compare their options effortlessly, and fine tune their Spots to suit their tastes.
 
-![The three key features of SPOTS](/assets/spots features.png)
+![The three key features of SPOTS](/assets/spots-features.png)
 
 _**Discover New Places**_
 
 SPOTS shows the user a variety of nearby local Spots based on their similarity to places they like. The user can either discard the recommendations, or like them.
 
-![App screen showing how the user discovers new Spots](/assets/spots features-05.png)
+![App screen showing how the user discovers new Spots](/assets/spots-features-05.png)
 
 **_Compare Options Effortlessly_**
 
-The Spots that the user likes are stored in a place where they can be filtered, sorted, searched, and rated. 
+The Spots that the user likes are stored in a place where they can be filtered, sorted, searched, and rated.
 
-![Screen showing where liked Spots are stored](/assets/spots features-06.png)
+![Screen showing where liked Spots are stored](/assets/spots-features-06.png)
 
 _**Fine Tune Spots to Suit Your Tastes**_
 

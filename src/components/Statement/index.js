@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { spacing, breakpoints } from '../../utils/constants.js'
-import { H3, H1 } from '../Typography'
 /*
   Base component
   Copy this directory and rename to your choosing
@@ -41,7 +40,7 @@ const OuterContainer = styled.div`
 
 `
 
-const StatementText = styled(H3)`
+const StatementText = styled.h3`
   text-transform: uppercase;
   line-height: 1;
   margin-top: 0;
@@ -54,7 +53,7 @@ const StatementText = styled(H3)`
   }
 `
 
-const TheNext = styled(H3)`
+const TheNext = styled.h3`
   position: relative;
   text-transform: uppercase;
   line-height: 1;
