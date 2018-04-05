@@ -12,25 +12,15 @@ intro: >-
   design through audio visual art, designing experiences that help to enhance
   musical consumption and create new ways of creative generation.
 music: |-
-  Four Tet
-  Geotic
-  Todd Terje
-  Washed Out
+  Four Tet, Geotic, Todd Terje, Washed Out
 tools: |-
-  Ableton
-  Processing
-  Sketch
+  Ableton Live, Processing, Sketch
 watch: |-
-  Atlanta
-  Crashing
-  High Maintenance
+  Atlanta, Crashing, High Maintenance
 typeface: |-
-  NB Akademie
-  Replica
-  Suisse Intl
+  NB Akademie, Replica, Suisse Intl
 twitter: 'https://twitter.com/aaronjmohr'
 instagram: 'https://www.instagram.com/aaronjmohr/'
 email: aaronjonmohr@gmail.com
 website: 'http://aaronmohr.co/'
 ---
-
