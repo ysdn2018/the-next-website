@@ -36,7 +36,7 @@ _**Fine Tune Spots to Suit Your Tastes**_
 
 In the detailed Spot view, users can rate Spots once they've visited them. The user-provided ratings feed into and help to refine the app's future recommendations.
 
-![Screen showing how user rates Spots](/assets/spots features-07.png)
+![Screen showing how user rates Spots](/assets/spots-features-07.png)
 
 ## Why Spots Matters
 

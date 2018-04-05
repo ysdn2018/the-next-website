@@ -21,7 +21,7 @@ This project is inspired by my own experiences of feeling sexually violated. Ini
 
 There are 5 sections to the film:
 
-![Five different parts of the short film](/assets/movie sections-04.png)
+![Five different parts of the short film](/assets/movie-sections-04.png)
 
 Each section builds on the metaphors and narrative provided in the previous sections, and bright, colourful, playful imagery helps to balance out the somewhat controversial, taboo, and polarizing subject matter. Both male and female narrators are utilized in order to provide a sense of fairness, validation, and compassion.
 
