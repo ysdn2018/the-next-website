@@ -5,9 +5,9 @@ graduate: Emily Wiebe
 image: /assets/3-stash-trans_rgb.jpg
 category: Package Design
 ---
-# For Millenials, STASH Tea is the brand that will deliver specialty teas using all natural, quality ingredients in packaging which pays tribute to it’s roots. 
+# For Millenials, STASH Tea is the brand that will deliver specialty teas using all natural, quality ingredients in packaging which pays tribute to it’s roots.
 
-# 
+#
 
 ## Background
 
@@ -23,7 +23,7 @@ STASH Tea’s mission is to become the leader in creating and selling high quali
 
 STASH Tea derives its name from an entertaining aspect of tea folklore. In earlier centuries, tea was a valuable commodity traditionally transported by clipper ship. The ship’s captain often was presented with some of the finest teas for his personal use. This supply was his “stash,” stowed carefully as his “private reserve.” Because of this, the compass is highly important to STASH Tea's brand equities. Along with the compass, the black band, colourful tones, and simple typography all contribute to the brand character displayed.\
 \
-Stash Tea’s brand character is best described as an exclusive, private collection which displays quality and tranquility. 
+Stash Tea’s brand character is best described as an exclusive, private collection which displays quality and tranquility.
 
 
 
@@ -37,14 +37,13 @@ STASH Tea proclaims that they have high quality teas, however most people who ha
 
 ![](/assets/revolutionaryfinalmockup copy.jpg)
 
-The Revolutionary Design pushes further away from the original design while still staying true to some STASH Tea's brand equities. A more playful and clean design is created which uses a white background with multiple coloured decals to represent a type of tea. By removing the compass from the logo and using it as a coaster for the tea cup, it becomes a supporting visual component rather than an unwanted logo element, which also showcases what the tea looks like after being brewed. By changing the name of "STASH" to "STASH Tea" and converting to a sans serif typeface, the wordmark becomes more clear and concise, overall improving readability and legibility. 
+The Revolutionary Design pushes further away from the original design while still staying true to some STASH Tea's brand equities. A more playful and clean design is created which uses a white background with multiple coloured decals to represent a type of tea. By removing the compass from the logo and using it as a coaster for the tea cup, it becomes a supporting visual component rather than an unwanted logo element, which also showcases what the tea looks like after being brewed. By changing the name of "STASH" to "STASH Tea" and converting to a sans serif typeface, the wordmark becomes more clear and concise, overall improving readability and legibility.
 
-## \
-Transformational Design
+##Transformational Design
 
-![](/assets/3-stash-trans_rgb.jpg)
+![](/assets/3-stash-trans rgb.jpg)
 
-While staying true to the meaning behind the name of the company, The Transformational Design creates a different take on the traditional tea box. In earlier centuries, when transporting tea, the ship's captain would be presented with a "stash" of tea for his own personal use. I interpreted this as a paper bag full of tea. This design plays on the more natural and authentic side of STASH Tea, using illustrations of plants used in teas as a border to the typography in the center; and using a stamp-like typeface to represent the craft of the STASH company. This redesign strategy allows for easy reproduction by using a bold coloured sticker to distinguish flavours of tea within the types of tea offered (ie. herbal, black, green tea, etc). This design is simple, tasteful, and contains a pop of colour which contrasts against the brown paper bag. Not only does this idea make production easier; but this idea also solves the issue on the tea's flavour being weak due to such bright packaging colours, as this design balances the colour to the neutral appearance of the bag. 
+While staying true to the meaning behind the name of the company, The Transformational Design creates a different take on the traditional tea box. In earlier centuries, when transporting tea, the ship's captain would be presented with a "stash" of tea for his own personal use. I interpreted this as a paper bag full of tea. This design plays on the more natural and authentic side of STASH Tea, using illustrations of plants used in teas as a border to the typography in the center; and using a stamp-like typeface to represent the craft of the STASH company. This redesign strategy allows for easy reproduction by using a bold coloured sticker to distinguish flavours of tea within the types of tea offered (ie. herbal, black, green tea, etc). This design is simple, tasteful, and contains a pop of colour which contrasts against the brown paper bag. Not only does this idea make production easier; but this idea also solves the issue on the tea's flavour being weak due to such bright packaging colours, as this design balances the colour to the neutral appearance of the bag.
 
 ## Conclusion
 
