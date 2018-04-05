@@ -130,7 +130,9 @@ const Legend = styled.div `
 `
 
 const InfoContainer = styled.div `
-    width: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 
     @media screen and (max-width: ${breakpoints.tablet} ) {
       width: 100%;
@@ -164,7 +166,7 @@ export default function Post({ data }) {
         <ProjectInfo>
           <GraduateName>
             <h3>
-              <Link href={`/graduates/${grad.replace(/\s+/g, "-").toLowerCase()}/`}>
+              <Link to={`/graduates/${grad.replace(/'-\s+/g, "-").replace(/[^0-9a-zA-Z\-]+/g, "").toLowerCase()}/`}>
                 {grad}
               </Link>
             </h3>
@@ -191,7 +193,7 @@ export default function Post({ data }) {
       <HeroImage sizes={project.frontmatter.image.childImageSharp.sizes}/>
 
       <ContentContainer>
-        {project.headings !== [] && (
+        {project.headings.length > 0 && (
           <LegendContainer>
             <Legend>
               {project.headings.map(heading =>

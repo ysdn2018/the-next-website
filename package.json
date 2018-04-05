@@ -26,6 +26,7 @@
     "react-headroom": "^2.2.2",
     "react-helmet": "^5.2.0",
     "react-load-script": "^0.0.6",
+    "serve": "^6.5.3",
     "styled-components": "^3.1.6"
   },
   "keywords": [
@@ -38,9 +39,12 @@
     "develop": "gatsby develop",
     "develop-hosted": "gatsby develop --host Hunters-Macbook-Pro.local",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "start": "serve public/"
   },
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "prettier": "^1.9.2"
   }
 }

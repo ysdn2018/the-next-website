@@ -97,7 +97,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
        component: path.resolve(`src/templates/${String(node.frontmatter.templateKey)}.js`),
        context: {
          slug: node.fields.slug,
-         name: node.frontmatter.title,
+         name: "/" + node.frontmatter.title + "/",
        } // additional data can be passed via context
      });
    });

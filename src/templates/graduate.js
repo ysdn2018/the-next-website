@@ -131,11 +131,11 @@ export default function Graduate({ data }) {
         <Profile>
           <Name>{graduate.frontmatter.title}</Name>
           <ProfileImage>
-            {/* <Img
+            <Img
               sizes={graduate.frontmatter.headshot.childImageSharp.sizes}
               outerWrapperClassName="outer-wrapper"
               className="image"
-            /> */}
+            />
           </ProfileImage>
           <Statement
               verb = {graduate.frontmatter.verb}
@@ -143,19 +143,19 @@ export default function Graduate({ data }) {
           />
           <Social>
               {graduate.frontmatter.website && (
-                  <a href={graduate.frontmatter.website}>Website</a>
+                  <a target="_blank" href={graduate.frontmatter.website}>Website</a>
               )}
               {graduate.frontmatter.email && (
-                  <a href={graduate.frontmatter.email}>Email</a>
+                  <a target="_blank" href={"mailto:" + graduate.frontmatter.email}>Email</a>
               )}
               {graduate.frontmatter.twitter && (
-                  <a href={graduate.frontmatter.instagram}>Instagram</a>
+                  <a target="_blank" href={graduate.frontmatter.instagram}>Instagram</a>
               )}
               {graduate.frontmatter.twitter && (
-                  <a href={graduate.frontmatter.twitter}>Twitter</a>
+                  <a target="_blank" href={graduate.frontmatter.twitter}>Twitter</a>
               )}
               {graduate.frontmatter.linkedin && (
-                  <a href={graduate.frontmatter.linkedin}>LinkedIn</a>
+                  <a target="_blank" href={graduate.frontmatter.linkedin}>LinkedIn</a>
               )}
           </Social>
         </Profile>
@@ -247,11 +247,18 @@ export const aboutPageQuery = graphql`
         linkedin
         email
         website
-
+        
+        headshot {
+          childImageSharp {
+            sizes(maxWidth: 700, quality: 90) {
+                      ...GatsbyImageSharpSizes
+            }
+          }
+        }
       }
     }
 
-    projects: allMarkdownRemark(filter: { frontmatter: { graduate: { eq: $name }}}) {
+    projects: allMarkdownRemark(filter: { frontmatter: { graduate: { regex: $name }}}) {
       edges {
         node {
           id
@@ -276,10 +283,3 @@ export const aboutPageQuery = graphql`
 `;
 
 
-// headshot {
-//   childImageSharp {
-//     sizes(maxWidth: 700, quality: 90) {
-//               ...GatsbyImageSharpSizes
-//     }
-//   }
-// }

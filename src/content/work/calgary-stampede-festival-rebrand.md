@@ -1,7 +1,7 @@
 ---
 templateKey: project
-title: 'Calgary Stampede Festival Rebrand '
-graduate: 'Acadia Stewart '
+title: 'Calgary Stampede Festival Rebrand'
+graduate: 'Acadia Stewart'
 image: /assets/frontandback_mockup+copy.jpg
 category: Brand Identity
 ---
