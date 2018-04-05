@@ -166,7 +166,7 @@ export default function Post({ data }) {
         <ProjectInfo>
           <GraduateName>
             <h3>
-              <Link to={`/graduates/${grad.replace(/[^0-9a-zA-Z\s]+/g, "").replace(/\s+/g, "-").toLowerCase()}/`}>
+              <Link to={`/graduates/${grad.replace(/[^0-9a-zA-Z\s'\-]+/g, "").replace(/[\'\s]+/g, "-").toLowerCase()}/`}>
                 {grad}
               </Link>
             </h3>
