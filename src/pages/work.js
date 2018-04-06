@@ -11,10 +11,16 @@ import Toolbar from '../components/Toolbar'
 
 const ProjectGrid = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
-    grid-template-rows: repeat(auto-fit, minmax(200px, 2fr));
-    grid-gap: ${spacing.bigger * 2}px;
-    margin: ${spacing.bigger * 2}px;
+
+    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+    ${'' /* grid-gap: ${spacing.bigger * 2}px; */}
+    ${'' /* margin: ${spacing.bigger * 2}px; */}
+
+
+  ${'' /* a:nth-child(4n-3)  {
+    visibility: hidden;
+  } */}
+
 `
 
 const FiltersContainer = styled.div`
@@ -87,11 +93,11 @@ export default class Work extends React.Component {
 
     return (
       <PageContainer>
-        <StatementHeader
+        {/* <StatementHeader
           verb="Explore"
           noun="project"
           height="30vh"
-        />
+        /> */}
 
         <Toolbar>
           <SearchField
@@ -113,7 +119,7 @@ export default class Work extends React.Component {
           {filteredSearch.map(({ node: project }) => (
             <Project
               title={project.frontmatter.title}
-              image={project.frontmatter.image.childImageSharp.resolutions}
+              image={project.frontmatter.image.childImageSharp.sizes}
               path={project.fields.slug}
               graduate={project.frontmatter.graduate}
               key={project.id}
@@ -146,8 +152,8 @@ export const query = graphql`
             category3
             image {
               childImageSharp {
-                resolutions(height: 200, width: 200, quality: 90, cropFocus: CENTER) {
-                  ...GatsbyImageSharpResolutions
+                sizes(maxHeight: 300, maxWidth: 300, quality: 90, cropFocus: CENTER) {
+                  ...GatsbyImageSharpSizes
                 }
               }
             }

@@ -47,6 +47,7 @@ const NavContainer = styled.div`
   background-color: white;
   pointer-events: auto;
   padding: 0 ${spacing.small}px;
+  
 `
 
 const PageLinks = styled.div`
@@ -69,7 +70,7 @@ export default function Nav() {
   return (
     <NavContainer>
       <TitleLink to="/">
-        <h1>The Next</h1>
+        <h1>THE NEXT</h1>
       </TitleLink>
 
       <PageLinks>

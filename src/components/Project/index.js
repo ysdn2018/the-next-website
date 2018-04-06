@@ -12,23 +12,53 @@ import { H4 } from '../Typography'
 
 // styled components
 const Container = styled.div`
-  border: 1px solid black;
+
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  
   width: 100%;
-  margin: 1rem;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
 
   img {
     object-fit: cover;
-    width: 50%;
+    width: 100%;
   }
 `
+
+const ImageContainer = styled.div`
+  padding: 8.2rem;
+`;
+
+const TextContainer = styled.div`
+  display: flex;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid black;
+
+  justify-content: space-between;
+  align-items: flex-end;
+`;
 
 const Text = styled.p`
   z-index: 4;
   color: black;
-  max-width: 100%;
-  text-transform: uppercase;
+  max-width: 400px;
+  
   margin: 0.4rem;
   font-size: 1.4rem;
+  line-height: 1.2;
+  
+
+  &:first-of-type {
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  &:last-of-type {
+    
+  }
 `
 
 
@@ -37,9 +67,15 @@ export default function Base(props) {
   return (
     <Link to={props.path}>
       <Container>
-        <Img resolutions={props.image} />
-        <Text>{props.title}</Text>
-        <Text>by {props.graduate}</Text>
+      
+        <ImageContainer>
+          <Img sizes={props.image} />
+        </ImageContainer>
+
+        <TextContainer>
+          <Text>{props.title}</Text>
+          <Text>{props.graduate}</Text>
+        </TextContainer>
       </Container>
     </Link>
   )

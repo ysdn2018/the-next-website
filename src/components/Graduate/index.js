@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
+import Statement from '../Statement'
 
 /*
   Base component
@@ -10,22 +11,25 @@ import Img from 'gatsby-image'
 
 const OuterContainer = styled.div`
   border: 1px solid black;
-  overflow: hidden;
+
+  margin-top: -1px;
+  margin-left: -1px;
+  padding: 1rem;
 `
 
 // styled components
 const Container = styled(Link)`
   position: relative;
+  display: flex;
+  height: 100%;
 `
 
 
-const Text = styled.p`
-  z-index: 4;
+const Text = styled.h3`
   color: black;
-  max-width: 100%;
   text-transform: uppercase;
-  margin: 0.4rem;
-  font-size: 1.4rem; 
+  margin: 1rem 0.7rem ;
+  line-height: 1.1;
 `
 
 const LookingImage = styled(Img)`
@@ -36,8 +40,13 @@ const LookingImage = styled(Img)`
 `
 
 const NormalImage = styled(Img) `
-  &:hover {
-    opacity: 0;
+margin: 0 1rem;
+  margin-top: 5px;
+
+  border-radius: 50%;
+
+  .image {
+    padding-top: 1rem !important;
   }
 
   position: relative;
@@ -46,16 +55,19 @@ const NormalImage = styled(Img) `
 `
 
 const ImagesOuterContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  height: 100%;
 `;
 
-
+const TextContainer = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+`;
   
 const ImagesContainer = styled.div`
   position: relative;
-
+  width: 100%;
 `;
 
 
@@ -64,21 +76,33 @@ export default function Graduate(props) {
   return (
     <OuterContainer>
       <Container to={props.path}>
-        <ImagesOuterContainer>
+        {/* <ImagesOuterContainer>
           <ImagesContainer>
           <NormalImage
             resolutions={props.image}
             className="image"
             backgroundColor
           />
-          {/* <LookingImage
+          <LookingImage
             resolutions={props.imageHover}
             style={{position: "absolute"}}
             className=".image"
-          /> */}
+          />
           </ImagesContainer>
-        </ImagesOuterContainer>
-        <Text>{props.title}</Text>
+        </ImagesOuterContainer> */}
+
+        <TextContainer>
+          <NormalImage
+            resolutions={props.image}
+            className="image"
+            backgroundColor
+          />
+          <Text>{props.title}</Text>
+          
+        </TextContainer>
+
+        
+        
       </Container>
     </OuterContainer>
   )
