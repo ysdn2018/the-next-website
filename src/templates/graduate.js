@@ -20,12 +20,11 @@ const Container = styled.div `
 `
 
 const ProfileContainer = styled.div `
-  width: 28%;
+  width: 35%;
   height: 100%;
   position: sticky;
-  top: ${spacing.bigger + spacing.small}px;
-  height: calc(100vh - ${spacing.bigger + spacing.small*2}px);
-  margin: ${spacing.small}px;
+  top: ${spacing.bigger}px;
+  height: calc(100vh - ${spacing.bigger}px);
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
     top: 0;
@@ -43,7 +42,7 @@ const Profile = styled.div`
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  border: 1px solid;
+  border-right: 1px solid;
 `
 
 const Name = styled.h3 `
@@ -79,14 +78,14 @@ const InfoContainer = styled.div `
 `
 
 const Info = styled.div `
-  width: 75%;
+  width: 60%;
   max-width: 900px;
   margin: ${spacing.bigger}px auto;
   padding: ${spacing.smaller}px;
   white-space: pre-wrap;
 
   h4 {
-    margin-bottom: -${spacing.small}px;
+    margin-bottom: -2rem;
   }
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
@@ -247,7 +246,7 @@ export const aboutPageQuery = graphql`
         linkedin
         email
         website
-        
+
         headshot {
           childImageSharp {
             sizes(maxWidth: 700, quality: 90) {
@@ -281,5 +280,3 @@ export const aboutPageQuery = graphql`
     }
   }
 `;
-
-
