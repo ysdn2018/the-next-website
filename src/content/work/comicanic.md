@@ -9,7 +9,7 @@ More complex artwork and text have made diving into the thrilling tales of our f
 
 ![Examples of the Comicanic typeface in use.](/assets/lklsdf-01.png)
 
-![Letters in Comicanic and speech bubbles showing the type at different sizes](/assets/specimen-print-to-show-people2-01.png)
+![Letters in Comicanic and speech bubbles showing the type at different sizes](/assets/specimen-print-to-show-people.png)
 
 Features include:
 
