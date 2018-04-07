@@ -85,4 +85,4 @@ american, america, americans, world, country, people, united, states, nationals,
 **Special Thanks:**\
 Hunter Caron
 
-<iframe src="https://player.vimeo.com/video/https://vimeo.com/261512550" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/261512550" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
