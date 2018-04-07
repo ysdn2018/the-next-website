@@ -19,9 +19,11 @@ hobbies: |-
   Running (working up to run a half-marathon)
   Nostalgic / Indie video games
   Creating things
-music: Relaxing to some lo-fi hip hop
+music: some lo-fi hip hop
 tools: Sharpie pens & grid paper (+ Adobe Suite)
-typeface: Roboto
+typeface: |-
+  Roboto
+  Open Sans
 instagram: instagram.com/seanlauten
 linkedin: www.linkedin.com/in/seanlauten
 email: seanlauten.design@gmail.com
