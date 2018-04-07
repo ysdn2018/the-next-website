@@ -2,14 +2,14 @@
 templateKey: project
 title: This is Art. This is Design.
 graduate: Tina Dou
-image: /assets/spine.jpg
+image: /assets/dou_spine.jpg
 category: Book Design
 ---
 # What is Art? What is Design?
 
 A shovel presented by Duchamp is considered art. A chair created by the Eames is considered design. The description of artist and designer have different contextual meanings, however there is undeniable overlap between the two fields.
 
-![Opening spread - Paragraphs on Conceptual Art](/assets/dou_opening spread.jpg)
+![Opening spread - Paragraphs on Conceptual Art](/assets/dou_openingspread_v2.jpg)
 
 _This is Art. This is Design._ tackles the blurred line between art and design through writings and images from renounced artists, designers and scholars. The information provided by the book is intended to be educational, and created in a way that allows readers to flow through the readings smoothly. 
 
