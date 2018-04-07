@@ -44,7 +44,7 @@ The main medium for delivering content will be social media. Thus, I adapted the
 
 Lastly, I created a campaign video that is not only shareable, but it can also be broadcasted across the school’s existing television screens.
 
-youtube https://youtu.be/jRBvYFA4ooc
+<iframe width="560" height="315" src=https://www.youtube.com/embed/jRBvYFA4ooc?rel=0&amp;showinfo=0 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # Conclusion
 
