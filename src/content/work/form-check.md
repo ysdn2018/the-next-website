@@ -16,16 +16,16 @@ Gary’s thesis project and his research included approaches to train the mental
 
 **Solution**
 
-To create an application that guides a safer and healthier pathway for athletes to explore different sports. Form Check supports a user to learn proper techniques to reduce the risk of injury from repetition and accidents through augmented reality and basic level body analyzations. 
+To create an application that guides a safer and healthier pathway for athletes to explore different sports. Form Check supports a user to learn proper techniques to reduce the risk of injury from repetition and accidents through augmented reality tutorials and analyzing the user’s body through recorded videos. Proper form is the perfect foundation for athletes to improve exponentially at sports while reducing the intensity and chance of injury.
 
-![](/assets/formcheck_one.png)
+![null](/assets/formcheck_one.png)
 
 These are the three main features to learn proper techniques.
 
-![](/assets/formcheck_two.png)
+![null](/assets/formcheck_two.png)
 
 Marketing website 
 
-![](/assets/formcheck_website.jpg)
+![null](/assets/formcheck_website.jpg)
 
-Form Check is still in the works. The full case study is coming soon on Gary's portfolio.
+Form check is still a work in progress ... It might be up on Gary's portfolio. Hopefully.
