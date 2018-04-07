@@ -152,6 +152,7 @@ export default function Sponsors({ data }) {
         verb="Thanking"
         noun="Sponsors"
         height="30vh"
+        border
       />
 
       <SponsorContainer>

@@ -7,6 +7,7 @@ import 'normalize.css'
 import { spacing, breakpoints } from '../utils/constants'
 import PageContainer from '../components/PageContainer'
 import Nav from '../components/Nav'
+import InfoDrawer from '../components/InfoDrawer'
 
 
 // importing fonts
@@ -56,6 +57,8 @@ function TemplateWrapper (props) {
       <InnerContainer>
         {props.children()}
       </InnerContainer>
+
+      <InfoDrawer/>
 
     </React.Fragment>
   )

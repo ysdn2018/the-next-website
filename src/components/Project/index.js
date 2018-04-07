@@ -35,7 +35,7 @@ const ImageContainer = styled.div`
 const TextContainer = styled.div`
   display: flex;
   padding: 1rem 1.5rem;
-  border-top: 1px solid black;
+
 
   justify-content: space-between;
   align-items: flex-end;
