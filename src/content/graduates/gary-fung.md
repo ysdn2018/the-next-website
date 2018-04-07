@@ -23,6 +23,6 @@ typeface: ''
 instagram: 'https://www.instagram.com/farygung/'
 linkedin: 'https://www.linkedin.com/in/garyfungysdn/'
 email: gary7407@hotmail.com
-website: www.funggary.com
+website: 'http://www.funggary.com'
 ---
 
