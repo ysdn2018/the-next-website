@@ -10,6 +10,4 @@ Portr is an app that places recommendations in the hands of users instead of al
 
 <iframe src="https://player.vimeo.com/video/https://vimeo.com/212825172" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-<iframe src="https://player.vimeo.com/video/212825172" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 Portr is in collaboration with: John Kowalski & Aaron Mohr
