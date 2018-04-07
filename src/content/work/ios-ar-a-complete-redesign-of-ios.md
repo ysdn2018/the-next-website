@@ -19,6 +19,6 @@ Everyone uses an iPhone differently, every user has different apps, needs, and w
 
 The main improvements I am proposing in my redesign of iOS are; Augmented Reality and Siri implemented at the core of the device, a redesigned notification system, new ways to personalize your device, and general improvements and new features.
 
-![](/assets/calcada1.jpg)
+![null](/assets/calcada1.jpg)
 
-View this entire project by visiting [my website](http://michaelcalcada.com/iosredesign.html)
+View this entire project by visiting [my website](http://michaelcalcada.com/iosredesign.html) or view the product page and video [here](http://www.michaelcalcada.com/iosar/)
