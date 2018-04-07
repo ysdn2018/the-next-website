@@ -10,4 +10,4 @@ Seven Contrasts is an engaging online tool that makes learning typographic hiera
 
 ![null](/assets/sevencontrasts_2.jpg)
 
-Check out the website here!
+Check out the website [here](http://digital-locker.design.yorku.ca/2005Af15/lab3/zhue/carldair/index.html#home)!
