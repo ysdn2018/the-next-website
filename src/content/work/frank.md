@@ -2,7 +2,7 @@
 templateKey: project
 title: Frank
 graduate: Amanda Pape
-image: /assets/web-frank.jpg
+image: /assets/webfrank.jpg
 category: UI/UX
 category2: Product Design
 category3: Brand Identity
