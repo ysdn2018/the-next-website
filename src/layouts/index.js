@@ -5,10 +5,11 @@ import Helmet from 'react-helmet'
 import styled, { injectGlobal } from 'styled-components'
 import 'normalize.css'
 import { spacing, breakpoints } from '../utils/constants'
-import PageContainer from '../components/PageContainer'
 import Nav from '../components/Nav'
 import InfoDrawer from '../components/InfoDrawer'
 
+import facebookCard from "../assets/images/facebook_card.png"
+import twitterCard from "../assets/images/twitter_card.png"
 
 // importing fonts
 import NeueHaasGrotTextRoman_eot from "../assets/fonts/NeueHaasGrotText-55Roman-Web.eot"
@@ -41,14 +42,25 @@ const InnerContainer = styled.div`
 `;
 
 // page component
-function TemplateWrapper (props) {
+function TemplateWrapper(props) {
   return (
     <React.Fragment>
       <Helmet
         title="THE NEXT"
         meta={[
-          { name: 'description', content: 'Sample' },
-          { name: 'keywords', content: 'sample, something' },
+          { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' },
+          { name: 'description', content: 'The Next Design Grad Show by York University/Sheridan College' },
+          { name: 'keywords', content: 'York University, Sheridan College, ysdn, design, york, sheridan, the next, the next gradshow' },
+          { property: 'author', content: 'York University/Sheridan College Joint Program in Design' },
+          { property: 'og:url', content: 'http://thenext.website' },
+          { property: 'og:title', content: 'EXPERIENCE THE NEXT GRAD SHOW' },
+          { property: 'og:description', content: 'The Next Design Grad Show by York University/Sheridan College' },
+          { property: 'og:image', content: 'http://thenext.website' + facebookCard },
+          { property: 'twitter:card', content: 'summary_large_image' },
+          { property: 'twitter:title', content: 'EXPERIENCE THE NEXT GRAD SHOW' },
+          { property: 'twitter:description', content: 'The Next Design Grad Show by York University/Sheridan College' },
+          { property: 'twitter:image', content: 'http://thenext.website' + twitterCard },
+          { property: 'twitter:image:alt', content: 'EXPERIENCE THE NEXT GRAD SHOW' },
         ]}
       />
 
@@ -58,7 +70,7 @@ function TemplateWrapper (props) {
         {props.children()}
       </InnerContainer>
 
-      <InfoDrawer/>
+      <InfoDrawer />
 
     </React.Fragment>
   )
