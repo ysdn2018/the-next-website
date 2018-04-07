@@ -13,4 +13,4 @@ The book mimics and refines the visual language of the website with a minimal ap
 
 ![](/assets/missed_connections.jpg)
 
-![](/assets/scan 4.jpeg)
+![](/assets/scan-4.jpeg)

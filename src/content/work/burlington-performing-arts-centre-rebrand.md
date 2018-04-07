@@ -11,6 +11,6 @@ The new visual identity for the Burlington Performing Arts Centre provides a fre
 
 
 
-![](/assets/screen shot 2018-03-30 at 10.45.38 pm.png)
+![](/assets/screen-shot-2018-03-30-at-10.45.38-pm.png)
 
-![](/assets/screen shot 2018-03-30 at 10.45.26 pm.png)
+![](/assets/screen-shot-2018-03-30-at-10.45.26-pm.png)

@@ -12,9 +12,9 @@ category2: Book Design
 
 ![A spread of the monochromatic business cards and a letterhead stack.](/assets/img_4259.jpg)
 
-![An inside spread featuring the icon design for the ALTX brand.](/assets/screen shot 2018-01-21 at 15.30.19.png)
+![An inside spread featuring the icon design for the ALTX brand.](/assets/screen-shot-2018-01-21-at-15.30.19.png)
 
-![An inside spread of the brand book.](/assets/screen shot 2018-01-21 at 15.31.07.png)
+![An inside spread of the brand book.](/assets/screen-shot-2018-01-21-at-15.31.07.png)
 
 ![The Japanese bound ALTX brand book with a staggered edge to mark sections.](/assets/img_0799.jpg)
 

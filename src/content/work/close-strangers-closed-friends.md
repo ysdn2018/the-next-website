@@ -23,11 +23,11 @@ I approached my project initially wondering whether there were patterns in relat
 
 After realizing that physical interaction was not an indicator of relationship strength and longevity, I explored moments of digital interaction and "connectors" that are prominent in the relationship. "Connectors" included mutual relationships, similarities in ethnic backgrounds, gender, age, and interests. Exploring this component through an interactive data visualization piece allowed me to filter through the data to understand more prominent "connectors" and whether these "connectors" were significant in the strength of our relationship.
 
-![150 total connections](/assets/connections - total.jpg)
+![150 total connections](/assets/connections-total.jpg)
 
-![064](/assets/profile - 064.jpg)
+![064](/assets/profile-064.jpg)
 
-![046](/assets/profile - 046.jpg)
+![046](/assets/profile-046.jpg)
 
 # The you I remember
 

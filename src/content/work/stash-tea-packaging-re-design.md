@@ -41,7 +41,7 @@ The Revolutionary Design pushes further away from the original design while stil
 
 ##Transformational Design
 
-![](/assets/3-stash-trans rgb.jpg)
+![](/assets/3-stash-trans_rgb.jpg)
 
 While staying true to the meaning behind the name of the company, The Transformational Design creates a different take on the traditional tea box. In earlier centuries, when transporting tea, the ship's captain would be presented with a "stash" of tea for his own personal use. I interpreted this as a paper bag full of tea. This design plays on the more natural and authentic side of STASH Tea, using illustrations of plants used in teas as a border to the typography in the center; and using a stamp-like typeface to represent the craft of the STASH company. This redesign strategy allows for easy reproduction by using a bold coloured sticker to distinguish flavours of tea within the types of tea offered (ie. herbal, black, green tea, etc). This design is simple, tasteful, and contains a pop of colour which contrasts against the brown paper bag. Not only does this idea make production easier; but this idea also solves the issue on the tea's flavour being weak due to such bright packaging colours, as this design balances the colour to the neutral appearance of the bag.
 

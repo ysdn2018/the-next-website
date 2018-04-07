@@ -11,7 +11,7 @@ When I began to rebrand Whole Foods, I looked at one of the major factor that pr
 
 ![Main Logo](/assets/logo-01.jpg)
 
-In the beginning, I began to allocate some new essence of words to the brand that would become an important part of rebranding. Healthy, Accessible and Individual. 
+In the beginning, I began to allocate some new essence of words to the brand that would become an important part of rebranding. Healthy, Accessible and Individual.
 
 The next step was to select a new tagline that would become an interesting theme “Live Better Everyday” this would be a powerful introduction of the idea of prioritizes your health and focus on creating lifestyle.
 
@@ -21,8 +21,8 @@ While designing a new identity of Whole Foods, I want to represent the natural a
 
 ![](/assets/qureshi_rebrand.jpg)
 
-![](/assets/six applications-11.jpg)
+![](/assets/six-applications-11.jpg)
 
 ![null](/assets/van-05.jpg)
 
-![Phone app](/assets/six applications-04.jpg)
+![Phone app](/assets/six-applications-04.jpg)
