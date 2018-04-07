@@ -7,8 +7,6 @@ category: Package Design
 ---
 # STASH Tea - Packaging that pays tribute to it's roots
 
-# 
-
 ## Background
 
 The Stash Tea Company is a privately-held company headquartered in Tigard, Oregon, a suburb of Portland. Founded in 1972 by Steven Smith, STASH transformed the nations tea-drinking habits by co-founding STASH and Tazo tea. Stash Tea is one of the largest specialty tea companies in the United States, with products available through food service, grocery stores, tea and coffee shops, club stores, mass merchandisers, natural foods stores, mail order and the Internet. Stash Tea is also available in Canada and in several other countries.
