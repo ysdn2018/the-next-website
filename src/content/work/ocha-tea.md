@@ -2,7 +2,7 @@
 templateKey: project
 title: OCHA Tea
 graduate: Amanda Pape
-image: /assets/web-ocha.jpg
+image: /assets/webocha.jpg
 category: Package Design
 category2: Brand Identity
 category3: Product Design
