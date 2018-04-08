@@ -2,11 +2,11 @@
 templateKey: project
 title: 'Nova Scotia Fibre Arts Festival '
 graduate: Chelsea Lecompte
-image: /assets/lecompte.jpg
+image: /assets/fibrearts_lecompte101.jpg
 category: Communication Design
 category2: Brand Identity
 ---
-![](/assets/lecompte102.jpg)
+![null](/assets/fibrearts_lecompte102.jpg)
 
 ## THE CONCEPT
 
@@ -16,22 +16,24 @@ Nova Scotia and the Maritime provinces have Canada's highest population of elder
 
 ## FESTIVAL REBRANDING
 
-![](/assets/lecompte103.jpg)
+![null](/assets/fibrearts_lecompte103.jpg)
 
-![](/assets/lecompte108.jpg)
+![null](/assets/fibrearts_lecompte104.jpg)
 
-![](/assets/lecompte104.jpg)
+![null](/assets/fibrearts_lecompte105.jpg)
 
-![](/assets/lecompte105.jpg)
+![null](/assets/fibrearts_lecompte106.jpg)
 
+![](/assets/fibrearts_lecompte107.jpg)
 
+![](/assets/fibrearts_lecompte108.jpg)
 
 ## EPHEMERA
 
-![](/assets/lecompte106.jpg)
+![null](/assets/fibrearts_lecompte109.jpg)
 
-![](/assets/lecompte107.jpg)
+![null](/assets/fibrearts_lecompte110.jpg)
 
-![](/assets/lecompte_chelsea_001.jpg)
+![null](/assets/fibrearts_lecompte111.jpg)
 
 [See more about the festival rebranding here](http://www.chelsealecompte.com/nova-scotia-fibre-arts-festival/)

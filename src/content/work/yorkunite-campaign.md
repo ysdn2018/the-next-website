@@ -12,9 +12,7 @@ To prepare independent York University students who are away from their families
 
 ## The Problem
 
-Due to global warming and climate change, extreme weather in Toronto and other cities is now a reality. In Toronto, extreme weather has been witnessed thr
-
-ough recent disasters such as the ice storm of 2013, gradually increasing temperatures, and heavy rainfall. Extreme weather is already affecting communities locally and globally—therefore, it is imperative that individuals, organizations, and the government are educated on the matter, and that they know the importance of community resilience.
+Due to global warming and climate change, extreme weather in Toronto and other cities is now a reality. In Toronto, extreme weather has been witnessed through recent disasters such as the ice storm of 2013, gradually increasing temperatures, and heavy rainfall. Extreme weather is already affecting communities locally and globally—therefore, it is imperative that individuals, organizations, and the government are educated on the matter, and that they know the importance of community resilience.
 
 ## Strategy
 
