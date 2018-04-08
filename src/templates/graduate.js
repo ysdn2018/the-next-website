@@ -30,7 +30,7 @@ const ProfileContainer = styled.div `
   justify-content: space-between;
   align-items: center;
   
-  height: 80px;
+  height: 100px;
   border-bottom: 1px solid black;
 
   .image {
@@ -39,7 +39,7 @@ const ProfileContainer = styled.div `
   }
 
   .outer-wrapper {
-    height: 50px !important;
+    height: 60px !important;
     padding: 0 ${spacing.small}px;
   }
 
@@ -51,7 +51,7 @@ const Profile = styled.div`
   align-items: center;
 `
 
-const Name = styled.h3 `
+const Name = styled.h2`
   padding: 0 ${spacing.smaller}px;
   line-height: 1.2;
 `
@@ -83,13 +83,14 @@ const Social = styled.div `
 const Info = styled.div `
   flex: 1;
   width: 100%;
-  min-height: 100%;
-  max-width: 900px;
+  min-height: calc(100vh - ${spacing.bigger}px);
+  max-width: 400px;
   white-space: pre-wrap;
   border-right: 1px solid black;
   padding-bottom: ${spacing.bigger}px;
+  margin-bottom: calc(0.5vw + 1rem);
 
-  h4 {
+  QuestionHeader {
     margin-bottom: -${spacing.small}px;
   }
 `
@@ -102,11 +103,21 @@ const StatementWrapper = styled.div`
 
 const About = styled.div `
   padding: 0 ${spacing.normal}px 0 ${spacing.small}px;
-  margin-bottom: ${spacing.bigger}px;
+
+  p {
+    margin-top: 0.75rem;
+  }
 `
 
 const Question = styled.div `
-  margin-bottom: ${spacing.bigger}px;
+  margin-bottom: ${spacing.normal}px;
+  p {
+    margin: 0.25rem 0;
+  }
+`
+
+const QuestionHeader = styled.p`
+  text-transform: uppercase;
 `
 
 const Projects = styled.div`
@@ -114,12 +125,12 @@ const Projects = styled.div`
   flex: 2;
   padding-bottom: ${spacing.bigger*2}px;
 
-  > h4 {
+  > QuestionHeader {
     margin: ${spacing.small}px;
   }
 
   h2 {
-    margin-bottom: ${spacing.medium}px;
+    margin-bottom: ${spacing.normal}px;
   }
 `
 
@@ -138,15 +149,16 @@ const Project = styled.div`
 `
 
 const ProjectImageContainer = styled.div`
-  width: 80%;
-  margin: 10%;
+  width: calc(100% - ${spacing.normal * 2}px);
+  margin: ${spacing.normal}px;
 `
 
 const ProjectInfo = styled.div`
   display: flex;
   justify-content: space-between;
+  ${'' /* font-size: 1.4rem; */}
 
-  padding: ${spacing.smaller}px ${spacing.small}px;
+  padding:  0 ${spacing.normal}px ${spacing.smaller}px ;
 `
 
 // page template component
@@ -169,23 +181,23 @@ export default function Graduate({ data }) {
           <Name>{graduate.frontmatter.title}</Name>
         </Profile>
 
-          <Social>
-              {graduate.frontmatter.website && (
-                  <a target="_blank" href={graduate.frontmatter.website}>Website</a>
-              )}
-              {graduate.frontmatter.email && (
-                  <a target="_blank" href={"mailto:" + graduate.frontmatter.email}>Email</a>
-              )}
-              {graduate.frontmatter.twitter && (
-                  <a target="_blank" href={graduate.frontmatter.instagram}>Instagram</a>
-              )}
-              {graduate.frontmatter.twitter && (
-                  <a target="_blank" href={graduate.frontmatter.twitter}>Twitter</a>
-              )}
-              {graduate.frontmatter.linkedin && (
-                  <a target="_blank" href={graduate.frontmatter.linkedin}>LinkedIn</a>
-              )}
-          </Social>
+        <Social>
+            {graduate.frontmatter.website && (
+                <a target="_blank" href={graduate.frontmatter.website}>Website</a>
+            )}
+            {graduate.frontmatter.email && (
+                <a target="_blank" href={"mailto:" + graduate.frontmatter.email}>Email</a>
+            )}
+            {graduate.frontmatter.twitter && (
+                <a target="_blank" href={graduate.frontmatter.instagram}>Instagram</a>
+            )}
+            {graduate.frontmatter.twitter && (
+                <a target="_blank" href={graduate.frontmatter.twitter}>Twitter</a>
+            )}
+            {graduate.frontmatter.linkedin && (
+                <a target="_blank" href={graduate.frontmatter.linkedin}>LinkedIn</a>
+            )}
+        </Social>
         
       </ProfileContainer>
 
@@ -206,35 +218,35 @@ export default function Graduate({ data }) {
           <About>
             {graduate.frontmatter.hobbies && (
               <Question>
-                <h4>Hobbies</h4>
+                <QuestionHeader>Hobbies</QuestionHeader>
                 <p>{graduate.frontmatter.hobbies}</p>
               </Question>
             )}
 
             {graduate.frontmatter.music && (
               <Question>
-                <h4>Listening To</h4>
+                <QuestionHeader>Listening To</QuestionHeader>
                 <p>{graduate.frontmatter.music}</p>
               </Question>
             )}
 
             {graduate.frontmatter.tools && (
               <Question>
-                <h4>Favourite Tools</h4>
+                <QuestionHeader>Favourite Tools</QuestionHeader>
                 <p>{graduate.frontmatter.tools}</p>
               </Question>
             )}
 
             {graduate.frontmatter.watch && (
               <Question>
-                <h4>Currently Watching</h4>
+                <QuestionHeader>Currently Watching</QuestionHeader>
                 <p>{graduate.frontmatter.watch}</p>
               </Question>
             )}
 
             {graduate.frontmatter.typeface && (
               <Question>
-                <h4>Favourite Typefaces</h4>
+                <QuestionHeader>Favourite Typefaces</QuestionHeader>
                 <p>{graduate.frontmatter.typeface}</p>
               </Question>
             )}
@@ -259,7 +271,7 @@ export default function Graduate({ data }) {
               </Link>
             </ProjectContainer>
           )) : (
-            <h4>This student has no projects :( </h4>
+            <QuestionHeader>This student has no projects :( </QuestionHeader>
           )}
         </Projects>
 
@@ -292,7 +304,7 @@ export const aboutPageQuery = graphql`
         
         headshot {
           childImageSharp {
-            resolutions(width: 50, height: 50, quality: 90, cropFocus: CENTER) {
+            resolutions(width: 60, height: 60, quality: 90, cropFocus: CENTER) {
               ...GatsbyImageSharpResolutions
             }
           }
@@ -314,7 +326,7 @@ export const aboutPageQuery = graphql`
 
             image {
               childImageSharp {
-                sizes(maxWidth: 1000, quality: 90, maxHeight: 600, cropFocus: CENTER) {
+                sizes(maxWidth: 1000, quality: 90, maxHeight: 400, cropFocus: CENTER) {
                   ...GatsbyImageSharpSizes
                 }
               }

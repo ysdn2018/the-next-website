@@ -15,8 +15,7 @@ const TitleLink = styled(Link) `
   text-transform: uppercase;
   font-size: 0.8rem;
   text-align: left;
-
-  width: 100%;
+  padding-right: 2rem;
   height: 100%;
   display: flex;
   align-items: center;

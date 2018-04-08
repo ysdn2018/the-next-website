@@ -17,7 +17,7 @@ const GradsGrid = styled.div`
   display: grid;
   margin-right: -1px;
 
-    grid-template-columns: repeat(auto-fit, minmax(450px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
 
 
   a .image div {

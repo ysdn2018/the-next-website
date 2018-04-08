@@ -159,8 +159,8 @@ injectGlobal`
   }
 
   p {
-    font-size: calc(0.5vw + 1rem);
-    line-height: 1.5;
+    font-size: calc(0.25vw + 1.1rem);
+    line-height: 1.4;
   }
 
   a {
