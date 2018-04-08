@@ -16,9 +16,8 @@ const GradsGrid = styled.div`
 
   display: grid;
   margin-right: -1px;
-
-    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
-
+  padding-bottom: ${spacing.big + 2}px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
 
   a .image div {
     background-color: #eee !important;
@@ -44,47 +43,9 @@ const GradsGrid = styled.div`
     opacity: 1 !important;
   }
 
-
-
-
-  div:nth-child(4n-3):hover img {
-    
-    
-      display: none;
-    
-    
+  div:hover img {
+      display: none;  
   }
-
-  div:nth-child(4n-2):hover img {
-    
-    
-      display: none;
-    
-    
-  }
-
-  div:nth-child(4n-1):hover img {
-    
-    
-      display: none;
-    
-    
-  }
-
-  div:nth-child(4n):hover img {
-    
-    
-      display: none;
-    
-    
-  }
-
-
-
-
-
-
-
 `;
 
 

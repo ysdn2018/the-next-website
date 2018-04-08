@@ -40,7 +40,7 @@ const ProfileContainer = styled.div `
 
   .outer-wrapper {
     height: 60px !important;
-    padding: 0 ${spacing.small}px;
+    padding: 0 ${spacing.normal}px;
   }
 
 `
@@ -53,15 +53,15 @@ const Profile = styled.div`
 `
 
 const Name = styled.h3`
-  padding: 0 ${spacing.smaller}px;
-  line-height: 1.2;
+  padding: 0;
+  line-height: 1;
 `
 
 const ProfileImage = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 ${spacing.smaller}px;
+  padding: 0 ${spacing.normal}px;
 
   .image {
     border-radius: 50%;
@@ -82,7 +82,6 @@ const Social = styled.div `
 
 
 const Info = styled.div `
-
   flex: 1;
   width: 100%;
   min-height: calc(100vh - ${spacing.bigger}px);
@@ -91,32 +90,35 @@ const Info = styled.div `
   border-right: 1px solid black;
   padding-bottom: ${spacing.bigger}px;
   margin-bottom: calc(0.5vw + 1rem);
-
-  QuestionHeader {
-    margin-bottom: -${spacing.small}px;
-
-  }
 `
 
 const StatementWrapper = styled.div`
-  padding: ${spacing.small}px ${spacing.smaller}px;
+  padding: ${spacing.normal}px ${spacing.small}px;
   border-bottom: 1px solid black;
   height: 200px;
 `
 
 const About = styled.div `
-  padding: 0 ${spacing.normal}px 0 ${spacing.small}px;
+  padding: ${spacing.smaller}px ${spacing.big}px  ${spacing.smaller}px ${spacing.normal}px;
   ${props => props.borderBottom && 'border-bottom: 1px solid black;'}
 
   p {
     margin-top: 1rem;
   }
+
+  display: flex;
+  flex-direction: column;
+
+  > div:first-of-type {
+    padding-top: ${spacing.small}px;
+  }
 `
 
 const Question = styled.div `
   margin-bottom: ${spacing.normal}px;
+
   p {
-    margin: 0.25rem 0;
+    margin: 0.1rem 0;
   }
 `
 
@@ -153,8 +155,8 @@ const Project = styled.div`
 `
 
 const ProjectImageContainer = styled.div`
-  width: calc(100% - ${spacing.normal * 2}px);
-  margin: ${spacing.normal}px;
+  width: calc(100% - ${spacing.bigger*1.5 * 2}px);
+  margin: ${spacing.bigger*1.5}px;
 `
 
 const ProjectInfo = styled.div`
@@ -162,7 +164,7 @@ const ProjectInfo = styled.div`
   justify-content: space-between;
   ${'' /* font-size: 1.4rem; */}
 
-  padding:  0 ${spacing.normal}px ${spacing.smaller}px ;
+  padding:  0 ${spacing.normal}px ${spacing.small}px ;
 `
 
 // page template component
@@ -230,28 +232,24 @@ export default function Graduate({ data }) {
                 <p>{graduate.frontmatter.hobbies}</p>
               </Question>
             )}
-
             {graduate.frontmatter.music && (
               <Question>
                 <QuestionHeader>Listening To</QuestionHeader>
                 <p>{graduate.frontmatter.music}</p>
               </Question>
             )}
-
             {graduate.frontmatter.tools && (
               <Question>
                 <QuestionHeader>Favourite Tools</QuestionHeader>
                 <p>{graduate.frontmatter.tools}</p>
               </Question>
             )}
-
             {graduate.frontmatter.watch && (
               <Question>
                 <QuestionHeader>Currently Watching</QuestionHeader>
                 <p>{graduate.frontmatter.watch}</p>
               </Question>
             )}
-
             {graduate.frontmatter.typeface && (
               <Question>
                 <QuestionHeader>Favourite Typefaces</QuestionHeader>
@@ -334,7 +332,7 @@ export const aboutPageQuery = graphql`
 
             image {
               childImageSharp {
-                sizes(maxWidth: 1000, quality: 90, maxHeight: 400, cropFocus: CENTER) {
+                sizes(maxWidth: 1000, quality: 90, maxHeight: 500, cropFocus: CENTER) {
                   ...GatsbyImageSharpSizes
                 }
               }

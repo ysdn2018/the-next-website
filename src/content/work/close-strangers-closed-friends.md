@@ -65,4 +65,4 @@ The memories are hazy with more layers of distance, but become clearer as the ot
 
 ![Text layered](/assets/cscf_15.jpg)
 
-<iframe src="https://player.vimeo.com/video/https://vimeo.com/263499633" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/263499633" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

@@ -59,6 +59,10 @@ const PageLink = styled(Link)`
   text-transform: uppercase;
   text-align: center;
   margin-left: ${spacing.normal}px;
+  
+  h3 {
+    font-size: 1.6rem;
+  }
 
   &:hover {
     text-decoration: underline;
@@ -73,9 +77,9 @@ export default function Nav() {
       </TitleLink>
 
       <PageLinks>
-        <PageLink to="/graduates/">Graduates</PageLink>
-        <PageLink to="/work/">Work</PageLink>
-        <PageLink to="/sponsors/">Sponsors</PageLink>
+        <PageLink to="/graduates/"><h3>Graduates</h3></PageLink>
+        <PageLink to="/work/"><h3>Work</h3></PageLink>
+        <PageLink to="/sponsors/"><h3>Sponsors</h3></PageLink>
       </PageLinks>
 
     </NavContainer>

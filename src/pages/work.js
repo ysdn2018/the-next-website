@@ -10,18 +10,11 @@ import Toolbar from '../components/Toolbar'
 
 
 const ProjectGrid = styled.div`
-    display: grid;
-    margin-right: -1px;
+  display: grid;
+  margin-right: -1px;
+  padding-bottom: ${spacing.big + 2}px;
 
-    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
-    ${'' /* grid-gap: ${spacing.bigger * 2}px; */}
-    ${'' /* margin: ${spacing.bigger * 2}px; */}
-
-
-  ${'' /* a:nth-child(4n-3)  {
-    visibility: hidden;
-  } */}
-
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
 `
 
 const FiltersContainer = styled.div`
