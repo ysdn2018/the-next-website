@@ -51,7 +51,7 @@ const Profile = styled.div`
   align-items: center;
 `
 
-const Name = styled.h2`
+const Name = styled.h3`
   padding: 0 ${spacing.smaller}px;
   line-height: 1.2;
 `
@@ -103,9 +103,10 @@ const StatementWrapper = styled.div`
 
 const About = styled.div `
   padding: 0 ${spacing.normal}px 0 ${spacing.small}px;
+  ${props => props.borderBottom && 'border-bottom: 1px solid black;'}
 
   p {
-    margin-top: 0.75rem;
+    margin-top: 1rem;
   }
 `
 
@@ -169,41 +170,45 @@ export default function Graduate({ data }) {
   return (
     <Container>
 
-      <ProfileContainer>
-        <Profile>
 
-            <Img
-              resolutions={graduate.frontmatter.headshot.childImageSharp.resolutions}
-              outerWrapperClassName="outer-wrapper"
-              className="image"
-            />
-  
-          <Name>{graduate.frontmatter.title}</Name>
-        </Profile>
-
-        <Social>
-            {graduate.frontmatter.website && (
-                <a target="_blank" href={graduate.frontmatter.website}>Website</a>
-            )}
-            {graduate.frontmatter.email && (
-                <a target="_blank" href={"mailto:" + graduate.frontmatter.email}>Email</a>
-            )}
-            {graduate.frontmatter.twitter && (
-                <a target="_blank" href={graduate.frontmatter.instagram}>Instagram</a>
-            )}
-            {graduate.frontmatter.twitter && (
-                <a target="_blank" href={graduate.frontmatter.twitter}>Twitter</a>
-            )}
-            {graduate.frontmatter.linkedin && (
-                <a target="_blank" href={graduate.frontmatter.linkedin}>LinkedIn</a>
-            )}
-        </Social>
-        
-      </ProfileContainer>
 
       <InnerContainer>
 
         <Info>
+          <ProfileContainer>
+            <Profile>
+
+              <Img
+                resolutions={graduate.frontmatter.headshot.childImageSharp.resolutions}
+                outerWrapperClassName="outer-wrapper"
+                className="image"
+              />
+
+              <Name>{graduate.frontmatter.title}</Name>
+            </Profile>
+
+
+          </ProfileContainer>
+
+
+            {/* <Social>
+              {graduate.frontmatter.website && (
+                <a target="_blank" href={graduate.frontmatter.website}>Website</a>
+              )}
+              {graduate.frontmatter.email && (
+                <a target="_blank" href={"mailto:" + graduate.frontmatter.email}>Email</a>
+              )}
+              {graduate.frontmatter.twitter && (
+                <a target="_blank" href={graduate.frontmatter.instagram}>Instagram</a>
+              )}
+              {graduate.frontmatter.twitter && (
+                <a target="_blank" href={graduate.frontmatter.twitter}>Twitter</a>
+              )}
+              {graduate.frontmatter.linkedin && (
+                <a target="_blank" href={graduate.frontmatter.linkedin}>LinkedIn</a>
+              )}
+            </Social> */}
+
           <StatementWrapper>
             <Statement
               verb = {graduate.frontmatter.verb}
@@ -211,7 +216,7 @@ export default function Graduate({ data }) {
             />
           </StatementWrapper>
 
-          <About>
+          <About borderBottom>
             <p>{graduate.frontmatter.intro}</p>
           </About>
 
