@@ -15,31 +15,74 @@ const GradsGrid = styled.div`
   flex-wrap: wrap; */}
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
-  grid-template-rows: repeat(auto-fit, minmax(200px, 2fr));
-  grid-gap: ${spacing.bigger * 2}px;
-  margin: ${spacing.bigger * 2}px;
+  margin-right: -1px;
+
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
 
 
   a .image div {
     background-color: #eee !important;
   }
 
-  div:nth-child(4n-3) .image div {
+  div:nth-child(4n-3) .image div  {
     background-color: #FF3200 !important;
+    opacity: 1 !important;
   }
 
-  div:nth-child(4n-2) .image div {
+  div:nth-child(4n-2) .image div  {
     background-color: #FFE000 !important;
+    opacity: 1 !important;
   }
 
-  div:nth-child(4n-1) .image div {
+  div:nth-child(4n-1) .image div  {
     background-color: #00B919 !important;
+    opacity: 1 !important;
   }
 
-  div:nth-child(4n) .image div {
+  div:nth-child(4n) .image div  {
     background-color: #233CE1 !important;
+    opacity: 1 !important;
   }
+
+
+
+
+  div:nth-child(4n-3):hover img {
+    
+    
+      display: none;
+    
+    
+  }
+
+  div:nth-child(4n-2):hover img {
+    
+    
+      display: none;
+    
+    
+  }
+
+  div:nth-child(4n-1):hover img {
+    
+    
+      display: none;
+    
+    
+  }
+
+  div:nth-child(4n):hover img {
+    
+    
+      display: none;
+    
+    
+  }
+
+
+
+
+
 
 
 `;
@@ -68,11 +111,11 @@ export default class Graduates extends React.Component {
 
     return (
       <PageContainer scrollbar>
-        <StatementHeader
+        {/* <StatementHeader
           verb="Meet"
           noun="Graduates"
           height="30vh"
-        />
+        /> */}
 
         <Toolbar>
           <SearchField
@@ -115,7 +158,7 @@ export const query = graphql`
             title
             headshot {
               childImageSharp {
-                resolutions(height: 300, width: 250, quality: 75, cropFocus: CENTER, grayscale: true) {
+                resolutions(width: 50, height: 50, quality: 75, cropFocus: CENTER) {
                   ...GatsbyImageSharpResolutions_noBase64
                 }
               }

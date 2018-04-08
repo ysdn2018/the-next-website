@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { spacing, breakpoints } from '../utils/constants'
 
 import PageContainer from '../components/PageContainer'
-import StatementHeader from '../components/StatementHeader'
+import Statement from '../components/Statement'
 
 import RL_Logo from '../assets/images/rl-solutions.svg'
 import GladstoneLogo from '../assets/images/gladstone.svg'
@@ -14,6 +14,10 @@ import WattLogo from '../assets/images/watt.svg'
 import ForgeLogo from '../assets/images/forge.svg'
 import CriticalMassLogo from '../assets/images/critical-mass.svg'
 
+const Container = styled.div`
+  display: flex;
+`;
+
 const SponsorContainer = styled.div `
   display: flex;
   justify-content: center;
@@ -22,6 +26,37 @@ const SponsorContainer = styled.div `
     flex-direction: column;
   }
 `
+
+const InnerInfoContainer = styled.div`
+  
+`
+
+const ThankYouContainer = styled.div`
+  padding: 0 ${spacing.smaller}px;
+`;
+
+const InfoContainer = styled.div`
+  height: calc(100vh - ${spacing.bigger}px);
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid black;
+  border-top: 0;
+  border-left: none;
+
+  position: sticky;
+  top: ${spacing.bigger}px;
+`;
+
+const StatementContainer = styled.div`
+  padding: ${spacing.small}px ${spacing.smaller}px;
+  border-bottom: 1px solid black;
+  height: 200px;
+`;
+
+const AllSponsors = styled.div`
+  
+`;
+
 
 const SponsorImage = styled.div`
   width: 100%;
@@ -42,10 +77,11 @@ const Title = styled.h5 `
   margin-top: 10px;
 `
 
+
 const PresentingSponsor = styled.div `
   border-bottom: 1px solid;
   width: 100%;
-  height: 90vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -146,14 +182,24 @@ const SponsorFour = styled.div`
 // page component
 export default function Sponsors({ data }) {
   return (
-    <PageContainer>
+    <Container>
 
-      <StatementHeader
-        verb="Thanking"
-        noun="Sponsors"
-        height="30vh"
-      />
+    <InfoContainer>
+      <InnerInfoContainer>
+      <StatementContainer>
+        <Statement
+          verb="Thanking"
+          noun="Sponsors"
+          border
+        />
+      </StatementContainer>
+      <ThankYouContainer>
+          <p>We would like to express our gratitude to our generous sponsors. This show wouldn’t have been possible without their kind support.</p>
+      </ThankYouContainer>
+      </InnerInfoContainer>
+    </InfoContainer>
 
+      <AllSponsors>
       <SponsorContainer>
         <PresentingSponsor>
           <Title>Presenting Sponsor</Title>
@@ -195,7 +241,8 @@ export default function Sponsors({ data }) {
           </SponsorImage>
         </SponsorFour>
       </SponsorContainer>
+    </AllSponsors>
 
-    </PageContainer>
+    </Container>
   )
 }

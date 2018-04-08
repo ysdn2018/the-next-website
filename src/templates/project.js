@@ -121,8 +121,9 @@ const InfoContainer = styled.div `
 `
 
 const Info = styled.div `
-  width: 50%;
   max-width: 800px;
+  width: 75%;
+
   margin: ${spacing.bigger}px auto;
   padding: ${spacing.smaller}px;
   white-space: pre-wrap;
@@ -175,6 +176,16 @@ export default function Post({ data }) {
       <HeroImage sizes={project.frontmatter.image.childImageSharp.sizes}/>
 
       <ContentContainer>
+        {false && (
+          <LegendContainer>
+            <Legend>
+              {project.headings.map(heading =>
+                <h4>{heading.value}</h4>
+              )}
+            </Legend>
+          </LegendContainer>
+        )}
+
         <InfoContainer>
           <Info>
               <Content dangerouslySetInnerHTML={{ __html: project.html }}/>

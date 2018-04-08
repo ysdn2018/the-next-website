@@ -15,8 +15,7 @@ const TitleLink = styled(Link) `
   text-transform: uppercase;
   font-size: 0.8rem;
   text-align: left;
-
-  width: 100%;
+  padding-right: 2rem;
   height: 100%;
   display: flex;
   align-items: center;
@@ -47,6 +46,7 @@ const NavContainer = styled.div`
   background-color: white;
   pointer-events: auto;
   padding: 0 ${spacing.small}px;
+  
 `
 
 const PageLinks = styled.div`
@@ -69,7 +69,7 @@ export default function Nav() {
   return (
     <NavContainer>
       <TitleLink to="/">
-        <h1>The Next</h1>
+        <h1>THE NEXT</h1>
       </TitleLink>
 
       <PageLinks>

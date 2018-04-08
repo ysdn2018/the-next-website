@@ -30,7 +30,7 @@ const StatementContainer = styled.div`
 
 const OuterContainer = styled.div`
   width: 100%;
-  height:35%;
+  height: 100%;
   flex: 1;
   padding: ${props => props.pad ? spacing.smaller : 0};
 
