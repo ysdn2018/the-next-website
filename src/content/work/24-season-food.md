@@ -11,7 +11,7 @@ category3: Product Design
 
 ![null](/assets/ali_seasons-3.jpg)
 
-# **The 24 Whole Grain Bags**
+# The 24 Whole Grain Bags
 
 食节 24-Season Food is whole grain package develop from the Chinese 24 solar terms theme. Chinese 24 solar terms are ancient Chinese calendar to analysis seasons and weather. People use the calendar to have healthy diet habits. These Chinese traditions pro-vide that people choose to give whole grains package as a holiday present. Whole grains in Chinese is called “五谷杂粮” (wǔ gǔ zá liáng) which sounds similar to another word “五谷丰登” (wǔ gǔ fēng dēng). “五谷丰登” (wǔ gǔ fēng dēng) means producing good harvests. This is a good sign for farmers to have a good end of the year and be positive to look forward to next year. When people receiving 食节 24-Season Food means they receive a blessing of  “be healthy, be wealth”. 
 
@@ -21,9 +21,7 @@ category3: Product Design
 
 ![null](/assets/ali_seasons-4.jpg)
 
-
-
-# **The Cylinder Container**
+# The Cylinder Container
 
 The cylinder of the package is a holder or collator for the 24 whole grain bags. The cylinder is a look-a-like design with a Chinese bamboo slip. There are the names of the 24 solar terms on the cylinder. In order to create a connection between the 24 seasons in the lunar calendar and the 4 seasons in the Gregorian calendar, there is a hole above each solar term on the outside of the cylinder, which using yellow (spring), green (summer), red (autumn), and white (winter). 
 
@@ -31,7 +29,7 @@ The cylinder of the package is a holder or collator for the 24 whole grain bags.
 
 ![null](/assets/ali_seasons-7.jpg)
 
-# **The Poster**
+# The Poster
 
 After opening the button on the side of the cylinder, there is an information poster and 24 whole grain bags. The poster explains the relationship between whole grain and the 24 solar terms. The whole grain bags are stack into four layers which represent the 4 seasons. There is a short farming proverb on each whole grain bag which relates to the whole grain projects: millet, mung bean, azuki bean, and rice.
 
