@@ -25,17 +25,17 @@ Stash Tea’s brand character is best described as an exclusive, private collect
 
 ## Evolutionary Design
 
-![](/assets/evolutionaryfinalmockup_new.jpg)
+![null](/assets/evolutionaryfinalmockup_new.jpg)
 
 STASH Tea proclaims that they have high quality teas, however most people who have reviewed the product found it didn’t have much flavour. Because of the bright colours on the boxes of tea, consumer’s expectations of flavour for the company may be higher than others. The Evolutionary Design dulls down the colours while keeping a dreamy-like visual appearance with the floating peppermint leaves. The logo is made more coherent by changing the colours to be monochromatic and bringing in the tracking of the word "STASH"; and by decreasing the opacity of the compass and moving the compass behind the wordmark, the legibility of the logo is improved. The black band stays on the box and the remaining typography is kept relatively simple and similar to the original package, ensuring the brand is recognizable.
 
 ## Revolutionary Design
 
-![](/assets/revolutionaryfinalmockup_new.jpg)
+![null](/assets/revolutionaryfinalmockup_new.jpg)
 
 The Revolutionary Design pushes further away from the original design while still staying true to some STASH Tea's brand equities. A more playful and clean design is created which uses a white background with multiple coloured decals to represent a type of tea. By removing the compass from the logo and using it as a coaster for the tea cup, it becomes a supporting visual component rather than an unwanted logo element, which also showcases what the tea looks like after being brewed. By changing the name of "STASH" to "STASH Tea" and converting to a sans serif typeface, the wordmark becomes more clear and concise, overall improving readability and legibility.
 
-\##Transformational Design
+## Transformational Design
 
 ![null](/assets/3-stash-trans_rgb.jpg)
 
