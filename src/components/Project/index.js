@@ -54,9 +54,14 @@ const Text = styled.p`
   &:first-of-type {
     ${'' /* font-style: italic; */}
     text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
   }
 
   &:last-of-type {
+    width: 100%;
     text-align: right;
   }
 `

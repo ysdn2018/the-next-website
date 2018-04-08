@@ -32,7 +32,11 @@ const InnerInfoContainer = styled.div`
 `
 
 const ThankYouContainer = styled.div`
-  padding: 0 ${spacing.smaller}px;
+  padding: ${spacing.normal}px;
+  
+  p {
+    margin: 0;
+  }
 `;
 
 const InfoContainer = styled.div`
@@ -109,7 +113,7 @@ const SponsorTwo = styled.div`
   width: 50%;
   height: 60vh;
   border-bottom: 1px solid;
-  border-right: 1px solid;
+  ${props => props.borderRight && 'border-right: 1px solid;'}
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -210,7 +214,7 @@ export default function Sponsors({ data }) {
       </SponsorContainer>
 
       <SponsorContainer>
-        <SponsorTwo>
+        <SponsorTwo borderRight>
           <Title>Venue Sponsor</Title>
           <SponsorImage>
             <img src = {GladstoneLogo} alt="Gladstone Hotel"/>

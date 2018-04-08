@@ -7,6 +7,16 @@ import Project from '../components/Project'
 
 // styled-components
 const Content = styled.div`
+  padding-bottom: 5rem;
+
+  blockquote {
+    font-style: italic;
+  }
+
+  p {
+    font-size: calc(0.3vw + 1.3rem);
+    margin: 0;
+  }
 
   h1 {
     text-transform: uppercase;
@@ -25,6 +35,9 @@ const Content = styled.div`
 
   .gatsby-resp-image-wrapper {
     line-height: 0;
+    width: 150%;
+
+    margin-left: -25% !important;
   }
 
   .gatsby-resp-image-background-image {
@@ -54,15 +67,23 @@ const HeroImage = styled(Img)`
 `
 
 const ProjectHeader = styled.div `
-  padding: 0 ${spacing.smaller}px;
+  padding: ${spacing.small}px;
   width: 100%;
   height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-bottom: 1px solid black;
 
   h1 {
-    line-height: 1.1;
+    margin: 0;
+    line-height: 1;
+  }
+
+  h1, h3, h4, {
+    margin: 0;
+    line-height: 1;
+    vertical-align: bottom;
   }
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
@@ -148,11 +169,9 @@ export default function Post({ data }) {
 
         <ProjectInfo>
           <GraduateName>
-            <h3>
-              <Link to={`/graduates/${grad.replace(/[^0-9a-zA-Z\s'\-]+/g, "").replace(/[\'\s]+/g, "-").toLowerCase()}/`}>
-                {grad}
-              </Link>
-            </h3>
+            <Link to={`/graduates/${grad.replace(/[^0-9a-zA-Z\s'\-]+/g, "").replace(/[\'\s]+/g, "-").toLowerCase()}/`}>
+              <h4>{grad}</h4>
+            </Link>
           </GraduateName>
 
           <Categories>

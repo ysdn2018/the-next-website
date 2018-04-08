@@ -82,7 +82,6 @@ const Social = styled.div `
 
 
 const Info = styled.div `
-
   flex: 1;
   width: 100%;
   min-height: calc(100vh - ${spacing.bigger}px);
@@ -106,10 +105,18 @@ const About = styled.div `
   p {
     margin-top: 1rem;
   }
+
+  display: flex;
+  flex-direction: column;
+
+  > div:first-of-type {
+    padding-top: ${spacing.small}px;
+  }
 `
 
 const Question = styled.div `
   margin-bottom: ${spacing.normal}px;
+
   p {
     margin: 0.1rem 0;
   }
@@ -225,28 +232,24 @@ export default function Graduate({ data }) {
                 <p>{graduate.frontmatter.hobbies}</p>
               </Question>
             )}
-
             {graduate.frontmatter.music && (
               <Question>
                 <QuestionHeader>Listening To</QuestionHeader>
                 <p>{graduate.frontmatter.music}</p>
               </Question>
             )}
-
             {graduate.frontmatter.tools && (
               <Question>
                 <QuestionHeader>Favourite Tools</QuestionHeader>
                 <p>{graduate.frontmatter.tools}</p>
               </Question>
             )}
-
             {graduate.frontmatter.watch && (
               <Question>
                 <QuestionHeader>Currently Watching</QuestionHeader>
                 <p>{graduate.frontmatter.watch}</p>
               </Question>
             )}
-
             {graduate.frontmatter.typeface && (
               <Question>
                 <QuestionHeader>Favourite Typefaces</QuestionHeader>

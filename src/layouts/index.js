@@ -147,6 +147,7 @@ injectGlobal`
   h4 {
     text-transform: uppercase;
     font-size: 2rem;
+    line-height: 1.1;
   }
 
   h5 {
