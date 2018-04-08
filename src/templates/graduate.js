@@ -29,7 +29,7 @@ const ProfileContainer = styled.div `
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  
+
   height: 100px;
   border-bottom: 1px solid black;
 
