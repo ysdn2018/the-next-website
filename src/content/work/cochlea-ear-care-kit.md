@@ -13,6 +13,8 @@ Ear infections are painful because of inflammation and buildup of fluids in the 
 
 ## THE KIT
 
+![](/assets/lecompte201.jpg)
+
 ![null](/assets/lecompte202.jpg)
 
 The package’s name is derived from snail shaped part of the inner ear that’s responsible for hearing, which is called the cochlea. The clean, round shape of the container allows for the product to come off as friendly, but still medical and professional looking. 
