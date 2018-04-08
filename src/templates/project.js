@@ -8,16 +8,12 @@ import Project from '../components/Project'
 // styled-components
 const Content = styled.div`
 
-  p {
-   
-  }
-
   h1 {
     text-transform: uppercase;
     font-size: 4.5rem;
     line-height: 1.2;
     font-weight: normal;
-    margin: ${spacing.smaller}px
+    margin: ${spacing.bigger}px 0 ${spacing.smaller}px;
   }
 
   h2 {
@@ -113,27 +109,11 @@ const Categories = styled.div `
 
 const ContentContainer = styled.div`
   display: flex;
-`
-
-const LegendContainer = styled.div `
-  flex: 1;
-
-  @media screen and (max-width: ${breakpoints.tablet} ) {
-    display: none;
-  }
-`
-
-const Legend = styled.div `
-  position: sticky;
-  top: ${spacing.bigger}px;
-  margin: ${spacing.medium}px;
-  padding: ${spacing.bigger}px;
+  align-items: center;
 `
 
 const InfoContainer = styled.div `
     width: 100%;
-    display: flex;
-    justify-content: center;
 
     @media screen and (max-width: ${breakpoints.tablet} ) {
       width: 100%;
@@ -143,6 +123,7 @@ const InfoContainer = styled.div `
 const Info = styled.div `
   max-width: 800px;
   width: 75%;
+
   margin: ${spacing.bigger}px auto;
   padding: ${spacing.smaller}px;
   white-space: pre-wrap;

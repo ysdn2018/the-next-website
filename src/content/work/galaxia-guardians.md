@@ -15,4 +15,4 @@ _Galaxia Guardians_ is a dice rolling card game that requires players to work to
 
 ![Galaxia Guardians - Guardian Card](/assets/guardiancard.jpg)
 
-Click [here](www.tinadou.com/g-g) to learn how to play.
+Click [here](https://www.tinadou.com/g-g) to learn how to play.

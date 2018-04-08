@@ -16,8 +16,9 @@ intro: >-
   story.
 hobbies: ' modern contemporary dancing'
 music: >-
-  reggae, dancehall, hip hop and when it comes carnival season, you have to
-  listen to that soca
+  Some sweet reggae music on any occasion  to relax the mind. Other than that,
+  dancehall music, a bit of hip hop and I can’t leave out the rhythm of soca,
+  especially around carnival season
 typeface: 'Avenir '
 email: dana.neita@gmail.com
 website: 'https://dananeita.myportfolio.com/'

@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `the next base`,
   },
-  // pathPrefix: `/the-next-website`,
+  pathPrefix: `/the-next-website`,
   plugins: [
     `gatsby-plugin-react-next`,
     `gatsby-plugin-react-helmet`,

@@ -49,6 +49,7 @@ const Profile = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 `
 
 const Name = styled.h3`
@@ -81,6 +82,7 @@ const Social = styled.div `
 
 
 const Info = styled.div `
+
   flex: 1;
   width: 100%;
   min-height: calc(100vh - ${spacing.bigger}px);
@@ -92,6 +94,7 @@ const Info = styled.div `
 
   QuestionHeader {
     margin-bottom: -${spacing.small}px;
+
   }
 `
 
@@ -306,7 +309,7 @@ export const aboutPageQuery = graphql`
         linkedin
         email
         website
-        
+
         headshot {
           childImageSharp {
             resolutions(width: 60, height: 60, quality: 90, cropFocus: CENTER) {
@@ -342,5 +345,3 @@ export const aboutPageQuery = graphql`
     }
   }
 `;
-
-

@@ -16,9 +16,7 @@ music: >-
   For chill days: Chronixx - Somewhere | For positive vibes: Chronixx - Champion
   | & Other days: Solange, Miguel and Soca music because Soca is life.
 tools: ''
-watch: >-
-  Pride and Prejudice(2005) | Deadpool | X-men because who doesn't love
-  Wolverine and Professor X
+watch: 'Jane Austen Movies, The 100, and The Fresh Prince of Belair.'
 typeface: Georgia and Metropolis
 email: clarkejade22@yahoo.com
 website: 'https://www.jadeclarkedesign.com/'

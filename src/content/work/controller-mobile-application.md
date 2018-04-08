@@ -2,7 +2,7 @@
 templateKey: project
 title: Controller - Mobile Application
 graduate: Christine Trinh
-image: /assets/loading screen@2x.jpg
+image: /assets/loading-screen@2x.jpg
 category: UI/UX
 category2: Brand Identity
 ---

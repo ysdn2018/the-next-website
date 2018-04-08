@@ -18,13 +18,13 @@ hobbies: >-
   Claudia enjoys watching Netflix, traveling, and FaceTiming with her friends
   back-home!
 music: Pop & Latin Music
-tools: ' '
+tools: ' Adobe programs, pen & paper'
 watch: 'Suits, This Is Us and How to Get Away with Murder'
 typeface: Austin
 twitter: ''
 instagram: 'https://www.instagram.com/designedbyclau/'
-linkedin: www.linkedin.com/in/claudia-corrales-garrido
+linkedin: 'https://www.linkedin.com/in/claudia-corrales-garrido'
 email: claudicorrales@gmail.com
-website: claudiacorrales.com
+website: 'https://www.claudiacorrales.com/'
 ---
 

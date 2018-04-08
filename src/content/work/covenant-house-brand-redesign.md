@@ -17,7 +17,7 @@ Covenant House is the largest privately funded child care organization network i
 
 Although the mission and values of the organization clearly state their intentions to communicate and help the youth no matter their race, sexual orientations or religion. The organization’s brand is highly outdated and it has a religious connotation. Thus, the redesign aims to present the brand as a contemporary, inviting, friendly, and inclusive organization.
 
-![Logo and Typeface Exploration](/assets/covenant_02.jpg)
+![Logo and Typeface Exploration](/assets/unnamed.jpg)
 
 ## The process
 

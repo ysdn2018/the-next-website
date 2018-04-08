@@ -2,7 +2,7 @@
 templateKey: project
 title: 'Magazine Concept - International Social Floor '
 graduate: David Benoit
-image: /assets/cover design high key.jpg
+image: /assets/cover-design-high-key.jpg
 category: Editorial Design
 ---
 For editorial design, we were tasked with creating a magazine and I chose to create a magazine that Looked at Space Through the Lens of Art, Design & Science.

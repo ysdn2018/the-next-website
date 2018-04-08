@@ -7,7 +7,7 @@ category: Brand Identity
 ---
 This rebrand for Carnaval de Quebéc represents the traditions of Quebéc City and the winter season, the feeling of warmth that the event evokes in visitors' hearts and the magic that the carnival brings to downtown Quebéc. The illustrative style is family friendly, playful and exciting; embodying the atmosphere of the carnival itself.
 
-# WINTER    WARMTH    MAGIC
+# WINTER WARMTH MAGIC
 
 I kept these three words in mind during my entire process. For the new branding of the festival I wanted to design something that represented the traditions of Quebec City and it's winter season, the feeling of warmth that the carnival brings to its visitors' hearts and the magic that the carnival brings to downtown Quebec. I wanted a design that would keep the interest of the festival's yearly visitors while also captivating the attention of new visitors or tourists.  I used an illustrative style to create multiple different scenes of families enjoying winter activities that would be done at the carnival. The new branding is family friendly, playful and exciting; embodying the atmosphere of the carnival itself.
 

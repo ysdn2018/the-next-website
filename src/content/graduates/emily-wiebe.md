@@ -26,6 +26,6 @@ twitter: 'https://twitter.com/emilyawiebe'
 instagram: 'https://www.instagram.com/emilyawiebe/'
 linkedin: 'https://ca.linkedin.com/in/emilyawiebe'
 email: hello@emilywiebedesign.com
-website: emilywiebedesign.com
+website: 'https://www.emilywiebedesign.com/'
 ---
 
