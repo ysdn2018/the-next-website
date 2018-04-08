@@ -7,14 +7,14 @@ category: UI/UX
 category2: Product Design
 category3: Motion Design
 ---
-**Problem**
+## Problem
 
 The current methods of online time and productivity tracking require the user
 to go into an app and manually input the amount of time they spend working
 on something. This system is not always accurate and does not include the
 potential disturbances a user may encounter while they are doing their work.
 
-**Solution**
+## Solution
 
 Junctr is a desktop productivity-app that tracks how much time a user spends on each application. It runs in the background as the user is working so they do not have to constantly check in on it.  
 
