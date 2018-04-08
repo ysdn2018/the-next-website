@@ -28,7 +28,7 @@ const SponsorContainer = styled.div `
 `
 
 const InnerInfoContainer = styled.div`
-  
+
 `
 
 const ThankYouContainer = styled.div`
@@ -54,7 +54,7 @@ const StatementContainer = styled.div`
 `;
 
 const AllSponsors = styled.div`
-  
+
 `;
 
 
