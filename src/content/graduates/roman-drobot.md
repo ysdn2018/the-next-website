@@ -1,6 +1,6 @@
 ---
 templateKey: graduate
-title: ROMAN DROBOT
+title: Roman Drobot
 headshot: ../headshots/normal/Roman_Drobot-1.jpg
 headshotHover: ../headshots/looking/Roman_Drobot-2.jpg
 verb: TAKING

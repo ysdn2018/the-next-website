@@ -54,7 +54,7 @@ const StatementContainer = styled.div`
 `;
 
 const AllSponsors = styled.div`
-  
+  width: 100%;
 `;
 
 

@@ -38,7 +38,7 @@ const InnerContainer = styled.div`
   height: 100%;
   width: 100%;
   position: relative;
-  padding-top: ${spacing.big + 3}px;
+  padding: ${spacing.big + 3}px 0;
 `;
 
 // page component
@@ -160,7 +160,7 @@ injectGlobal`
 
   p {
     font-size: calc(0.25vw + 1.1rem);
-    line-height: 1.4;
+    line-height: 1.5;
   }
 
   a {

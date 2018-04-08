@@ -57,7 +57,7 @@ const Text = styled.p`
   }
 
   &:last-of-type {
-    
+    text-align: right;
   }
 `
 
