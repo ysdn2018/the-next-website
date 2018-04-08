@@ -7,7 +7,7 @@ category: Brand Identity
 category2: Communication Design
 category3: Web Design
 ---
-# Introduction
+## Introduction
 
 After a 12-year hiatus, the 2016 World Cup of Hockey (WCOH) returns as an event. According to [the official WCOH website](https://www.wch2016.com/), “The 2016 World Cup of Hockey will feature eight teams competing for a best-on-best international hockey championship: The eight teams participating in the 2016 World Cup of Hockey are Team Canada, Czech Republic, Finland, Russia, Sweden, USA, Europe and North America. It is expected that more than 150 of the best players in the NHL will participate in this tournament”. This year, the main event will be hosted at the Air Canada Centre (ACC) in Toronto, Ontario, Canada. The tournament is scheduled to start on September 17 and end on October 1, 2016. 
 
@@ -15,7 +15,7 @@ While the event is largely themed after international hockey, there are other va
 
 ![Moodboard; taking a look at the atmosphere of hockey.](/assets/rana_wcoh_1.jpg)
 
-# Intensity, Pride, and Passion
+## Intensity, Pride, and Passion
 
 In the simplest terms, the purpose of WCOH is “a global celebration of hockey” (WCOH, 2016). Hockey has become an integral part of Canadian culture, with many other countries sharing this tradition. It is crucial that the design implemented will display the importance and purpose of this event. The event must showcase the importance of heritage and culture, emphasizing why hockey brings many countries together. 
 
