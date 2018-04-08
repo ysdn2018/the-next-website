@@ -6,7 +6,7 @@ image: /assets/yorkunite.png
 category: Communication Design
 category2: Motion Design
 ---
-# Summary
+## Summary
 
 To prepare independent York University students who are away from their families on extreme weather procedures, I have devised an advertising campaign that utilizes the university’s existing resources to effectively bring the community together in times of weather emergencies.
 
