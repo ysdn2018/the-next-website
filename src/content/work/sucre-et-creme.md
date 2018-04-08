@@ -7,7 +7,7 @@ category: Editorial Design
 category2: Typography
 category3: Communication Design
 ---
-Sucre et Crème is a food and culture magazine that features high end pastries and bakeries while offering its readers a peak into the lifestyles and professions associated with desserts.  
+_Sucre et Crème_ is a food and culture magazine that features high end pastries and bakeries while offering its readers a peak into the lifestyles and professions associated with desserts.  
 
 The idea for the magazine came from my love of high end sweets and noticing that there is no actual publication of just this topic, that is targeted to a more general audience. Current food magazines only have a small section for sweets and while there are some magazine dedicated to desserts these are reserved for professional in the industry. 
 
