@@ -2,7 +2,7 @@
 templateKey: project
 title: Junctr
 graduate: Gillian Wu
-image: /assets/screen shot 2018-03-30 at 11.46.53 pm.png
+image: /assets/screen-shot-2018-03-30-at-11.46.53-pm.png
 category: UI/UX
 category2: Product Design
 category3: Motion Design

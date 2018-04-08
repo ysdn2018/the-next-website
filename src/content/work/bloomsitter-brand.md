@@ -2,7 +2,7 @@
 templateKey: project
 title: Bloomsitter Brand
 graduate: Martina Serafimovska
-image: /assets/bloomsitter 01.jpg
+image: /assets/bloomsitter-01.jpg
 category: Brand Identity
 category2: Book Design
 ---

@@ -2,7 +2,7 @@
 templateKey: project
 title: Natural Balance Repackage
 graduate: Stephanie Walser
-image: /assets/screen shot 2018-03-30 at 2.21.15 pm.jpg
+image: /assets/screen-shot-2018-03-30-at-2.21.15-pm.jpg
 category: Package Design
 category2: Brand Identity
 ---
@@ -20,7 +20,7 @@ The three adjectives I chose to describe my repackage are healthy, independent, 
 
 
 
-This concept kept the mountain scenery, a similar logo but touched up logo, and added a dog onto the front of the packaging. The dog was taken from the logo and added into the background scenery design. I made sure to get a happy, cute dog on the front to attract buyers. 
+This concept kept the mountain scenery, a similar logo but touched up logo, and added a dog onto the front of the packaging. The dog was taken from the logo and added into the background scenery design. I made sure to get a happy, cute dog on the front to attract buyers.
 
 This packaging has a zipper on the top to keep the food fresh, and has the formula name and colour the same as the incumbent package.
 
@@ -28,12 +28,12 @@ This packaging has a zipper on the top to keep the food fresh, and has the formu
 
 
 
-With this concept I experimented a little further. I kept the dog in the logo this time, while adding white space into the back of the logo. I added a similar line design as in the original logo; to resemble mountains with the dog standing on it. 
+With this concept I experimented a little further. I kept the dog in the logo this time, while adding white space into the back of the logo. I added a similar line design as in the original logo; to resemble mountains with the dog standing on it.
 
 A hole in the top is added as a handle for easier transport. The mountain scenery is continued as well, with the same formula name and colour.
 
 ![](/assets/transformationalswalser.jpg)
 
-This concept went way further than the first two concepts. I wanted to transform this package to be more holistic and natural looking, while having the mountain design abstract. I added in a different logo design with the added effect of two lines connected to signify balance. 
+This concept went way further than the first two concepts. I wanted to transform this package to be more holistic and natural looking, while having the mountain design abstract. I added in a different logo design with the added effect of two lines connected to signify balance.
 
 A grain free logo is also included, with the same formula name and colour as used throughout.
