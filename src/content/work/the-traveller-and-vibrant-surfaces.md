@@ -16,4 +16,4 @@ An experimental journey that explores a narrative through a poetic format using 
 
 ![Another perspective is viewed when holding the space bar.](/assets/advance_topics04_mv.png)
 
-Check out the full project and video at mivuu.co
+Check out the full project and video at [mivuu.co](http://mivuu.co/).
