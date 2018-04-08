@@ -11,6 +11,7 @@ import Toolbar from '../components/Toolbar'
 
 const ProjectGrid = styled.div`
     display: grid;
+    margin-right: -1px;
 
     grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
     ${'' /* grid-gap: ${spacing.bigger * 2}px; */}

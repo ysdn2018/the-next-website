@@ -7,8 +7,9 @@ import Project from '../components/Project'
 
 // styled-components
 const Content = styled.div`
+
   p {
-    max-width: 800px;
+   
   }
 
   h1 {
@@ -140,6 +141,7 @@ const InfoContainer = styled.div `
 `
 
 const Info = styled.div `
+  max-width: 800px;
   width: 75%;
   margin: ${spacing.bigger}px auto;
   padding: ${spacing.smaller}px;
@@ -193,7 +195,7 @@ export default function Post({ data }) {
       <HeroImage sizes={project.frontmatter.image.childImageSharp.sizes}/>
 
       <ContentContainer>
-        {project.headings.length > 0 && (
+        {false && (
           <LegendContainer>
             <Legend>
               {project.headings.map(heading =>

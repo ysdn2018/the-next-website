@@ -40,7 +40,7 @@ const LookingImage = styled(Img)`
 `
 
 const NormalImage = styled(Img) `
-margin: 0 1rem;
+  margin: 0 1rem;
   margin-top: 5px;
 
   border-radius: 50%;

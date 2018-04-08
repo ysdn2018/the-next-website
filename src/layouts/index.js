@@ -140,7 +140,7 @@ injectGlobal`
   }
 
   h3 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     text-transform: uppercase;
   }
 
@@ -159,7 +159,7 @@ injectGlobal`
   }
 
   p {
-    font-size: calc(0.5vw + 1.2rem);
+    font-size: calc(0.5vw + 1rem);
     line-height: 1.5;
   }
 

@@ -52,7 +52,7 @@ const Text = styled.p`
   
 
   &:first-of-type {
-    font-style: italic;
+    ${'' /* font-style: italic; */}
     text-transform: uppercase;
   }
 

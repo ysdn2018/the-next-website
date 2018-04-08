@@ -25,13 +25,6 @@ const DrawerButton = styled.a`
   }
 `
 
-const BottomNavButton = DrawerButton.extend`
-  border-top: 1px solid black;
-  top: -1px;
-  border-bottom: 1px solid black;
-  background-color: #FFE000;
-`
-
 const Container = styled.div`
   z-index: 5;
   position: fixed;
@@ -55,6 +48,18 @@ const Container = styled.div`
   @media (max-width: ${breakpoints.tablet}) {
     transform: translateY(${props => props.open ? "0" : "calc(100% - 3.86rem)"});
     height: calc(100% - ${spacing.bigger}px);
+  }
+`
+
+const BottomNavButton = DrawerButton.extend`
+  border-top: 1px solid black;
+  top: -1px;
+  border-bottom: 1px solid black;
+  background-color: ${props => props.open ? "#FFE000" : "white"};
+  transition: background-color 100ms cubic-bezier(.14,.6,.36,1);
+
+  ${Container}:hover & {
+    background-color: #FFE000;
   }
 `
 
@@ -297,7 +302,7 @@ export default class BottomNav extends React.Component {
     return (
       <Container open={this.state.open}>
 
-        <BottomNavButton onClick={this.handleClick}>
+        <BottomNavButton onClick={this.handleClick} open={this.state.open}>
           {this.state.open ? "Close" : "Info"}
         </BottomNavButton>
 

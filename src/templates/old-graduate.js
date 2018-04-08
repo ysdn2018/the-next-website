@@ -10,8 +10,8 @@ import { spacing, breakpoints } from '../utils/constants'
 // Profile Card
 
 const Container = styled.div `
+  display: flex;
   width: 100%;
-  min-height: 100%;
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
     flex-direction: column;
@@ -19,55 +19,46 @@ const Container = styled.div `
 
 `
 
-const InnerContainer = styled.div`
-  display: flex;
-  min-height: 100%;
-`
-
 const ProfileContainer = styled.div `
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  
-  height: 80px;
-  border-bottom: 1px solid black;
+  width: 28%;
+  height: 100%;
+  position: sticky;
+  top: ${spacing.bigger + spacing.small}px;
+  height: calc(100vh - ${spacing.bigger + spacing.small*2}px);
+  margin: ${spacing.small}px;
 
-  .image {
-    padding: 0 ${spacing.smaller}px;
-    border-radius: 50%;
-  }
-
-  .outer-wrapper {
-    height: 50px !important;
-    padding: 0 ${spacing.small}px;
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    top: 0;
+    padding-right: ${spacing.small}px;
+    width: 100%;
+    height: calc(90vh - ${spacing.bigger + spacing.small*2}px);
+    position: relative;
   }
 
 `
 
 const Profile = styled.div`
+  width: calc(100% - ${spacing.small}px);;
+  height: 100%;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px solid;
 `
 
 const Name = styled.h3 `
-  padding: 0 ${spacing.smaller}px;
+  padding: ${spacing.smaller}px;
+  border-bottom: 1px solid;
   line-height: 1.2;
 `
 
-const ProfileImage = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 ${spacing.smaller}px;
-
-  .image {
-    border-radius: 50%;
-  }
+const ProfileImage = styled.div `
+  overflow: hidden;
+  object-fit: cover;
 `
 
 const Social = styled.div `
+  border-top: 1px solid;
   padding: ${spacing.smaller}px;
   display: flex;
   flex-wrap: wrap;
@@ -79,29 +70,30 @@ const Social = styled.div `
 
 `
 
+// Content
+
+const InfoContainer = styled.div `
+  display: flex;
+  justify-content: center;
+  width: 100%;
+`
 
 const Info = styled.div `
-  flex: 1;
-  width: 100%;
-  min-height: 100%;
+  width: 75%;
   max-width: 900px;
+  margin: ${spacing.bigger}px auto;
+  padding: ${spacing.smaller}px;
   white-space: pre-wrap;
-  border-right: 1px solid black;
-  padding-bottom: ${spacing.bigger}px;
 
   h4 {
     margin-bottom: -${spacing.small}px;
   }
-`
 
-const StatementWrapper = styled.div`
-  padding: ${spacing.small}px ${spacing.smaller}px;
-  border-bottom: 1px solid black;
-  height: 200px;
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    width: calc(100% - ${spacing.medium}px);
+  }
 `
-
 const About = styled.div `
-  padding: 0 ${spacing.normal}px 0 ${spacing.small}px;
   margin-bottom: ${spacing.bigger}px;
 `
 
@@ -110,43 +102,21 @@ const Question = styled.div `
 `
 
 const Projects = styled.div`
-  width: 100%;
-  flex: 2;
-  padding-bottom: ${spacing.bigger*2}px;
-
-  > h4 {
-    margin: ${spacing.small}px;
-  }
+  margin-top: ${spacing.bigger*2}px;
 
   h2 {
     margin-bottom: ${spacing.medium}px;
   }
 `
 
-const ProjectContainer = styled.div`
-  width: 100%;
-  border-bottom: 1px solid black;
-`
-
 const Project = styled.div`
-  width: 100%;
+  border: 1px solid;
+  margin-bottom: ${spacing.big}px;
 
   a {
     font-size: calc(0.5vw + 1.2rem);
     padding: ${spacing.smaller}px;
   }
-`
-
-const ProjectImageContainer = styled.div`
-  width: 80%;
-  margin: 10%;
-`
-
-const ProjectInfo = styled.div`
-  display: flex;
-  justify-content: space-between;
-
-  padding: ${spacing.smaller}px ${spacing.small}px;
 `
 
 // page template component
@@ -159,16 +129,18 @@ export default function Graduate({ data }) {
 
       <ProfileContainer>
         <Profile>
-
+          <Name>{graduate.frontmatter.title}</Name>
+          <ProfileImage>
             <Img
-              resolutions={graduate.frontmatter.headshot.childImageSharp.resolutions}
+              sizes={graduate.frontmatter.headshot.childImageSharp.sizes}
               outerWrapperClassName="outer-wrapper"
               className="image"
             />
-  
-          <Name>{graduate.frontmatter.title}</Name>
-        </Profile>
-
+          </ProfileImage>
+          <Statement
+              verb = {graduate.frontmatter.verb}
+              noun = {graduate.frontmatter.noun}
+          />
           <Social>
               {graduate.frontmatter.website && (
                   <a target="_blank" href={graduate.frontmatter.website}>Website</a>
@@ -186,24 +158,18 @@ export default function Graduate({ data }) {
                   <a target="_blank" href={graduate.frontmatter.linkedin}>LinkedIn</a>
               )}
           </Social>
-        
+        </Profile>
       </ProfileContainer>
 
-      <InnerContainer>
-
+      <InfoContainer>
         <Info>
-          <StatementWrapper>
-            <Statement
-              verb = {graduate.frontmatter.verb}
-              noun = {graduate.frontmatter.noun}
-            />
-          </StatementWrapper>
-
           <About>
+            <h2>About</h2>
             <p>{graduate.frontmatter.intro}</p>
           </About>
 
           <About>
+
             {graduate.frontmatter.hobbies && (
               <Question>
                 <h4>Hobbies</h4>
@@ -239,31 +205,23 @@ export default function Graduate({ data }) {
               </Question>
             )}
           </About>
+
+          <Projects>
+            <h2>Projects</h2>
+
+            {data.projects ? data.projects.edges.map(({ node: project }) => (
+                <Project key={project.id}>
+                  <Img sizes={project.frontmatter.image.childImageSharp.sizes} className="image" />
+                  <Link to ={project.fields.slug}>{project.frontmatter.title}</Link>
+                </Project>
+            )) : (
+              <h4>This student has no projects :( </h4>
+            )}
+          </Projects>
         </Info>
 
+      </InfoContainer>
 
-        <Projects>
-          {data.projects ? data.projects.edges.map(({ node: project }) => (
-            <ProjectContainer>
-              <Link key={project.id} to={project.fields.slug}>
-                <Project>
-                  <ProjectImageContainer>
-                    <Img sizes={project.frontmatter.image.childImageSharp.sizes} className="image" />
-                  </ProjectImageContainer>
-
-                  <ProjectInfo>
-                    <h5>{project.frontmatter.title}</h5>
-                    <h5>{project.frontmatter.category}</h5>
-                  </ProjectInfo>
-                </Project>
-              </Link>
-            </ProjectContainer>
-          )) : (
-            <h4>This student has no projects :( </h4>
-          )}
-        </Projects>
-
-      </InnerContainer>
     </Container>
   );
 };
@@ -271,7 +229,7 @@ export default function Graduate({ data }) {
 
 // template query
 export const aboutPageQuery = graphql`
-  query GraduatePage($slug: String!, $name: String!) {
+  query OldGraduatePage($slug: String!, $name: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
@@ -292,8 +250,8 @@ export const aboutPageQuery = graphql`
         
         headshot {
           childImageSharp {
-            resolutions(width: 50, height: 50, quality: 90, cropFocus: CENTER) {
-              ...GatsbyImageSharpResolutions
+            sizes(maxWidth: 700, quality: 90) {
+                      ...GatsbyImageSharpSizes
             }
           }
         }
@@ -310,8 +268,6 @@ export const aboutPageQuery = graphql`
 
           frontmatter {
             title
-            category
-
             image {
               childImageSharp {
                 sizes(maxWidth: 1000, quality: 90, maxHeight: 600, cropFocus: CENTER) {

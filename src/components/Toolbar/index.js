@@ -11,8 +11,8 @@ import { spacing } from '../../utils/constants.js'
 // styled components
 const Container = styled.div`
   width: 100%;
-  margin-top: -1px;
-  border: 1px solid black;
+  ${'' /* margin-top: -1px; */}
+  border-bottom: 1px solid black;
 
   height: ${spacing.bigger}px;
   padding: 0 ${spacing.small}px;
