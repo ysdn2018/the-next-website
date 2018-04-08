@@ -19,6 +19,6 @@ watch: 'Boy Meets World, The Office, Game of Thrones, Jane the Virgin'
 typeface: Adobe Garamond Pro
 instagram: 'https://www.instagram.com/tervoyance/'
 email: terameet1217@gmail.com
-website: www.kaurter.com
+website: 'https://kaurter.com/'
 ---
 

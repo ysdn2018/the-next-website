@@ -15,7 +15,7 @@ hobbies: >-
   buying lots of orange things
 music: 'Anderson .Paak, SZA, Rex Orange County, and Charlotte Day Wilson.'
 tools: 'InDesign, Illustrator, Sketch, After Effects'
-watch: 'Ferris Bueller''s Day Off, When Harry Met Sally, Short Term 12'
+watch: 'Ugly Delicious, Jane the Virgin, Atlanta'
 typeface: 'Lapture, Sporting Grotesque, GT America, Graebenbach'
 instagram: 'https://www.instagram.com/lo.pitt/'
 linkedin: 'https://www.linkedin.com/in/laura-pitt/'

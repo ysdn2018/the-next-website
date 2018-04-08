@@ -20,9 +20,9 @@ intro: >-
 hobbies: 'Painting/drawing, music and swimming'
 tools: 'Illustrator, Indesign, After Effects, AutoCad, Sketch up'
 typeface: Roboto and Avenir
-instagram: instagram.com/anamnaeemq/
-linkedin: www.linkedin.com/in/anamnaeemqureshi
+instagram: 'https://www.instagram.com/anamnaeemq/'
+linkedin: 'https://www.linkedin.com/in/anamnaeemqureshi/'
 email: 'anamqureshi@live.com '
-website: 'www.anamqureshi.com '
+website: 'http://www.anamqureshi.com'
 ---
 

@@ -27,6 +27,6 @@ watch: 'The Office, Stranger Things, the Office, The Princess Bride, Dark, The O
 typeface: 'Right now, Alegreya'
 instagram: 'https://www.instagram.com/stephaniehoekstra/'
 email: steph.hoeks@gmail.com
-website: stephhoekstra.com
+website: 'https://www.stephhoekstra.com/'
 ---
 

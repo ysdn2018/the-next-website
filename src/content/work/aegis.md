@@ -2,7 +2,7 @@
 templateKey: project
 title: aegis
 graduate: Chloe Typert-Morrison
-image: /assets/aegis_display.jpg
+image: /assets/aegis_banner_new.jpg
 category: Product Design
 category2: Web Design
 category3: UI/UX

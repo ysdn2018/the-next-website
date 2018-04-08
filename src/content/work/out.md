@@ -2,7 +2,7 @@
 templateKey: project
 title: OUT
 graduate: Chloe Typert-Morrison
-image: /assets/out_banner.jpg
+image: /assets/out_banner_new.jpg
 category: Package Design
 category2: Brand Identity
 ---

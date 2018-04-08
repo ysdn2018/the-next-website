@@ -52,4 +52,4 @@ The client particularly liked how this campaign can be implemented right away an
 
 This project taught me how design can be used as a tool to build community. The project is united through a consistent and impactful visual brand that will stand out amongst current advertising in the university. Moreover, the strategy in place makes sure that the message is received by its intended audience. Overall, I believe the project can be successful in its goal of generating discussion on extreme weather preparedness within the community. 
 
-For the full process documentation, view this case study on my website.
+View this case study on my [website](http://charlu.ca/).
