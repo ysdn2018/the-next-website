@@ -5,7 +5,6 @@ graduate: Ashley O'Brien
 image: /assets/cover_cmyk.jpg
 category: Information Design
 ---
-![](/assets/tng_front_cmyk.jpg)
 
 ![](/assets/tn-peoplemoney.jpg)
 
