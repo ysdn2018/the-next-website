@@ -86,6 +86,8 @@ const PageLink = styled(Link)`
     text-decoration: underline;
   }
 
+
+  ${props => props.active && "text-decoration: underline;"}
   ${props => props.mobileShow && "display:none;"}
 
   @media (max-width: ${breakpoints.mobile}) {
@@ -106,7 +108,7 @@ const PageLink = styled(Link)`
 
 `
 
-export default function Nav() {
+export default function Nav(props) {
   return (
     <NavContainer>
       <TitleLink to="/">
@@ -114,10 +116,10 @@ export default function Nav() {
       </TitleLink>
 
       <PageLinks>
-        <PageLink mobileHide to="/graduates/"><h3>Graduates</h3></PageLink>
-        <PageLink mobileShow to="/graduates/"><h3>Grads</h3></PageLink>
-        <PageLink to="/work/"><h3>Work</h3></PageLink>
-        <PageLink to="/sponsors/"><h3>Sponsors</h3></PageLink>
+        <PageLink active={props.currentPage == "/graduates/"} mobileHide to="/graduates/"><h3>Graduates</h3></PageLink>
+        <PageLink active={props.currentPage == "/graduates/"} mobileShow to="/graduates/"><h3>Grads</h3></PageLink>
+        <PageLink active={props.currentPage == "/work/"} to="/work/"><h3>Work</h3></PageLink>
+        <PageLink active={props.currentPage == "/sponsors/"} to="/sponsors/"><h3>Sponsors</h3></PageLink>
       </PageLinks>
 
     </NavContainer>
