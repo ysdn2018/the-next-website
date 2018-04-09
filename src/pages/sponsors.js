@@ -219,7 +219,6 @@ export default function Sponsors({ data }) {
       </StatementContainer>
       <ThankYouContainer>
           <p>We would like to express our gratitude to our generous sponsors. This show wouldn’t have been possible without their kind support.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac mattis diam. Donec interdum fringilla ante, ac mattis enim viverra non. Integer dictum eros libero, ut fermentum arcu cursus vitae. Ut orci turpis, efficitur quis ligula at, viverra volutpat tortor. Curabitur mollis leo quis sapien egestas, at rhoncus tellus faucibus. Etiam euismod placerat dolor, ac cursus velit pretium sit amet. Etiam tristique mauris vitae metus ultrices pulvinar. Ut ac urna vel tortor egestas tincidunt. Sed tristique velit erat, non consequat arcu tempor a. Sed ultricies lobortis urna, ac auctor est condimentum id. Sed vel elit ligula. Integer nec mattis purus, vel rhoncus nulla. Pellentesque at consectetur sem. Praesent tempus egestas dui sit amet viverra.</p>
       </ThankYouContainer>
       </InnerInfoContainer>
     </InfoContainer>
