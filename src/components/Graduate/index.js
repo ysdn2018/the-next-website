@@ -22,6 +22,8 @@ const Container = styled(Link)`
   position: relative;
   display: flex;
   height: 100%;
+
+
 `
 
 
@@ -45,8 +47,14 @@ const NormalImage = styled(Img) `
 
   border-radius: 50%;
 
-  .image {
+  &.image {
     padding-top: 1rem !important;
+
+    overflow: hidden;
+  }
+
+  &.image-wrapper {
+    height: 50px !important;
   }
 
   position: relative;
@@ -95,6 +103,7 @@ export default function Graduate(props) {
           <NormalImage
             resolutions={props.image}
             className="image"
+            outerWrapperClassName="image-wrapper"
             backgroundColor
           />
           <Text>{props.title}</Text>

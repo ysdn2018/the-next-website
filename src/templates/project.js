@@ -33,6 +33,10 @@ const Content = styled.div`
     margin-bottom: -${spacing.medium}px;
   }
 
+  a {
+    text-decoration: underline;
+  }
+
   .gatsby-resp-image-wrapper {
     line-height: 0;
     width: 150%;

@@ -8,6 +8,13 @@ import Project from '../components/Project'
 import SearchField from '../components/SearchField'
 import Toolbar from '../components/Toolbar'
 
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 
 const ProjectGrid = styled.div`
   display: grid;
@@ -79,10 +86,10 @@ export default class Work extends React.Component {
       return true;
     });
 
-    const filteredSearch = filteredCategory.filter(({ node: project }) => {
+    const filteredSearch = shuffleArray(filteredCategory.filter(({ node: project }) => {
       return project.frontmatter.graduate.toLowerCase().indexOf(this.state.search) !== -1 ||
         project.frontmatter.title.toLowerCase().indexOf(this.state.search) !== -1;
-    });
+    }));
 
 
     return (

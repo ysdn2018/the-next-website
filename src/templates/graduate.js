@@ -31,7 +31,6 @@ const ProfileContainer = styled.div `
   align-items: center;
 
   height: 100px;
-  border-bottom: 1px solid black;
 
   .image {
     padding: 0 ${spacing.smaller}px;
@@ -69,17 +68,39 @@ const ProfileImage = styled.div`
 `
 
 const Social = styled.div `
-  padding: ${spacing.smaller}px;
   display: flex;
   flex-wrap: wrap;
   flex: none;
-
-  a {
-    margin-right: ${spacing.small}px;
-  }
-
+  width: 100%;
+  margin-right: -1px;
+  border-bottom: 1px solid black;
 `
 
+const SocialLink = styled.a`
+  border: 1px solid black;
+  border-left: none;
+  width: calc(50% + 1px);
+
+  margin-bottom: -1px;
+  margin-right: -1px;
+  padding: ${spacing.smaller}px ${spacing.normal}px;
+  display: flex;
+  justify-content: space-between;
+
+  &:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+  }
+
+  &:first-of-type {
+    width: calc(100% + 1px);
+  }
+
+  p {
+    margin: 0;
+  }
+`
 
 const Info = styled.div `
   flex: 1;
@@ -129,7 +150,7 @@ const QuestionHeader = styled.p`
 const Projects = styled.div`
   width: 100%;
   flex: 2;
-  padding-bottom: ${spacing.bigger*2}px;
+  padding-bottom: ${spacing.bigger-4}px;
 
   > QuestionHeader {
     margin: ${spacing.small}px;
@@ -172,6 +193,14 @@ const ProjectInfo = styled.div`
 export default function Graduate({ data }) {
   const graduate = data.markdownRemark;
 
+  
+
+  // if (!graduate.frontmatter.website.includes('http')) {
+  //   const website = "http://" + graduate.frontmatter.website;
+  // } else {
+  //   const website = graduate.frontmatter.website;
+  // }
+
   return (
     <Container>
 
@@ -195,24 +224,23 @@ export default function Graduate({ data }) {
 
           </ProfileContainer>
 
-
-            {/* <Social>
-              {graduate.frontmatter.website && (
-                <a target="_blank" href={graduate.frontmatter.website}>Website</a>
-              )}
-              {graduate.frontmatter.email && (
-                <a target="_blank" href={"mailto:" + graduate.frontmatter.email}>Email</a>
-              )}
-              {graduate.frontmatter.twitter && (
-                <a target="_blank" href={graduate.frontmatter.instagram}>Instagram</a>
-              )}
-              {graduate.frontmatter.twitter && (
-                <a target="_blank" href={graduate.frontmatter.twitter}>Twitter</a>
-              )}
-              {graduate.frontmatter.linkedin && (
-                <a target="_blank" href={graduate.frontmatter.linkedin}>LinkedIn</a>
-              )}
-            </Social> */}
+          <Social>
+            {graduate.frontmatter.website && (
+              <SocialLink target="_blank" href={graduate.frontmatter.website}><p>Portfolio Website</p> <p>&rarr;</p></SocialLink>
+            )}
+            {graduate.frontmatter.email && (
+              <SocialLink target="_blank" href={"mailto:" + graduate.frontmatter.email}><p>Email</p> <p>&rarr;</p></SocialLink>
+            )}
+            {graduate.frontmatter.twitter && (
+              <SocialLink target="_blank" href={graduate.frontmatter.instagram}><p>Instagram</p> <p>&rarr;</p></SocialLink>
+            )}
+            {graduate.frontmatter.twitter && (
+              <SocialLink target="_blank" href={graduate.frontmatter.twitter}><p>Twitter</p> <p>&rarr;</p></SocialLink>
+            )}
+            {graduate.frontmatter.linkedin && (
+              <SocialLink target="_blank" href={graduate.frontmatter.linkedin}><p>LinkedIn</p> <p>&rarr;</p></SocialLink>
+            )}
+          </Social>
 
           <StatementWrapper>
             <Statement

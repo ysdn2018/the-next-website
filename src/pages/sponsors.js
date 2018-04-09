@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Helmet from 'react-helmet'
 import { spacing, breakpoints } from '../utils/constants'
 
 import PageContainer from '../components/PageContainer'
@@ -58,11 +59,7 @@ const StatementContainer = styled.div`
 `;
 
 const AllSponsors = styled.div`
-<<<<<<< HEAD
-
-=======
   width: 100%;
->>>>>>> 65bd9b897b432a7e61c0e4169250b75ec7e1ec23
 `;
 
 
@@ -191,6 +188,8 @@ const SponsorFour = styled.div`
 export default function Sponsors({ data }) {
   return (
     <Container>
+
+    <Helmet title="THE NEXT SPONSORS" />
 
     <InfoContainer>
       <InnerInfoContainer>
