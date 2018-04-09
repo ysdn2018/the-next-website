@@ -1,10 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-import { spacing } from '../utils/constants'
+import { spacing, breakpoints } from '../utils/constants'
 
 import PageContainer from '../components/PageContainer'
-import StatementHeader from '../components/StatementHeader'
+import GridStatement from '../components/GridStatement'
 import Project from '../components/Project'
 import SearchField from '../components/SearchField'
 import Toolbar from '../components/Toolbar'
@@ -23,6 +23,11 @@ const ProjectGrid = styled.div`
   padding-bottom: ${spacing.big + 2}px;
 
   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+
+  @media (max-width: ${breakpoints.mobile}px) {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, 1fr);
+  }
 `
 
 const FiltersContainer = styled.div`
@@ -120,6 +125,7 @@ export default class Work extends React.Component {
         </Toolbar>
 
         <ProjectGrid>
+          <GridStatement />
           {filteredSearch.map(({ node: project }) => (
             <Project
               title={project.frontmatter.title}
