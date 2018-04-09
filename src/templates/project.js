@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
@@ -166,6 +167,8 @@ export default function Post({ data }) {
 
   return (
     <div>
+
+      <Helmet title={`THE NEXT | ${project.frontmatter.title.toUpperCase()}`} />
 
       <ProjectHeader>
 

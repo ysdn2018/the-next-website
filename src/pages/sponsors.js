@@ -34,7 +34,7 @@ const InnerInfoContainer = styled.div`
 
 const ThankYouContainer = styled.div`
   padding: ${spacing.normal}px;
-  
+
   p {
     margin: 0;
   }
@@ -189,7 +189,7 @@ export default function Sponsors({ data }) {
   return (
     <Container>
 
-    <Helmet title="THE NEXT SPONSORS" />
+    <Helmet title="THE NEXT | SPONSORS" />
 
     <InfoContainer>
       <InnerInfoContainer>

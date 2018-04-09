@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
@@ -44,7 +45,7 @@ const GradsGrid = styled.div`
   }
 
   div:hover img {
-      display: none;  
+      display: none;
   }
 `;
 
@@ -64,7 +65,7 @@ export default class Graduates extends React.Component {
     })
   }
 
-  render() {    
+  render() {
     const grads = this.props.data.allMarkdownRemark.edges;
     const filteredGrads = grads.filter(({ node: grad }) => {
       return grad.frontmatter.title.toLowerCase().indexOf(this.state.search) !== -1;
@@ -78,13 +79,15 @@ export default class Graduates extends React.Component {
           height="30vh"
         /> */}
 
+        <Helmet title="THE NEXT | GRADUATES"/>
+
         <Toolbar>
           <SearchField
             value={this.state.search}
             onChange={this.updateSearch}
-          /> 
+          />
         </Toolbar>
-        
+
 
         <GradsGrid>
           {filteredGrads.map(({ node: grad }) => (
@@ -127,7 +130,7 @@ export const query = graphql`
 
           }
         }
-      } 
+      }
     }
   }
 `;
