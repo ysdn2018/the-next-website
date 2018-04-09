@@ -7,7 +7,7 @@ category: Installation
 category2: Experiential Design
 category3: Information Design
 ---
-# Deconstructing the fleeting nature of human relationships
+# Deconstructing the fleeting nature of human relationships.
 
 ## Overview
 
