@@ -6,7 +6,7 @@ image: /assets/toucandy2.jpg
 category: Package Design
 category2: Product Design
 ---
-_Toucandy_ is an environmentally and economically friendly children’s candy packaging that minimizes waste and provides a “second life” for the target audience to use.
+Toucandy is an environmentally and economically friendly children’s candy packaging that minimizes waste and provides a “second life” for the target audience to use.
 
 ![Toucandy Package Design](/assets/toucandy1.jpg)
 
