@@ -8,6 +8,7 @@ import GridStatement from '../components/GridStatement'
 import Project from '../components/Project'
 import SearchField from '../components/SearchField'
 import Toolbar from '../components/Toolbar'
+import 'intersection-observer'
 
 const Container = styled.div`
   height: 100%;

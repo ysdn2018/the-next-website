@@ -6,6 +6,7 @@ import Img from 'gatsby-image'
 import { spacing, breakpoints } from '../utils/constants'
 import Project from '../components/Project'
 import Statement from '../components/Statement'
+import 'intersection-observer'
 
 // styled-components
 const Container = styled.div`
@@ -201,9 +202,6 @@ const RelatedProjects = styled.div `
 export default function Post({ data }) {
   const project = data.markdownRemark;
   const grad = project.frontmatter.graduate;
-
-  console.log(data);
-  
 
   return (
     <Container>

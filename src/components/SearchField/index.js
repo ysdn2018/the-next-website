@@ -19,6 +19,7 @@ const Input = styled.input`
   text-align: center;
   height: ${spacing.bigger}px;
   flex: 1;
+  padding-top: 4px;
 
   @media (max-width: ${breakpoints.mobile}) {
     padding-top: 7px;
