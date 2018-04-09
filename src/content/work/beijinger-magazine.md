@@ -11,31 +11,23 @@ Beijinger is a magazine that explores the food and the culture in Beijing, which
 
 ![null](/assets/ali_beijinger-3.jpg)
 
-
-
-# Local Foods & Tea Culture
+## Local Foods & Tea Culture
 
 ![null](/assets/ali_beijinger-4.jpg)
 
 ![null](/assets/ali_beijinger-6.jpg)
 
+## Old-Brand Restaurants
 
+![null](/assets/ali_beijinger-5.jpg)
 
-# Old-Brand Restaurants
+## Beijing Cuisine Recipes
 
-![](/assets/ali_beijinger-5.jpg)
+![null](/assets/ali_beijinger-7.jpg)
 
+![null](/assets/ali_beijinger-8.jpg)
 
-
-# Beijing Cuisine Recipes
-
-![](/assets/ali_beijinger-7.jpg)
-
-![](/assets/ali_beijinger-8.jpg)
-
-
-
-# Conclusion
+## Conclusion
 
 ![null](/assets/ali_beijinger-9.jpg)
 
