@@ -15,7 +15,7 @@ Close Strangers / Closed Friends deconstructs the fleeting nature of human relat
 
 ## Patterns of Relationships in a Physical Sphere
 
-I approached my project initially wondering whether there were patterns in relationships and whether the  longevity and strength of the relationship was dependant on the amount of physical interaction. I documented this through a translucent data visualization piece printed on opalux that outlines the physical interaction of 150 of my relationships within a 21 year span. Constant physical interaction did not indicate strength in relationship, but rather convenience. This redirected my research to explore both digital interaction and different modes of connection.
+I approached my project initially wondering whether there were patterns in relationships and whether the longevity and strength of the relationship was dependant on the amount of physical interaction. I documented this through a translucent data visualization piece printed on opalux that outlines the physical interaction of 150 of my relationships within a 21 year span. Constant physical interaction did not indicate strength in relationship, but rather convenience. This redirected my research to explore both digital interaction and different modes of connection.
 
 ![Data visualization of physical interaction in my relationships in a scroll form](/assets/cscf_1.jpg)
 
@@ -66,3 +66,7 @@ The memories are hazy with more layers of distance, but become clearer as the ot
 ![Text layered](/assets/cscf_15.jpg)
 
 <iframe src="https://player.vimeo.com/video/263499633" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Special Thanks
+
+To Jamie who helped me with the entirety of this project through all my mental breakdowns. To the guy at Home Depot who helped me figure out how to make my structure. To the ladies at Fabricland who taught me how to cut and tear fabric. To Rich and Loris for lending me the projector. To my dad who taught me how to use a hacksaw. To my mom who drove me everywhere. To my sister who helped me build it. To Susan and Zach who helped me make decisions. To Judy and John who helped me document. And finally, to the you I remember.
