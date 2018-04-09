@@ -17,6 +17,7 @@ const shuffleArray = (array) => {
   return array;
 }
 
+
 const ProjectGrid = styled.div`
   display: grid;
   margin-right: -1px;
@@ -24,10 +25,16 @@ const ProjectGrid = styled.div`
 
   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
 
+  @media (max-width: ${813}px) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  }
+
   @media (max-width: ${breakpoints.mobile}px) {
     width: 100%;
     grid-template-columns: repeat(auto-fit, 1fr);
   }
+
+
 `
 
 const FiltersContainer = styled.div`
