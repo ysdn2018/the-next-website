@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
 import { H4 } from '../Typography'
+import { spacing, breakpoints } from '../../utils/constants'
 
 /*
   Base component
@@ -15,9 +16,9 @@ const Container = styled.div`
 
   border-right: 1px solid black;
   border-bottom: 1px solid black;
-  
-  width: 100%;
   height: 100%;
+  width: 100%;
+  max-height: calc(5% - ${spacing.bigger*2}px);
 
   display: flex;
   flex-direction: column;
