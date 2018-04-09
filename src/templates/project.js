@@ -50,6 +50,7 @@ const Content = styled.div`
     width: 150%;
 
     margin-left: -25% !important;
+    max-width: none !important;
   }
 
   .gatsby-resp-image-background-image {
