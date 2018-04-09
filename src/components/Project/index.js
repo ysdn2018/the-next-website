@@ -18,7 +18,12 @@ const Container = styled.div`
   border-bottom: 1px solid black;
   height: 100%;
   width: 100%;
-  max-height: calc(5% - ${spacing.bigger*2}px);
+
+  @media (min-width: 1276px) {
+    max-width: 639px;
+  }
+
+  ${'' /* max-height: calc(50vh - ${spacing.bigger*2}px); */}
 
   display: flex;
   flex-direction: column;

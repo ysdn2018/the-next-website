@@ -9,12 +9,15 @@ import Project from '../components/Project'
 import SearchField from '../components/SearchField'
 import Toolbar from '../components/Toolbar'
 
-
+const Container = styled.div`
+  height: 100%;
+`
 
 const ProjectGrid = styled.div`
   display: grid;
   margin-right: -1px;
   padding-bottom: ${spacing.big + 2}px;
+
 
   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
 
@@ -97,7 +100,7 @@ export default class Work extends React.Component {
 
 
     return (
-      <PageContainer>
+      <Container>
 
         <Helmet title="THE NEXT | WORK"/>
 
@@ -135,7 +138,7 @@ export default class Work extends React.Component {
           ))}
         </ProjectGrid>
 
-      </PageContainer>
+      </Container>
     )
   }
 
