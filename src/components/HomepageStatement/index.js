@@ -103,8 +103,8 @@ export default class HomepageStatement extends React.Component {
   }
 
   componentWillMount() {
-    const verbs = ["Binging", "Setting", "becoming", "eating", "throwing", "catching", "busting", "brining", "dodging", "leaving", "watching", "surviving", "missing", "surviving", "eating", "missing", "until", "meeting"];
-    const nouns = ["series", "trend", "meme", "pizza", "shade", "zzzs", "move", "heat", "bullet", "shook", "episode", "winter", "bus", "royale", "nugget", "deadline", "sunrise", "match"];
+    const verbs = ["Binging", "Setting", "becoming", "eating", "throwing", "catching", "busting", "brining", "dodging", "leaving", "watching", "surviving", "missing", "surviving", "eating", "missing", "until", "meeting", "ghosting", "becoming", "taking", "meeting", "raising", "saving", "becoming", "crashing", "swiping", "being", "leading", "being", "becoming", "catching", "protesting", "dreading", "creeping", "copping"];
+    const nouns = ["series", "trend", "meme", "pizza", "shade", "zzzs", "move", "heat", "bullet", "shook", "episode", "winter", "bus", "royale", "nugget", "deadline", "sunrise", "match", "match", "senpai", "risk", "deadline", "roof", "gpa", "ting", "program", "match", "potato", "kouhai", "gucci", "meme", "dub", "strike", "deadline", "portfolio", "ting"];
 
     const statements = this.props.gradData.map(({ node }) => {
       return {
@@ -119,6 +119,9 @@ export default class HomepageStatement extends React.Component {
         verb: verbs[i]
       })
     }
+
+    console.log(statements.length);
+    
 
     this.statements = shuffleArray(statements);
   }
@@ -139,7 +142,7 @@ export default class HomepageStatement extends React.Component {
 
         <StatementContainer {...this.props}>
           <StatementText>
-            {this.state.verb || "Launching"}
+            {this.state.verb || "Experience"}
           </StatementText>
 
           <TheNext right>
@@ -147,7 +150,7 @@ export default class HomepageStatement extends React.Component {
           </TheNext>
 
           <StatementText>
-            {this.state.noun || "Website"}
+            {this.state.noun || "Gradshow"}
           </StatementText>
         </StatementContainer>
       </OuterContainer>

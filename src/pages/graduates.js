@@ -5,6 +5,7 @@ import Link from 'gatsby-link'
 import Img from 'gatsby-image'
 import { spacing, breakpoints } from '../utils/constants'
 
+import GridStatement from '../components/GridStatement'
 import PageContainer from '../components/PageContainer'
 import Graduate from '../components/Graduate'
 import StatementHeader from '../components/StatementHeader'
@@ -96,6 +97,11 @@ export default class Graduates extends React.Component {
 
 
         <GradsGrid>
+          <GridStatement
+            verb="Meet"
+            noun="Graduates"
+            grads
+          />
           {filteredGrads.map(({ node: grad }) => (
             <Graduate
               path={grad.fields.slug}
