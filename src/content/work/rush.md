@@ -5,7 +5,7 @@ graduate: Miranda Cagas
 image: /assets/rush_covers.jpg
 category: Editorial Design
 ---
-_Rush_ is a magazine about candy and chocolate that will appeal to anyone who in possession of a gigantic sweet tooth. This colourful magazine is jam-packed with fun facts, recipes, articles, and more. 
+Rush is a magazine about candy and chocolate that will appeal to anyone who in possession of a gigantic sweet tooth. This colourful magazine is jam-packed with fun facts, recipes, articles, and more. 
 
 ![null](/assets/rush1.jpg)
 
