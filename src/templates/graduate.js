@@ -23,6 +23,10 @@ const Container = styled.div `
 const InnerContainer = styled.div`
   display: flex;
   min-height: 100%;
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    flex-direction: column;
+  }
 `
 
 const ProfileContainer = styled.div `
@@ -30,7 +34,6 @@ const ProfileContainer = styled.div `
   width: 100%;
   justify-content: space-between;
   align-items: center;
-
   height: 100px;
 
   .image {
@@ -41,7 +44,6 @@ const ProfileContainer = styled.div `
   img {
     height: 65px !important;
   }
-
 
   .outer-wrapper {
     height: 60px !important;
@@ -106,6 +108,10 @@ const Info = styled.div `
   border-right: 1px solid black;
   padding-bottom: ${spacing.bigger}px;
   margin-bottom: calc(0.5vw + 1rem);
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    max-width: 100%;
+  }
 `
 
 const StatementWrapper = styled.div`
@@ -198,7 +204,6 @@ export default function Graduate({ data }) {
 
   return (
     <Container>
-
 
       <Helmet title={`THE NEXT | ${graduate.frontmatter.title.toUpperCase()}`} />
 

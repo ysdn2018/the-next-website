@@ -29,7 +29,8 @@ const StatementContainer = styled.h1`
 
 const OuterContainer = styled.div`
   width: 100%;
-  height: ${props => props.height ? props.height : "100%"};
+  /* height: ${props => props.height ? props.height : "100%"}; */
+  height: 95%;
   padding: ${props => props.pad ? spacing.smaller : 0};
 `
 

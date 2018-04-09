@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
-import { spacing } from '../../utils/constants'
+import { spacing, breakpoints } from '../../utils/constants'
 
 /*
   Base component
@@ -20,7 +20,6 @@ const TitleLink = styled(Link) `
   display: flex;
   align-items: center;
 
-
   h1 {
     font-size: 1.6rem;
     margin: 0;
@@ -29,6 +28,19 @@ const TitleLink = styled(Link) `
   &:hover {
     text-decoration: underline;
   }
+
+  @media (max-width: ${breakpoints.mobile}) {
+
+    h1 {
+      font-size: 1.4rem;
+    }
+
+  }
+
+  @media (max-width: ${breakpoints.saba}) {
+    padding-right: ${spacing.smaller}px;
+  }
+
 `
 
 const NavContainer = styled.div`
@@ -46,7 +58,7 @@ const NavContainer = styled.div`
   background-color: white;
   pointer-events: auto;
   padding: 0 ${spacing.small}px;
-  
+
 `
 
 const PageLinks = styled.div`
@@ -59,7 +71,7 @@ const PageLink = styled(Link)`
   text-transform: uppercase;
   text-align: center;
   margin-left: ${spacing.normal}px;
-  
+
   h3 {
     font-size: 1.6rem;
   }
@@ -67,6 +79,21 @@ const PageLink = styled(Link)`
   &:hover {
     text-decoration: underline;
   }
+
+  @media (max-width: ${breakpoints.mobile}) {
+
+    margin-left: ${spacing.small}px;
+
+    h3 {
+      font-size: 1.4rem;
+    }
+
+  }
+
+  @media (max-width: ${breakpoints.saba}) {
+    margin-left: ${spacing.smaller}px;
+  }
+
 `
 
 export default function Nav() {

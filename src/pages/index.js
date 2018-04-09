@@ -14,6 +14,37 @@ const Container = styled.div`
   width: 100%;
 `
 
+const ShowInfo = styled.div `
+  padding: ${spacing.small}px;
+  display: flex;
+  justify-content: space-between;
+
+  h3 {
+    text-transform: none;
+    font-size: 3.5rem;
+  }
+`
+
+const Intro = styled.div `
+
+  border-top: 1px solid;
+  padding: ${spacing.small}px;
+
+  h1 {
+    text-transform: none;
+    line-height: 1.1;
+    margin-bottom: ${spacing.normal}px;
+  }
+`
+
+const Links = styled.div `
+  display: flex;
+
+  h1 {
+    margin-right: ${spacing.bigger}px;
+  }
+`
+
 // page component
 export default function IndexPage() {
   return (
@@ -21,7 +52,21 @@ export default function IndexPage() {
       <StatementHeader
         verb="Experience"
         noun="Gradshow"
+        border
       />
+
+      <ShowInfo>
+        <h3>Gladstone Hotel</h3>
+        <h3>April 11th-13th, 2018</h3>
+      </ShowInfo>
+
+      <Intro>
+        <h1>In the last four years the class of 2018 has proven to be resilient, resourceful, and passionate. We have been crafting our skills and trying to push the limit with every project. We are constantly looking for the next challenge. We are not simply creating the next design—we are telling the next story, envisioning the next experience, and starting the next movement. Through this show we are taking the next step in our lives and are proud to share this moment with you.</h1>
+        <Links>
+          <h1>Explore the Work</h1>
+          <h1>Meet the Grads</h1>
+        </Links>
+      </Intro>
 
     <HomeInfo></HomeInfo>
 
