@@ -25,4 +25,4 @@ There are 5 sections to the film. Each section builds on the metaphors and narra
 
 Recently, there has been an overwhelming amount of heated dialogue about sexual consent, violence, and harassment. Most of the conversations happening around these issues are fuelled by anger and defensiveness. Although these are valid emotions and are important for individuals to express, they are not tools that lead to understanding, change, or compassion. Anti(socialized) looks at social norms that result in problematic behaviour, and instead of blaming the individual, it looks at root causes that we are all subjected to by society. Utilizing a non-confrontational approach, this film gently urges viewers to look at their own socialization in a new, more compassionate way that hopefully results in behavioural change.
 
-<iframe width="560" height="315" src=https://www.youtube.com/watch?v=gDniM-vaDWc frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src=https://www.youtube.com/embed/watch?v=gDniM-vaDWc?rel=0&amp;showinfo=0 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
