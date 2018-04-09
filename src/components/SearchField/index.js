@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { spacing, breakpoints } from '../../utils/constants.js'
 
 /*
   Base component
@@ -16,6 +17,7 @@ const Input = styled.input`
   height: 100%;
   text-transform: uppercase;
   text-align: center;
+  height: ${spacing.bigger}px;
   flex: 1;
 `;
 

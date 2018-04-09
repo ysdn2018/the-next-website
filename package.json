@@ -42,8 +42,8 @@
     "develop-hosted": "gatsby develop --host Hunters-Macbook-Pro.local",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy-github": "gatsby build --prefix-paths && gh-pages -d public",
-    "deploy": "gatsby build --prefix-paths && s3-deploy './public/**' --cwd './public/' --bucket the-next-website --region us-east-1 --deleteRemoved --gzip",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy-aws": "gatsby build --prefix-paths && s3-deploy './public/**' --cwd './public/' --bucket the-next-website --region us-east-1 --deleteRemoved --gzip",
     "s3-deploy": "s3-deploy './public/**' --cwd './public/' --bucket the-next-website --region us-east-1 --deleteRemoved --gzip",
     "start": "serve public/"
     
