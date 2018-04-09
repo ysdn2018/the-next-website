@@ -33,20 +33,26 @@ const ProfileContainer = styled.div `
 
   height: 100px;
 
-  .image {
-    padding: 0 ${spacing.smaller}px;
-    border-radius: 50%;
+
+
+`
+
+const NormalImage = styled(Img) `
+  margin: 0 1rem;
+  margin-top: 5px;
+
+  border-radius: 50%;
+
+  &.image {
+    margin-top: 8px;
   }
 
   img {
-    height: 65px !important;
+    height: 70px !important;
   }
 
-
-  .outer-wrapper {
-    height: 60px !important;
-    padding: 0 ${spacing.normal}px;
-  }
+  height: 60px !important;
+  margin: 0 ${spacing.normal}px;
 
 `
 
@@ -208,7 +214,7 @@ export default function Graduate({ data }) {
           <ProfileContainer>
             <Profile>
 
-              <Img
+              <NormalImage
                 resolutions={graduate.frontmatter.headshot.childImageSharp.resolutions}
                 outerWrapperClassName="outer-wrapper"
                 className="image"
