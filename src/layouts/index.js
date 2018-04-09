@@ -45,7 +45,12 @@ const InnerContainer = styled.div`
 function TemplateWrapper(props) {
   const { location } = props;
 
-  
+  let rootPath = `/`
+
+  if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
+    rootPath = __PATH_PREFIX__ + `/`
+  }
+
   return (
     <React.Fragment>
       <Helmet
@@ -73,7 +78,7 @@ function TemplateWrapper(props) {
         {props.children()}
       </InnerContainer>
 
-      {location.pathname !== `/` && <InfoDrawer />}
+      {location.pathname !== rootPath && <InfoDrawer />}
 
     </React.Fragment>
   )
