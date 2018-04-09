@@ -8,13 +8,13 @@ category2: Brand Identity
 ---
 ![null](/assets/87620f59866647.5a321043b493c-2.jpg)
 
-For anyone who experienced or enjoyed the 90’s, _TIMEMACHINE_ is an annual magazine that dedicates each publication to a year in the 90’s, including its’ music, celebrities, movies, fashion, toys, trends, and more. _TIMEMACHINE_ differs from modern magazines by only showing content and memories from “the better days” of the past that anyone who grew up in the 90’s can relate to and reminisce about. 
+For anyone who experienced or enjoyed the 90’s, TIMEMACHINE is an annual magazine that dedicates each publication to a year in the 90’s, including its’ music, celebrities, movies, fashion, toys, trends, and more. TIMEMACHINE differs from modern magazines by only showing content and memories from “the better days” of the past that anyone who grew up in the 90’s can relate to and reminisce about. 
 
 ![null](/assets/f8a0fa59866647.5a33103c8cff3-3-3.jpg)
 
 ![null](/assets/timemachinecovers-2.jpg)
 
-_TIMEMACHINE_ is an annual publication that dedicates each issue to a year in the 90's, including its' music, celebs, fashion, politics, memorabilia, and more. The perfect magazine for anyone who enjoyed the good old days and wants to revisit the simpler times of Seinfeld, Walkmans, and iconic Hip-Hop. Included are three articles, each focusing on typography, illustration or photography. Available in print or E-pub. 
+TIMEMACHINE is an annual publication that dedicates each issue to a year in the 90's, including its' music, celebs, fashion, politics, memorabilia, and more. The perfect magazine for anyone who enjoyed the good old days and wants to revisit the simpler times of Seinfeld, Walkmans, and iconic Hip-Hop. Included are three articles, each focusing on typography, illustration or photography. Available in print or E-pub. 
 
 ## Typographic Spread
 
