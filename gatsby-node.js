@@ -101,6 +101,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
          slug: node.fields.slug,
          name: "/" + node.frontmatter.title + "/",
          title: node.frontmatter.title,
+         graduateName: node.frontmatter.graduate,
          graduate: "/" + node.frontmatter.graduate + "/",
          category: "/" + node.frontmatter.category + "/",
        } // additional data can be passed via context

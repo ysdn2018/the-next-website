@@ -5,8 +5,13 @@ import Link from 'gatsby-link'
 import Img from 'gatsby-image'
 import { spacing, breakpoints } from '../utils/constants'
 import Project from '../components/Project'
+import Statement from '../components/Statement'
 
 // styled-components
+const Container = styled.div`
+  padding-bottom: ${spacing.bigger-4}px;
+`
+
 const Content = styled.div`
   padding-bottom: 5rem;
 
@@ -188,6 +193,7 @@ const Info = styled.div `
 const RelatedProjects = styled.div `
   ${'' /* grid-template-columns: repeat(auto-fit, minmax(400px,2fr));
   display: grid; */}
+  display: flex;
   border: 1px solid;
 `
 
@@ -196,8 +202,11 @@ export default function Post({ data }) {
   const project = data.markdownRemark;
   const grad = project.frontmatter.graduate;
 
+  console.log(data);
+  
+
   return (
-    <div>
+    <Container>
 
       <Helmet title={`THE NEXT | ${project.frontmatter.title.toUpperCase()}`} />
 
@@ -251,35 +260,44 @@ export default function Post({ data }) {
       </ContentContainer>
 
       <RelatedProjects>
-        <p>RELATED PROJECTS: IN THE WORKS</p>
+        <Statement
+          verb="Discover"
+          noun="Projects"
+        />
 
-        <p>by student</p>
-        {data.projectByStudent.edges.map(({ project: node }) =>
-          <div>
-            <p>{project.frontmatter.title}</p>
-            <p>{project.frontmatter.student}</p>
-          </div>
+        {/* if student has other projects, show one  */}
+        {data.projectByStudent && data.projectByStudent.edges.map(({ node: otherProj }) =>
+          <Link to={otherProj.fields.slug}>
+            <div>
+              <p>{otherProj.frontmatter.title}</p>
+              <p>{otherProj.frontmatter.student}</p>
+              <Img resolutions={otherProj.frontmatter.image.childImageSharp.resolutions} />
+            </div>
+          </Link>
         )}
 
-        <p>in category</p>
-        {data.projectsInCategory.edges.map(({ project: node }) => 
-          <div>
-            <p>{project.frontmatter.title}</p>
-            <p>{project.frontmatter.student}</p>
-          </div>
+        {/* other in category */}
+        {data.projectsInCategory.edges.map(({ node: otherProj }) => 
+          <Link to={otherProj.fields.slug}>
+            <div>
+              <p>{otherProj.frontmatter.title}</p>
+              <p>{otherProj.frontmatter.student}</p>
+              <Img resolutions={otherProj.frontmatter.image.childImageSharp.resolutions} />
+            </div>
+          </Link>
         )}
 
 
       </RelatedProjects>
 
-    </div>
+    </Container>
   );
 };
 
 
 // template query
 export const aboutPageQuery = graphql`
-  query ProjectPage($slug: String!, $graduate: String!, $category: String!, $title: String!) {
+  query ProjectPage($slug: String!, $graduate: String!, $graduateName: String!, $category: String!, $title: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       headings {
         value
@@ -303,28 +321,50 @@ export const aboutPageQuery = graphql`
     }
 
   projectsInCategory: allMarkdownRemark(
-    filter: { frontmatter: { category: { regex: $category, ne: $title }}},
+    filter: { frontmatter: { category: { regex: $category }, graduate: { ne: $graduateName }}},
     limit: 2
     ) {
       edges {
         node {
+          fields {
+            slug
+          }
           frontmatter {
             title
             graduate
+
+            image {
+              childImageSharp {
+                resolutions(width: 100, height: 100, quality: 90, cropFocus: CENTER) {
+                  ...GatsbyImageSharpResolutions
+                }
+              }
+            }
           }
         }
       }
     }
 
   projectByStudent: allMarkdownRemark(
-    filter: { frontmatter: { graduate: { regex: $graduate, ne: $title }}},
+    filter: { frontmatter: { graduate: { regex: $graduate }, title: { ne: $title }}},
     limit: 1
     ) {
       edges {
         node {
+          fields {
+            slug
+          }
           frontmatter {
             title
             graduate
+
+            image {
+              childImageSharp {
+                resolutions(width: 100, height: 100, quality: 90, cropFocus: CENTER) {
+                  ...GatsbyImageSharpResolutions
+                }
+              }
+            }
           }
         }
       }
