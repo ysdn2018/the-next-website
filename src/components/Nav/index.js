@@ -31,8 +31,10 @@ const TitleLink = styled(Link) `
 
   @media (max-width: ${breakpoints.mobile}) {
 
+    padding-right: 1rem;
+
     h1 {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }
 
   }
@@ -59,6 +61,10 @@ const NavContainer = styled.div`
   pointer-events: auto;
   padding: 0 ${spacing.small}px;
 
+  @media (max-width: ${breakpoints.mobile}) {
+    padding: 0 ${spacing.smaller}px;
+  }
+
 `
 
 const PageLinks = styled.div`
@@ -80,12 +86,16 @@ const PageLink = styled(Link)`
     text-decoration: underline;
   }
 
+  ${props => props.mobileShow && "display:none;"}
+
   @media (max-width: ${breakpoints.mobile}) {
 
+    ${props => props.mobileHide && "display:none;"}
+    ${props => props.mobileShow && "display:block;"}
     margin-left: ${spacing.small}px;
 
     h3 {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }
 
   }
@@ -104,7 +114,8 @@ export default function Nav() {
       </TitleLink>
 
       <PageLinks>
-        <PageLink to="/graduates/"><h3>Graduates</h3></PageLink>
+        <PageLink mobileHide to="/graduates/"><h3>Graduates</h3></PageLink>
+        <PageLink mobileShow to="/graduates/"><h3>Grads</h3></PageLink>
         <PageLink to="/work/"><h3>Work</h3></PageLink>
         <PageLink to="/sponsors/"><h3>Sponsors</h3></PageLink>
       </PageLinks>
