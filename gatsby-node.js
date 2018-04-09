@@ -81,6 +81,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
            frontmatter {
              templateKey
              title
+             category
+             graduate
            }
          }
        }
@@ -98,6 +100,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
        context: {
          slug: node.fields.slug,
          name: "/" + node.frontmatter.title + "/",
+         title: node.frontmatter.title,
+         graduate: "/" + node.frontmatter.graduate + "/",
+         category: "/" + node.frontmatter.category + "/",
        } // additional data can be passed via context
      });
    });

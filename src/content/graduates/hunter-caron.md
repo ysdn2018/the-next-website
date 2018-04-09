@@ -1,11 +1,11 @@
 ---
 templateKey: graduate
 title: Hunter Caron
-verb: building
-noun: website lol
+verb: Enhancing
+noun: moment
 headshot: ../headshots/normal/Hunter_Caron-1.jpg
 headshotHover: ../headshots/looking/Hunter_Caron-2.jpg
-intro: "Hey! sorry for all this empty space in here, im busy building the thing you're looking at, I promise I'll have fun stuff for you here soon :)"
+intro: "Hunter's work encourages you to play, grow & explore. Allowing you to dwell in the moment, and enjoy the next one. Design allows him to craft things that put smiles on faces, and make tomorrow better than today. \n He builds things for people yearning to succeed in what makes them uniquely brilliant. \n (working hard building this very site, I'll have a couple projects up for ya very soon :)"
 linkedin: https://www.linkedin.com/in/huntercaron/
 twitter: https://twitter.com/huntercaron
 instagram: https://www.instagram.com/hunterhcaron/

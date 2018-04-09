@@ -133,7 +133,7 @@ export default class HomepageStatement extends React.Component {
             <HoverSection
               key={i}
               onMouseEnter={() => this.setStatement(statement.verb, statement.noun)}
-              // onMouseLeave={() => this.resetStatement()}
+              onMouseLeave={() => this.resetStatement()}
             />
           )}
         </HoversContainer>

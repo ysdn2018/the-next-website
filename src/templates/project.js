@@ -21,6 +21,10 @@ const Content = styled.div`
 
   }
 
+  p img {
+    max-width: 100%;
+  }
+
   p {
     font-size: calc(0.3vw + 1.3rem);
     margin: 0;
@@ -48,6 +52,8 @@ const Content = styled.div`
   .gatsby-resp-image-wrapper {
     line-height: 0;
     width: 150%;
+
+    max-width: none !important;
 
     margin-left: -25% !important;
   }
@@ -180,8 +186,8 @@ const Info = styled.div `
 `
 
 const RelatedProjects = styled.div `
-  grid-template-columns: repeat(auto-fit, minmax(400px,2fr));
-  display: grid;
+  ${'' /* grid-template-columns: repeat(auto-fit, minmax(400px,2fr));
+  display: grid; */}
   border: 1px solid;
 `
 
@@ -245,6 +251,24 @@ export default function Post({ data }) {
       </ContentContainer>
 
       <RelatedProjects>
+        <p>RELATED PROJECTS: IN THE WORKS</p>
+
+        <p>by student</p>
+        {data.projectByStudent.edges.map(({ project: node }) =>
+          <div>
+            <p>{project.frontmatter.title}</p>
+            <p>{project.frontmatter.student}</p>
+          </div>
+        )}
+
+        <p>in category</p>
+        {data.projectsInCategory.edges.map(({ project: node }) => 
+          <div>
+            <p>{project.frontmatter.title}</p>
+            <p>{project.frontmatter.student}</p>
+          </div>
+        )}
+
 
       </RelatedProjects>
 
@@ -255,7 +279,7 @@ export default function Post({ data }) {
 
 // template query
 export const aboutPageQuery = graphql`
-  query ProjectPage($slug: String!) {
+  query ProjectPage($slug: String!, $graduate: String!, $category: String!, $title: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       headings {
         value
@@ -269,13 +293,42 @@ export const aboutPageQuery = graphql`
         category2
         category3
         image {
-              childImageSharp {
-                sizes(maxWidth: 1500, maxHeight: 1000, quality: 90, cropFocus: CENTER) {
-                  ...GatsbyImageSharpSizes
-                }
-              }
+          childImageSharp {
+            sizes(maxWidth: 1500, maxHeight: 1000, quality: 90, cropFocus: CENTER) {
+              ...GatsbyImageSharpSizes
             }
+          }
+        }
       }
     }
+
+  projectsInCategory: allMarkdownRemark(
+    filter: { frontmatter: { category: { regex: $category, ne: $title }}},
+    limit: 2
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            graduate
+          }
+        }
+      }
+    }
+
+  projectByStudent: allMarkdownRemark(
+    filter: { frontmatter: { graduate: { regex: $graduate, ne: $title }}},
+    limit: 1
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            graduate
+          }
+        }
+      }
+    }
+
   }
 `;
