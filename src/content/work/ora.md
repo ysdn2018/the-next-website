@@ -29,3 +29,5 @@ The goal with the interface was to balance usability with an abstracted interfac
 I developed a series of abstracted modules which recreated the elements often used in electronic music production. I wanted to avoid any sort of allusion to musical elements in order to give the user the chance to learn the interface over time. Using a set of quantized loops alongside a sequencer and expressive lead module, I wanted to give users a playground where no matter what they did, it would sound sonically pleasing.
 
 ORA is currently in the development and mixing/mastering process and is set for a public release in May, 2018.
+
+<iframe src="https://player.vimeo.com/video/263900291" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
