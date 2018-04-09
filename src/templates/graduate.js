@@ -112,6 +112,7 @@ const Info = styled.div `
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
     max-width: 100%;
+    border-right: 0;
   }
 `
 
@@ -161,6 +162,7 @@ const Projects = styled.div`
   h2 {
     margin-bottom: ${spacing.normal}px;
   }
+
 `
 
 const ProjectContainer = styled.div`

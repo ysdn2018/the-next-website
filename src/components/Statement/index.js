@@ -33,8 +33,8 @@ const OuterContainer = styled.div`
   flex: 1;
   padding: ${props => props.pad ? spacing.smaller : 0};
 
-  @media screen and (max-width: ${breakpoints.mobile} ) {
-    height:30%;
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    height:100%;
   }
 
 `
