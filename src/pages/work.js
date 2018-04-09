@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import { spacing } from '../utils/constants'
 
@@ -99,6 +100,8 @@ export default class Work extends React.Component {
           noun="project"
           height="30vh"
         /> */}
+
+        <Helmet title="THE NEXT | WORK"/>
 
         <Toolbar>
           <SearchField

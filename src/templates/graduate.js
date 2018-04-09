@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 import Link from 'gatsby-link'
@@ -193,7 +194,7 @@ const ProjectInfo = styled.div`
 export default function Graduate({ data }) {
   const graduate = data.markdownRemark;
 
-  
+
 
   // if (!graduate.frontmatter.website.includes('http')) {
   //   const website = "http://" + graduate.frontmatter.website;
@@ -205,6 +206,7 @@ export default function Graduate({ data }) {
     <Container>
 
 
+      <Helmet title={`THE NEXT | ${graduate.frontmatter.title.toUpperCase()}`} />
 
       <InnerContainer>
 
