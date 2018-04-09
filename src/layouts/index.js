@@ -43,6 +43,8 @@ const InnerContainer = styled.div`
 
 // page component
 function TemplateWrapper(props) {
+  const { location } = props;
+  
   return (
     <React.Fragment>
       <Helmet
@@ -70,7 +72,7 @@ function TemplateWrapper(props) {
         {props.children()}
       </InnerContainer>
 
-      <InfoDrawer />
+      {location.pathname !== `/` && <InfoDrawer />}
 
     </React.Fragment>
   )
