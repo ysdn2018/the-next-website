@@ -48,14 +48,15 @@ const NormalImage = styled(Img) `
   border-radius: 50%;
 
   &.image {
-    padding-top: 1rem !important;
-
-    overflow: hidden;
+    margin-top: 10px;
   }
 
-  &.image-wrapper {
-    height: 50px !important;
+  img {
+    height: 65px !important;
   }
+
+  height: 50px !important;
+  
 
   position: relative;
   z-index: 3;

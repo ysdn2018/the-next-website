@@ -119,7 +119,7 @@ export const query = graphql`
             title
             headshot {
               childImageSharp {
-                resolutions(width: 50, height: 65, quality: 75, cropFocus: NORTH) {
+                resolutions(width: 50, height: 75, quality: 75, cropFocus: NORTH) {
                   ...GatsbyImageSharpResolutions_noBase64
                 }
               }

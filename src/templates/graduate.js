@@ -37,6 +37,11 @@ const ProfileContainer = styled.div `
     border-radius: 50%;
   }
 
+  img {
+    height: 65px !important;
+  }
+
+
   .outer-wrapper {
     height: 60px !important;
     padding: 0 ${spacing.normal}px;
@@ -54,17 +59,6 @@ const Profile = styled.div`
 const Name = styled.h3`
   padding: 0;
   line-height: 1;
-`
-
-const ProfileImage = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 ${spacing.normal}px;
-
-  .image {
-    border-radius: 50%;
-  }
 `
 
 const Social = styled.div `
@@ -338,7 +332,7 @@ export const aboutPageQuery = graphql`
 
         headshot {
           childImageSharp {
-            resolutions(width: 60, height: 60, quality: 90, cropFocus: CENTER) {
+            resolutions(width: 60, height: 75, quality: 90, cropFocus: CENTER) {
               ...GatsbyImageSharpResolutions
             }
           }

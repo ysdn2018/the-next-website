@@ -12,7 +12,7 @@ const StatementContainer = styled.h1`
   width: 100%;
   height: 100%;
   /* height: calc(100% - 42%); */
-  padding: ${spacing.smaller}px;
+  padding: ${spacing.small}px;
   color: black;
   display: flex;
   flex-direction: column;
