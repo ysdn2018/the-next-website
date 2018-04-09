@@ -7,7 +7,7 @@ category: Brand Identity
 ---
 ![Covenant House Outdoors Signage ](/assets/covenant_04.jpg)
 
-# About the brand's redesign
+## About the brand's redesign
 
 The Covenant House brand redesign presents the non-profit organization as an inclusive place of hope and opportunity for the homeless youth. Through a colour overlap, the new logo implies a moving-forward transition from the coldness of the streets to the bright future the youth achieves after leaving Covenant House.
 

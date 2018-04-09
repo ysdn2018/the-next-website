@@ -18,4 +18,4 @@ My team would conduct user research, build a working prototype, and lead an on-s
 
 ![Studio Calendar](/assets/jw_qep_01.png)
 
-View complete case study at [jgwhite.co](http://www.jgwhite.co/)
+View complete case study at [jgwhite.co](http://www.jgwhite.co/).

@@ -5,7 +5,7 @@ graduate: Emily Wiebe
 image: /assets/romela_spread_typeface.jpg
 category: Typography
 ---
-# _Romelia,_ A Typeface for Reading Comprehension
+# Romelia_,_ A Typeface for Reading Comprehension
 
 ## Introduction
 

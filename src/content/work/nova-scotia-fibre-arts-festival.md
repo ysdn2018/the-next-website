@@ -8,13 +8,13 @@ category2: Brand Identity
 ---
 ![null](/assets/fibrearts_lecompte102.jpg)
 
-## THE CONCEPT
+## The Concept
 
 The Nova Scotia Fibre Arts Festival is a 5 day festival that takes place in Amherst, Nova Scotia. It's celebration of all things fibre, including crafts such as quilting, knitting, crochet and embroidery.
 
 Nova Scotia and the Maritime provinces have Canada's highest population of elders and most of the festival attendees are elderly themselves, therefore it is important to try to attract young people to participate in the event in order for them to become invested and ensure the longevity of the festival. The re-branding aims to update the look of festival whilst still keeping it connected to its rural origins in attempt to bring in a younger demographic to the festival.
 
-## FESTIVAL REBRANDING
+## Festival Rebranding
 
 ![null](/assets/fibrearts_lecompte103.jpg)
 
@@ -24,11 +24,11 @@ Nova Scotia and the Maritime provinces have Canada's highest population of elder
 
 ![null](/assets/fibrearts_lecompte106.jpg)
 
-![](/assets/fibrearts_lecompte107.jpg)
+![null](/assets/fibrearts_lecompte107.jpg)
 
-![](/assets/fibrearts_lecompte108.jpg)
+![null](/assets/fibrearts_lecompte108.jpg)
 
-## EPHEMERA
+## Ephemera
 
 ![null](/assets/fibrearts_lecompte109.jpg)
 
@@ -36,4 +36,4 @@ Nova Scotia and the Maritime provinces have Canada's highest population of elder
 
 ![null](/assets/fibrearts_lecompte111.jpg)
 
-[See more about the festival rebranding here](http://www.chelsealecompte.com/nova-scotia-fibre-arts-festival/)
+See more about the festival rebranding [here](http://www.chelsealecompte.com/nova-scotia-fibre-arts-festival/).

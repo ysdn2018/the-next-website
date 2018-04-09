@@ -9,7 +9,7 @@ category3: Installation
 ---
 ## Overview
 
-The_ Temp House_ is a product of an eight month journey exploring the intersection between music and design. This project is heavily influenced by my love for attending live concerts, and my hate for terrible venue spaces. The overall goal was to create an intimate concert space setting in an unconventional way, enabling artist to carefully consider the space in which they are performing. By this, they are able to recontextualize their approach to sharing their music. The sole purpose is to encourage and improve how artists share their music in a live setting. 
+The_ _Temp House is a product of an eight month journey exploring the intersection between music and design. This project is heavily influenced by my love for attending live concerts, and my hate for terrible venue spaces. The overall goal was to create an intimate concert space setting in an unconventional way, enabling artist to carefully consider the space in which they are performing. By this, they are able to recontextualize their approach to sharing their music. The sole purpose is to encourage and improve how artists share their music in a live setting. 
 
 ## The Problem
 
@@ -19,7 +19,7 @@ I found that the most memorable concert experiences happened as a result of the 
 
 ## The Solution
 
-Drawing characteristics from modern architecture and modular housing, the _Temp House_ foundation is built entirely with standard sized shipping containers. This allows the space to be modular, transportable, sustainable and more environmentally friendly. The space itself can be wherever the artist desires, giving them endless opportunities to enhance their performance. The interior has opportunities for various types of audio visual experiences. Common theatre objects such as spotlights may be installed, while the visual aspect can be achieved by projection mapping. The venue can also double as a gallery space suitable for installations, pop-up shows, or exhibitions.
+Drawing characteristics from modern architecture and modular housing, the Temp House foundation is built entirely with standard sized shipping containers. This allows the space to be modular, transportable, sustainable and more environmentally friendly. The space itself can be wherever the artist desires, giving them endless opportunities to enhance their performance. The interior has opportunities for various types of audio visual experiences. Common theatre objects such as spotlights may be installed, while the visual aspect can be achieved by projection mapping. The venue can also double as a gallery space suitable for installations, pop-up shows, or exhibitions.
 
 ## The Product
 

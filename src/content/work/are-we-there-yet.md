@@ -12,7 +12,7 @@ The word dystopia is defined as “an imagined place or state in which everythin
 
 ![Various examples of discussion of dystopia in the media.](/assets/rana_arewethereyet_1.jpg)
 
-# About the Project
+## About the Project
 
 “Are We There Yet?” is a book that compares fictional dystopias that were written and predicted in earlier years to dystopian realities that are happening today. The title, “Are We There Yet?”, questions if our current world has reached the dystopia that was once warned about. “Are We There Yet?” refers to popular dystopian fictions, such as _Nineteen Eighty-Four_, _Fahrenheit 451_, _It Can't Happen Here_, and more. Themes and quotes in these novels are compared to real life dystopias, such as the rise of CCTV, escapism through reality television, and America’s falling political climate. 
 
@@ -34,7 +34,7 @@ Through many spread iterations and figuring out how to depict comparisons of the
 
 > There will be, in the next generation or so, a pharmacological method of making people love their servitude, and producing dictatorship without tears, so to speak, producing a kind of painless concentration camp for entire societies, so that people will in fact have their liberties taken away from them, but will rather enjoy it, because they will be distracted from any desire to rebel by propaganda or brainwashing, or brainwashing enhanced by pharmacological methods. And this seems to be the final revolution.
 >
-> **Aldous Huxley, 1962**
+> Aldous Huxley, 1962
 
 ![Final book, front cover.](/assets/rana_arewethereyet_4.jpg)
 

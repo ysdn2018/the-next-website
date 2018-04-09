@@ -24,7 +24,7 @@ These are the three main features to learn proper techniques.
 
 ![null](/assets/formcheck_two.png)
 
-Marketing website 
+**MARKETING WEBSITE**
 
 ![null](/assets/formcheck_website.jpg)
 
