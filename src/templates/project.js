@@ -62,6 +62,11 @@ const Content = styled.div`
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
 
+    .gatsby-resp-image-wrapper {
+      width: 100%;
+      margin-left: 0 !important;
+    }
+
     h1 {
       font-size: 3.5rem;
     }
@@ -100,6 +105,14 @@ const ProjectHeader = styled.div `
   }
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
+
+    height: 100%;
+
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    }
+
     justify-content: flex-start;
   }
 
@@ -133,11 +146,10 @@ const Categories = styled.div `
   @media screen and (max-width: ${breakpoints.tablet} ) {
     justify-content: flex-start;
 
-    h4 {
-      margin-left: 0;
-      margin-right:${spacing.medium}px;
-      margin-bottom: ${spacing.smaller}px
+    &:not(:first-child) {
+      display: none;
     }
+    
   }
 `
 

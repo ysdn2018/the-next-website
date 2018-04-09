@@ -22,7 +22,7 @@ const GradsGrid = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
-    display: block;
+
   }
 
   a .image div {
