@@ -13,7 +13,7 @@ const StatementContainer = styled.div`
   height: 100%;
   padding: ${spacing.small}px;
   color: black;
-  min-height: 220px;
+  min-height: 170px;
 
   border-right: 1px solid black;
   border-bottom: 1px solid black;
@@ -26,8 +26,12 @@ const StatementContainer = styled.div`
     opacity: 1;
   }
 
+  @media (min-width: ${breakpoints.mobile}px) {
+    min-height: 220px;
+  }
+
   @media (max-width: ${breakpoints.mobile}px) {
-    padding: 0 ${ spacing.smaller}px;
+    padding: 0 ${spacing.smaller}px;
   }
 `
 

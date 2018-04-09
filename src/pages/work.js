@@ -16,7 +16,7 @@ const Container = styled.div`
 const ProjectGrid = styled.div`
   display: grid;
   margin-right: -1px;
-  padding-bottom: ${spacing.big + 2}px;
+  padding: ${spacing.big + 2}px 0;
 
 
   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));

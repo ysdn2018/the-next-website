@@ -18,11 +18,11 @@ const GradsGrid = styled.div`
 
   display: grid;
   margin-right: -1px;
-  padding-bottom: ${spacing.big + 2}px;
+  padding: ${spacing.big + 2}px 0;
   grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
-
+    display: block;
   }
 
   a .image div {
@@ -65,7 +65,7 @@ export default class Graduates extends React.Component {
   }
 
   updateSearch = (e) => {
-    let inputValue = e.target.value || "";
+    let inputValue = e.target.value.toLowerCase() || "";
 
     this.setState({
       search: inputValue,
