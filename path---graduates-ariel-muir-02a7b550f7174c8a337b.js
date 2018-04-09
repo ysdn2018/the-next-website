@@ -1,2 +1,0 @@
-webpackJsonp([0x951ee1b1a9e7],{554:function(i,l){i.exports={data:{markdownRemark:{html:"",frontmatter:{noun:"Story",watch:null,verb:"Visualizing",intro:null,hobbies:null,music:null,tools:null,title:"Ariel Muir",typeface:null,twitter:null,instagram:"https://www.instagram.com/ariel.muir/?hl=en",linkedin:"https://www.linkedin.com/in/ariel-muir-25958a123/",email:"amuir1794@gmail.com",website:"https://www.arielmuir.com/"}},projects:null},pathContext:{slug:"/graduates/ariel-muir/",name:"Ariel Muir"}}}});
-//# sourceMappingURL=path---graduates-ariel-muir-02a7b550f7174c8a337b.js.map
