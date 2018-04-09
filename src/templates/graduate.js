@@ -50,10 +50,10 @@ const NormalImage = styled(Img) `
     height: 70px !important;
   }
 
-
-  height: 60px !important;
-  padding: 0 ${spacing.normal}px;
-
+  .outer-wrapper {
+    height: 60px !important;
+    padding: 0 ${spacing.normal}px;
+  }
 
 `
 
@@ -113,6 +113,8 @@ const Info = styled.div `
   @media screen and (max-width: ${breakpoints.tablet} ) {
     max-width: 100%;
     border-right: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 `
 
@@ -136,6 +138,11 @@ const About = styled.div `
   > div:first-of-type {
     padding-top: ${spacing.small}px;
   }
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    ${props => props.borderBottomMobile && 'border-bottom: 1px solid black;'}
+  }
+
 `
 
 const Question = styled.div `
@@ -270,7 +277,7 @@ export default function Graduate({ data }) {
             <p>{graduate.frontmatter.intro}</p>
           </About>
 
-          <About borderBottom>
+          <About borderBottomMobile>
             {graduate.frontmatter.hobbies && (
               <Question>
                 <QuestionHeader>Hobbies</QuestionHeader>
