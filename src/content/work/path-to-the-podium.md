@@ -7,9 +7,9 @@ category: Package Design
 category2: Information Design
 category3: Experiential Design
 ---
-![Brand identity for the Path to the Podium board game.](/assets/screen shot 2018-01-21 at 17.06.07.png)
+![Brand identity for the Path to the Podium board game.](/assets/screen-shot-2018-01-21-at-17.06.07.png)
 
-![Sample of the card design.](/assets/screen shot 2018-01-21 at 17.07.38.png)
+![Sample of the card design.](/assets/screen-shot-2018-01-21-at-17.07.38.png)
 
 ![Cut tests of the character cards.](/assets/img_7379.jpg)
 

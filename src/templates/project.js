@@ -12,6 +12,13 @@ const Content = styled.div`
 
   blockquote {
     font-style: italic;
+    width: 100%;
+    margin: 0;
+
+    p {
+      font-size: 3rem;
+    }
+
   }
 
   p {
@@ -161,6 +168,12 @@ const Info = styled.div `
 
 `
 
+const RelatedProjects = styled.div `
+  grid-template-columns: repeat(auto-fit, minmax(400px,2fr));
+  display: grid;
+  border: 1px solid;
+`
+
 // page template component
 export default function Post({ data }) {
   const project = data.markdownRemark;
@@ -219,6 +232,10 @@ export default function Post({ data }) {
           </Info>
         </InfoContainer>
       </ContentContainer>
+
+      <RelatedProjects>
+
+      </RelatedProjects>
 
     </div>
   );

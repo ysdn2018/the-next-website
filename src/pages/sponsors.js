@@ -66,6 +66,11 @@ const StatementContainer = styled.div`
   padding: ${spacing.small}px ${spacing.smaller}px;
   border-bottom: 1px solid black;
   height: 200px;
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    height: 100%;
+  }
+
 `;
 
 const AllSponsors = styled.div`
@@ -112,7 +117,8 @@ const PresentingSponsor = styled.div `
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
     height: 50vh;
-
+    border-top: 1px solid;
+    
     img {
       width: 80%;
     }

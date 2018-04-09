@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
-import { spacing } from '../utils/constants'
+import { spacing, breakpoints } from '../utils/constants'
 
 import PageContainer from '../components/PageContainer'
 import Graduate from '../components/Graduate'
@@ -19,6 +19,10 @@ const GradsGrid = styled.div`
   margin-right: -1px;
   padding-bottom: ${spacing.big + 2}px;
   grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    display: block;
+  }
 
   a .image div {
     background-color: #eee !important;
@@ -47,6 +51,8 @@ const GradsGrid = styled.div`
   div:hover img {
       display: none;
   }
+
+
 `;
 
 

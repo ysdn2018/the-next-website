@@ -21,9 +21,9 @@ The scientific phenomena that was researched in this project was Entropy. I wasn
 
 > [Entropy](https://www.merriam-webster.com/dictionary/entropy), noun.
 >
-> 2. a: the degradation of the matter and energy in the universe to an ultimate state of inert uniformity. _Entropy is the general trend of the universe toward death and disorder. – James R. Newman _\
->    b: a process of degradation or running down or a trend to disorder
-> 3. chaos, disorganization, randomness.
+2. a: the degradation of the matter and energy in the universe to an ultimate state of inert uniformity. Entropy is the general trend of the universe toward death and disorder. – James R. Newman _\
+    b: a process of degradation or running down or a trend to disorder
+3. chaos, disorganization, randomness.
 
 ## Process
 
