@@ -11,7 +11,7 @@ const StatementContainer = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
-  padding: ${spacing.normal}px;
+  padding: ${spacing.small}px;
   color: black;
 
   border-right: 1px solid black;
@@ -31,6 +31,13 @@ const StatementContainer = styled.div`
 `
 
 const OuterContainer = styled.div`
+  
+
+
+  @media (min-width: ${1614}px) {
+    grid-column: 1 / 3;
+  }
+
   width: 100%;
   height: 100%;
   flex: 1;

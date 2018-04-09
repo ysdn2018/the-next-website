@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { spacing } from '../../utils/constants.js'
+import { spacing, breakpoints } from '../../utils/constants.js'
 
 /*
   Base component
@@ -22,6 +22,10 @@ const Container = styled.div`
   top: ${spacing.bigger-1}px;
   background-color: white;
   z-index: 5;
+
+  @media (max-width: ${breakpoints.mobile}px) {
+    flex-direction: column;
+  }
 `
 
 const Text = styled.p`
