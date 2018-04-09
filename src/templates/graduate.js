@@ -98,6 +98,10 @@ const SocialLink = styled.a`
   p {
     margin: 0;
   }
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    padding: ${spacing.small}px ${spacing.normal}px;
+  }
 `
 
 const Info = styled.div `
@@ -140,6 +144,7 @@ const About = styled.div `
   }
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
+    padding: ${spacing.smaller}px ${spacing.normal}px;
     ${props => props.borderBottomMobile && 'border-bottom: 1px solid black;'}
   }
 
@@ -155,6 +160,7 @@ const Question = styled.div `
 
 const QuestionHeader = styled.p`
   text-transform: uppercase;
+  margin-left: ${spacing.normal}px;
 `
 
 const Projects = styled.div`
