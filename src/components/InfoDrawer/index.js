@@ -69,10 +69,103 @@ const InnerNav = styled.div`
   height: 100%;
   width: 100%;
 
-  @media (max-width: ${breakpoints.tablet}) {
+  p {
+    font-size: 2.5rem;
+    line-height: 0.1;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    text-transform: none;
+    font-size: 4rem;
+    line-height: 1.1;
+  }
+
+  h3 {
+    text-transform: none;
+    font-size: 3.5rem;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin: ${spacing.smaller}px 0;
+  }
+
+  @media screen and (max-width: ${breakpoints.smallScreen} ) {
+
+    h2 {
+      font-size: 3.35rem;
+    }
+
+    h3 {
+      font-size: 2.9rem;
+    }
+
+    h4 {
+      font-size: 2.2rem;
+    }
+
+    p {
+      font-size: 2.2rem;
+    }
+
+  }
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+
     flex-direction: column;
     justify-content: space-between;
+
+    h1 {
+      font-size: 4.5rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    h3 {
+      font-size: 2.2rem;
+      line-height: 1.1;
+      margin-bottom: .2rem;
+    }
+
+    h4 {
+      font-size: 1.8rem;
+      line-height: 1.2;
+      margin-bottom: .1rem;
+    }
+
+    p {
+      font-size: 1.8rem;
+      line-height: .1;
+    }
+
   }
+
+  @media screen and (max-width: ${breakpoints.saba} ) {
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+    }
+
+    h4 {
+      font-size: 1.4rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+    }
+
+  }
+
 `
 
 const ShowInfo = styled.div`
@@ -163,129 +256,6 @@ const SocialLinks = styled.div`
   }
 
 `
-
-
-
-/*
-
-    Heres the css from the layouts file of the other project
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Haas Grot Display', 'Helvetica', 'Arial', sans-serif;
-    margin-top: 0;
-    margin-bottom: 0rem;
-    font-weight: 400;
-  }
-
-  h1 {
-    text-transform: uppercase;
-    font-size: 5.5rem;
-  }
-
-  h2 {
-    font-size: 4rem;
-    line-height: 1.1;
-  }
-
-  h3 {
-    font-size: 3.5rem;
-    line-height: 1;
-    margin-bottom: 0.5rem;
-  }
-
-  h4 {
-    text-transform: uppercase;
-    font-size: 2.5rem;
-  }
-
-  p {
-    font-size: 2.5rem;
-    line-height: 0.1;
-    margin-bottom: 1rem;
-  }
-
-  a {
-    text-decoration: none;
-    color: black;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
-  @media screen and (max-width: ${breakpoints.smallScreen} ) {
-
-    h2 {
-      font-size: 3.5rem;
-    }
-
-    h3 {
-      font-size: 3rem;
-    }
-
-    h4 {
-      font-size: 2.2rem;
-    }
-
-    p {
-      font-size: 2.2rem;
-    }
-
-  }
-
-  @media screen and (max-width: ${breakpoints.tablet} ) {
-
-    h1 {
-      font-size: 4.5rem;
-    }
-
-    h2 {
-      font-size: 2.5rem;
-    }
-
-    h3 {
-      font-size: 2.2rem;
-      line-height: 1.1;
-      margin-bottom: .2rem;
-    }
-
-    h4 {
-      font-size: 1.8rem;
-      line-height: 1.2;
-      margin-bottom: .1rem;
-    }
-
-    p {
-      font-size: 1.8rem;
-      line-height: .1;
-    }
-
-  }
-
-  @media screen and (max-width: ${breakpoints.saba} ) {
-
-    h2 {
-      font-size: 2rem;
-    }
-
-    h3 {
-      font-size: 1.8rem;
-    }
-
-    h4 {
-      font-size: 1.4rem;
-    }
-
-    p {
-      font-size: 1.4rem;
-    }
-
-  }
-
-
-
-*/
-
 // component
 export default class BottomNav extends React.Component {
   state = {
@@ -353,4 +323,3 @@ export default class BottomNav extends React.Component {
     )
   }
 }
-
