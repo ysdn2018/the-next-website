@@ -270,7 +270,7 @@ export default function Graduate({ data }) {
             <p>{graduate.frontmatter.intro}</p>
           </About>
 
-          <About>
+          <About borderBottom>
             {graduate.frontmatter.hobbies && (
               <Question>
                 <QuestionHeader>Hobbies</QuestionHeader>
