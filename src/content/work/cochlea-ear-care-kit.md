@@ -2,7 +2,7 @@
 templateKey: project
 title: Cochlea Ear Care Kit
 graduate: Chelsea Lecompte
-image: /assets/lecompte201.jpg
+image: /assets/cochlea_lecompte201.png
 category: Package Design
 ---
 ## CONCEPT
