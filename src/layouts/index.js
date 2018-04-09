@@ -44,6 +44,7 @@ const InnerContainer = styled.div`
 // page component
 function TemplateWrapper(props) {
   const { location } = props;
+
   
   return (
     <React.Fragment>
@@ -66,7 +67,7 @@ function TemplateWrapper(props) {
         ]}
       />
 
-      <Nav />
+      <Nav currentPage={location.pathname}/>
 
       <InnerContainer>
         {props.children()}

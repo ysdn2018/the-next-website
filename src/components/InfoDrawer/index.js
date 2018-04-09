@@ -274,7 +274,7 @@ export default class BottomNav extends React.Component {
       <Container open={this.state.open}>
 
         <BottomNavButton onClick={this.handleClick} open={this.state.open}>
-          {this.state.open ? "Close" : "Info"}
+          {this.state.open ? "Close" : "Event Info"}
         </BottomNavButton>
 
         <InnerNav>

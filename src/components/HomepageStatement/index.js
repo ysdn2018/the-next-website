@@ -94,8 +94,6 @@ export default class HomepageStatement extends React.Component {
   }
 
   setStatement = (verb, noun) => {
-    console.log(verb, noun);
-    
     this.setState({
       verb,
       noun
