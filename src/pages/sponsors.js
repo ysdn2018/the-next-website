@@ -110,7 +110,7 @@ const PresentingSponsor = styled.div `
     margin-top: 10px;
   }
 
-  img {
+  a {
     width: 50%;
     max-width: 800px;
   }
@@ -118,8 +118,8 @@ const PresentingSponsor = styled.div `
   @media screen and (max-width: ${breakpoints.tablet} ) {
     height: 50vh;
     border-top: 1px solid;
-    
-    img {
+
+    a {
       width: 80%;
     }
   }
@@ -135,7 +135,7 @@ const SponsorTwo = styled.div`
   align-items: center;
   flex-direction: column;
 
-  img {
+  a {
     width: 50%;
     max-width: 800px;
   }
@@ -145,7 +145,7 @@ const SponsorTwo = styled.div`
     height: 50vh;
     border-right: 0;
 
-    img {
+    a {
       width: 80%;
     }
   }
@@ -160,7 +160,7 @@ const SponsorThree = styled.div `
   align-items: center;
   flex-direction: column;
 
-  img {
+  a {
     width: 20%;
     max-width: 500px;
   }
@@ -170,7 +170,7 @@ const SponsorThree = styled.div `
     border-right: 0px;
     height: 60vh;
 
-    img {
+    a {
       width: 60%;
     }
   }
@@ -184,7 +184,7 @@ const SponsorFour = styled.div`
   flex-direction: column;
   border-bottom: 1px solid;
 
-  img {
+  a {
     width: 40%;
     max-width: 400px;
     margin-bottom: 15px;
@@ -194,7 +194,7 @@ const SponsorFour = styled.div`
     width: 100%;
     height: 50vh;
 
-    img {
+    a {
       width: 60%;
     }
   }
@@ -219,6 +219,7 @@ export default function Sponsors({ data }) {
       </StatementContainer>
       <ThankYouContainer>
           <p>We would like to express our gratitude to our generous sponsors. This show wouldn’t have been possible without their kind support.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac mattis diam. Donec interdum fringilla ante, ac mattis enim viverra non. Integer dictum eros libero, ut fermentum arcu cursus vitae. Ut orci turpis, efficitur quis ligula at, viverra volutpat tortor. Curabitur mollis leo quis sapien egestas, at rhoncus tellus faucibus. Etiam euismod placerat dolor, ac cursus velit pretium sit amet. Etiam tristique mauris vitae metus ultrices pulvinar. Ut ac urna vel tortor egestas tincidunt. Sed tristique velit erat, non consequat arcu tempor a. Sed ultricies lobortis urna, ac auctor est condimentum id. Sed vel elit ligula. Integer nec mattis purus, vel rhoncus nulla. Pellentesque at consectetur sem. Praesent tempus egestas dui sit amet viverra.</p>
       </ThankYouContainer>
       </InnerInfoContainer>
     </InfoContainer>
@@ -228,7 +229,7 @@ export default function Sponsors({ data }) {
         <PresentingSponsor>
           <Title>Presenting Sponsor</Title>
           <SponsorImage>
-            <img src = {RL_Logo} alt="RL Solutions"/>
+            <a href="http://www.rlsolutions.com/" target="_blank"><img src = {RL_Logo} alt="RL Solutions"/></a>
           </SponsorImage>
         </PresentingSponsor>
       </SponsorContainer>
@@ -237,13 +238,13 @@ export default function Sponsors({ data }) {
         <SponsorTwo borderRight>
           <Title>Venue Sponsor</Title>
           <SponsorImage>
-            <img src = {GladstoneLogo} alt="Gladstone Hotel"/>
+            <a href="http://www.gladstonehotel.com/" target="_blank"><img src = {GladstoneLogo} alt="Gladstone Hotel"/></a>
           </SponsorImage>
         </SponsorTwo>
         <SponsorTwo>
           <Title>Print Sponsor</Title>
           <SponsorImage>
-            <img src = {VeritifLogo} alt="Veritif"/>
+            <a href="https://www.veritivcorp.com/" target="_blank"><img src = {VeritifLogo} alt="Veritif"/></a>
           </SponsorImage>
         </SponsorTwo>
       </SponsorContainer>
@@ -252,16 +253,16 @@ export default function Sponsors({ data }) {
         <SponsorThree>
           <Title>Event Sponsors</Title>
           <SponsorImage justify>
-            <img src = {CriticalMassLogo} alt="Critical Mass"/>
-            <img src = {ForgeLogo} alt="Forge Media"/>
-            <img src = {WattLogo} alt="Watt International"/>
+            <a href="https://www.criticalmass.com/" target="_blank"><img src = {CriticalMassLogo} alt="Critical Mass"/></a>
+            <a href="https://www.forgemedia.ca/" target="_blank"><img src = {ForgeLogo} alt="Forge Media"/></a>
+            <a href="https://www.wattisretail.com/" target="_blank"><img src = {WattLogo} alt="Watt International"/></a>
           </SponsorImage>
         </SponsorThree>
         <SponsorFour>
           <Title>With Support From</Title>
           <SponsorImage column>
-            <img src = {YorkLogo} alt="York University"/>
-            <img src = {SheridanLogo} alt="Sheridan College"/>
+            <a href="http://www.yorku.ca/index.html" target="_blank"><img src = {YorkLogo} alt="York University"/></a>
+            <a href="https://www.sheridancollege.ca/" target="_blank"><img src = {SheridanLogo} alt="Sheridan College"/></a>
           </SponsorImage>
         </SponsorFour>
       </SponsorContainer>
