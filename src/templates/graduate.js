@@ -50,10 +50,10 @@ const NormalImage = styled(Img) `
     height: 70px !important;
   }
 
-  .outer-wrapper {
-    height: 60px !important;
-    padding: 0 ${spacing.normal}px;
-  }
+
+  height: 60px !important;
+  padding: 0 ${spacing.normal}px;
+
 
 `
 
