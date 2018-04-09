@@ -46,7 +46,6 @@
     "deploy-aws": "gatsby build --prefix-paths && s3-deploy './public/**' --cwd './public/' --bucket the-next-website --region us-east-1 --deleteRemoved --gzip",
     "s3-deploy": "s3-deploy './public/**' --cwd './public/' --bucket the-next-website --region us-east-1 --deleteRemoved --gzip",
     "start": "serve public/"
-    
   },
   "devDependencies": {
     "gh-pages": "^1.1.0",
