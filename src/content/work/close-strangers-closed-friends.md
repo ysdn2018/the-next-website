@@ -11,7 +11,7 @@ category3: Information Design
 
 ## Overview
 
-_Close Strangers / Closed Friends_ deconstructs the fleeting nature of human relationships through a series of experiments — a printed data piece, an interactive data piece, and a concertina book — leading up to the final installation piece. The project documents 150 of my relationships, both past and current, deconstructing why these relationships often fade and how they can potentially be reignited.
+Close Strangers / Closed Friends deconstructs the fleeting nature of human relationships through a series of experiments — a printed data piece, an interactive data piece, and a concertina book — leading up to the final installation piece. The project documents 150 of my relationships, both past and current, deconstructing why these relationships often fade and how they can potentially be reignited.
 
 ## Patterns of Relationships in a Physical Sphere
 
