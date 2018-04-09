@@ -32,15 +32,11 @@ const ProfileContainer = styled.div `
   align-items: center;
 
   height: 100px;
-
-
-
 `
 
 const NormalImage = styled(Img) `
   margin: 0 1rem;
   margin-top: 5px;
-
   border-radius: 50%;
 
   &.image {
@@ -80,7 +76,7 @@ const Social = styled.div `
 const SocialLink = styled.a`
   border: 1px solid black;
   border-left: none;
-  width: calc(50% + 1px);
+  width: ${props => props.fullWidth ? "calc(100% + 1px)" : "calc(50% + 1px)"};
 
   margin-bottom: -1px;
   margin-right: -1px;
@@ -92,10 +88,6 @@ const SocialLink = styled.a`
     text-decoration: none;
     background-color: black;
     color: white;
-  }
-
-  &:first-of-type {
-    width: calc(100% + 1px);
   }
 
   p {
@@ -194,18 +186,24 @@ const ProjectInfo = styled.div`
 export default function Graduate({ data }) {
   const graduate = data.markdownRemark;
 
-
-
   // if (!graduate.frontmatter.website.includes('http')) {
   //   const website = "http://" + graduate.frontmatter.website;
   // } else {
   //   const website = graduate.frontmatter.website;
   // }
 
+  const activeLinks = [
+    graduate.frontmatter.website,
+    graduate.frontmatter.email,
+    graduate.frontmatter.twitter,
+    graduate.frontmatter.twitter,
+    graduate.frontmatter.linkedin,
+  ];
+
+  const filteredLinks = activeLinks.filter(function (n) { return n !== null })
+
   return (
     <Container>
-
-
       <Helmet title={`THE NEXT | ${graduate.frontmatter.title.toUpperCase()}`} />
 
       <InnerContainer>
@@ -228,7 +226,13 @@ export default function Graduate({ data }) {
 
           <Social>
             {graduate.frontmatter.website && (
-              <SocialLink target="_blank" href={graduate.frontmatter.website}><p>Portfolio Website</p> <p>&rarr;</p></SocialLink>
+              <SocialLink
+                target="_blank"
+                href={graduate.frontmatter.website}
+                fullWidth={(filteredLinks.length % 2 !== 0)}
+              > 
+                <p>Portfolio Website</p> <p>&rarr;</p>
+              </SocialLink>
             )}
             {graduate.frontmatter.email && (
               <SocialLink target="_blank" href={"mailto:" + graduate.frontmatter.email}><p>Email</p> <p>&rarr;</p></SocialLink>
@@ -292,8 +296,8 @@ export default function Graduate({ data }) {
 
         <Projects>
           {data.projects ? data.projects.edges.map(({ node: project }) => (
-            <ProjectContainer>
-              <Link key={project.id} to={project.fields.slug}>
+            <ProjectContainer key={project.id}>
+              <Link to={project.fields.slug}>
                 <Project>
                   <ProjectImageContainer>
                     <Img sizes={project.frontmatter.image.childImageSharp.sizes} className="image" />
