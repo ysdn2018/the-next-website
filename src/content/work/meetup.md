@@ -10,4 +10,4 @@ MeetUp is an event planning app for friends and family that allows easy organiza
 
 _Group Members: Connor O’Brien, Kristine Feliciano, Alina Yusupova_
 
-Check out the full project and interactive prototype at mivuu.co
+Check out the full project and interactive prototype at [mivuu.co](http://mivuu.co/).
