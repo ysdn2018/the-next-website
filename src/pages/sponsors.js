@@ -17,13 +17,17 @@ import CriticalMassLogo from '../assets/images/critical-mass.svg'
 
 const Container = styled.div`
   display: flex;
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    flex-direction: column;
+  }
 `;
 
 const SponsorContainer = styled.div `
   display: flex;
   justify-content: center;
 
-  @media screen and (max-width: ${breakpoints.mobile} ) {
+  @media screen and (max-width: ${breakpoints.tablet} ) {
     flex-direction: column;
   }
 `
@@ -50,6 +54,12 @@ const InfoContainer = styled.div`
 
   position: sticky;
   top: ${spacing.bigger}px;
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    max-width: 100%;
+    position: relative;
+    border: 0;
+  }
 `;
 
 const StatementContainer = styled.div`
@@ -73,7 +83,7 @@ const SponsorImage = styled.div`
   ${props => props.column && "flex-direction: column;"}
   ${props => props.justify && "justify-content: space-around; width:90%"}
 
-  @media screen and (max-width: ${breakpoints.mobile} ) {
+  @media screen and (max-width: ${breakpoints.tablet} ) {
     flex-direction: column;
   }
 `
@@ -100,7 +110,7 @@ const PresentingSponsor = styled.div `
     max-width: 800px;
   }
 
-  @media screen and (max-width: ${breakpoints.mobile} ) {
+  @media screen and (max-width: ${breakpoints.tablet} ) {
     height: 50vh;
 
     img {
@@ -124,9 +134,10 @@ const SponsorTwo = styled.div`
     max-width: 800px;
   }
 
-  @media screen and (max-width: ${breakpoints.mobile} ) {
+  @media screen and (max-width: ${breakpoints.tablet} ) {
     width: 100%;
     height: 50vh;
+    border-right: 0;
 
     img {
       width: 80%;
@@ -148,7 +159,7 @@ const SponsorThree = styled.div `
     max-width: 500px;
   }
 
-  @media screen and (max-width: ${breakpoints.mobile} ) {
+  @media screen and (max-width: ${breakpoints.tablet} ) {
     width: 100%;
     border-right: 0px;
     height: 60vh;
@@ -173,7 +184,7 @@ const SponsorFour = styled.div`
     margin-bottom: 15px;
   }
 
-  @media screen and (max-width: ${breakpoints.mobile} ) {
+  @media screen and (max-width: ${breakpoints.tablet} ) {
     width: 100%;
     height: 50vh;
 
