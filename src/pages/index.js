@@ -87,7 +87,7 @@ export default function IndexPage({ data }) {
       />
 
       <ShowInfo>
-        <h3>The Gladstone Hotel</h3>
+        <h3>Gladstone Hotel</h3>
         <h3>April 11th-13th, 2018</h3>
       </ShowInfo>
 

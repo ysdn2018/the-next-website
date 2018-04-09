@@ -211,7 +211,7 @@ export default function HomeInfo() {
           <ShowTitle>
             <h2>The Next Design Grad Show <br></br>By York University/Sheridan College</h2>
             <ShowAddress>
-              <p>The Gladstone Hotel</p>
+              <p>Gladstone Hotel</p>
               <p>1214 Queen St. West</p>
               <p>Toronto, Ontario</p>
             </ShowAddress>
