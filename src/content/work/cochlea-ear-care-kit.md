@@ -5,7 +5,7 @@ graduate: Chelsea Lecompte
 image: /assets/cochlea_lecompte201.png
 category: Package Design
 ---
-## CONCEPT
+## Concept
 
 ![null](/assets/cochlea_lecompte202.jpg)
 
@@ -13,7 +13,7 @@ Cochlea Ear Care Kit is a medical set intended for children who suffer from chro
 
 Ear infections are painful because of inflammation and buildup of fluids in the middle ear. If left untreated infections can lead to diminished hearing and speech delays if the problem becomes serious or chronic. Even a one-off infection or a mild infection can result in permanent hearing loss if left untreated.
 
-## THE KIT
+## The Kit
 
 ![null](/assets/cochlea_lecompte203.jpg)
 
@@ -49,4 +49,4 @@ This relates back to having to lay on one’s side so often, as people can often
 
 ![null](/assets/cochlea_lecompte211.jpg)
 
-[See more about Cochlea Ear Care Kit here.](http://www.chelsealecompte.com/cochlea-ear-care-kit/)
+See more about Cochlea Ear Care Kit [here.](http://www.chelsealecompte.com/cochlea-ear-care-kit/)
