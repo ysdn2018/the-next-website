@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import { spacing, breakpoints } from '../utils/constants'
 
 import PageContainer from '../components/PageContainer'
-import Statement from '../components/Statement'
+import GridStatement from '../components/GridStatement'
 
 import RL_Logo from '../assets/images/rl-solutions.svg'
 import GladstoneLogo from '../assets/images/gladstone.svg'
@@ -66,9 +66,8 @@ const InfoContainer = styled.div`
 `;
 
 const StatementContainer = styled.div`
-  padding: ${spacing.small}px ${spacing.smaller}px;
-  border-bottom: 1px solid black;
-  height: 200px;
+  height: 400px;
+  border-right: 0px !important;
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
     height: 100%;
@@ -137,21 +136,37 @@ const Video = styled.div `
   height: 50vh;
   width: 100%;
 
-  h4 {
-    width: 100%;
-    border-right: 1px solid;
-    padding: ${spacing.smaller}px 0 ${spacing.smaller}px; 0;
-  }
-
   @media screen and (max-width: ${breakpoints.tablet} ) {
     flex-direction: column;
 
     iframe {
-      height: 350px;
+      height: 500px !important;
+      padding: 0;
     }
   }
+`
 
+const RlIntro = styled.div `
+  width: 100%;
+  border-right: 1px solid;
 
+  p {
+    font-size: 1.9rem;
+    padding: ${spacing.small}px;
+    margin: 0;
+    max-width: 600px;
+  }
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+
+    border-right: 0px;
+
+    p {
+      font-size: 1.5rem;
+      padding: ${spacing.normal}px;
+    }
+
+  }
 `
 
 const SponsorTwo = styled.div`
@@ -239,14 +254,14 @@ export default function Sponsors({ data }) {
     <InfoContainer>
       <InnerInfoContainer>
       <StatementContainer>
-        <Statement
+        <GridStatement
           verb="Thanking"
           noun="Sponsors"
           border
         />
       </StatementContainer>
       <ThankYouContainer>
-          <p>We would like to express our gratitude to our generous sponsors. This show wouldn’t have been possible without their kind support.</p>
+          <p>The work YSDN students put into the grad show wouldn't have come to fruition without some wonderful people wiling to back us up. Thank you to all our sponsors for their support in THE NEXT grad show.</p>
       </ThankYouContainer>
       </InnerInfoContainer>
     </InfoContainer>
@@ -263,7 +278,9 @@ export default function Sponsors({ data }) {
 
       <SponsorContainer>
         <Video>
-          <h4>We spent an afternoon with RL Solutions.</h4>
+          <RlIntro>
+            <p>Earlier this year, RL Solutions opened up their studio for YSDN students to present and receive feedback on how to move forward with their projects. It was a day for students to refine their presentation skills, reflect more critically on their work, and take their projects outside of the classroom. For this incredible opportunity, and for their generosity as our presenting sponsor, the YSDN students would like to give a big thanks to RL solutions for making THE NEXT grad show a possibility.</p>
+          </RlIntro>
           <iframe width="100% !important" height="auto !important" src="https://www.youtube.com/embed/bBg4uLulOVM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </Video>
       </SponsorContainer>
