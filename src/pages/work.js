@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-import { spacing, breakpoints } from '../utils/constants'
+import { spacing, breakpoints, shuffleArray } from '../utils/constants'
 
 import PageContainer from '../components/PageContainer'
 import GridStatement from '../components/GridStatement'
@@ -9,13 +9,6 @@ import Project from '../components/Project'
 import SearchField from '../components/SearchField'
 import Toolbar from '../components/Toolbar'
 
-const shuffleArray = (array) => {
-  for (let i = array.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
 
 
 const ProjectGrid = styled.div`
@@ -25,7 +18,7 @@ const ProjectGrid = styled.div`
 
   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
 
-  @media (max-width: ${813}px) {
+  @media (max-width: 813px) {
     grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
   }
 
@@ -33,8 +26,6 @@ const ProjectGrid = styled.div`
     width: 100%;
     grid-template-columns: repeat(auto-fit, 1fr);
   }
-
-
 `
 
 const FiltersContainer = styled.div`
@@ -107,11 +98,6 @@ export default class Work extends React.Component {
 
     return (
       <PageContainer>
-        {/* <StatementHeader
-          verb="Explore"
-          noun="project"
-          height="30vh"
-        /> */}
 
         <Helmet title="THE NEXT | WORK"/>
 
@@ -132,7 +118,11 @@ export default class Work extends React.Component {
         </Toolbar>
 
         <ProjectGrid>
-          <GridStatement />
+          <GridStatement 
+            verb="Explore"
+            noun="project"
+          />
+
           {filteredSearch.map(({ node: project }) => (
             <Project
               title={project.frontmatter.title}

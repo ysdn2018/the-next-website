@@ -13,6 +13,7 @@ const StatementContainer = styled.div`
   height: 100%;
   padding: ${spacing.small}px;
   color: black;
+  min-height: 220px;
 
   border-right: 1px solid black;
   border-bottom: 1px solid black;

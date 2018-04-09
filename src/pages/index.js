@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
-import StatementHeader from '../components/StatementHeader'
+import HomepageStatement from '../components/HomepageStatement'
 import Instagram from '../components/Instagram'
 import Facebook from '../components/Facebook'
 import HomeInfo from '../components/HomeInfo'
@@ -76,12 +76,13 @@ const HomeLinks = styled(Link)`
 `
 
 // page component
-export default function IndexPage() {
+export default function IndexPage({ data }) {
   return (
     <Container>
-      <StatementHeader
+      <HomepageStatement
         verb="Experience"
         noun="Gradshow"
+        gradData={data.allMarkdownRemark.edges}
         border
       />
 
@@ -103,3 +104,20 @@ export default function IndexPage() {
     </Container>
   )
 }
+
+export const query = graphql`
+  query IndexQuery {
+    allMarkdownRemark (filter: { fileAbsolutePath: {regex: "/content/graduates/"} },
+    sort: {fields: [frontmatter___title], order: ASC} ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            noun
+            verb
+          }
+        }
+      }
+    }
+  }
+`;
