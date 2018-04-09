@@ -3,6 +3,10 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 import StatementHeader from '../components/StatementHeader'
+import Instagram from '../components/Instagram'
+import Facebook from '../components/Facebook'
+import HomeInfo from '../components/HomeInfo'
+import { spacing, breakpoints } from '../utils/constants.js'
 
 // styled components
 const Container = styled.div`
@@ -18,6 +22,9 @@ export default function IndexPage() {
         verb="Experience"
         noun="Gradshow"
       />
+
+    <HomeInfo></HomeInfo>
+
     </Container>
   )
 }

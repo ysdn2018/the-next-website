@@ -5,13 +5,13 @@ graduate: Soojin Kim
 image: /assets/offline-text.jpg
 category: Book Design
 ---
-Offline Texts is a collection of book experiments merging print and digital media. These books translate digital experiences like subtitles, Wikipedia and Vaporwave into tactile experiences. 
+Offline texts is a collection of experiments translating digital experiences like subtitles, Wikipedia and Vaporwave into tactile, printed experiences. Using the Internet as the content generator and recontextualizing that content through an immutable and sequential medium, these digital moments are transformed into new experiences.
 
-[Click here](soojinna.com/offlinetexts) to learn more about these experiments.
-
-![null](/assets/offlinetext2.jpg)
+More information about this collection will be available at [soojinna.com](soojinna.com)
 
 ![null](/assets/offlinetext2.jpg)
+
+![null](/assets/offline-text-4.jpg)
 
 ![null](/assets/1_book2.jpg)
 

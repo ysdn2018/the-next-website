@@ -22,7 +22,6 @@ const StatementContainer = styled.div`
     opacity: 1;
   }
 
-
   @media (max-width: ${breakpoints.mobile}px) {
     padding: 0 ${ spacing.smaller}px;
   }
