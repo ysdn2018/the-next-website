@@ -60,7 +60,6 @@ const Content = styled.div`
     width: 150%;
 
     max-width: none !important;
-
     margin-left: -25% !important;
   }
 
@@ -192,10 +191,57 @@ const Info = styled.div `
 `
 
 const RelatedProjects = styled.div `
-  ${'' /* grid-template-columns: repeat(auto-fit, minmax(400px,2fr));
-  display: grid; */}
+  /* grid-template-columns: repeat(auto-fit, minmax(400px,2fr));
+  display: grid; */
   display: flex;
   border: 1px solid;
+  width: 100%;
+  height: 100%;
+`
+
+const ProjectContainer = styled.div `
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+`
+
+const ImageContainer = styled.div `
+  padding: 8rem;
+`
+
+const TextContainer = styled.div `
+  display: flex;
+  padding: 1rem 1.5rem;
+
+  justify-content: space-between;
+  align-items: flex-end;
+`
+
+const Text = styled.p`
+  z-index: 4;
+  color: black;
+  max-width: 400px;
+
+  margin: 0.4rem;
+  font-size: 1.4rem;
+  line-height: 1.2;
+
+&:first-of-type {
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+&:last-of-type {
+  width: 100%;
+  text-align: right;
+}
 `
 
 // page template component
@@ -260,32 +306,43 @@ export default function Post({ data }) {
       <RelatedProjects>
         <Statement
           verb="Discover"
-          noun="Projects"
+          noun="Project"
         />
+          {/* if student has other projects, show one  */}
+          {data.projectByStudent && data.projectByStudent.edges.map(({ node: otherProj }) =>
+            <Link to={otherProj.fields.slug}>
+              <ProjectContainer>
 
-        {/* if student has other projects, show one  */}
-        {data.projectByStudent && data.projectByStudent.edges.map(({ node: otherProj }) =>
-          <Link to={otherProj.fields.slug}>
-            <div>
-              <p>{otherProj.frontmatter.title}</p>
-              <p>{otherProj.frontmatter.student}</p>
-              <Img resolutions={otherProj.frontmatter.image.childImageSharp.resolutions} />
-            </div>
-          </Link>
-        )}
+                <ImageContainer>
+                  <Img resolutions={otherProj.frontmatter.image.childImageSharp.resolutions} />
+                </ImageContainer>
 
-        {/* other in category... uhh if they exist */}
-        {data.projectsInCategory && data.projectsInCategory.edges.map(({ node: otherProj }) => 
-          <Link to={otherProj.fields.slug}>
-            <div>
-              <p>{otherProj.frontmatter.title}</p>
-              <p>{otherProj.frontmatter.student}</p>
-              <Img resolutions={otherProj.frontmatter.image.childImageSharp.resolutions} />
-            </div>
-          </Link>
-        )}
+                <TextContainer>
+                  <Text>{otherProj.frontmatter.title}</Text>
+                  <Text>{otherProj.frontmatter.graduate}</Text>
+                </TextContainer>
 
+              </ProjectContainer>
+            </Link>
+          )}
 
+          {/* other in category... uhh if they exist */}
+          {data.projectsInCategory && data.projectsInCategory.edges.map(({ node: otherProj }) =>
+            <Link to={otherProj.fields.slug}>
+              <ProjectContainer>
+
+                <ImageContainer>
+                  <Img resolutions={otherProj.frontmatter.image.childImageSharp.resolutions} />
+                </ImageContainer>
+
+                <TextContainer>
+                  <Text>{otherProj.frontmatter.title}</Text>
+                  <Text>{otherProj.frontmatter.graduate}</Text>
+                </TextContainer>
+
+              </ProjectContainer>
+            </Link>
+          )}
       </RelatedProjects>
 
     </Container>

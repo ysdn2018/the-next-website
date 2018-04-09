@@ -36,7 +36,7 @@ const StatementContainer = styled.div`
 `
 
 const OuterContainer = styled.div`
-  
+
 
   ${props => props.work && css`
     @media (min-width: ${1614}px) {
@@ -59,7 +59,7 @@ const OuterContainer = styled.div`
   flex: 1;
   padding: ${props => props.pad ? spacing.smaller : 0};
 
-  
+
 
 `
 
