@@ -42,6 +42,7 @@ const ThankYouContainer = styled.div`
   p {
     margin: 0;
   }
+
 `;
 
 const InfoContainer = styled.div`
@@ -57,8 +58,10 @@ const InfoContainer = styled.div`
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
     max-width: 100%;
-    position: relative;
+    height: 100%;
+    position:relative;
     border: 0;
+    top: 0;
   }
 `;
 
@@ -75,6 +78,7 @@ const StatementContainer = styled.div`
 
 const AllSponsors = styled.div`
   width: 100%;
+  height: calc(100%-${spacing.bigger}px);
 `;
 
 
@@ -123,6 +127,30 @@ const PresentingSponsor = styled.div `
       width: 80%;
     }
   }
+
+`
+
+const Video = styled.div `
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  height: 50vh;
+  width: 100%;
+
+  h4 {
+    width: 100%;
+    border-right: 1px solid;
+    padding: ${spacing.smaller}px 0 ${spacing.smaller}px; 0;
+  }
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    flex-direction: column;
+
+    iframe {
+      height: 350px;
+    }
+  }
+
 
 `
 
@@ -231,6 +259,13 @@ export default function Sponsors({ data }) {
             <a href="http://www.rlsolutions.com/" target="_blank"><img src = {RL_Logo} alt="RL Solutions"/></a>
           </SponsorImage>
         </PresentingSponsor>
+      </SponsorContainer>
+
+      <SponsorContainer>
+        <Video>
+          <h4>We spent an afternoon with RL Solutions.</h4>
+          <iframe width="100% !important" height="auto !important" src="https://www.youtube.com/embed/bBg4uLulOVM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </Video>
       </SponsorContainer>
 
       <SponsorContainer>
