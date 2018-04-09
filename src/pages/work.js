@@ -119,6 +119,7 @@ export default class Work extends React.Component {
 
         <ProjectGrid>
           <GridStatement 
+            work
             verb="Explore"
             noun="project"
           />

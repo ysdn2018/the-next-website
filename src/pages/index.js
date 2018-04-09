@@ -63,7 +63,6 @@ const Links = styled.div `
 
   h1 {
     margin-right: ${spacing.bigger}px;
-    width: 100%;
   }
 
   @media screen and (max-width: ${breakpoints.tablet}) {
@@ -79,6 +78,16 @@ const Links = styled.div `
 `
 
 const HomeLinks = styled(Link)`
+  text-decoration: none !important;
+
+  h1 {
+    padding-bottom: 3px;
+  }
+
+  h1:hover {
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+  }
 `
 
 // page component
@@ -86,8 +95,6 @@ export default function IndexPage({ data }) {
   return (
     <Container>
       <HomepageStatement
-        verb="Experience"
-        noun="Gradshow"
         gradData={data.allMarkdownRemark.edges}
         border
       />

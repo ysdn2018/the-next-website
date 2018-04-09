@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, {css} from 'styled-components'
 import { spacing, breakpoints } from '../../utils/constants.js'
 /*
   Base component
@@ -34,19 +34,28 @@ const StatementContainer = styled.div`
 const OuterContainer = styled.div`
   
 
+  ${props => props.work && css`
+    @media (min-width: ${1614}px) {
+      grid-column: 1 / 3;
+    }
 
-  @media (min-width: ${1614}px) {
-    grid-column: 1 / 3;
-  }
+    @media screen and (max-width: ${breakpoints.mobile} ) {
+      height: 30%;
+    }
+  `}
+
+  ${props => props.grads && css`
+      grid-column: 1 / 2;
+      grid-row: 1 / 4;
+  `}
+
 
   width: 100%;
   height: 100%;
   flex: 1;
   padding: ${props => props.pad ? spacing.smaller : 0};
 
-  @media screen and (max-width: ${breakpoints.mobile} ) {
-    height:30%;
-  }
+  
 
 `
 
@@ -82,7 +91,7 @@ const TheNext = styled.h2`
 
 export default function Statement(props) {
   return (
-    <OuterContainer>
+    <OuterContainer {...props}>
       <StatementContainer>
         <StatementText>
           {props.verb || "Announcing"}
