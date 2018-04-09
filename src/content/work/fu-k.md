@@ -9,8 +9,6 @@ category2: Communication Design
 FU*K! is a informational brochure that advocates becoming vegan in a non-traditional method.
 No green leaves and sunshine here, just straight facts that’ll leave even a skeptic questioning themselves.
 
-# Case Study
-
 ## Summary
 
 In an attempt to bring awareness about a social problem, for my Information Design class in my third year (now known as Information Narratives and Sequences), I chose to explore the concept of veganism and how to best present the material in an informative and appealing way.
