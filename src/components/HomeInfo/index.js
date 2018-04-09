@@ -198,6 +198,7 @@ const SocialLinks = styled.div`
   @media (max-width: ${breakpoints.tablet}) {
     width: 100%;
     flex-direction: row;
+    height: ${spacing.bigger+spacing.small}px;
   }
 `
 
