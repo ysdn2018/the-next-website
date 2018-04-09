@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: Habitat for Humanity Canada – Identity Redesign
-graduate: 'J. Andrew Carenza '
+graduate: 'J. Andrew Carenza'
 image: /assets/logo_h4h-02.jpg
 category: Brand Identity
 ---

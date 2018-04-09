@@ -69,6 +69,7 @@ const Content = styled.div`
 
 const HeroImage = styled(Img)`
   height: 70vh;
+  border-bottom: 1px solid black;
 `
 
 const ProjectHeader = styled.div `

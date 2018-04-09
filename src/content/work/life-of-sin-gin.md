@@ -3,7 +3,7 @@ templateKey: project
 title: 'Life of Sin Gin '
 graduate: Ashley O'Brien
 image: /assets/bottles_mockup-04-04.jpg
-category: Choose...
+category: Package Design
 ---
 ![](/assets/bottles_mockup-04-04.jpg)
 

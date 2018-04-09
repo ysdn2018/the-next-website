@@ -48,7 +48,7 @@ const NormalImage = styled(Img) `
   border-radius: 50%;
 
   &.image {
-    margin-top: 10px;
+    margin-top: 8px;
   }
 
   img {
