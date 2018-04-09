@@ -276,8 +276,8 @@ export default function Post({ data }) {
           </Link>
         )}
 
-        {/* other in category */}
-        {data.projectsInCategory.edges.map(({ node: otherProj }) => 
+        {/* other in category... uhh if they exist */}
+        {data.projectsInCategory && data.projectsInCategory.edges.map(({ node: otherProj }) => 
           <Link to={otherProj.fields.slug}>
             <div>
               <p>{otherProj.frontmatter.title}</p>

@@ -110,13 +110,13 @@ export default class Work extends React.Component {
             onChange={this.updateSearch}
           />
 
-          <FiltersContainer>
+          {/* <FiltersContainer>
             <FilterButton handleCategoryUpdate={this.updateCategory} category="" />
             <FilterButton handleCategoryUpdate={this.updateCategory} category="UI/UX" />
             <FilterButton handleCategoryUpdate={this.updateCategory} category="Product Design"/>
             <FilterButton handleCategoryUpdate={this.updateCategory} category="Typography" />
             <FilterButton handleCategoryUpdate={this.updateCategory} category="Print" />
-          </FiltersContainer>
+          </FiltersContainer> */}
 
         </Toolbar>
 
