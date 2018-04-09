@@ -13,7 +13,6 @@ const Container = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFE000;
   padding-bottom: 2px;
   text-decoration: none;
   height: 100%;

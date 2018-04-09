@@ -196,7 +196,7 @@ const ShowTitle = styled.div`
 `
 
 const ShowTimes = styled.div`
-  padding: ${spacing.small}px;
+  padding: ${spacing.small}px ${spacing.normal}px;;
   border-right: 1px solid;
   width: 45%;
   display: flex;
