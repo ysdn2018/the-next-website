@@ -22,7 +22,8 @@ const breakpoints = {
   saba: '320px',
   mobile: '500px',
   tablet: '800px',
-  smallScreen: '1000px'
+  smallScreen: '1000px',
+  mediumScreen: '1200px'
 }
 
 const animations = {
