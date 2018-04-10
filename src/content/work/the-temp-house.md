@@ -9,7 +9,7 @@ category3: Installation
 ---
 ## Overview
 
-The_ _Temp House is a product of an eight month journey exploring the intersection between music and design. This project is heavily influenced by my love for attending live concerts, and my hate for terrible venue spaces. The overall goal was to create an intimate concert space setting in an unconventional way, enabling artist to carefully consider the space in which they are performing. By this, they are able to recontextualize their approach to sharing their music. The sole purpose is to encourage and improve how artists share their music in a live setting. 
+The Temp House is a product of an eight month journey exploring the intersection between music and design. This project is heavily influenced by my love for attending live concerts, and my hate for terrible venue spaces. The overall goal was to create an intimate concert space setting in an unconventional way, enabling artist to carefully consider the space in which they are performing. By this, they are able to recontextualize their approach to sharing their music. The sole purpose is to encourage and improve how artists share their music in a live setting. 
 
 ## The Problem
 
@@ -29,4 +29,4 @@ Packaging this idea into tangible deliverables could have gone in many direction
 
 ![null](/assets/03_temp_h.jpg)
 
-<iframe src="https://player.vimeo.com/video/262613145" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/263614703" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

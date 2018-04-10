@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: PICASSO ISO Typeface
-graduate: ROMAN DROBOT
+graduate: Roman Drobot
 image: /assets/picassoiso_type.png
 category: Typography
 ---

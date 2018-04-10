@@ -1,14 +1,14 @@
 ---
 templateKey: project
-title: 'Trump’s american, america, americans, world...'
+title: >-
+  Trump’s american, america, americans, world, country, people, united, states,
+  nationals, national, order, homeland, security.
 graduate: Saba Sobhani
 image: /assets/saba-ta-header.jpg
 category: Typography
 category2: Communication Design
 category3: Information Design
 ---
-# Trump’s american, america, americans, world, country, people, united, states, nationals, national, order, homeland, security.
-
 ## Summary
 
 This project started with the idea of merging scientific phenomena into design artefacts in order to tell stories in a new way, working through this goal I created a generative type treatment that is inspired by the second law of thermodynamics and used it to express the current state of America.
@@ -19,11 +19,7 @@ As I mentioned earlier, this research project started off with this question of 
 
 The scientific phenomena that was researched in this project was Entropy. I wasn’t able to research this subject in great detail – entire courses are dedicated to understanding it – instead, I glanced at the scientific concept in order to take what I needed from it to inform the rules of machine-generated works.
 
-> [Entropy](https://www.merriam-webster.com/dictionary/entropy), noun.
->
-2. a: the degradation of the matter and energy in the universe to an ultimate state of inert uniformity. Entropy is the general trend of the universe toward death and disorder. – James R. Newman _\
-    b: a process of degradation or running down or a trend to disorder
-3. chaos, disorganization, randomness.
+Definition of [Entropy](https://www.merriam-webster.com/dictionary/entropy).
 
 ## Process
 
@@ -31,11 +27,7 @@ There were essentially three steps that I took to create this piece. First, it w
 
 A pivotal moment in the research phase of this project was I found the text _Entropy and Art: An Essay on Disorder and Order_ by Rudolf Arnheim. It helped me understand entropy within the context of art, and gave me clues for how to proceed in making something that embodies entropy. One of the quotes that jump started the process was:
 
-> "the material world moves from orderly states to an ever-increasing disorder and that the final situation of the universe will be one of maximal disorder” (
->
-> [Entropy and Art](http://www.aakkozzll.com/pdf/arnheim.pdf)
->
-> , 7).
+> "the material world moves from orderly states to an ever-increasing disorder and that the final situation of the universe will be one of maximal disorder” ([Entropy and Art](http://www.aakkozzll.com/pdf/arnheim.pdf), 7).
 
 ![null](/assets/saba-ta-1.jpg)
 
@@ -79,10 +71,8 @@ I use Trump’s Travel Ban as the text for this work as a representation of his 
 
 The final output of this project is a mammoth 24x100” poster using the generative typographic system based on entropy, mimicking Trump’s path of destruction through the exponential deformation of a set of words found within Trump’s own executive order.
 
-**Words deformed in this piece:**\
-american, america, americans, world, country, people, united, states, nationals, national, order, homeland, security.
+Words deformed in this piece:** **american, america, americans, world, country, people, united, states, nationals, national, order, homeland, security.
 
-**Special Thanks:**\
-Hunter Caron
+Special Thanks:** **Hunter Caron
 
 <iframe src="https://player.vimeo.com/video/261512550" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
