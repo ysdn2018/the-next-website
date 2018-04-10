@@ -12,13 +12,13 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: ${spacing.bigger}px;
+  padding-bottom: ${spacing.bigger + spacing.normal}px;
 `;
 
 
 const ImageContainer = styled.div`
-  width: 60%;
-  height: 60%;
+  width: 70vmin;
+  height: 70vmin;
 `;
 
 const Text = styled.div`
