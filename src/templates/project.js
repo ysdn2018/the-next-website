@@ -38,6 +38,16 @@ const Content = styled.div`
     margin: 0;
   }
 
+  img {
+    margin: auto;
+  }
+
+  sup {
+    font-size: 1.4rem;
+    vertical-align: super;
+    margin-left: 1rem;
+  }
+
   h1 {
     text-transform: uppercase;
     font-size: 4.5rem;
@@ -204,10 +214,8 @@ const RelatedProjects = styled.div `
 `
 
 const ProjectContainer = styled.div `
-
   border-left: 1px solid;
   margin-left: -1px;
-  width: 50% !important;
   flex: 1;
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
@@ -276,6 +284,7 @@ const RelatedText = styled.div`
   align-items: center;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  line-height: 1.3;
 
   h3, h4 {
     max-width: calc(100% - ${spacing.big}px);
