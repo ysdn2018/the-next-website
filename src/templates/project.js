@@ -8,6 +8,20 @@ import Project from '../components/Project'
 import Statement from '../components/Statement'
 import 'intersection-observer'
 
+function getRandom(arr, n) {
+  var result = new Array(n),
+    len = arr.length,
+    taken = new Array(len);
+  if (n > len)
+    return arr;
+  while (n--) {
+    var x = Math.floor(Math.random() * len);
+    result[n] = arr[x in taken ? taken[x] : x];
+    taken[x] = --len in taken ? taken[len] : len;
+  }
+  return result;
+}
+
 // styled-components
 const Container = styled.div`
   padding-bottom: ${spacing.bigger-4}px;
@@ -357,7 +371,7 @@ export default function Post({ data }) {
 
         <RelatedProjects>
 
-          {data.projectByStudent && data.projectByStudent.edges.map(({ node: otherProj }) =>
+          {data.projectByStudent && getRandom(data.projectByStudent.edges, 1).map(({ node: otherProj }) =>
 
             <ProjectContainer>
               <Link to={otherProj.fields.slug}>
@@ -376,7 +390,7 @@ export default function Post({ data }) {
 
           )}
 
-          {data.projectsInCategory ? (data.projectsInCategory.edges.map(({ node: otherProj }) =>
+          {data.projectsInCategory ? (getRandom(data.projectsInCategory.edges, 2).map(({ node: otherProj }) =>
             <ProjectContainer>
               <Link to={otherProj.fields.slug}>
 
@@ -390,7 +404,7 @@ export default function Post({ data }) {
                 </TextContainer>
               </Link>
             </ProjectContainer>
-          )) : (data.projectsInSecondCategory.edges.map(({ node: otherProj }) =>
+          )) : (data.projectsInSecondCategory && data.projectsInSecondCategory.edges.map(({ node: otherProj }) =>
               <ProjectContainer>
                 <Link to={otherProj.fields.slug}>
 
@@ -440,9 +454,7 @@ export const aboutPageQuery = graphql`
     }
 
   projectsInCategory: allMarkdownRemark(
-    filter: { frontmatter: { category: { regex: $category }, graduate: { ne: $graduateName }}},
-    limit: 2
-    ) {
+    filter: { frontmatter: { category: { regex: $category }, graduate: { ne: $graduateName }}}) {
       edges {
         node {
           fields {
@@ -466,9 +478,7 @@ export const aboutPageQuery = graphql`
 
 
   projectsInSecondCategory: allMarkdownRemark(
-    filter: { frontmatter: { category: { regex: $category2 }, graduate: { ne: $graduateName }}},
-    limit: 2
-    ) {
+    filter: { frontmatter: { category: { regex: $category2 }, graduate: { ne: $graduateName }}}) {
       edges {
         node {
           fields {
@@ -491,9 +501,7 @@ export const aboutPageQuery = graphql`
     }
 
   projectByStudent: allMarkdownRemark(
-    filter: { frontmatter: { graduate: { regex: $graduate }, title: { ne: $title }}},
-    limit: 1
-    ) {
+    filter: { frontmatter: { graduate: { regex: $graduate }, title: { ne: $title }}}) {
       edges {
         node {
           fields {

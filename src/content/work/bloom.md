@@ -23,17 +23,20 @@ View constrains you to only move forward through your inspiration, with modes fo
 
 I've already build an alpha version of Bloom that I've been using personally. I'll be open-sourcing it and having a free download availble soon.
 
+
 ![null](/assets/hunterc-ViewSmall.gif)
 
 
 # _Collect<sup>mobile app</sup>_
 A focused mobile app for collecting inspiration.
-(images soon)
+_(images soon)_
 
 
 # _Change<sup>design tool plugins</sup>_
-A collection of open source plugins & extensions for thoughtfully constraining your creative process & tools.
+A collection of open source plugins & extensions for thoughtfully constraining your creative process.
 
-More images and a website will be out soon be on [huntercaron.com](http://huntercaron.com) or follow me on [twitter](https://twitter.com/huntercaron) to find out when it's launched.
+More images and a website will be out soon be on [huntercaron.com](http://huntercaron.com)
+
+You can also follow me on [Twitter](https://twitter.com/huntercaron) to find out when it's launched.
 
 

@@ -7,7 +7,7 @@ category: Book Design
 ---
 Offline texts is a collection of experiments translating digital experiences like subtitles, Wikipedia and Vaporwave into tactile, printed experiences. Using the Internet as the content generator and recontextualizing that content through an immutable and sequential medium, these digital moments are transformed into new experiences.
 
-More information about this collection will be available at [soojinna.com](soojinna.com)
+More information about this collection will be available at [soojinna.com](http://soojinna.com)
 
 ![null](/assets/offlinetext2.jpg)
 

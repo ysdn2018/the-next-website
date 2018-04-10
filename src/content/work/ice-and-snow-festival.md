@@ -22,4 +22,4 @@ In this project I was challenged to design a coherent system of interrelated pie
 
 I made a promotional video which presents thrill and magic to the audience where they couldn’t resist to plan their vacations for frigid temperature event.
 
-<iframe width="560" height="315" src=https://www.youtube.com/embed/watch?v=RI0U1YxO_DQ?rel=0&amp;showinfo=0 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RI0U1YxO_DQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

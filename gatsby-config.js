@@ -10,6 +10,7 @@ module.exports = {
     `gatsby-plugin-react-next`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -31,6 +32,13 @@ module.exports = {
         path: `${__dirname}/src/content/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/assets/`,
+      },
+    },
      {
        resolve: `gatsby-transformer-remark`,
        options: {
@@ -49,6 +57,7 @@ module.exports = {
                wrapperStyle: `margin-bottom: 1.0725rem`,
              },
            },
+           "gatsby-remark-external-links",
            'gatsby-remark-copy-linked-files',
            'gatsby-remark-smartypants',
          ],

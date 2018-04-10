@@ -9,4 +9,4 @@ category3: Web Design
 ---
 Virtual Gestures is a series of experiments that examine the relationships and tensions between the digital and physical. Screen-based gestures are performed physically with these materialized digital artifacts as a form of reverse skeumorphism. In carrying out this translation, it is hoped that we will uncover a deeper understanding of these interactions and the digital environment, revealing the gap between how we experience these two distinct yet intertwined worlds. 
 
-[Click here](virtualgestures.co) to view the project.
+[Click here](http://virtualgestures.co) to view the project.
