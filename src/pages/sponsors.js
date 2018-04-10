@@ -140,8 +140,9 @@ const Video = styled.div `
     flex-direction: column;
 
     iframe {
-      height: 500px !important;
+      height: 100% !important;
       padding: 0;
+      display: block;
     }
   }
 `
