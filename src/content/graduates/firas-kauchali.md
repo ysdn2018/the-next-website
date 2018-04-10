@@ -13,8 +13,9 @@ intro: >-
   as a vehicle to communicate an experience effectively, giving a voice to
   things that matter.
 music: 'Kanye, Pharrell, Contemporary Jazz, Broken Beat, 90s/2000s R&B'
-watch: 'Every Kubrick film, The Five Obstructions, Chef''s Table, Seinfeld, Frasier'
-typeface: 'Founders Grotesk, Neue Haas Grotesk, Austin, Plantin'
+hobbies: 'Walking around aimlessly, taking pictures of interesting subjects/people around the city.'
+watch: 'A whole lot of cooking channels on YouTube.'
+typeface: 'The GOATs, Neue Haas Grotesk and Plantin. Also loves Founders Grotesk and basically everything by Klim Type.'
 twitter: 'http://twitter.com/firaskauchali'
 instagram: 'http://instagram.com/firaskauchali'
 email: 'mailto:firaskauchali@gmail.com'

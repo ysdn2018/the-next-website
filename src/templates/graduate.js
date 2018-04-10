@@ -266,7 +266,7 @@ export default function Graduate({ data }) {
               </SocialLink>
             )}
             {graduate.frontmatter.email && (
-              <SocialLink target="_blank" href={"mailto:" + graduate.frontmatter.email}><p>Email</p> <p>&rarr;</p></SocialLink>
+              <SocialLink target="_blank" href={graduate.frontmatter.email.includes("mailto") ? graduate.frontmatter.email : ("mailto:" + graduate.frontmatter.email)}><p>Email</p> <p>&rarr;</p></SocialLink>
             )}
             {graduate.frontmatter.twitter && (
               <SocialLink target="_blank" href={graduate.frontmatter.instagram}><p>Instagram</p> <p>&rarr;</p></SocialLink>
@@ -281,8 +281,8 @@ export default function Graduate({ data }) {
 
           <StatementWrapper>
             <Statement
-              verb = {graduate.frontmatter.verb}
-              noun = {graduate.frontmatter.noun}
+              verb={graduate.frontmatter.verb}
+              noun={graduate.frontmatter.noun}
             />
           </StatementWrapper>
 
