@@ -40,10 +40,13 @@ const ProfileContainer = styled.div `
 const NormalImage = styled(Img) `
   margin: 0 1rem;
   margin-top: 5px;
-  border-radius: 50%;
+  border-radius: 50% !important;
+ 
 
   &.image {
     margin-top: 8px;
+    border-radius: 50% !important;
+    overflow: hidden;
   }
 
   img {
@@ -212,10 +215,12 @@ export default function Graduate({ data }) {
 
   let website = '#';
 
-  if (!graduate.frontmatter.website.includes('http')) {
-    website = "http://" + graduate.frontmatter.website;
-  } else {
-    website = graduate.frontmatter.website;
+  if (graduate.frontmatter.website) {
+    if (!graduate.frontmatter.website.includes('http')) {
+      website = "http://" + graduate.frontmatter.website;
+    } else {
+      website = graduate.frontmatter.website;
+    }
   }
 
   const activeLinks = [
@@ -240,7 +245,7 @@ export default function Graduate({ data }) {
 
               <NormalImage
                 resolutions={graduate.frontmatter.headshot.childImageSharp.resolutions}
-                outerWrapperClassName="outer-wrapper"
+                outerWrapperClassName="profile-outer-wrapper"
                 className="image"
               />
 
@@ -392,7 +397,7 @@ export const aboutPageQuery = graphql`
 
             image {
               childImageSharp {
-                sizes(maxWidth: 1000, quality: 90, maxHeight: 500, cropFocus: CENTER) {
+                sizes(maxWidth: 1000, quality: 85, maxHeight: 500, cropFocus: CENTER) {
                   ...GatsbyImageSharpSizes
                 }
               }
