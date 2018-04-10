@@ -17,6 +17,7 @@ import CriticalMassLogo from '../assets/images/critical-mass.svg'
 
 const Container = styled.div`
   display: flex;
+  padding-bottom: ${spacing.big + 2}px;
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
     flex-direction: column;
@@ -265,6 +266,7 @@ export default function Sponsors({ data }) {
           verb="Thanking"
           noun="Sponsors"
           border
+          noBorderRight
         />
       </StatementContainer>
       <ThankYouContainer>
