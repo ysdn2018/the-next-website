@@ -138,9 +138,10 @@ const Video = styled.div `
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
     flex-direction: column;
+    height: 100%;
 
     iframe {
-      height: 100% !important;
+      height: 250px !important;
       padding: 0;
       display: block;
     }
