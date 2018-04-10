@@ -12,7 +12,7 @@ intro: >-
   ideas and discovering the splendour in all aspects of life. Firas uses design
   as a vehicle to communicate an experience effectively, giving a voice to
   things that matter.
-music: 'Kanye, Pharrell, Contemporary Jazz, Broken Beat, 90s/2000s R&B'
+music: 'Never gets tired of listening to Kanye, Pharrell, Erykah Badu, Jill Scott, and  Nina Simone. Currently in love with Contemporary Jazz and Broken Beat.'
 hobbies: 'Walking around aimlessly, taking pictures of interesting subjects/people around the city.'
 watch: 'A whole lot of cooking channels on YouTube.'
 typeface: 'The GOATs, Neue Haas Grotesk and Plantin. Also loves Founders Grotesk and basically everything by Klim Type.'
