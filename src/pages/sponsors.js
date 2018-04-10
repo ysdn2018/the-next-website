@@ -78,7 +78,7 @@ const StatementContainer = styled.div`
 const AllSponsors = styled.div`
   width: 100%;
   height: calc(100%-${spacing.bigger}px);
-`;
+`
 
 
 const SponsorImage = styled.div`
@@ -94,6 +94,7 @@ const SponsorImage = styled.div`
   @media screen and (max-width: ${breakpoints.tablet} ) {
     flex-direction: column;
   }
+
 `
 
 const Title = styled.h5 `
@@ -119,11 +120,12 @@ const PresentingSponsor = styled.div `
   }
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
-    height: 50vh;
+    height: 100%;
     border-top: 1px solid;
 
     a {
-      width: 80%;
+      padding: ${spacing.bigger}px;
+      width: 100%;
     }
   }
 
@@ -185,12 +187,13 @@ const SponsorTwo = styled.div`
     max-width: 800px;
   }
 
-  @media screen and (max-width: ${breakpoints.tablet} ) {
+  @media screen and (max-width: ${breakpoints.tablet})  {
     width: 100%;
-    height: 50vh;
+    height: 100%;
     border-right: 0;
 
     a {
+      padding: ${spacing.bigger}px;
       width: 80%;
     }
   }
@@ -213,9 +216,10 @@ const SponsorThree = styled.div `
   @media screen and (max-width: ${breakpoints.tablet} ) {
     width: 100%;
     border-right: 0px;
-    height: 60vh;
+    height: 100%;
 
     a {
+      padding: ${spacing.small}px;
       width: 60%;
     }
   }
@@ -237,9 +241,10 @@ const SponsorFour = styled.div`
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
     width: 100%;
-    height: 50vh;
+    height: 100%;
 
     a {
+      padding: ${spacing.small}px;
       width: 60%;
     }
   }
@@ -260,7 +265,6 @@ export default function Sponsors({ data }) {
           verb="Thanking"
           noun="Sponsors"
           border
-          noBorderRight
         />
       </StatementContainer>
       <ThankYouContainer>
