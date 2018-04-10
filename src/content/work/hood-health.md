@@ -11,4 +11,4 @@ As a student, it’s important to get access to healthy food, in order to perfor
 
 ‘Hood Health is a project centered around the low-income neighbourhoods in Toronto, and how their health was being affected by their environment. My solution was a proposal pamphlet aimed to raise awareness about green infrastructure among residents to help improve their health and well being. A lot of the major changes in the city seem to happen around the popular, or more wealthy neighbourhoods, without much thought to the low-income neighbourhoods. If green infrastructure can help low-income neighbourhoods improve their overall health and wellness, then it would be an incentive for the rest of the city to make these changes too.
 
-![Your environment affects you more than you think; an abstract map of Toronto with pie charts showing the rate of low-income households in select neighbourhoods. ](/assets/hoodhealth3.jpg)
+![Your environment affects you more than you think; an abstract map of Toronto with pie charts showing the rate of low-income households in select neighbourhoods. ](/assets/hoodhealth-3.jpg)
