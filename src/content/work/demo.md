@@ -8,7 +8,7 @@ category2: Product Design
 ---
 # Simplifying the writing process for the modern musician
 
-Demo is a mobile application designed to help songwriters easily manage and track their creative process. Because a majority of musicians often rely on simple voice recording apps as a method for recording snippets of song ideas, I wanted to design a product that would cater specifically to them and allow them to tell the story behind their music.
+Demo is a mobile application designed to help songwriters easily manage and track their creative process. Because musicians often rely on simple voice recording apps to record snippets of song ideas, I wanted to design a product that would cater specifically towards musicians and allow them to tell the story behind their music.
 
 ## Reductionist User Interface
 
