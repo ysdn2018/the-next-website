@@ -118,9 +118,6 @@ export default class HomepageStatement extends React.Component {
       })
     }
 
-    console.log(statements.length);
-    
-
     this.statements = shuffleArray(statements);
   }
 
