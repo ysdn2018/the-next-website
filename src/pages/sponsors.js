@@ -260,6 +260,7 @@ export default function Sponsors({ data }) {
           verb="Thanking"
           noun="Sponsors"
           border
+          noBorderRight
         />
       </StatementContainer>
       <ThankYouContainer>

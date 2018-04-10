@@ -15,8 +15,10 @@ const StatementContainer = styled.div`
   color: black;
   min-height: 170px;
 
-  border-right: 1px solid black;
+  
   border-bottom: 1px solid black;
+
+  ${props => !props.noBorderRight && "border-right: 1px solid black;"}
 
   display: flex;
   flex-direction: column;
@@ -58,9 +60,6 @@ const OuterContainer = styled.div`
   height: 100%;
   flex: 1;
   padding: ${props => props.pad ? spacing.smaller : 0};
-
-
-
 `
 
 const StatementText = styled.h2`
@@ -96,7 +95,7 @@ const TheNext = styled.h2`
 export default function Statement(props) {
   return (
     <OuterContainer {...props}>
-      <StatementContainer>
+      <StatementContainer {...props}>
         <StatementText>
           {props.verb || "Announcing"}
         </StatementText>

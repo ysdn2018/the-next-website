@@ -210,11 +210,13 @@ const ProjectInfo = styled.div`
 export default function Graduate({ data }) {
   const graduate = data.markdownRemark;
 
-  // if (!graduate.frontmatter.website.includes('http')) {
-  //   const website = "http://" + graduate.frontmatter.website;
-  // } else {
-  //   const website = graduate.frontmatter.website;
-  // }
+  let website = '#';
+
+  if (!graduate.frontmatter.website.includes('http')) {
+    website = "http://" + graduate.frontmatter.website;
+  } else {
+    website = graduate.frontmatter.website;
+  }
 
   const activeLinks = [
     graduate.frontmatter.website,
@@ -252,7 +254,7 @@ export default function Graduate({ data }) {
             {graduate.frontmatter.website && (
               <SocialLink
                 target="_blank"
-                href={graduate.frontmatter.website}
+                href={website}
                 fullWidth={(filteredLinks.length % 2 !== 0)}
               >
                 <p>Portfolio Website</p> <p>&rarr;</p>

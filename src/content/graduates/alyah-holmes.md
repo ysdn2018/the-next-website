@@ -31,6 +31,6 @@ twitter: twitter.com/alyahvanesssa
 instagram: instagram.com/alyahvanessa
 linkedin: www.linkedin.com/in/alyahholmes
 email: alyahholmes@hotmail.com
-website: www.alyahvh.com  www.behance.com/alyahholmes
+website: www.alyahvh.com
 ---
 
