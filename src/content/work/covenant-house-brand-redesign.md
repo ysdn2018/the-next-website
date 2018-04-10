@@ -23,8 +23,6 @@ Although the mission and values of the organization clearly state their intentio
 
 The design process included a deep research on the organization as well as the establishment of three essence words: resilience, opportunity and hope. As the brand concept was developed, the idea of representing the transition of the youth before, during and after being at Covenant House became an option that could positively communicate to both, the youth and the donors; thus, overlapping shapes with transparency levels soon became an appealing way to do so. 
 
-![Covenant House Logo (Vertical Application)](/assets/covenant_01.jpg)
-
 ![Brand Application Example](/assets/covenant_03.jpg)
 
 ## The Mark

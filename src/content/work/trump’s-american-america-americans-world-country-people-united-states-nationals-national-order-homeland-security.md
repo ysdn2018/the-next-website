@@ -71,8 +71,8 @@ I use Trump’s Travel Ban as the text for this work as a representation of his 
 
 The final output of this project is a mammoth 24x100” poster using the generative typographic system based on entropy, mimicking Trump’s path of destruction through the exponential deformation of a set of words found within Trump’s own executive order.
 
-Words deformed in this piece:** **american, america, americans, world, country, people, united, states, nationals, national, order, homeland, security.
+Words deformed in this piece: american, america, americans, world, country, people, united, states, nationals, national, order, homeland, security.
 
-Special Thanks:** **Hunter Caron
+Special Thanks: Hunter Caron
 
 <iframe src="https://player.vimeo.com/video/261512550" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
