@@ -6,9 +6,6 @@ headshotHover: ../headshots/looking/Michelle_Vu-2.jpg
 verb: Producing
 noun: Visual
 intro: >-
-  Shes great ;)
-
-
   Michelle is an inquisitive designer interested in the interplay of 3d design
   and product design. She enjoys exploring different types of visual mediums
   while speculating the future and how the design comes into play. 

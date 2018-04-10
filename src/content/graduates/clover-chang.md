@@ -25,7 +25,7 @@ tools: 'Illustrator, Indesign, Photoshop, After Effects, Sketch, Invision'
 watch: 'Friends, all the Pixar movies and anything on Netflix'
 typeface: Avenir Next
 instagram: www.instagram.com/cloverchang/
-linkedin: www.linkedin.com/in/cloverchang
+linkedin: http://www.linkedin.com/in/cloverchang
 email: cloverc.design@gmail.com
 website: www.cloverchang.com
 ---

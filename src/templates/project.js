@@ -23,6 +23,7 @@ const Content = styled.div`
     margin: 0;
 
     p {
+      line-height: 1.3;
       font-size: 3rem;
     }
 
@@ -144,29 +145,29 @@ const ProjectInfo = styled.div`
 
 const GraduateName = styled.div`
   width: 100%;
+  flex: 1;
 `
 
 const Categories = styled.div `
   display: flex;
   justify-content: flex-end;
   width: 100%;
+  flex: 2;
 
   h4 {
     margin-left:${spacing.medium}px;
   }
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
-
     &:not(:first-child) {
       display: none;
     }
-
   }
+
 `
 
 const ContentContainer = styled.div`
-  display: flex;
-  align-items: center;
+
 `
 
 const InfoContainer = styled.div `
@@ -186,41 +187,55 @@ const Info = styled.div `
   white-space: pre-wrap;
 
   @media screen and (max-width: ${breakpoints.tablet} ) {
-    width: calc(100% - ${spacing.medium}px);
+    width: calc(100% - ${spacing.normal}px);
   }
-
 `
 
 const RelatedProjects = styled.div `
-  /* grid-template-columns: repeat(auto-fit, minmax(400px,2fr));
-  display: grid; */
   display: flex;
-  border-top: 1px solid;
-  width: 100%;
-  height: 100%;
+
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: ${breakpoints.mobile} ) {
+    display: block;
+  }
 `
 
 const ProjectContainer = styled.div `
-  flex: 1;
-  height: 250px;
-  width: 100%;
 
   border-left: 1px solid;
   margin-left: -1px;
+  width: 50% !important;
+  flex: 1;
 
-  display: flex;
-  flex-direction: column;
+  @media screen and (max-width: ${breakpoints.tablet} ) {
+    &:last-child {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: ${breakpoints.mobile} ) {
+    ${'' /* width: 100%; */}
+    border-bottom: 1px solid black;
+
+    &:last-child {
+      display: block;
+    }
+  }
 
 `
 
 const ImageContainer = styled.div `
   width: 100%;
-  height: 100%;
+  padding: 15%;
+
 `
 
 const TextContainer = styled.div `
   display: flex;
-  padding: 1rem 1.5rem;
+  padding: 0 ${spacing.small}px ${spacing.small}px ;
 
   justify-content: space-between;
   align-items: flex-end;
@@ -234,20 +249,47 @@ const Text = styled.p`
   margin: 0.4rem;
   font-size: 1.4rem;
   line-height: 1.2;
+  width: 100%;
 
 &:first-of-type {
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  width: 100%;
+  flex: 1;
 }
 
 &:last-of-type {
-  width: 100%;
+  flex: 2;
   text-align: right;
 }
 `
+
+const BottomSection = styled.div`
+
+`;
+
+const RelatedText = styled.div`
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  h3, h4 {
+    max-width: calc(100% - ${spacing.big}px);
+    text-align: center;
+    text-transform: none;
+  }
+
+  @media screen and (max-width: ${breakpoints.mobile} ) {
+    h3 {
+      font-size: 2.2rem;
+    }
+  }
+`;
+
 
 // page template component
 export default function Post({ data }) {
@@ -291,16 +333,6 @@ export default function Post({ data }) {
       <HeroImage sizes={project.frontmatter.image.childImageSharp.sizes}/>
 
       <ContentContainer>
-        {false && (
-          <LegendContainer>
-            <Legend>
-              {project.headings.map(heading =>
-                <h4>{heading.value}</h4>
-              )}
-            </Legend>
-          </LegendContainer>
-        )}
-
         <InfoContainer>
           <Info>
               <Content dangerouslySetInnerHTML={{ __html: project.html }}/>
@@ -308,42 +340,65 @@ export default function Post({ data }) {
         </InfoContainer>
       </ContentContainer>
 
-      {/* <RelatedProjects>
+      <BottomSection>
+
+        <RelatedText>
+          <h3>See more work like {project.frontmatter.title}</h3>
+        </RelatedText>
+
+        <RelatedProjects>
 
           {data.projectByStudent && data.projectByStudent.edges.map(({ node: otherProj }) =>
-            <Link to={otherProj.fields.slug}>
-              <ProjectContainer>
+
+            <ProjectContainer>
+              <Link to={otherProj.fields.slug}>
 
                 <ImageContainer>
                   <Img sizes={otherProj.frontmatter.image.childImageSharp.sizes} />
                 </ImageContainer>
 
                 <TextContainer>
-                  <Text>{otherProj.frontmatter.title}</Text>
+                  <Text>{otherProj.frontmatter.title.length > 15 ? (otherProj.frontmatter.title.slice(0, 15) + "…") : otherProj.frontmatter.title}</Text>
                   <Text>{otherProj.frontmatter.graduate}</Text>
                 </TextContainer>
 
-              </ProjectContainer>
-            </Link>
+              </Link>
+            </ProjectContainer>
+
           )}
 
-          {data.projectsInCategory && data.projectsInCategory.edges.map(({ node: otherProj }) =>
-            <Link to={otherProj.fields.slug}>
-              <ProjectContainer>
+          {data.projectsInCategory ? (data.projectsInCategory.edges.map(({ node: otherProj }) =>
+            <ProjectContainer>
+              <Link to={otherProj.fields.slug}>
 
                 <ImageContainer>
                   <Img sizes={otherProj.frontmatter.image.childImageSharp.sizes} />
                 </ImageContainer>
 
                 <TextContainer>
-                  <Text>{otherProj.frontmatter.title}</Text>
+                  <Text>{otherProj.frontmatter.title.length > 15 ? (otherProj.frontmatter.title.slice(0, 15) + "…") : otherProj.frontmatter.title}</Text>
                   <Text>{otherProj.frontmatter.graduate}</Text>
                 </TextContainer>
+              </Link>
+            </ProjectContainer>
+          )) : (data.projectsInSecondCategory.edges.map(({ node: otherProj }) =>
+              <ProjectContainer>
+                <Link to={otherProj.fields.slug}>
 
+                  <ImageContainer>
+                    <Img sizes={otherProj.frontmatter.image.childImageSharp.sizes} />
+                  </ImageContainer>
+
+                  <TextContainer>
+                    <Text>{otherProj.frontmatter.title.length > 15 ? (otherProj.frontmatter.title.slice(0, 15) + "…") : otherProj.frontmatter.title}</Text>
+                    <Text>{otherProj.frontmatter.graduate}</Text>
+                  </TextContainer>
+                </Link>
               </ProjectContainer>
-            </Link>
-          )}
-      </RelatedProjects> */}
+          ))}
+        </RelatedProjects>
+      </BottomSection>
+
 
     </Container>
   );
@@ -352,7 +407,7 @@ export default function Post({ data }) {
 
 // template query
 export const aboutPageQuery = graphql`
-  query ProjectPage($slug: String!, $graduate: String!, $graduateName: String!, $category: String!, $title: String!) {
+  query ProjectPage($slug: String!, $graduate: String!, $graduateName: String!, $category: String!, $category2: String!, $title: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       headings {
         value
@@ -377,6 +432,32 @@ export const aboutPageQuery = graphql`
 
   projectsInCategory: allMarkdownRemark(
     filter: { frontmatter: { category: { regex: $category }, graduate: { ne: $graduateName }}},
+    limit: 2
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            graduate
+
+            image {
+              childImageSharp {
+                sizes(maxWidth: 600, maxHeight: 400, quality: 90, cropFocus: CENTER) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+  projectsInSecondCategory: allMarkdownRemark(
+    filter: { frontmatter: { category: { regex: $category2 }, graduate: { ne: $graduateName }}},
     limit: 2
     ) {
       edges {

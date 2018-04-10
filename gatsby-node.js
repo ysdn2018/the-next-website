@@ -82,6 +82,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
              templateKey
              title
              category
+             category2
              graduate
            }
          }
@@ -104,6 +105,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
          graduateName: node.frontmatter.graduate,
          graduate: "/" + node.frontmatter.graduate + "/",
          category: "/" + node.frontmatter.category + "/",
+         category2: "/" + node.frontmatter.category2 + "/",
        } // additional data can be passed via context
      });
    });

@@ -31,7 +31,7 @@ const Container = styled.a`
   }
 
   @media (max-width: ${breakpoints.tablet}) {
-    padding: 0px 0px;
+    padding: ${spacing.small}px 0px;
     height: 100%;
   }
 `
