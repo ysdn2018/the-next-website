@@ -11,6 +11,7 @@ import 'intersection-observer'
 // styled-components
 const Container = styled.div`
   padding-bottom: ${spacing.bigger-4}px;
+  overflow-x: hidden;
 `
 
 const Content = styled.div`
@@ -194,23 +195,27 @@ const RelatedProjects = styled.div `
   /* grid-template-columns: repeat(auto-fit, minmax(400px,2fr));
   display: grid; */
   display: flex;
-  border: 1px solid;
+  border-top: 1px solid;
   width: 100%;
   height: 100%;
 `
 
 const ProjectContainer = styled.div `
+  flex: 1;
+  height: 250px;
   width: 100%;
-  height: 100%;
+
   border-left: 1px solid;
+  margin-left: -1px;
+
   display: flex;
-  align-items: center;
   flex-direction: column;
 
 `
 
 const ImageContainer = styled.div `
-  padding: 8rem;
+  width: 100%;
+  height: 100%;
 `
 
 const TextContainer = styled.div `
@@ -303,18 +308,14 @@ export default function Post({ data }) {
         </InfoContainer>
       </ContentContainer>
 
-      <RelatedProjects>
-        <Statement
-          verb="Discover"
-          noun="Project"
-        />
-          {/* if student has other projects, show one  */}
+      {/* <RelatedProjects>
+
           {data.projectByStudent && data.projectByStudent.edges.map(({ node: otherProj }) =>
             <Link to={otherProj.fields.slug}>
               <ProjectContainer>
 
                 <ImageContainer>
-                  <Img resolutions={otherProj.frontmatter.image.childImageSharp.resolutions} />
+                  <Img sizes={otherProj.frontmatter.image.childImageSharp.sizes} />
                 </ImageContainer>
 
                 <TextContainer>
@@ -326,13 +327,12 @@ export default function Post({ data }) {
             </Link>
           )}
 
-          {/* other in category... uhh if they exist */}
           {data.projectsInCategory && data.projectsInCategory.edges.map(({ node: otherProj }) =>
             <Link to={otherProj.fields.slug}>
               <ProjectContainer>
 
                 <ImageContainer>
-                  <Img resolutions={otherProj.frontmatter.image.childImageSharp.resolutions} />
+                  <Img sizes={otherProj.frontmatter.image.childImageSharp.sizes} />
                 </ImageContainer>
 
                 <TextContainer>
@@ -343,7 +343,7 @@ export default function Post({ data }) {
               </ProjectContainer>
             </Link>
           )}
-      </RelatedProjects>
+      </RelatedProjects> */}
 
     </Container>
   );
@@ -390,8 +390,8 @@ export const aboutPageQuery = graphql`
 
             image {
               childImageSharp {
-                resolutions(width: 100, height: 100, quality: 90, cropFocus: CENTER) {
-                  ...GatsbyImageSharpResolutions
+                sizes(maxWidth: 600, maxHeight: 400, quality: 90, cropFocus: CENTER) {
+                  ...GatsbyImageSharpSizes
                 }
               }
             }
@@ -415,8 +415,8 @@ export const aboutPageQuery = graphql`
 
             image {
               childImageSharp {
-                resolutions(width: 100, height: 100, quality: 90, cropFocus: CENTER) {
-                  ...GatsbyImageSharpResolutions
+                sizes(maxWidth: 600, maxHeight: 400, quality: 90, cropFocus: CENTER) {
+                  ...GatsbyImageSharpSizes
                 }
               }
             }

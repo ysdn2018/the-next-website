@@ -261,7 +261,7 @@ export default function Sponsors({ data }) {
         />
       </StatementContainer>
       <ThankYouContainer>
-          <p>The work YSDN students put into the grad show wouldn't have come to fruition without some wonderful people wiling to back us up. Thank you to all our sponsors for their support in THE NEXT grad show.</p>
+          <p>The work YSDN students put into the grad show wouldn't have come to fruition without some wonderful people willing to back us up. Thank you to all our sponsors for their support in THE NEXT grad show.</p>
       </ThankYouContainer>
       </InnerInfoContainer>
     </InfoContainer>

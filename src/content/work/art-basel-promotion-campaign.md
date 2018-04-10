@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: Art Basel Promotion Campaign
-graduate: ROMAN DROBOT
+graduate: Roman Drobot
 image: /assets/artbasel_billboard_2.jpg
 category: Communication Design
 category2: Brand Identity
