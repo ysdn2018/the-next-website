@@ -47,7 +47,7 @@ const ThankYouContainer = styled.div`
 `;
 
 const InfoContainer = styled.div`
-  height: calc(100vh - ${spacing.bigger}px);
+  height: calc(100vh - ${spacing.bigger*2-4}px);
   width: 100%;
   max-width: 400px;
   border: 1px solid black;
