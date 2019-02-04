@@ -25,8 +25,6 @@ const The = styled(MarkText)`
 const Next = styled(MarkText)`
   writing-mode: vertical-lr;
   display: inline;
-  margin-top: 0.35rem;
-  width: 4rem;
   @media (max-width: ${breakpoints.mobile}) {
     margin-top: 0.18rem;
   }
