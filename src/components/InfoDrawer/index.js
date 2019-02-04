@@ -51,7 +51,7 @@ const Container = styled.div`
   }
 `
 
-const BottomNavButton = DrawerButton.extend`
+const BottomNavButton = styled(DrawerButton)`
   border-top: 1px solid black;
   top: -1px;
   border-bottom: 1px solid black;

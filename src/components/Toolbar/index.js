@@ -52,10 +52,6 @@ const Container = styled.div`
   }
 `
 
-const Text = styled.p`
-
-`
-
 // component
 export default function Toolbar(props) {
   return (

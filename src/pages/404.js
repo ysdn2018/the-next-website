@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
-import Link from 'gatsby-link';
+import { Link, graphql } from 'gatsby';
 import Img from 'gatsby-image'
-import { spacing, breakpoints } from '../utils/constants'
+import { spacing } from '../utils/constants'
 
 const Container = styled.div`
   height: 100%;

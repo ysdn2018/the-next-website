@@ -112,11 +112,17 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
  });
 };
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
+exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   if (stage === "build-html") {
-    config.loader("null", {
-      test: /intersection-observer/,
-      loader: "null-loader",
-    });
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /intersection-observer/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    })
   }
-};
+}

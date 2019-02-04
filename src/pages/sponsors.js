@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import { spacing, breakpoints } from '../utils/constants'
 
-import PageContainer from '../components/PageContainer'
 import GridStatement from '../components/GridStatement'
 
 import RL_Logo from '../assets/images/rl-solutions.svg'
@@ -289,7 +288,7 @@ export default function Sponsors({ data }) {
         <PresentingSponsor>
           <Title>Presenting Sponsor</Title>
           <SponsorImage>
-            <a href="http://www.rlsolutions.com/" target="_blank"><img src = {RL_Logo} alt="RL Solutions"/></a>
+            <a href="http://www.rlsolutions.com/" target="_blank" rel="noopener noreferrer"><img src = {RL_Logo} alt="RL Solutions"/></a>
           </SponsorImage>
         </PresentingSponsor>
       </SponsorContainer>
@@ -299,7 +298,7 @@ export default function Sponsors({ data }) {
           <RlIntro>
             <p>Earlier this year, RL Solutions opened up their studio for YSDN students to present and receive feedback on how to move forward with their projects. It was a day for students to refine their presentation skills, reflect more critically on their work, and take their projects outside of the classroom. For this incredible opportunity, and for their generosity as our presenting sponsor, the YSDN students would like to give a big thanks to RL solutions for making THE NEXT grad show a possibility.</p>
           </RlIntro>
-          <iframe width="100% !important" height="auto !important" src="https://www.youtube.com/embed/bBg4uLulOVM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe title="sponsor video" width="100% !important" height="auto !important" src="https://www.youtube.com/embed/bBg4uLulOVM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </Video>
       </SponsorContainer>
 
@@ -307,13 +306,13 @@ export default function Sponsors({ data }) {
         <SponsorTwo borderRight>
           <Title>Venue Sponsor</Title>
           <SponsorImage>
-            <a href="http://www.gladstonehotel.com/" target="_blank"><img src = {GladstoneLogo} alt="Gladstone Hotel"/></a>
+            <a href="http://www.gladstonehotel.com/" target="_blank" rel="noopener noreferrer"><img src = {GladstoneLogo} alt="Gladstone Hotel"/></a>
           </SponsorImage>
         </SponsorTwo>
         <SponsorTwo>
           <Title>Print Sponsor</Title>
           <SponsorImage>
-            <a href="https://www.veritivcorp.com/" target="_blank"><img src = {VeritifLogo} alt="Veritif"/></a>
+            <a href="https://www.veritivcorp.com/" target="_blank" rel="noopener noreferrer"><img src = {VeritifLogo} alt="Veritif"/></a>
           </SponsorImage>
         </SponsorTwo>
       </SponsorContainer>
@@ -322,16 +321,16 @@ export default function Sponsors({ data }) {
         <SponsorThree>
           <Title>Event Sponsors</Title>
           <SponsorImage justify>
-            <a href="https://www.criticalmass.com/" target="_blank"><img src = {CriticalMassLogo} alt="Critical Mass"/></a>
-            <a href="https://www.forgemedia.ca/" target="_blank"><img src = {ForgeLogo} alt="Forge Media"/></a>
-            <a href="https://www.wattisretail.com/" target="_blank"><img src = {WattLogo} alt="Watt International"/></a>
+            <a href="https://www.criticalmass.com/" target="_blank" rel="noopener noreferrer"><img src = {CriticalMassLogo} alt="Critical Mass"/></a>
+            <a href="https://www.forgemedia.ca/" target="_blank" rel="noopener noreferrer"><img src = {ForgeLogo} alt="Forge Media"/></a>
+            <a href="https://www.wattisretail.com/" target="_blank" rel="noopener noreferrer"><img src = {WattLogo} alt="Watt International"/></a>
           </SponsorImage>
         </SponsorThree>
         <SponsorFour>
           <Title>With Support From</Title>
           <SponsorImage column>
-            <a href="http://www.yorku.ca/index.html" target="_blank"><img src = {YorkLogo} alt="York University"/></a>
-            <a href="https://www.sheridancollege.ca/" target="_blank"><img src = {SheridanLogo} alt="Sheridan College"/></a>
+            <a href="http://www.yorku.ca/index.html" target="_blank" rel="noopener noreferrer"><img src = {YorkLogo} alt="York University"/></a>
+            <a href="https://www.sheridancollege.ca/" target="_blank" rel="noopener noreferrer"><img src = {SheridanLogo} alt="Sheridan College"/></a>
           </SponsorImage>
         </SponsorFour>
       </SponsorContainer>

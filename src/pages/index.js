@@ -1,10 +1,7 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link, graphql } from 'gatsby';
 import styled from 'styled-components'
-import Img from 'gatsby-image'
 import HomepageStatement from '../components/HomepageStatement'
-import Instagram from '../components/Instagram'
-import Facebook from '../components/Facebook'
 import HomeInfo from '../components/HomeInfo'
 import { spacing, breakpoints } from '../utils/constants.js'
 

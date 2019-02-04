@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
-import { spacing, breakpoints } from '../../utils/constants'
 
 /*
   Base component

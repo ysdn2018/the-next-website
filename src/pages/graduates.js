@@ -1,14 +1,12 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-import Link from 'gatsby-link'
-import Img from 'gatsby-image'
+import { graphql } from 'gatsby';
 import { spacing, breakpoints } from '../utils/constants'
 
 import GridStatement from '../components/GridStatement'
 import PageContainer from '../components/PageContainer'
 import Graduate from '../components/Graduate'
-import StatementHeader from '../components/StatementHeader'
 import SearchField from '../components/SearchField'
 import Toolbar from '../components/Toolbar'
 

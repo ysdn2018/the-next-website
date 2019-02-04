@@ -28,7 +28,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-#___gatsby {
+#___gatsby, #___gatsby > div {
   height: 100%;
 }
 

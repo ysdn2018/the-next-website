@@ -1,31 +1,14 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import styled, { injectGlobal } from 'styled-components'
+import styled from 'styled-components'
 import 'normalize.css'
-import { spacing, breakpoints } from '../utils/constants'
+import { spacing } from '../utils/constants'
 import Nav from '../components/Nav'
 import InfoDrawer from '../components/InfoDrawer'
 import './index.css'
 
 import facebookCard from "../assets/images/facebook_card.png"
 import twitterCard from "../assets/images/twitter_card.png"
-
-// importing fonts
-import NeueHaasGrotTextRoman_eot from "../assets/fonts/NeueHaasGrotText-55Roman-Web.eot"
-import NeueHaasGrotTextRoman_woff from "../assets/fonts/NeueHaasGrotText-55Roman-Web.woff"
-import NeueHaasGrotTextRoman_woff2 from "../assets/fonts/NeueHaasGrotText-55Roman-Web.woff2"
-import NeueHaasGrotTextItalic_eot from "../assets/fonts/NeueHaasGrotText-56Italic-Web.eot"
-import NeueHaasGrotTextItalic_woff from "../assets/fonts/NeueHaasGrotText-56Italic-Web.woff"
-import NeueHaasGrotTextItalic_woff2 from "../assets/fonts/NeueHaasGrotText-56Italic-Web.woff2"
-import NeueHaasGrotDispRoman_eot from "../assets/fonts/NeueHaasGrotDisp-55Roman-Web.eot"
-import NeueHaasGrotDispRoman_woff from "../assets/fonts/NeueHaasGrotDisp-55Roman-Web.woff"
-import NeueHaasGrotDispRoman_woff2 from "../assets/fonts/NeueHaasGrotDisp-55Roman-Web.woff2"
-import NeueHaasGrotDispItalic_eot from "../assets/fonts/NeueHaasGrotDisp-56Italic-Web.eot"
-import NeueHaasGrotDispItalic_woff from "../assets/fonts/NeueHaasGrotDisp-56Italic-Web.woff"
-import NeueHaasGrotDispItalic_woff2 from "../assets/fonts/NeueHaasGrotDisp-56Italic-Web.woff2"
-
 
 /*
   Layout File
@@ -48,9 +31,9 @@ function TemplateWrapper(props) {
 
   let rootPath = `/`
 
-  if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
-    rootPath = __PATH_PREFIX__ + `/`
-  }
+  // if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
+  //   rootPath = __PATH_PREFIX__ + `/`
+  // }
 
   return (
     <React.Fragment>
@@ -76,17 +59,13 @@ function TemplateWrapper(props) {
       <Nav currentPage={location.pathname}/>
 
       <InnerContainer>
-        {props.children()}
+        {props.children}
       </InnerContainer>
 
       {location.pathname !== rootPath && <InfoDrawer />}
 
     </React.Fragment>
   )
-}
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
 }
 
 export default TemplateWrapper

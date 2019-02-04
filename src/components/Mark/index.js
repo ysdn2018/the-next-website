@@ -19,10 +19,10 @@ const MarkText = styled.div`
   }
 `
 
-const The = MarkText.extend`
+const The = styled(MarkText)`
 `
 
-const Next = MarkText.extend`
+const Next = styled(MarkText)`
   writing-mode: vertical-lr;
   display: inline;
   margin-top: 0.35rem;

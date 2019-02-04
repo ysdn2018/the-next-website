@@ -116,10 +116,10 @@ export default function Nav(props) {
       </TitleLink>
 
       <PageLinks>
-        <PageLink active={props.currentPage == "/graduates/"} mobileHide to="/graduates/"><h3>Graduates</h3></PageLink>
-        <PageLink active={props.currentPage == "/graduates/"} mobileShow to="/graduates/"><h3>Grads</h3></PageLink>
-        <PageLink active={props.currentPage == "/work/"} to="/work/"><h3>Work</h3></PageLink>
-        <PageLink active={props.currentPage == "/sponsors/"} to="/sponsors/"><h3>Sponsors</h3></PageLink>
+        <PageLink active={props.currentPage === "/graduates/"} mobileHide to="/graduates/"><h3>Graduates</h3></PageLink>
+        <PageLink active={props.currentPage === "/graduates/"} mobileShow to="/graduates/"><h3>Grads</h3></PageLink>
+        <PageLink active={props.currentPage === "/work/"} to="/work/"><h3>Work</h3></PageLink>
+        <PageLink active={props.currentPage === "/sponsors/"} to="/sponsors/"><h3>Sponsors</h3></PageLink>
       </PageLinks>
 
     </NavContainer>

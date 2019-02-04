@@ -7,10 +7,10 @@ module.exports = {
   },
   // pathPrefix: `/the-next-website`,
   plugins: [
-    `gatsby-plugin-react-next`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-layout`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

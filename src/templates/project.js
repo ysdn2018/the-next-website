@@ -1,11 +1,11 @@
+/* eslint-disable no-useless-escape */
+
 import React from 'react';
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-import Link from 'gatsby-link'
+import { Link, graphql } from 'gatsby';
 import Img from 'gatsby-image'
 import { spacing, breakpoints } from '../utils/constants'
-import Project from '../components/Project'
-import Statement from '../components/Statement'
 import 'intersection-observer'
 
 function getRandom(arr, n) {

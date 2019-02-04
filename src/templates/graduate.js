@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
-import Link from 'gatsby-link'
+import { Link, graphql } from 'gatsby';
 import Statement from '../components/Statement'
 import { spacing, breakpoints } from '../utils/constants'
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
+import { graphql } from 'gatsby';
 import { spacing, breakpoints, shuffleArray } from '../utils/constants'
 
-import PageContainer from '../components/PageContainer'
 import GridStatement from '../components/GridStatement'
 import Project from '../components/Project'
 import SearchField from '../components/SearchField'
@@ -32,27 +32,27 @@ const ProjectGrid = styled.div`
   }
 `
 
-const FiltersContainer = styled.div`
-  display: flex;
-  flex: 1;
-  justify-content: space-around;
-  border-left: 1px solid black;
-`
+// const FiltersContainer = styled.div`
+//   display: flex;
+//   flex: 1;
+//   justify-content: space-around;
+//   border-left: 1px solid black;
+// `
 
-const StyledButton = styled.button`
-  outline: none;
-  border: none;
-  text-transform: uppercase;
-  background-color: transparent;
-`
+// const StyledButton = styled.button`
+//   outline: none;
+//   border: none;
+//   text-transform: uppercase;
+//   background-color: transparent;
+// `
 
-function FilterButton(props) {
-  return(
-    <StyledButton onClick={() => props.handleCategoryUpdate(props.category)}>
-      {props.category || "All"}
-    </StyledButton>
-  )
-}
+// function FilterButton(props) {
+//   return(
+//     <StyledButton onClick={() => props.handleCategoryUpdate(props.category)}>
+//       {props.category || "All"}
+//     </StyledButton>
+//   )
+// }
 
 // page component
 export default class Work extends React.Component {
