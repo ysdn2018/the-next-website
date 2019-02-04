@@ -10,7 +10,7 @@ const contentPath = "./src/content/";
 const imageNames = ["thumbnail", "image"];
 
 
-exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
+exports.onCreateNode = ({ node, getNode, actions }) => {
   const { frontmatter } = node;
   
   if (frontmatter) {
@@ -47,7 +47,7 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
 
 
   // adding slugs to pages
-  const { createNodeField } = boundActionCreators
+  const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode, basePath: `pages` })
     
@@ -64,8 +64,8 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
 }
 
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
- const { createPage } = boundActionCreators;
+exports.createPages = ({ actions, graphql }) => {
+ const { createPage } = actions;
 
   //allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, limit: 1000) {
 

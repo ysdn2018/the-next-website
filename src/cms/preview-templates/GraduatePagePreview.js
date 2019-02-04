@@ -1,21 +1,20 @@
 import React from 'react'
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
+// const Name = styled.h1`
+//   font-size: 4rem;
+//   text-transform: uppercase;
+// `
 
-const Name = styled.h1`
-  font-size: 4rem;
-  text-transform: uppercase;
-`
+// const Headshot = styled.img`
+//   max-width: 500px;
+//   width: 90%;
+// `
 
-const Headshot = styled.img`
-  max-width: 500px;
-  width: 90%;
-`
-
-const Statement = styled.div`
-  color: pink;
-  text-transform: uppercase;
-`
+// const Statement = styled.div`
+//   color: pink;
+//   text-transform: uppercase;
+// `
 
 const GraduatePagePreview = ({ entry, getAsset }) => {
   // const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
@@ -48,7 +47,7 @@ const GraduatePagePreview = ({ entry, getAsset }) => {
       <div className="disclaimer"> Styling is only a rough approximation of actual styles</div>
 
       <div className="top-section">
-        <img src={headshot}/>
+        <img src={headshot} alt="headshot"/>
         <h1 className="name">{name}</h1>
         <div className="statement">
           <h3>{verb}</h3> 
@@ -58,16 +57,16 @@ const GraduatePagePreview = ({ entry, getAsset }) => {
 
         <div className="social-links">
           {twitter &&
-            <a className="social-link" href={twitter} target="_blank">twitter</a>
+            <a className="social-link" href={twitter} target="_blank" rel="noopener noreferrer">twitter</a>
           }
           {instagram &&
-            <a className="social-link" href={instagram} target="_blank">instagram</a>
+            <a className="social-link" href={instagram} target="_blank" rel="noopener noreferrer">instagram</a>
           }
           {linkedin &&
-            <a className="social-link" href={linkedin} target="_blank">linkedin</a>
+            <a className="social-link" href={linkedin} target="_blank" rel="noopener noreferrer">linkedin</a>
           }
           {email &&
-            <a className="social-link" href={email} target="_blank">email</a>
+            <a className="social-link" href={email} target="_blank" rel="noopener noreferrer">email</a>
           }
 
         </div>
