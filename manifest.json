@@ -1,23 +1,8 @@
 {
-  "cms.js": "render-page.js",
-  "cms.js.map": "render-page.js.map",
-  "main.css": "styles.css",
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
-  "static/NeueHaasGrotDisp-55Roman-Web.eot": "static/NeueHaasGrotDisp-55Roman-Web.6176f5da.eot",
-  "static/NeueHaasGrotDisp-55Roman-Web.woff": "static/NeueHaasGrotDisp-55Roman-Web.33766d7c.woff",
-  "static/NeueHaasGrotDisp-55Roman-Web.woff2": "static/NeueHaasGrotDisp-55Roman-Web.c6c85cdf.woff2",
-  "static/NeueHaasGrotDisp-56Italic-Web.eot": "static/NeueHaasGrotDisp-56Italic-Web.f0a8601c.eot",
-  "static/NeueHaasGrotDisp-56Italic-Web.woff": "static/NeueHaasGrotDisp-56Italic-Web.6b2b233e.woff",
-  "static/NeueHaasGrotDisp-56Italic-Web.woff2": "static/NeueHaasGrotDisp-56Italic-Web.5c2cda26.woff2",
-  "static/NeueHaasGrotText-55Roman-Web.eot": "static/NeueHaasGrotText-55Roman-Web.cfc6bdb9.eot",
-  "static/NeueHaasGrotText-55Roman-Web.woff": "static/NeueHaasGrotText-55Roman-Web.d60eb286.woff",
-  "static/NeueHaasGrotText-55Roman-Web.woff2": "static/NeueHaasGrotText-55Roman-Web.dac9dba5.woff2",
-  "static/NeueHaasGrotText-56Italic-Web.eot": "static/NeueHaasGrotText-56Italic-Web.dc7b6430.eot",
-  "static/NeueHaasGrotText-56Italic-Web.woff": "static/NeueHaasGrotText-56Italic-Web.6c98184d.woff",
-  "static/NeueHaasGrotText-56Italic-Web.woff2": "static/NeueHaasGrotText-56Italic-Web.ab39b14a.woff2",
-  "static/critical-mass.svg": "static/critical-mass.96ba2ade.svg",
-  "static/facebook_card.png": "static/facebook_card.e17d7572.png",
-  "static/forge.svg": "static/forge.ecfa2cb5.svg",
-  "static/twitter_card.png": "static/twitter_card.cbb87882.png"
+  "static/critical-mass.svg": "static/critical-mass-96ba2adea1a1e4b1b7155557f44124a0.svg",
+  "static/facebook_card.png": "static/facebook_card-e17d757228a95f96a78fa24885ff7657.png",
+  "static/forge.svg": "static/forge-ecfa2cb58e2c03a3f401d00fbf58c8bb.svg",
+  "static/twitter_card.png": "static/twitter_card-cbb8788286c2a48f71d615825c2e85f5.png"
 }
